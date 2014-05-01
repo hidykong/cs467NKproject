@@ -13,32 +13,33 @@ ajax.open("GET", "political.json", false);
 ajax.send(null);
 var political = JSON.parse(ajax.responseText);
 
-console.log(history[0].content);
-console.log(food[0].content);
-console.log(political[0].content);
+
 
 function getPost(category, year, keyword) {
+  document.getElementById('kwSentences').innerHTML = "<span class=\"header\">" +category + ": " + year + "</span>";
   switch(category){
-    case 'history':
+    case 'History':
       var result = $.grep(history, function(e){ return e.year == year; }); //find all matching years
       break;
-    case 'food':
+    case 'Food':
       var result = $.grep(food, function(e){ return e.year == year; });
       break;
-    case 'political':
+    case 'Political':
       var result = $.grep(political, function(e){ return e.year == year; });
       break;  
   }
-
   $.each(result, function(index, value) {
-
       var sentence = value.content;
       if (sentence.indexOf(keyword) > -1){ //if the sentence contains the keyword
-        $("#kwSentences").val($("#kwSentences").val() + "\n\n" +  sentence);
+        sentence = sentence.replace(keyword, "<span class=\"keyword\"> " + keyword + "</span>")
+        document.getElementById('kwSentences').innerHTML = document.getElementById('kwSentences').innerHTML + "<br/><br/>" + sentence;
+        
+        console.log(sentence);
+
       }
   });
 }
 
 
-getPost('food', 1990, 'food');
+getPost('History', 1990, 'food');
 

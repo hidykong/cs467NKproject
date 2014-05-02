@@ -9,3 +9,8 @@
 .bar.food {
 	fill:#D7E177;
 }
+
+.yearLine{
+	stroke:black;
+	stroke-width:1;
+}

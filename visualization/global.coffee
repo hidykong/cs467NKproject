@@ -1,0 +1,16 @@
+totalWidth = 1350
+totalHeight = 2000
+margin = {top: 40, right:10, left:10, bottom:20}
+svgWidth = totalWidth - margin.left - margin.right;
+svgHeight = totalHeight - margin.top - margin.bottom;
+
+barWidth = 20
+circleRadius = 5
+barWidthMargin = 1
+Alignment = {LEFT:1,CENTER:2,RIGHT:3}
+
+ColumnMargin = {LEFT:0.05 * svgWidth,BETWEEN:0.02 * svgWidth,RIGHT:0.05 * svgWidth}
+ColumnWidthCommon = (svgWidth - ColumnMargin.BETWEEN * 2- ColumnMargin.LEFT - ColumnMargin.RIGHT)/3;
+ColumnWidth = {pol: ColumnWidthCommon, his: ColumnWidthCommon, food: ColumnWidthCommon}
+ColumnX = {pol: ColumnMargin.LEFT + ColumnWidth.pol , his: ColumnMargin.LEFT + ColumnWidth.pol+ColumnMargin.BETWEEN+ColumnWidth.his/2, food: ColumnMargin.LEFT + ColumnWidth.pol+ColumnWidth.his+2*ColumnMargin.BETWEEN  }
+ColumnAlignment = {pol: Alignment.RIGHT , his: Alignment.CENTER, food:Alignment.LEFT}

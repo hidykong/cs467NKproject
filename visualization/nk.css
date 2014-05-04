@@ -1,16 +1,90 @@
-.bar.his {
+html{
+	font-family: "PT Sans"
+}
+
+.his {
 	fill:#FBEB72;
 }
 
-.bar.pol {
+.pol {
 	fill:#82D3F3;
 }
 
-.bar.food {
+.food {
 	fill:#D7E177;
 }
 
 .yearLine{
-	stroke:black;
+	stroke:#666;
 	stroke-width:1;
+}
+
+.yearText{
+	font-size: 10px;
+	fill:#666;
+}
+
+.wordCloudSVG{
+	float:left;
+}
+
+.wordCloudText{
+	text-anchor:middle;
+}
+
+.overlapLine{
+	stroke:#ED69A5;
+	stroke-width:1.5px;
+	fill:none;
+}
+
+.lineGraph .axis text{
+	font-size: 0.8em;
+}
+
+.lineGraph .axis line{
+	stroke: #999;
+	stroke-width:1px;
+	fill:none;
+	stroke-dasharray: 3,3;
+}
+
+.lineGraph .axis path{
+	fill:none;
+	stroke:none;	
+}
+
+
+.pieGraph path{
+	stroke:#666;
+	stroke-width:1px;
+	stroke-dasharray:5,5;
+}
+
+.pieGraph .history.back{
+	fill: #5AC3E5;
+}
+
+.pieGraph .history.fore{
+	fill:#F9D456;
+}
+
+.pieGraph .objective.back{
+	fill: #EB353E;
+}
+
+.pieGraph .objective.fore{
+	fill:#3C4891;
+}
+
+.pieGraph .media.back{
+	fill: #5AC3E5;
+}
+
+.pieGraph .media.fore{
+	fill:#5FA2D5;
+}
+
+.pieGraph .center.back{
+	fill: #5AC3E5;
 }

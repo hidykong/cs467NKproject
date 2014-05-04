@@ -1034,7 +1034,7 @@
 		top: 0;
 		width: 100%;
 		background: #fff;
-		background: rgba(255,255,255,0.0);
+		background: rgba(255,255,255,0.2);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
@@ -1054,8 +1054,9 @@
 		line-height: 3em;
 		letter-spacing: -1px;
 		background-image: url('../images/logo.png');
-		background-size:60px 60px;
-		margin-top: 10pt;
+		background-size:50px 50px;
+		margin-top: 2pt;
+		background-repeat: no-repeat;
 	}
 	
 		#logo a {

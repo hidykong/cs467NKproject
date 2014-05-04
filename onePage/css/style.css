@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900);
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
-
+@font-face{font-family: mainFont; src:url('font/BebasNeue.otf');}
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -31,8 +31,9 @@
 	}
 
 	h1,h2,h3,h4,h5,h6 {
-		font-weight: 900;
+		font-family: mainFont;
 		color: inherit;
+		letter-spacing: 2px;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -42,7 +43,7 @@
 		
 	h2 {
 		font-size: 2.25em;
-		letter-spacing: -2px;
+		letter-spacing: 2px;
 		line-height: 1.25em;
 	}
 		
@@ -474,9 +475,8 @@
 			}
 			
 				.main.style1 h2 {
-					font-size: 4.25em;
+					font-size: 4em;
 					line-height: 1em;
-					letter-spacing: -4px;
 				}
 				
 				.main.style1 .content {
@@ -495,6 +495,7 @@
 					transform: translateZ(0);
 				}
 				
+
 			.main.style1.inactive {
 			}
 			
@@ -555,9 +556,12 @@
 			.main.style3 {
 				text-align: center;
 				padding: 6em 0 6em 0;
+				color: white;
 			}
 
-				.main.style3 .content {
+				.main.style3 h1, h2 {
+					letter-spacing: 3pt;
+					font-size: 3.5em;
 				}
 
 					.main.style3 .content > header {
@@ -1030,10 +1034,11 @@
 		top: 0;
 		width: 100%;
 		background: #fff;
-		background: rgba(255,255,255,0.95);
+		background: rgba(255,255,255,0.0);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
+		color:white;
 	}
 	
 	body {
@@ -1044,9 +1049,13 @@
 		position: absolute;
 		left: 1em;
 		top: 0;
-		height: 3em;
+		height: 45pt;
+		width: 45pt;
 		line-height: 3em;
 		letter-spacing: -1px;
+		background-image: url('../images/logo.png');
+		background-size:60px 60px;
+		margin-top: 10pt;
 	}
 	
 		#logo a {
@@ -1082,27 +1091,18 @@
 				}
 
 /*********************************************************************************/
-/* Intro                                                                         */
+/* Background image                                                                        */
 /*********************************************************************************/
 
-	#intro {
-		background: url('images/overlay.png'), url('../images/intro.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+	#intro, #one,  #download, #work {
+		background: url('../images/intro.jpg');
+		background-size: cover;
+		background-attachment:  fixed;
+		background-repeat: no-repeat;
+		margin-top: -42pt;
 	}
 
-/*********************************************************************************/
-/* One                                                                           */
-/*********************************************************************************/
 
-	#one {
-		background: url('images/overlay.png'), url('../images/one.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
 
 /*********************************************************************************/
 /* Two                                                                           */
@@ -1120,6 +1120,7 @@
 /*********************************************************************************/
 
 	#work {
+		color:white;
 	}
 	
 		#work .row.images {

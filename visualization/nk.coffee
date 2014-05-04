@@ -1,21 +1,5 @@
-totalWidth = 1350
-totalHeight = 1500
-margin = {top: 20, right:10, left:10, bottom:20}
-svgWidth = totalWidth - margin.left - margin.right;
-svgHeight = totalHeight - margin.top - margin.bottom;
 
-barWidth = 20
-circleRadius = 5
-barWidthMargin = 1
-Alignment = {LEFT:1,CENTER:2,RIGHT:3}
-
-ColumnMargin = {LEFT:0.05 * svgWidth,BETWEEN:0.02 * svgWidth,RIGHT:0.05 * svgWidth}
-ColumnWidthCommon = (svgWidth - ColumnMargin.BETWEEN * 2- ColumnMargin.LEFT - ColumnMargin.RIGHT)/3;
-ColumnWidth = {pol: ColumnWidthCommon, his: ColumnWidthCommon, food: ColumnWidthCommon}
-ColumnX = {pol: ColumnMargin.LEFT + ColumnWidth.pol , his: ColumnMargin.LEFT + ColumnWidth.pol+ColumnMargin.BETWEEN+ColumnWidth.his/2, food: ColumnMargin.LEFT + ColumnWidth.pol+ColumnWidth.his+2*ColumnMargin.BETWEEN  }
-ColumnAlignment = {pol: Alignment.RIGHT , his: Alignment.CENTER, food:Alignment.LEFT}
-
-svg = d3.select "svg"
+svg = d3.select "#mainSVG"
 	.attr "height",totalHeight
 	.attr "width",totalWidth
 
@@ -47,6 +31,7 @@ drawBarChart = (group,array,className,align, maxWidth)->
 
 	newRects = newBars
 		.append "rect"		
+		.on "click",mouseClickOnBar
 		.attr "height",barWidth-barWidthMargin
 		.attr "width",0
 		.attr "x",0
@@ -94,63 +79,97 @@ drawBarChart = (group,array,className,align, maxWidth)->
 
 drawKeywordsAmount = (name)->
 	min_year = d3.min years,(d)->d.no
-	word_data = years.map (d)-> {no: d.no - min_year, value:d[name].kw.length, sub:d[name].sub, obj:d[name].obj}
+	word_data = years.map (d)-> 
+		res_keywords = [];
+		if name is 'his' 
+			res_keywords = d[name].kw 
+		else
+			res_keywords =  d.his.over[name].kw.map (d)->{w:d,f:1}
+		{no: d.no - min_year, 
+		value:d[name].kw.length, 
+		sub:d[name].sub, 
+		obj:d[name].obj, 
+		keywords:res_keywords, 
+		name:name}
+
 	word_g = svg.append("g").attr "transform","translate(#{ColumnX[name]},0)"
 	drawBarChart(word_g,word_data,name,ColumnAlignment[name], ColumnWidth[name])
 
+drawYearLines = (axisCanvas)->
+	min_year = d3.min years,(d)->d.no
+	max_year = d3.max years,(d)->d.no
+	year_data = years.map (d)->{year:d.no, no:d.no-min_year}
+	year_data.push({year:"", no:max_year + 1 - min_year});
+
+	newYearAxisGs = axisCanvas.selectAll(".yearAxis")
+		.data(year_data)
+		.enter()
+		.append("g")
+		.attr "transform",(d)->"translate(0,#{d.no*barWidth-barWidthMargin/2})"
+
+	newLines = newYearAxisGs
+		.append("line")
+		.attr "x1",-margin.left
+		.attr "x2",totalWidth
+		.attr "y1",0
+		.attr "y2",0
+		.attr "class","yearLine"
+
+	newYearAxisGs
+		.append("text")
+		.attr "x",0
+		.attr "y",barWidth-5
+		.attr "class","yearText"
+		.text (d)->d.year
+
+	newYearAxisGs
+		.append("text")
+		.attr "x",svgWidth
+		.attr "y",barWidth-5
+		.attr "text-anchor","end"
+		.attr "class","yearText"
+		.text (d)->d.year
+
+	axisCanvas.append("line")
+		.attr "x1",ColumnX.pol
+		.attr "x2",ColumnX.pol
+		.attr "y1",0
+		.attr "y2",year_data[year_data.length-1].no*barWidth
+		.attr "class","yearLine"
+
+	axisCanvas.append("line")
+		.attr "x1",ColumnX.food
+		.attr "x2",ColumnX.food
+		.attr "y1",0
+		.attr "y2",year_data[year_data.length-1].no*barWidth
+		.attr "class","yearLine"
 	
-#Draw year lines
-min_year = d3.min years,(d)->d.no
-max_year = d3.max years,(d)->d.no
-year_data = years.map (d)->{year:d.no, no:d.no-min_year}
-year_data.push({year:"", no:max_year + 1 - min_year});
-
-newYearAxisGs = axisCanvas.selectAll(".yearAxis")
-	.data(year_data)
-	.enter()
-	.append("g")
-	.attr "transform",(d)->"translate(0,#{d.no*barWidth-barWidthMargin/2})"
-
-newLines = newYearAxisGs
-	.append("line")
-	.attr "x1",-margin.left
-	.attr "x2",totalWidth
-	.attr "y1",0
-	.attr "y2",0
-	.attr "class","yearLine"
-
-newYearAxisGs
-	.append("text")
-	.attr "x",0
-	.attr "y",barWidth
-	.attr "class","yearText"
-	.text (d)->d.year
-
-newYearAxisGs
-	.append("text")
-	.attr "x",svgWidth
-	.attr "y",barWidth
-	.attr "text-anchor","end"
-	.attr "class","yearText"
-	.text (d)->d.year
-
-axisCanvas.append("line")
-	.attr "x1",ColumnX.pol
-	.attr "x2",ColumnX.pol
-	.attr "y1",0
-	.attr "y2",year_data[year_data.length-1].no*barWidth
-	.attr "class","yearLine"
-
-axisCanvas.append("line")
-	.attr "x1",ColumnX.food
-	.attr "x2",ColumnX.food
-	.attr "y1",0
-	.attr "y2",year_data[year_data.length-1].no*barWidth
-	.attr "class","yearLine"
+mouseClickOnBar = (e)->
+	WordCloud.drawKeywords e.name,e.keywords
 
 drawKeywordsAmount "pol"
 drawKeywordsAmount "his"
 drawKeywordsAmount "food"
+
+drawYearLines axisCanvas
+
+WordCloud.init()
+
+LineGraph.init()
+
+LineGraph.drawLineGraph("pol",Alignment.LEFT)
+LineGraph.drawLineGraph("food",Alignment.RIGHT)
+
+PieGraph.init()
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,58 +1,147 @@
 html{
-	font-family: "PT Sans"
-}
-
-.his {
-	fill:#FBEB72;
+	font-family: "Avenir Next";
+	background:#282C37;
 }
 
 .pol {
-	fill:#82D3F3;
+	fill:#90A449;
+	background:#90A449;
+}
+
+.his {
+	fill:#ECBF36;
+	background:#ECBF36;
 }
 
 .food {
-	fill:#D7E177;
+	fill:#C63146;
+	background:#C63146;
 }
 
-.yearLine{
+.pol.overlap {
+	fill:#586827;
+	background:#586827;
+}
+
+.his.overlap {
+	fill:#C69534;
+	background:#C69534;
+}
+
+.food.overlap {
+	fill:#853745;
+	background:#853745;
+}
+
+.bar {
+	
+}
+
+.colLine{
 	stroke:#666;
 	stroke-width:1;
 }
 
-.yearText{
-	font-size: 10px;
-	fill:#666;
+#mainSVG .axis path,line{
+	fill:none;
+	stroke:#999;
+	stroke-width:1;
 }
 
-.wordCloudSVG{
+#mainSVG .axis .domain{
+	stroke:none;
+}
+
+#mainSVG .axis text{
+	fill:#eee;
+	font-weight: 100;
+	font-size: 0.8em;
+}
+
+#mainSVG .axis.line{
+	visibility: collapse;
+}
+
+#mainSVG .colLine{
+	stroke:#eee;
+	stroke-dasharray:3,3;
+}
+
+/*.wordCloudSVG{
 	float:left;
 }
 
 .wordCloudText{
 	text-anchor:middle;
-}
+}*/
 
-.overlapLine{
+/*.overlapLine{
 	stroke:#ED69A5;
 	stroke-width:1.5px;
 	fill:none;
+}*/
+
+#mainSVG .lineGraph .axis text{
+	font-size: 0.5em;
 }
 
-.lineGraph .axis text{
-	font-size: 0.8em;
-}
-
-.lineGraph .axis line{
+#mainSVG .lineGraph .axis line{
 	stroke: #999;
 	stroke-width:1px;
 	fill:none;
 	stroke-dasharray: 3,3;
 }
 
-.lineGraph .axis path{
+#mainSVG .lineGraph .axis path{
 	fill:none;
 	stroke:none;	
 }
+
+#mainSVG .lineGraph .axis.x g:last-of-type{
+	visibility: hidden;
+}
+
+
+.keywordTable{
+	width: 1150px;
+	height: 300px;
+}
+
+.keywordTable div{
+	
+}
+
+.keywordTable p#pol{
+	width: 350px;
+}
+.keywordTable p#his{
+	width: 550px;	
+}
+.keywordTable p#food{
+	width: 350px;
+}
+
+.keywordTable p{
+	word-break:break-word;
+	text-align: justify;
+	line-height: 200%;
+}
+
+.keywordTable span{
+	border-radius: 10px;
+	padding: 2px 10px;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .pieGraph path{

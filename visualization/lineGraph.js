@@ -31,8 +31,11 @@ LineGraph = {
         value: d.his.over[name].perc
       };
     });
+    data.splice(0, 0, {
+      no: this.minYear,
+      value: 0
+    });
     lineGraph = d3.select(".lineGraph");
-    axisG = lineGraph.append("g").attr("class", "x axis").attr("transform", "translate(" + this.X[name] + "," + this.axisYOffset + ")");
     rootG = lineGraph.append("g").attr("transform", "translate(" + this.X[name] + "," + (barWidth / 2) + ")");
     maxValue = 10;
     x = d3.scale.linear().domain([0, maxValue]);
@@ -44,15 +47,15 @@ LineGraph = {
       case Alignment.RIGHT:
         x.range([this.graphWidth, 0]);
     }
-    xAxis = d3.svg.axis().scale(x).orient("top").tickSize(-this.graphHeight - this.axisLengthOffset).tickFormat(function(d) {
+    xAxis = d3.svg.axis().scale(x).orient("top").tickSize(-this.graphHeight - this.axisLengthOffset).tickPadding(10).tickFormat(function(d) {
       return "" + d + "%";
     });
-    axisG.call(xAxis);
     line = d3.svg.line().x(function(d) {
       return x(d.value);
     }).y(function(d) {
       return y(d.no);
     });
-    return rootG.append("path").datum(data).attr("class", "overlapLine").attr("d", line);
+    rootG.append("path").datum(data).attr("class", "overlapLine his").attr("d", line);
+    return axisG = lineGraph.append("g").attr("class", "x axis").attr("transform", "translate(" + this.X[name] + "," + this.axisYOffset + ")").call(xAxis);
   }
 };

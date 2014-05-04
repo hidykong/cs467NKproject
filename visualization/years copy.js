@@ -1,4 +1,4 @@
-var years =[
+var years = [
   {
     "food": {
       "obj": 0.5,
@@ -8,11 +8,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "northeastern",
+          "w": "there.",
           "f": 1
         },
         {
-          "w": "remote",
+          "w": "traditionally",
+          "f": 1
+        },
+        {
+          "w": "areas,",
+          "f": 2
+        },
+        {
+          "w": "conversely,",
           "f": 1
         },
         {
@@ -28,7 +36,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "\"some",
+          "w": "northeastern",
           "f": 1
         },
         {
@@ -40,19 +48,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "traditionally",
+          "w": "situation,",
           "f": 1
         },
         {
-          "w": "pyongyang",
+          "w": "\"some",
           "f": 1
         },
         {
-          "w": "situation",
+          "w": "remote",
           "f": 1
         },
         {
-          "w": "conversely",
+          "w": "pyongyang,",
           "f": 1
         },
         {
@@ -62,1257 +70,13 @@ var years =[
         {
           "w": "elites",
           "f": 1
-        },
-        {
-          "w": "areas",
-          "f": 2
         }
       ],
       "sub": 0.5
     },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "unified",
-            "f": 2
-          },
-          {
-            "w": "security",
-            "f": 8
-          },
-          {
-            "w": "campaign",
-            "f": 1
-          },
-          {
-            "w": "general",
-            "f": 3
-          },
-          {
-            "w": "states",
-            "f": 8
-          },
-          {
-            "w": "council",
-            "f": 6
-          },
-          {
-            "w": "truman",
-            "f": 2
-          },
-          {
-            "w": "border",
-            "f": 1
-          },
-          {
-            "w": "amphibious",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 18
-          },
-          {
-            "w": "chinese",
-            "f": 4
-          },
-          {
-            "w": "army",
-            "f": 4
-          },
-          {
-            "w": "union",
-            "f": 5
-          },
-          {
-            "w": "armed",
-            "f": 2
-          },
-          {
-            "w": "support",
-            "f": 3
-          },
-          {
-            "w": "douglas",
-            "f": 1
-          },
-          {
-            "w": "day",
-            "f": 1
-          },
-          {
-            "w": "air",
-            "f": 1
-          },
-          {
-            "w": "republic",
-            "f": 4
-          },
-          {
-            "w": "forces",
-            "f": 13
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "units",
-            "f": 1
-          },
-          {
-            "w": "international",
-            "f": 1
-          },
-          {
-            "w": "decisive",
-            "f": 1
-          },
-          {
-            "w": "bitter",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 8
-          },
-          {
-            "w": "korea",
-            "f": 4
-          },
-          {
-            "w": "north",
-            "f": 4
-          },
-          {
-            "w": "seoul",
-            "f": 2
-          },
-          {
-            "w": "men",
-            "f": 1
-          },
-          {
-            "w": "june",
-            "f": 2
-          },
-          {
-            "w": "china",
-            "f": 3
-          },
-          {
-            "w": "mainland",
-            "f": 1
-          },
-          {
-            "w": "july",
-            "f": 1
-          },
-          {
-            "w": "continued",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 10
-          },
-          {
-            "w": "present",
-            "f": 1
-          },
-          {
-            "w": "troops",
-            "f": 4
-          },
-          {
-            "w": "made",
-            "f": 1
-          },
-          {
-            "w": "macarthur",
-            "f": 2
-          },
-          {
-            "w": "naval",
-            "f": 1
-          },
-          {
-            "w": "rule",
-            "f": 2
-          },
-          {
-            "w": "nations",
-            "f": 11
-          },
-          {
-            "w": "command",
-            "f": 4
-          },
-          {
-            "w": "time",
-            "f": 1
-          },
-          {
-            "w": "military",
-            "f": 3
-          },
-          {
-            "w": "parallel",
-            "f": 3
-          },
-          {
-            "w": "soviet",
-            "f": 5
-          },
-          {
-            "w": "south",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.6491228070175439,
-      "sub": 0.3508771929824561,
-      "food": {
-        "kw": [
-          {
-            "w": "pyongyang",
-            "f": 1
-          }
-        ]
-      },
-      "pol": {
-        "kw": [
-          {
-            "w": "koreans",
-            "f": 1
-          },
-          {
-            "w": "quiet",
-            "f": 1
-          },
-          {
-            "w": "time",
-            "f": 1
-          },
-          {
-            "w": "japan",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 2
-          },
-          {
-            "w": "present",
-            "f": 1
-          }
-        ]
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "sector",
-            "f": 1
-          },
-          {
-            "w": "ambassador",
-            "f": 1
-          },
-          {
-            "w": "31france",
-            "f": 1
-          },
-          {
-            "w": "retire",
-            "f": 1
-          },
-          {
-            "w": "resistance",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 2
-          },
-          {
-            "w": "halting",
-            "f": 1
-          },
-          {
-            "w": "front",
-            "f": 4
-          },
-          {
-            "w": "protest",
-            "f": 2
-          },
-          {
-            "w": "embassy",
-            "f": 1
-          },
-          {
-            "w": "london",
-            "f": 2
-          },
-          {
-            "w": "20all",
-            "f": 1
-          },
-          {
-            "w": "24gen",
-            "f": 1
-          },
-          {
-            "w": "resisting",
-            "f": 1
-          },
-          {
-            "w": "northern",
-            "f": 2
-          },
-          {
-            "w": "upchou",
-            "f": 1
-          },
-          {
-            "w": "lake",
-            "f": 9
-          },
-          {
-            "w": "29a",
-            "f": 1
-          },
-          {
-            "w": "examples",
-            "f": 1
-          },
-          {
-            "w": "appeared",
-            "f": 1
-          },
-          {
-            "w": "invaders",
-            "f": 1
-          },
-          {
-            "w": "black",
-            "f": 1
-          },
-          {
-            "w": "vast",
-            "f": 1
-          },
-          {
-            "w": "equipped",
-            "f": 1
-          },
-          {
-            "w": "policy",
-            "f": 2
-          },
-          {
-            "w": "communist",
-            "f": 6
-          },
-          {
-            "w": "oct",
-            "f": 6
-          },
-          {
-            "w": "blistering",
-            "f": 1
-          },
-          {
-            "w": "march",
-            "f": 1
-          },
-          {
-            "w": "emergency",
-            "f": 1
-          },
-          {
-            "w": "government",
-            "f": 5
-          },
-          {
-            "w": "chinnampo",
-            "f": 1
-          },
-          {
-            "w": "soundly",
-            "f": 1
-          },
-          {
-            "w": "report",
-            "f": 1
-          },
-          {
-            "w": "flew",
-            "f": 1
-          },
-          {
-            "w": "tanks",
-            "f": 3
-          },
-          {
-            "w": "press",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 6
-          },
-          {
-            "w": "10front",
-            "f": 1
-          },
-          {
-            "w": "artillery",
-            "f": 2
-          },
-          {
-            "w": "fled",
-            "f": 1
-          },
-          {
-            "w": "maintaining",
-            "f": 1
-          },
-          {
-            "w": "3at",
-            "f": 1
-          },
-          {
-            "w": "landings",
-            "f": 1
-          },
-          {
-            "w": "bar",
-            "f": 1
-          },
-          {
-            "w": "vladimir",
-            "f": 1
-          },
-          {
-            "w": "success",
-            "f": 9
-          },
-          {
-            "w": "covering",
-            "f": 1
-          },
-          {
-            "w": "mastery",
-            "f": 1
-          },
-          {
-            "w": "warned",
-            "f": 1
-          },
-          {
-            "w": "wednesday",
-            "f": 1
-          },
-          {
-            "w": "admitted",
-            "f": 1
-          },
-          {
-            "w": "morning",
-            "f": 2
-          },
-          {
-            "w": "miles",
-            "f": 1
-          },
-          {
-            "w": "harbors",
-            "f": 1
-          },
-          {
-            "w": "handsoff",
-            "f": 1
-          },
-          {
-            "w": "small",
-            "f": 1
-          },
-          {
-            "w": "found",
-            "f": 1
-          },
-          {
-            "w": "disorganized",
-            "f": 1
-          },
-          {
-            "w": "prevailing",
-            "f": 1
-          },
-          {
-            "w": "heavy",
-            "f": 1
-          },
-          {
-            "w": "newspaper",
-            "f": 1
-          },
-          {
-            "w": "official",
-            "f": 1
-          },
-          {
-            "w": "leasing",
-            "f": 1
-          },
-          {
-            "w": "committee",
-            "f": 1
-          },
-          {
-            "w": "ten",
-            "f": 1
-          },
-          {
-            "w": "jan",
-            "f": 1
-          },
-          {
-            "w": "national",
-            "f": 1
-          },
-          {
-            "w": "invaded",
-            "f": 1
-          },
-          {
-            "w": "officials",
-            "f": 1
-          },
-          {
-            "w": "pall",
-            "f": 1
-          },
-          {
-            "w": "licenses",
-            "f": 1
-          },
-          {
-            "w": "summary",
-            "f": 1
-          },
-          {
-            "w": "port",
-            "f": 1
-          },
-          {
-            "w": "frontline",
-            "f": 1
-          },
-          {
-            "w": "taegu",
-            "f": 1
-          },
-          {
-            "w": "closer",
-            "f": 1
-          },
-          {
-            "w": "delivered",
-            "f": 1
-          },
-          {
-            "w": "26izvestia",
-            "f": 1
-          },
-          {
-            "w": "congress",
-            "f": 1
-          },
-          {
-            "w": "sentiment",
-            "f": 1
-          },
-          {
-            "w": "reaching",
-            "f": 1
-          },
-          {
-            "w": "increase",
-            "f": 1
-          },
-          {
-            "w": "mud",
-            "f": 1
-          },
-          {
-            "w": "state",
-            "f": 1
-          },
-          {
-            "w": "investigation",
-            "f": 1
-          },
-          {
-            "w": "contained",
-            "f": 1
-          },
-          {
-            "w": "chongjin",
-            "f": 1
-          },
-          {
-            "w": "crossed",
-            "f": 1
-          },
-          {
-            "w": "boundary",
-            "f": 1
-          },
-          {
-            "w": "guns",
-            "f": 2
-          },
-          {
-            "w": "red",
-            "f": 1
-          },
-          {
-            "w": "russianmade",
-            "f": 1
-          },
-          {
-            "w": "assembly",
-            "f": 1
-          },
-          {
-            "w": "communistled",
-            "f": 1
-          },
-          {
-            "w": "sections",
-            "f": 1
-          },
-          {
-            "w": "rolled",
-            "f": 1
-          },
-          {
-            "w": "friday",
-            "f": 3
-          },
-          {
-            "w": "delegates",
-            "f": 1
-          },
-          {
-            "w": "agreement",
-            "f": 1
-          },
-          {
-            "w": "knocked",
-            "f": 1
-          },
-          {
-            "w": "oasis",
-            "f": 1
-          },
-          {
-            "w": "base",
-            "f": 1
-          },
-          {
-            "w": "key",
-            "f": 1
-          },
-          {
-            "w": "people's",
-            "f": 1
-          },
-          {
-            "w": "backed",
-            "f": 1
-          },
-          {
-            "w": "strong",
-            "f": 1
-          },
-          {
-            "w": "8enemy",
-            "f": 1
-          },
-          {
-            "w": "aircraft",
-            "f": 1
-          },
-          {
-            "w": "18while",
-            "f": 1
-          },
-          {
-            "w": "dry",
-            "f": 1
-          },
-          {
-            "w": "advance",
-            "f": 1
-          },
-          {
-            "w": "revoked",
-            "f": 1
-          },
-          {
-            "w": "cornered",
-            "f": 1
-          },
-          {
-            "w": "propaganda",
-            "f": 1
-          },
-          {
-            "w": "attacks",
-            "f": 1
-          },
-          {
-            "w": "country",
-            "f": 2
-          },
-          {
-            "w": "completely",
-            "f": 1
-          },
-          {
-            "w": "reports",
-            "f": 3
-          },
-          {
-            "w": "routed",
-            "f": 1
-          },
-          {
-            "w": "7the",
-            "f": 2
-          },
-          {
-            "w": "paris",
-            "f": 1
-          },
-          {
-            "w": "range",
-            "f": 1
-          },
-          {
-            "w": "stand",
-            "f": 1
-          },
-          {
-            "w": "smoke",
-            "f": 1
-          },
-          {
-            "w": "concentrations",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 5
-          },
-          {
-            "w": "asked",
-            "f": 1
-          },
-          {
-            "w": "eisenhower",
-            "f": 1
-          },
-          {
-            "w": "reinforced",
-            "f": 1
-          },
-          {
-            "w": "rockbound",
-            "f": 1
-          },
-          {
-            "w": "opposition",
-            "f": 1
-          },
-          {
-            "w": "step",
-            "f": 1
-          },
-          {
-            "w": "16south",
-            "f": 1
-          },
-          {
-            "w": "civil",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 5
-          },
-          {
-            "w": "strategic",
-            "f": 1
-          },
-          {
-            "w": "morale",
-            "f": 1
-          },
-          {
-            "w": "dividing",
-            "f": 1
-          },
-          {
-            "w": "open",
-            "f": 1
-          },
-          {
-            "w": "intervention",
-            "f": 1
-          },
-          {
-            "w": "conference",
-            "f": 1
-          },
-          {
-            "w": "city",
-            "f": 4
-          },
-          {
-            "w": "feb",
-            "f": 1
-          },
-          {
-            "w": "spoke",
-            "f": 1
-          },
-          {
-            "w": "chi",
-            "f": 1
-          },
-          {
-            "w": "coasts",
-            "f": 1
-          },
-          {
-            "w": "3the",
-            "f": 1
-          },
-          {
-            "w": "alleged",
-            "f": 1
-          },
-          {
-            "w": "fast",
-            "f": 1
-          },
-          {
-            "w": "permitted",
-            "f": 1
-          },
-          {
-            "w": "ports",
-            "f": 1
-          },
-          {
-            "w": "fought",
-            "f": 1
-          },
-          {
-            "w": "thirtyeighth",
-            "f": 3
-          },
-          {
-            "w": "expected",
-            "f": 1
-          },
-          {
-            "w": "proposal",
-            "f": 1
-          },
-          {
-            "w": "assertion",
-            "f": 1
-          },
-          {
-            "w": "rhee",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 13
-          },
-          {
-            "w": "pm",
-            "f": 1
-          },
-          {
-            "w": "17the",
-            "f": 1
-          },
-          {
-            "w": "infantry",
-            "f": 1
-          },
-          {
-            "w": "vigorous",
-            "f": 1
-          },
-          {
-            "w": "complete",
-            "f": 1
-          },
-          {
-            "w": "successful",
-            "f": 1
-          },
-          {
-            "w": "moved",
-            "f": 1
-          },
-          {
-            "w": "regard",
-            "f": 1
-          },
-          {
-            "w": "inched",
-            "f": 1
-          },
-          {
-            "w": "syngman",
-            "f": 1
-          },
-          {
-            "w": "defeated",
-            "f": 1
-          },
-          {
-            "w": "provide",
-            "f": 1
-          },
-          {
-            "w": "taejon",
-            "f": 1
-          },
-          {
-            "w": "line",
-            "f": 2
-          },
-          {
-            "w": "applied",
-            "f": 1
-          },
-          {
-            "w": "commerce",
-            "f": 1
-          },
-          {
-            "w": "dwight",
-            "f": 1
-          },
-          {
-            "w": "$10",
-            "f": 1
-          },
-          {
-            "w": "antiamerican",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 12
-          },
-          {
-            "w": "enlai",
-            "f": 1
-          },
-          {
-            "w": "9gen",
-            "f": 1
-          },
-          {
-            "w": "korea's",
-            "f": 1
-          },
-          {
-            "w": "limiting",
-            "f": 1
-          },
-          {
-            "w": "voluminous",
-            "f": 1
-          },
-          {
-            "w": "6president",
-            "f": 1
-          },
-          {
-            "w": "mr",
-            "f": 2
-          },
-          {
-            "w": "munsan",
-            "f": 1
-          },
-          {
-            "w": "flats",
-            "f": 1
-          },
-          {
-            "w": "marines",
-            "f": 3
-          },
-          {
-            "w": "dec",
-            "f": 2
-          },
-          {
-            "w": "called",
-            "f": 1
-          },
-          {
-            "w": "election",
-            "f": 1
-          },
-          {
-            "w": "minh",
-            "f": 1
-          },
-          {
-            "w": "outrata",
-            "f": 1
-          },
-          {
-            "w": "san",
-            "f": 1
-          },
-          {
-            "w": "czechoslovak",
-            "f": 1
-          },
-          {
-            "w": "outstanding",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 1
-          },
-          {
-            "w": "governmentthat",
-            "f": 1
-          },
-          {
-            "w": "communistsponsored",
-            "f": 1
-          },
-          {
-            "w": "tonight",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 1
-          },
-          {
-            "w": "yongchon",
-            "f": 1
-          },
-          {
-            "w": "macarthur's",
-            "f": 1
-          },
-          {
-            "w": "validated",
-            "f": 1
-          },
-          {
-            "w": "sunchon",
-            "f": 1
-          },
-          {
-            "w": "affairs",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 2
-          },
-          {
-            "w": "ossining",
-            "f": 1
-          },
-          {
-            "w": "personnel",
-            "f": 1
-          },
-          {
-            "w": "breaking",
-            "f": 1
-          },
-          {
-            "w": "administration",
-            "f": 1
-          },
-          {
-            "w": "mismanagement",
-            "f": 1
-          },
-          {
-            "w": "smarting",
-            "f": 1
-          },
-          {
-            "w": "sunday",
-            "f": 4
-          },
-          {
-            "w": "recognition",
-            "f": 1
-          },
-          {
-            "w": "accusations",
-            "f": 1
-          },
-          {
-            "w": "quantities",
-            "f": 1
-          },
-          {
-            "w": "department",
-            "f": 1
-          },
-          {
-            "w": "inchon",
-            "f": 2
-          },
-          {
-            "w": "weaken",
-            "f": 1
-          },
-          {
-            "w": "eerily",
-            "f": 1
-          },
-          {
-            "w": "chou",
-            "f": 2
-          },
-          {
-            "w": "shipments",
-            "f": 1
-          },
-          {
-            "w": "francisco",
-            "f": 1
-          },
-          {
-            "w": "monday",
-            "f": 3
-          },
-          {
-            "w": "yesterday",
-            "f": 1
-          },
-          {
-            "w": "corruption",
-            "f": 1
-          },
-          {
-            "w": "hitched",
-            "f": 1
-          },
-          {
-            "w": "designed",
-            "f": 1
-          },
-          {
-            "w": "peiping",
-            "f": 2
-          },
-          {
-            "w": "lease",
-            "f": 1
-          },
-          {
-            "w": "recent",
-            "f": 1
-          },
-          {
-            "w": "24president",
-            "f": 1
-          },
-          {
-            "w": "regime",
-            "f": 1
-          },
-          {
-            "w": "effective",
-            "f": 1
-          },
-          {
-            "w": "22gen",
-            "f": 1
-          },
-          {
-            "w": "lines",
-            "f": 1
-          },
-          {
-            "w": "headquarters",
-            "f": 1
-          },
-          {
-            "w": "2south",
-            "f": 1
-          },
-          {
-            "w": "fanatically",
-            "f": 1
-          },
-          {
-            "w": "materials",
-            "f": 1
-          },
-          {
-            "w": "fresh",
-            "f": 1
-          },
-          {
-            "w": "regime's",
-            "f": 1
-          },
-          {
-            "w": "order",
-            "f": 1
-          },
-          {
-            "w": "9the",
-            "f": 1
-          },
-          {
-            "w": "ho",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0.8,
       "kw": [
-        {
-          "w": "repatriation",
-          "f": 1
-        },
         {
           "w": "prisoners",
           "f": 1
@@ -1322,19 +86,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "below).",
+          "f": 1
+        },
+        {
           "w": "accept",
           "f": 1
         },
         {
-          "w": "(see",
+          "w": "repatriation,",
           "f": 1
         },
         {
           "w": "past",
-          "f": 2
+          "f": 1
         },
         {
           "w": "ended",
+          "f": 1
+        },
+        {
+          "w": "war,",
+          "f": 1
+        },
+        {
+          "w": "past,",
           "f": 1
         },
         {
@@ -1394,10 +170,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "below)",
-          "f": 1
-        },
-        {
           "w": "koreans",
           "f": 1
         },
@@ -1407,10 +179,14 @@ var years =[
         },
         {
           "w": "1950s",
-          "f": 3
+          "f": 2
         },
         {
           "w": "fate",
+          "f": 1
+        },
+        {
+          "w": "1960s.",
           "f": 1
         },
         {
@@ -1422,7 +198,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "1960s",
+          "w": "camps,",
+          "f": 1
+        },
+        {
+          "w": "abroad.",
+          "f": 1
+        },
+        {
+          "w": "(see",
           "f": 1
         },
         {
@@ -1434,7 +218,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "abroad",
+          "w": "il-sung.in",
           "f": 1
         },
         {
@@ -1463,7 +247,15 @@ var years =[
         },
         {
           "w": "camps",
-          "f": 4
+          "f": 3
+        },
+        {
+          "w": "time.the",
+          "f": 1
+        },
+        {
+          "w": "1950s,",
+          "f": 1
         }
       ],
       "sub": 0.2
@@ -1476,18 +268,16 @@ var years =[
           "kw": []
         },
         "pol": {
-          "perc": 3,
+          "perc": 2,
           "kw": [
+            "returned",
+            "dprk",
             "kim",
-            "war",
-            "carried",
-            "il-sung",
-            "time",
             "authorities",
             "korean",
-            "dprk",
+            "war",
             "present",
-            "returned"
+            "carried"
           ]
         }
       },
@@ -1501,16 +291,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "emerging",
+          "w": "army.",
           "f": 1
         },
         {
           "w": "rok",
-          "f": 8
+          "f": 6
         },
         {
           "w": "chinese",
-          "f": 4
+          "f": 3
         },
         {
           "w": "insurgency",
@@ -1525,7 +315,15 @@ var years =[
           "f": 2
         },
         {
-          "w": "advisors",
+          "w": "policies.",
+          "f": 1
+        },
+        {
+          "w": "supported",
+          "f": 1
+        },
+        {
+          "w": "emerging",
           "f": 1
         },
         {
@@ -1541,6 +339,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "rule.",
+          "f": 1
+        },
+        {
           "w": "participate",
           "f": 1
         },
@@ -1553,6 +355,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "25",
+          "f": 1
+        },
+        {
+          "w": "27",
+          "f": 1
+        },
+        {
           "w": "based",
           "f": 2
         },
@@ -1561,7 +371,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "consistently",
+          "w": "rest",
+          "f": 1
+        },
+        {
+          "w": "rok,",
+          "f": 1
+        },
+        {
+          "w": "rok.",
+          "f": 1
+        },
+        {
+          "w": "north.",
           "f": 1
         },
         {
@@ -1569,7 +391,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "increasingly",
+          "w": "leadership,",
+          "f": 1
+        },
+        {
+          "w": "0",
           "f": 1
         },
         {
@@ -1581,7 +407,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "promoting",
+          "w": "abstentions.",
           "f": 1
         },
         {
@@ -1613,14 +439,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "ensued",
-          "f": 1
-        },
-        {
-          "w": "supported",
-          "f": 1
-        },
-        {
           "w": "string",
           "f": 1
         },
@@ -1633,16 +451,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "100,000",
+          "f": 1
+        },
+        {
           "w": "yielded",
           "f": 1
         },
         {
-          "w": "units",
+          "w": "9",
           "f": 1
         },
         {
-          "w": "rest",
-          "f": 1
+          "w": "1950",
+          "f": 2
         },
         {
           "w": "burden",
@@ -1665,7 +487,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "day",
+          "w": "chinese.",
           "f": 1
         },
         {
@@ -1705,6 +527,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "men.",
+          "f": 1
+        },
+        {
           "w": "bombs",
           "f": 1
         },
@@ -1721,7 +547,7 @@ var years =[
           "f": 8
         },
         {
-          "w": "harry",
+          "w": "them,",
           "f": 1
         },
         {
@@ -1731,6 +557,10 @@ var years =[
         {
           "w": "consolidate",
           "f": 1
+        },
+        {
+          "w": "states,",
+          "f": 2
         },
         {
           "w": "personality",
@@ -1749,8 +579,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "korea",
-          "f": 4
+          "w": "economic",
+          "f": 1
         },
         {
           "w": "downplayed",
@@ -1761,15 +591,27 @@ var years =[
           "f": 1
         },
         {
+          "w": "china,",
+          "f": 1
+        },
+        {
           "w": "truman",
           "f": 2
         },
         {
-          "w": "taiwan",
+          "w": "resolutions",
           "f": 1
         },
         {
-          "w": "combat",
+          "w": "instead,",
+          "f": 1
+        },
+        {
+          "w": "ii.",
+          "f": 1
+        },
+        {
+          "w": "initially,",
           "f": 1
         },
         {
@@ -1797,11 +639,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "initially",
-          "f": 2
+          "w": "time,",
+          "f": 1
+        },
+        {
+          "w": "veto",
+          "f": 1
+        },
+        {
+          "w": "day,",
+          "f": 1
         },
         {
           "w": "discretion",
+          "f": 1
+        },
+        {
+          "w": "7",
           "f": 1
         },
         {
@@ -1821,27 +675,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "command.",
+          "f": 1
+        },
+        {
           "w": "rebuilding",
           "f": 1
         },
         {
-          "w": "zedong",
-          "f": 1
+          "w": "korea",
+          "f": 4
         },
         {
           "w": "august",
           "f": 2
         },
         {
-          "w": "devastation",
+          "w": "days.united",
           "f": 1
         },
         {
-          "w": "veto",
+          "w": "initially",
           "f": 1
         },
         {
-          "w": "men",
+          "w": "harry",
           "f": 1
         },
         {
@@ -1854,11 +712,15 @@ var years =[
         },
         {
           "w": "leadership",
-          "f": 4
+          "f": 3
         },
         {
           "w": "china",
-          "f": 3
+          "f": 1
+        },
+        {
+          "w": "council.",
+          "f": 1
         },
         {
           "w": "members",
@@ -1866,6 +728,10 @@ var years =[
         },
         {
           "w": "cult",
+          "f": 1
+        },
+        {
+          "w": "90,000",
           "f": 1
         },
         {
@@ -1877,11 +743,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "sending",
+          "w": "dprk.",
           "f": 1
         },
         {
-          "w": "mainland",
+          "w": "sending",
           "f": 1
         },
         {
@@ -1897,6 +763,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "stalemate",
+          "f": 1
+        },
+        {
           "w": "months",
           "f": 1
         },
@@ -1905,15 +775,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "days",
+          "w": "devastation",
+          "f": 1
+        },
+        {
+          "w": "advisors.",
           "f": 1
         },
         {
           "w": "reduced",
-          "f": 1
-        },
-        {
-          "w": "participating",
           "f": 1
         },
         {
@@ -1925,7 +795,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "economic",
+          "w": "china.",
           "f": 1
         },
         {
@@ -1945,15 +815,19 @@ var years =[
           "f": 3
         },
         {
-          "w": "efforts",
+          "w": "however,",
           "f": 1
         },
         {
-          "w": "south",
-          "f": 1
+          "w": "peninsula.",
+          "f": 2
         },
         {
           "w": "major",
+          "f": 1
+        },
+        {
+          "w": "thereafter,",
           "f": 1
         },
         {
@@ -1965,12 +839,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "efforts",
+          "f": 1
+        },
+        {
           "w": "un-backed",
           "f": 1
         },
         {
-          "w": "ii",
+          "w": "economy.",
           "f": 1
+        },
+        {
+          "w": "war.",
+          "f": 3
         },
         {
           "w": "accounts",
@@ -1981,12 +863,16 @@ var years =[
           "f": 2
         },
         {
+          "w": "il-sung",
+          "f": 2
+        },
+        {
           "w": "vote",
           "f": 1
         },
         {
-          "w": "resolutions",
-          "f": 1
+          "w": "1950,",
+          "f": 6
         },
         {
           "w": "fight",
@@ -2010,7 +896,7 @@ var years =[
         },
         {
           "w": "army",
-          "f": 4
+          "f": 3
         },
         {
           "w": "union",
@@ -2045,11 +931,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "peaceful",
+          "w": "combat",
           "f": 1
         },
         {
-          "w": "abstentions",
+          "w": "promoting",
           "f": 1
         },
         {
@@ -2070,7 +956,7 @@ var years =[
         },
         {
           "w": "north",
-          "f": 4
+          "f": 3
         },
         {
           "w": "initiated",
@@ -2085,6 +971,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "turned",
+          "f": 1
+        },
+        {
           "w": "counter-offensive",
           "f": 1
         },
@@ -2093,8 +983,12 @@ var years =[
           "f": 1
         },
         {
+          "w": "nevertheless,",
+          "f": 1
+        },
+        {
           "w": "peninsula",
-          "f": 4
+          "f": 2
         },
         {
           "w": "flag",
@@ -2113,8 +1007,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "stalemate",
+          "w": "il-sung,",
           "f": 1
+        },
+        {
+          "w": "90",
+          "f": 2
         },
         {
           "w": "july",
@@ -2129,11 +1027,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "tide",
+          "w": "1953,",
           "f": 1
         },
         {
           "w": "made",
+          "f": 1
+        },
+        {
+          "w": "seoul.",
           "f": 1
         },
         {
@@ -2157,10 +1059,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "policies",
-          "f": 1
-        },
-        {
           "w": "staking",
           "f": 1
         },
@@ -2173,11 +1071,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "taiwan,",
+          "f": 1
+        },
+        {
           "w": "claim",
           "f": 1
         },
         {
           "w": "concurrently",
+          "f": 1
+        },
+        {
+          "w": "units",
           "f": 1
         },
         {
@@ -2193,15 +1099,27 @@ var years =[
           "f": 1
         },
         {
+          "w": "consistently",
+          "f": 1
+        },
+        {
+          "w": "ensued.",
+          "f": 1
+        },
+        {
           "w": "sustaining",
           "f": 1
         },
         {
-          "w": "turned",
+          "w": "zedong,",
           "f": 1
         },
         {
           "w": "comport",
+          "f": 1
+        },
+        {
+          "w": "increasingly",
           "f": 1
         },
         {
@@ -2210,7 +1128,7 @@ var years =[
         },
         {
           "w": "states",
-          "f": 8
+          "f": 6
         },
         {
           "w": "pushed",
@@ -2226,15 +1144,19 @@ var years =[
         },
         {
           "w": "council",
-          "f": 6
+          "f": 5
+        },
+        {
+          "w": "tide.",
+          "f": 1
         },
         {
           "w": "theatre",
           "f": 1
         },
         {
-          "w": "controlled",
-          "f": 2
+          "w": "south.",
+          "f": 1
         },
         {
           "w": "border",
@@ -2254,7 +1176,7 @@ var years =[
         },
         {
           "w": "united",
-          "f": 18
+          "f": 17
         },
         {
           "w": "end",
@@ -2285,6 +1207,10 @@ var years =[
           "f": 4
         },
         {
+          "w": "s.",
+          "f": 1
+        },
+        {
           "w": "forces",
           "f": 13
         },
@@ -2305,12 +1231,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "economy",
-          "f": 1
-        },
-        {
           "w": "seoul",
-          "f": 2
+          "f": 1
         },
         {
           "w": "multi-pronged",
@@ -2342,7 +1264,7 @@ var years =[
         },
         {
           "w": "parallel",
-          "f": 3
+          "f": 2
         },
         {
           "w": "mao",
@@ -2357,6 +1279,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "peaceful",
+          "f": 1
+        },
+        {
+          "w": "mainland.",
+          "f": 1
+        },
+        {
           "w": "enormouskim",
           "f": 1
         },
@@ -2365,12 +1295,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "controlled",
+          "f": 2
+        },
+        {
           "w": "38th",
           "f": 3
         },
         {
           "w": "rule",
-          "f": 2
+          "f": 1
         },
         {
           "w": "face",
@@ -2378,10 +1312,14 @@ var years =[
         },
         {
           "w": "command",
-          "f": 4
+          "f": 3
         },
         {
           "w": "easily",
+          "f": 1
+        },
+        {
+          "w": "parallel.",
           "f": 1
         },
         {
@@ -2398,635 +1336,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.875,
-      "sub": 0.125,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "sector",
-            "f": 2
-          },
-          {
-            "w": "chinese",
-            "f": 1
-          },
-          {
-            "w": "scattered",
-            "f": 1
-          },
-          {
-            "w": "resistance",
-            "f": 2
-          },
-          {
-            "w": "16north",
-            "f": 1
-          },
-          {
-            "w": "ended",
-            "f": 1
-          },
-          {
-            "w": "captured",
-            "f": 1
-          },
-          {
-            "w": "previous",
-            "f": 1
-          },
-          {
-            "w": "hwachon",
-            "f": 2
-          },
-          {
-            "w": "rapidly",
-            "f": 1
-          },
-          {
-            "w": "reservoir",
-            "f": 1
-          },
-          {
-            "w": "prisonerofwar",
-            "f": 1
-          },
-          {
-            "w": "matthew",
-            "f": 1
-          },
-          {
-            "w": "lake",
-            "f": 1
-          },
-          {
-            "w": "thursday",
-            "f": 5
-          },
-          {
-            "w": "late",
-            "f": 2
-          },
-          {
-            "w": "patrols",
-            "f": 1
-          },
-          {
-            "w": "30as",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "oct",
-            "f": 1
-          },
-          {
-            "w": "gains",
-            "f": 1
-          },
-          {
-            "w": "communique",
-            "f": 2
-          },
-          {
-            "w": "big",
-            "f": 2
-          },
-          {
-            "w": "progress",
-            "f": 1
-          },
-          {
-            "w": "front",
-            "f": 2
-          },
-          {
-            "w": "nov",
-            "f": 2
-          },
-          {
-            "w": "continued",
-            "f": 1
-          },
-          {
-            "w": "gen",
-            "f": 1
-          },
-          {
-            "w": "enemy",
-            "f": 4
-          },
-          {
-            "w": "clouds",
-            "f": 1
-          },
-          {
-            "w": "success",
-            "f": 1
-          },
-          {
-            "w": "wednesday",
-            "f": 3
-          },
-          {
-            "w": "morning",
-            "f": 1
-          },
-          {
-            "w": "small",
-            "f": 1
-          },
-          {
-            "w": "river",
-            "f": 1
-          },
-          {
-            "w": "stockades",
-            "f": 1
-          },
-          {
-            "w": "lifted",
-            "f": 1
-          },
-          {
-            "w": "operated",
-            "f": 1
-          },
-          {
-            "w": "sporadic",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 9
-          },
-          {
-            "w": "saturday",
-            "f": 7
-          },
-          {
-            "w": "westcentral",
-            "f": 1
-          },
-          {
-            "w": "opened",
-            "f": 1
-          },
-          {
-            "w": "representatives",
-            "f": 1
-          },
-          {
-            "w": "man's",
-            "f": 1
-          },
-          {
-            "w": "participants",
-            "f": 1
-          },
-          {
-            "w": "dominated",
-            "f": 1
-          },
-          {
-            "w": "international",
-            "f": 1
-          },
-          {
-            "w": "red",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 4
-          },
-          {
-            "w": "rolled",
-            "f": 1
-          },
-          {
-            "w": "diminishing",
-            "f": 1
-          },
-          {
-            "w": "friday",
-            "f": 1
-          },
-          {
-            "w": "continuing",
-            "f": 1
-          },
-          {
-            "w": "delegates",
-            "f": 1
-          },
-          {
-            "w": "agencies",
-            "f": 1
-          },
-          {
-            "w": "hours",
-            "f": 1
-          },
-          {
-            "w": "reported",
-            "f": 1
-          },
-          {
-            "w": "encountering",
-            "f": 1
-          },
-          {
-            "w": "ridgway",
-            "f": 1
-          },
-          {
-            "w": "news",
-            "f": 1
-          },
-          {
-            "w": "15pak",
-            "f": 1
-          },
-          {
-            "w": "permitted",
-            "f": 1
-          },
-          {
-            "w": "30another",
-            "f": 1
-          },
-          {
-            "w": "advance",
-            "f": 2
-          },
-          {
-            "w": "aug",
-            "f": 1
-          },
-          {
-            "w": "days",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "7the",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 3
-          },
-          {
-            "w": "allied",
-            "f": 3
-          },
-          {
-            "w": "action",
-            "f": 1
-          },
-          {
-            "w": "flood",
-            "f": 1
-          },
-          {
-            "w": "groups",
-            "f": 1
-          },
-          {
-            "w": "presence",
-            "f": 1
-          },
-          {
-            "w": "tuesday",
-            "f": 2
-          },
-          {
-            "w": "philippine",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 3
-          },
-          {
-            "w": "pukhan",
-            "f": 1
-          },
-          {
-            "w": "maintained",
-            "f": 1
-          },
-          {
-            "w": "western",
-            "f": 1
-          },
-          {
-            "w": "25the",
-            "f": 1
-          },
-          {
-            "w": "conference",
-            "f": 2
-          },
-          {
-            "w": "troops",
-            "f": 1
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "resulted",
-            "f": 1
-          },
-          {
-            "w": "proposal",
-            "f": 1
-          },
-          {
-            "w": "valley",
-            "f": 1
-          },
-          {
-            "w": "meeting",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 3
-          },
-          {
-            "w": "armistice",
-            "f": 2
-          },
-          {
-            "w": "pm",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 2
-          },
-          {
-            "w": "twentyfour",
-            "f": 1
-          },
-          {
-            "w": "received",
-            "f": 1
-          },
-          {
-            "w": "fire",
-            "f": 1
-          },
-          {
-            "w": "heun",
-            "f": 1
-          },
-          {
-            "w": "moscow",
-            "f": 1
-          },
-          {
-            "w": "rejected",
-            "f": 1
-          },
-          {
-            "w": "145mile",
-            "f": 1
-          },
-          {
-            "w": "forward",
-            "f": 2
-          },
-          {
-            "w": "minister",
-            "f": 1
-          },
-          {
-            "w": "covered",
-            "f": 1
-          },
-          {
-            "w": "hostile",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "territory",
-            "f": 1
-          },
-          {
-            "w": "abandoned",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 21
-          },
-          {
-            "w": "protesting",
-            "f": 1
-          },
-          {
-            "w": "korea's",
-            "f": 1
-          },
-          {
-            "w": "air",
-            "f": 1
-          },
-          {
-            "w": "airmen",
-            "f": 1
-          },
-          {
-            "w": "battlefront",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 2
-          },
-          {
-            "w": "armored",
-            "f": 1
-          },
-          {
-            "w": "moved",
-            "f": 1
-          },
-          {
-            "w": "hills",
-            "f": 1
-          },
-          {
-            "w": "deep",
-            "f": 1
-          },
-          {
-            "w": "general",
-            "f": 2
-          },
-          {
-            "w": "high",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 2
-          },
-          {
-            "w": "foreign",
-            "f": 2
-          },
-          {
-            "w": "united",
-            "f": 10
-          },
-          {
-            "w": "end",
-            "f": 1
-          },
-          {
-            "w": "sluices",
-            "f": 1
-          },
-          {
-            "w": "rains",
-            "f": 1
-          },
-          {
-            "w": "peace",
-            "f": 1
-          },
-          {
-            "w": "offensive",
-            "f": 3
-          },
-          {
-            "w": "cross",
-            "f": 1
-          },
-          {
-            "w": "negotiators",
-            "f": 1
-          },
-          {
-            "w": "ny",
-            "f": 4
-          },
-          {
-            "w": "sunday",
-            "f": 4
-          },
-          {
-            "w": "equaled",
-            "f": 1
-          },
-          {
-            "w": "forces",
-            "f": 3
-          },
-          {
-            "w": "dam",
-            "f": 2
-          },
-          {
-            "w": "korean",
-            "f": 6
-          },
-          {
-            "w": "eastcentral",
-            "f": 1
-          },
-          {
-            "w": "yung",
-            "f": 1
-          },
-          {
-            "w": "week",
-            "f": 1
-          },
-          {
-            "w": "monday",
-            "f": 2
-          },
-          {
-            "w": "june",
-            "f": 3
-          },
-          {
-            "w": "yesterday",
-            "f": 7
-          },
-          {
-            "w": "negotiating",
-            "f": 1
-          },
-          {
-            "w": "government",
-            "f": 1
-          },
-          {
-            "w": "land",
-            "f": 1
-          },
-          {
-            "w": "attempt",
-            "f": 1
-          },
-          {
-            "w": "request",
-            "f": 1
-          },
-          {
-            "w": "headquarters",
-            "f": 2
-          },
-          {
-            "w": "fighting",
-            "f": 1
-          },
-          {
-            "w": "command",
-            "f": 1
-          },
-          {
-            "w": "entry",
-            "f": 1
-          },
-          {
-            "w": "koriea",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -3055,12 +1364,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "bureau",
+          "f": 1
+        },
+        {
           "w": "kim",
           "f": 1
         },
         {
           "w": "ministry",
-          "f": 3
+          "f": 2
+        },
+        {
+          "w": "ministry,",
+          "f": 1
         },
         {
           "w": "suppress",
@@ -3091,15 +1408,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "bureau",
+          "w": "1951,",
           "f": 1
         },
         {
           "w": "security",
-          "f": 2
+          "f": 1
         },
         {
           "w": "public",
+          "f": 1
+        },
+        {
+          "w": "security,",
           "f": 1
         }
       ],
@@ -3112,744 +1433,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "long",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 1
-          },
-          {
-            "w": "committee",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.8125,
-      "sub": 0.1875,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "limited",
-            "f": 1
-          },
-          {
-            "w": "swirling",
-            "f": 1
-          },
-          {
-            "w": "shot",
-            "f": 2
-          },
-          {
-            "w": "hovered",
-            "f": 1
-          },
-          {
-            "w": "feb",
-            "f": 2
-          },
-          {
-            "w": "guided",
-            "f": 1
-          },
-          {
-            "w": "move",
-            "f": 1
-          },
-          {
-            "w": "osu",
-            "f": 1
-          },
-          {
-            "w": "bombed",
-            "f": 1
-          },
-          {
-            "w": "fifty",
-            "f": 1
-          },
-          {
-            "w": "london",
-            "f": 1
-          },
-          {
-            "w": "battle",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 2
-          },
-          {
-            "w": "staff",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 3
-          },
-          {
-            "w": "sorties",
-            "f": 1
-          },
-          {
-            "w": "thursday",
-            "f": 3
-          },
-          {
-            "w": "day",
-            "f": 1
-          },
-          {
-            "w": "destroyed",
-            "f": 1
-          },
-          {
-            "w": "wayne",
-            "f": 1
-          },
-          {
-            "w": "bloc",
-            "f": 1
-          },
-          {
-            "w": "selfgovernment",
-            "f": 1
-          },
-          {
-            "w": "warplanes",
-            "f": 1
-          },
-          {
-            "w": "fort",
-            "f": 1
-          },
-          {
-            "w": "tuesday",
-            "f": 7
-          },
-          {
-            "w": "march",
-            "f": 2
-          },
-          {
-            "w": "emergency",
-            "f": 2
-          },
-          {
-            "w": "civilian",
-            "f": 1
-          },
-          {
-            "w": "big",
-            "f": 1
-          },
-          {
-            "w": "safe",
-            "f": 1
-          },
-          {
-            "w": "oct",
-            "f": 1
-          },
-          {
-            "w": "enthusiastically",
-            "f": 1
-          },
-          {
-            "w": "made",
-            "f": 1
-          },
-          {
-            "w": "traffic",
-            "f": 1
-          },
-          {
-            "w": "world",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "gen",
-            "f": 2
-          },
-          {
-            "w": "enemy",
-            "f": 1
-          },
-          {
-            "w": "warned",
-            "f": 1
-          },
-          {
-            "w": "territory",
-            "f": 1
-          },
-          {
-            "w": "wednesday",
-            "f": 2
-          },
-          {
-            "w": "miles",
-            "f": 1
-          },
-          {
-            "w": "activity",
-            "f": 1
-          },
-          {
-            "w": "radio",
-            "f": 2
-          },
-          {
-            "w": "security",
-            "f": 1
-          },
-          {
-            "w": "heavy",
-            "f": 1
-          },
-          {
-            "w": "strengthened",
-            "f": 1
-          },
-          {
-            "w": "force",
-            "f": 1
-          },
-          {
-            "w": "pilot",
-            "f": 2
-          },
-          {
-            "w": "navy",
-            "f": 1
-          },
-          {
-            "w": "laboratory",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 7
-          },
-          {
-            "w": "saturday",
-            "f": 2
-          },
-          {
-            "w": "america's",
-            "f": 1
-          },
-          {
-            "w": "monday",
-            "f": 2
-          },
-          {
-            "w": "populace",
-            "f": 1
-          },
-          {
-            "w": "yangyang",
-            "f": 1
-          },
-          {
-            "w": "liberated",
-            "f": 1
-          },
-          {
-            "w": "indian",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "collins",
-            "f": 1
-          },
-          {
-            "w": "bombing",
-            "f": 1
-          },
-          {
-            "w": "communists",
-            "f": 3
-          },
-          {
-            "w": "korea",
-            "f": 14
-          },
-          {
-            "w": "assembly",
-            "f": 1
-          },
-          {
-            "w": "friday",
-            "f": 4
-          },
-          {
-            "w": "free",
-            "f": 1
-          },
-          {
-            "w": "southeast",
-            "f": 1
-          },
-          {
-            "w": "sariwon",
-            "f": 1
-          },
-          {
-            "w": "union's",
-            "f": 1
-          },
-          {
-            "w": "jets",
-            "f": 1
-          },
-          {
-            "w": "checked",
-            "f": 1
-          },
-          {
-            "w": "voice",
-            "f": 1
-          },
-          {
-            "w": "kunu",
-            "f": 1
-          },
-          {
-            "w": "friendly",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "plane",
-            "f": 1
-          },
-          {
-            "w": "lawton",
-            "f": 1
-          },
-          {
-            "w": "col",
-            "f": 1
-          },
-          {
-            "w": "steppedup",
-            "f": 1
-          },
-          {
-            "w": "prisoners",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 1
-          },
-          {
-            "w": "morale",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "vote",
-            "f": 1
-          },
-          {
-            "w": "message",
-            "f": 1
-          },
-          {
-            "w": "standing",
-            "f": 1
-          },
-          {
-            "w": "jan",
-            "f": 1
-          },
-          {
-            "w": "sabre",
-            "f": 2
-          },
-          {
-            "w": "jet",
-            "f": 1
-          },
-          {
-            "w": "army",
-            "f": 1
-          },
-          {
-            "w": "support",
-            "f": 1
-          },
-          {
-            "w": "f86",
-            "f": 1
-          },
-          {
-            "w": "political",
-            "f": 1
-          },
-          {
-            "w": "relations",
-            "f": 1
-          },
-          {
-            "w": "compromise",
-            "f": 1
-          },
-          {
-            "w": "mig15",
-            "f": 1
-          },
-          {
-            "w": "curtain",
-            "f": 1
-          },
-          {
-            "w": "military",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 4
-          },
-          {
-            "w": "today",
-            "f": 4
-          },
-          {
-            "w": "hospital",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 10
-          },
-          {
-            "w": "landing",
-            "f": 1
-          },
-          {
-            "w": "aces",
-            "f": 1
-          },
-          {
-            "w": "mig's",
-            "f": 1
-          },
-          {
-            "w": "july",
-            "f": 1
-          },
-          {
-            "w": "fellow",
-            "f": 1
-          },
-          {
-            "w": "population",
-            "f": 1
-          },
-          {
-            "w": "ii",
-            "f": 2
-          },
-          {
-            "w": "main",
-            "f": 1
-          },
-          {
-            "w": "warfare",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 13
-          },
-          {
-            "w": "straight",
-            "f": 1
-          },
-          {
-            "w": "elections",
-            "f": 1
-          },
-          {
-            "w": "air",
-            "f": 3
-          },
-          {
-            "w": "stalin",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 5
-          },
-          {
-            "w": "iron",
-            "f": 1
-          },
-          {
-            "w": "sinanju",
-            "f": 1
-          },
-          {
-            "w": "knocked",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 1
-          },
-          {
-            "w": "control",
-            "f": 1
-          },
-          {
-            "w": "camp",
-            "f": 1
-          },
-          {
-            "w": "aerial",
-            "f": 2
-          },
-          {
-            "w": "san",
-            "f": 1
-          },
-          {
-            "w": "airstrip",
-            "f": 1
-          },
-          {
-            "w": "repatriation",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 3
-          },
-          {
-            "w": "general",
-            "f": 1
-          },
-          {
-            "w": "tonight",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 5
-          },
-          {
-            "w": "substantial",
-            "f": 1
-          },
-          {
-            "w": "il",
-            "f": 1
-          },
-          {
-            "w": "council",
-            "f": 1
-          },
-          {
-            "w": "ind",
-            "f": 1
-          },
-          {
-            "w": "triangle",
-            "f": 1
-          },
-          {
-            "w": "education",
-            "f": 1
-          },
-          {
-            "w": "high",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 11
-          },
-          {
-            "w": "end",
-            "f": 1
-          },
-          {
-            "w": "democracy",
-            "f": 1
-          },
-          {
-            "w": "offensive",
-            "f": 1
-          },
-          {
-            "w": "blinded",
-            "f": 1
-          },
-          {
-            "w": "majority",
-            "f": 2
-          },
-          {
-            "w": "sunday",
-            "f": 1
-          },
-          {
-            "w": "chairman",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 6
-          },
-          {
-            "w": "sovietmade",
-            "f": 1
-          },
-          {
-            "w": "poor",
-            "f": 1
-          },
-          {
-            "w": "plant",
-            "f": 1
-          },
-          {
-            "w": "francisco",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 8
-          },
-          {
-            "w": "combat",
-            "f": 1
-          },
-          {
-            "w": "mahurin",
-            "f": 1
-          },
-          {
-            "w": "rail",
-            "f": 1
-          },
-          {
-            "w": "yesterday",
-            "f": 2
-          },
-          {
-            "w": "cement",
-            "f": 1
-          },
-          {
-            "w": "slice",
-            "f": 1
-          },
-          {
-            "w": "blood",
-            "f": 1
-          },
-          {
-            "w": "peiping",
-            "f": 1
-          },
-          {
-            "w": "prisoner",
-            "f": 1
-          },
-          {
-            "w": "approved",
-            "f": 1
-          },
-          {
-            "w": "center",
-            "f": 1
-          },
-          {
-            "w": "resolution",
-            "f": 1
-          },
-          {
-            "w": "overcast",
-            "f": 1
-          },
-          {
-            "w": "lines",
-            "f": 1
-          },
-          {
-            "w": "headquarters",
-            "f": 1
-          },
-          {
-            "w": "chief",
-            "f": 1
-          },
-          {
-            "w": "command",
-            "f": 1
-          },
-          {
-            "w": "greatest",
-            "f": 1
-          },
-          {
-            "w": "time",
-            "f": 1
-          },
-          {
-            "w": "walker",
-            "f": 1
-          },
-          {
-            "w": "wounded",
-            "f": 1
-          },
-          {
-            "w": "democratic",
-            "f": 1
-          },
-          {
-            "w": "soviet",
-            "f": 2
-          },
-          {
-            "w": "charged",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -3898,6 +1481,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "1952,",
+          "f": 1
+        },
+        {
           "w": "speech",
           "f": 1
         },
@@ -3924,1044 +1511,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "koreans",
-            "f": 1
-          },
-          {
-            "w": "sentenced",
-            "f": 1
-          },
-          {
-            "w": "long",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 8
-          },
-          {
-            "w": "ten",
-            "f": 1
-          },
-          {
-            "w": "chinese",
-            "f": 2
-          },
-          {
-            "w": "army",
-            "f": 3
-          },
-          {
-            "w": "july",
-            "f": 1
-          },
-          {
-            "w": "agreement",
-            "f": 1
-          },
-          {
-            "w": "signed",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 6
-          },
-          {
-            "w": "american",
-            "f": 1
-          },
-          {
-            "w": "il",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 2
-          },
-          {
-            "w": "party",
-            "f": 1
-          },
-          {
-            "w": "military",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 5
-          },
-          {
-            "w": "general",
-            "f": 2
-          },
-          {
-            "w": "war",
-            "f": 5
-          },
-          {
-            "w": "armistice",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.7674418604651163,
-      "sub": 0.23255813953488372,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "serving",
-            "f": 1
-          },
-          {
-            "w": "shot",
-            "f": 2
-          },
-          {
-            "w": "proposed",
-            "f": 1
-          },
-          {
-            "w": "warships",
-            "f": 1
-          },
-          {
-            "w": "text",
-            "f": 1
-          },
-          {
-            "w": "battleship",
-            "f": 1
-          },
-          {
-            "w": "summarized",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 4
-          },
-          {
-            "w": "fighters",
-            "f": 3
-          },
-          {
-            "w": "london",
-            "f": 2
-          },
-          {
-            "w": "battles",
-            "f": 2
-          },
-          {
-            "w": "years",
-            "f": 1
-          },
-          {
-            "w": "starfire",
-            "f": 1
-          },
-          {
-            "w": "heard",
-            "f": 1
-          },
-          {
-            "w": "captain",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 2
-          },
-          {
-            "w": "prisonersof",
-            "f": 1
-          },
-          {
-            "w": "radios",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 5
-          },
-          {
-            "w": "paris",
-            "f": 1
-          },
-          {
-            "w": "ships",
-            "f": 1
-          },
-          {
-            "w": "thursday",
-            "f": 5
-          },
-          {
-            "w": "airfield",
-            "f": 1
-          },
-          {
-            "w": "september",
-            "f": 1
-          },
-          {
-            "w": "fighterbombers",
-            "f": 2
-          },
-          {
-            "w": "late",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 12
-          },
-          {
-            "w": "prisoners",
-            "f": 3
-          },
-          {
-            "w": "restoring",
-            "f": 1
-          },
-          {
-            "w": "merchant",
-            "f": 1
-          },
-          {
-            "w": "protective",
-            "f": 2
-          },
-          {
-            "w": "march",
-            "f": 4
-          },
-          {
-            "w": "returned",
-            "f": 1
-          },
-          {
-            "w": "returning",
-            "f": 1
-          },
-          {
-            "w": "food",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "allweather",
-            "f": 1
-          },
-          {
-            "w": "distant",
-            "f": 1
-          },
-          {
-            "w": "break",
-            "f": 1
-          },
-          {
-            "w": "cultural",
-            "f": 1
-          },
-          {
-            "w": "sovietdesigned",
-            "f": 3
-          },
-          {
-            "w": "half",
-            "f": 1
-          },
-          {
-            "w": "awful",
-            "f": 1
-          },
-          {
-            "w": "world",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 2
-          },
-          {
-            "w": "trade",
-            "f": 3
-          },
-          {
-            "w": "day",
-            "f": 1
-          },
-          {
-            "w": "pearson",
-            "f": 1
-          },
-          {
-            "w": "imprisoned",
-            "f": 1
-          },
-          {
-            "w": "yalu",
-            "f": 1
-          },
-          {
-            "w": "eased",
-            "f": 1
-          },
-          {
-            "w": "proposals",
-            "f": 1
-          },
-          {
-            "w": "wednesday",
-            "f": 2
-          },
-          {
-            "w": "predicted",
-            "f": 1
-          },
-          {
-            "w": "night",
-            "f": 1
-          },
-          {
-            "w": "lester",
-            "f": 1
-          },
-          {
-            "w": "served",
-            "f": 1
-          },
-          {
-            "w": "river",
-            "f": 1
-          },
-          {
-            "w": "side",
-            "f": 1
-          },
-          {
-            "w": "clothes",
-            "f": 1
-          },
-          {
-            "w": "portuguese",
-            "f": 1
-          },
-          {
-            "w": "easing",
-            "f": 1
-          },
-          {
-            "w": "force",
-            "f": 1
-          },
-          {
-            "w": "b29",
-            "f": 1
-          },
-          {
-            "w": "$100",
-            "f": 1
-          },
-          {
-            "w": "intelligence",
-            "f": 2
-          },
-          {
-            "w": "pyongyang",
-            "f": 3
-          },
-          {
-            "w": "unexpectedly",
-            "f": 1
-          },
-          {
-            "w": "economic",
-            "f": 1
-          },
-          {
-            "w": "picked",
-            "f": 1
-          },
-          {
-            "w": "pass",
-            "f": 1
-          },
-          {
-            "w": "assembly",
-            "f": 1
-          },
-          {
-            "w": "saturday",
-            "f": 4
-          },
-          {
-            "w": "peace",
-            "f": 1
-          },
-          {
-            "w": "dominates",
-            "f": 1
-          },
-          {
-            "w": "stood",
-            "f": 1
-          },
-          {
-            "w": "darkness",
-            "f": 1
-          },
-          {
-            "w": "confirm",
-            "f": 1
-          },
-          {
-            "w": "assistance",
-            "f": 1
-          },
-          {
-            "w": "mccarthy",
-            "f": 1
-          },
-          {
-            "w": "superforts",
-            "f": 1
-          },
-          {
-            "w": "participants",
-            "f": 1
-          },
-          {
-            "w": "indoctrination",
-            "f": 1
-          },
-          {
-            "w": "cooperation",
-            "f": 1
-          },
-          {
-            "w": "destroyed",
-            "f": 1
-          },
-          {
-            "w": "announced",
-            "f": 1
-          },
-          {
-            "w": "told",
-            "f": 1
-          },
-          {
-            "w": "communists",
-            "f": 1
-          },
-          {
-            "w": "notice",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 21
-          },
-          {
-            "w": "terms",
-            "f": 3
-          },
-          {
-            "w": "china's",
-            "f": 4
-          },
-          {
-            "w": "friday",
-            "f": 2
-          },
-          {
-            "w": "victory",
-            "f": 1
-          },
-          {
-            "w": "fourteen",
-            "f": 1
-          },
-          {
-            "w": "release",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 5
-          },
-          {
-            "w": "people's",
-            "f": 2
-          },
-          {
-            "w": "active",
-            "f": 1
-          },
-          {
-            "w": "feb",
-            "f": 1
-          },
-          {
-            "w": "okinawa",
-            "f": 1
-          },
-          {
-            "w": "swift",
-            "f": 1
-          },
-          {
-            "w": "repairing",
-            "f": 1
-          },
-          {
-            "w": "received",
-            "f": 2
-          },
-          {
-            "w": "owners",
-            "f": 1
-          },
-          {
-            "w": "deadlock",
-            "f": 1
-          },
-          {
-            "w": "allies",
-            "f": 1
-          },
-          {
-            "w": "freedom",
-            "f": 2
-          },
-          {
-            "w": "drizzling",
-            "f": 1
-          },
-          {
-            "w": "ordeal",
-            "f": 1
-          },
-          {
-            "w": "reports",
-            "f": 2
-          },
-          {
-            "w": "wonsan",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "allied",
-            "f": 1
-          },
-          {
-            "w": "tangled",
-            "f": 1
-          },
-          {
-            "w": "chou",
-            "f": 1
-          },
-          {
-            "w": "senator",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 4
-          },
-          {
-            "w": "jersey",
-            "f": 1
-          },
-          {
-            "w": "flying",
-            "f": 2
-          },
-          {
-            "w": "statements",
-            "f": 1
-          },
-          {
-            "w": "tuesday",
-            "f": 4
-          },
-          {
-            "w": "civilians",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 2
-          },
-          {
-            "w": "georgi",
-            "f": 1
-          },
-          {
-            "w": "generalissimo",
-            "f": 1
-          },
-          {
-            "w": "village",
-            "f": 1
-          },
-          {
-            "w": "enormity",
-            "f": 1
-          },
-          {
-            "w": "message",
-            "f": 1
-          },
-          {
-            "w": "administration",
-            "f": 1
-          },
-          {
-            "w": "red",
-            "f": 3
-          },
-          {
-            "w": "conference",
-            "f": 1
-          },
-          {
-            "w": "jan",
-            "f": 3
-          },
-          {
-            "w": "sabre",
-            "f": 4
-          },
-          {
-            "w": "jet",
-            "f": 4
-          },
-          {
-            "w": "union",
-            "f": 1
-          },
-          {
-            "w": "northwest",
-            "f": 1
-          },
-          {
-            "w": "support",
-            "f": 1
-          },
-          {
-            "w": "f86",
-            "f": 1
-          },
-          {
-            "w": "damaged",
-            "f": 2
-          },
-          {
-            "w": "fight",
-            "f": 1
-          },
-          {
-            "w": "confirming",
-            "f": 1
-          },
-          {
-            "w": "joseph",
-            "f": 1
-          },
-          {
-            "w": "combined",
-            "f": 1
-          },
-          {
-            "w": "statement",
-            "f": 1
-          },
-          {
-            "w": "biggest",
-            "f": 1
-          },
-          {
-            "w": "successive",
-            "f": 1
-          },
-          {
-            "w": "rhee",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 6
-          },
-          {
-            "w": "firm",
-            "f": 1
-          },
-          {
-            "w": "prized",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 12
-          },
-          {
-            "w": "offer",
-            "f": 2
-          },
-          {
-            "w": "moscow",
-            "f": 1
-          },
-          {
-            "w": "restrictions",
-            "f": 1
-          },
-          {
-            "w": "strikes",
-            "f": 1
-          },
-          {
-            "w": "broadcast",
-            "f": 1
-          },
-          {
-            "w": "landed",
-            "f": 1
-          },
-          {
-            "w": "confinement",
-            "f": 1
-          },
-          {
-            "w": "syngman",
-            "f": 1
-          },
-          {
-            "w": "f94",
-            "f": 1
-          },
-          {
-            "w": "struck",
-            "f": 1
-          },
-          {
-            "w": "embargo",
-            "f": 1
-          },
-          {
-            "w": "made",
-            "f": 1
-          },
-          {
-            "w": "decided",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 15
-          },
-          {
-            "w": "enlai",
-            "f": 1
-          },
-          {
-            "w": "friendly",
-            "f": 1
-          },
-          {
-            "w": "purge",
-            "f": 1
-          },
-          {
-            "w": "remain",
-            "f": 1
-          },
-          {
-            "w": "officials",
-            "f": 1
-          },
-          {
-            "w": "japan",
-            "f": 1
-          },
-          {
-            "w": "malenkov",
-            "f": 1
-          },
-          {
-            "w": "island",
-            "f": 1
-          },
-          {
-            "w": "promoted",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 1
-          },
-          {
-            "w": "rubbled",
-            "f": 1
-          },
-          {
-            "w": "radio",
-            "f": 1
-          },
-          {
-            "w": "battered",
-            "f": 1
-          },
-          {
-            "w": "supreme",
-            "f": 1
-          },
-          {
-            "w": "months",
-            "f": 1
-          },
-          {
-            "w": "ad",
-            "f": 1
-          },
-          {
-            "w": "stripped",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 4
-          },
-          {
-            "w": "captors",
-            "f": 1
-          },
-          {
-            "w": "accept",
-            "f": 1
-          },
-          {
-            "w": "commander",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 5
-          },
-          {
-            "w": "britain",
-            "f": 1
-          },
-          {
-            "w": "promised",
-            "f": 1
-          },
-          {
-            "w": "macao",
-            "f": 1
-          },
-          {
-            "w": "effected",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 4
-          },
-          {
-            "w": "strength",
-            "f": 1
-          },
-          {
-            "w": "end",
-            "f": 1
-          },
-          {
-            "w": "kimpo",
-            "f": 1
-          },
-          {
-            "w": "spokesmen",
-            "f": 1
-          },
-          {
-            "w": "damage",
-            "f": 1
-          },
-          {
-            "w": "mig",
-            "f": 2
-          },
-          {
-            "w": "port",
-            "f": 1
-          },
-          {
-            "w": "upholding",
-            "f": 1
-          },
-          {
-            "w": "sunday",
-            "f": 2
-          },
-          {
-            "w": "promising",
-            "f": 1
-          },
-          {
-            "w": "republic",
-            "f": 2
-          },
-          {
-            "w": "virtually",
-            "f": 1
-          },
-          {
-            "w": "forces",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "jets",
-            "f": 6
-          },
-          {
-            "w": "economy",
-            "f": 1
-          },
-          {
-            "w": "week",
-            "f": 1
-          },
-          {
-            "w": "armies",
-            "f": 1
-          },
-          {
-            "w": "scored",
-            "f": 2
-          },
-          {
-            "w": "seoul",
-            "f": 9
-          },
-          {
-            "w": "monday",
-            "f": 4
-          },
-          {
-            "w": "yesterday",
-            "f": 9
-          },
-          {
-            "w": "bombarded",
-            "f": 1
-          },
-          {
-            "w": "communists'",
-            "f": 1
-          },
-          {
-            "w": "blood",
-            "f": 1
-          },
-          {
-            "w": "fresh",
-            "f": 1
-          },
-          {
-            "w": "date",
-            "f": 1
-          },
-          {
-            "w": "president",
-            "f": 1
-          },
-          {
-            "w": "revealed",
-            "f": 1
-          },
-          {
-            "w": "recent",
-            "f": 1
-          },
-          {
-            "w": "urged",
-            "f": 1
-          },
-          {
-            "w": "democratic",
-            "f": 1
-          },
-          {
-            "w": "fighter",
-            "f": 1
-          },
-          {
-            "w": "cover",
-            "f": 2
-          },
-          {
-            "w": "greek",
-            "f": 1
-          },
-          {
-            "w": "peiping",
-            "f": 2
-          },
-          {
-            "w": "repatriated",
-            "f": 1
-          },
-          {
-            "w": "reward",
-            "f": 1
-          },
-          {
-            "w": "soviet",
-            "f": 1
-          },
-          {
-            "w": "decision",
-            "f": 1
-          },
-          {
-            "w": "gesture",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -4985,6 +1534,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "aborted",
+          "f": 1
+        },
+        {
           "w": "chinese",
           "f": 2
         },
@@ -5001,6 +1554,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "publicized,",
+          "f": 1
+        },
+        {
           "w": "ended",
           "f": 1
         },
@@ -5013,10 +1570,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "harrison",
-          "f": 1
-        },
-        {
           "w": "committed",
           "f": 1
         },
@@ -5025,11 +1578,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "death",
+          "w": "leaders.",
           "f": 1
         },
         {
-          "w": "group",
+          "w": "27",
+          "f": 1
+        },
+        {
+          "w": "died.",
           "f": 1
         },
         {
@@ -5037,11 +1594,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "arrest",
+          "w": "liberation",
           "f": 1
         },
         {
           "w": "breaches",
+          "f": 1
+        },
+        {
+          "w": "volunteers.",
           "f": 1
         },
         {
@@ -5061,43 +1622,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "australia",
-          "f": 1
-        },
-        {
-          "w": "died",
-          "f": 1
-        },
-        {
           "w": "nation",
           "f": 1
         },
         {
-          "w": "aborted",
+          "w": "1953",
           "f": 1
         },
         {
-          "w": "belgium",
+          "w": "states,",
           "f": 1
         },
         {
-          "w": "killed",
-          "f": 1
-        },
-        {
-          "w": "netherlands",
-          "f": 1
-        },
-        {
-          "w": "philippines",
-          "f": 1
+          "w": "states.",
+          "f": 2
         },
         {
           "w": "sacrifices",
           "f": 1
         },
         {
-          "w": "ceasefire",
+          "w": "jr.,",
           "f": 1
         },
         {
@@ -5110,18 +1655,22 @@ var years =[
         },
         {
           "w": "leaders",
-          "f": 2
+          "f": 1
         },
         {
           "w": "ten",
           "f": 1
         },
         {
-          "w": "militaryin",
+          "w": "conflict,",
           "f": 1
         },
         {
-          "w": "greece",
+          "w": "group,",
+          "f": 1
+        },
+        {
+          "w": "militaryin",
           "f": 1
         },
         {
@@ -5133,7 +1682,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "canada",
+          "w": "36,000",
           "f": 1
         },
         {
@@ -5141,11 +1690,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "kingdom,",
+          "f": 1
+        },
+        {
+          "w": "arrest",
+          "f": 1
+        },
+        {
           "w": "international",
           "f": 1
         },
         {
-          "w": "bolster",
+          "w": "ceasefire.",
+          "f": 1
+        },
+        {
+          "w": "command,",
           "f": 1
         },
         {
@@ -5165,15 +1726,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "jr",
-          "f": 1
-        },
-        {
           "w": "hundreds",
           "f": 1
         },
         {
           "w": "lieutenant",
+          "f": 1
+        },
+        {
+          "w": "death",
           "f": 1
         },
         {
@@ -5185,12 +1746,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "dprk",
-          "f": 2
+          "w": "turkey.",
+          "f": 1
         },
         {
-          "w": "army",
-          "f": 3
+          "w": "dprk",
+          "f": 1
+        },
+        {
+          "w": "dprk,",
+          "f": 1
+        },
+        {
+          "w": "basis",
+          "f": 1
         },
         {
           "w": "american",
@@ -5205,8 +1774,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "however,",
+          "f": 1
+        },
+        {
           "w": "south",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "colombia,",
+          "f": 1
         },
         {
           "w": "marshall",
@@ -5217,11 +1794,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "colombia",
+          "w": "il-sung",
           "f": 1
         },
         {
-          "w": "turkey",
+          "w": "netherlands,",
+          "f": 1
+        },
+        {
+          "w": "bolster",
           "f": 1
         },
         {
@@ -5229,8 +1810,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "liberation",
-          "f": 1
+          "w": "army",
+          "f": 3
         },
         {
           "w": "remains",
@@ -5245,11 +1826,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "france",
+          "w": "convicted",
           "f": 1
         },
         {
-          "w": "convicted",
+          "w": "2",
           "f": 1
         },
         {
@@ -5269,15 +1850,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "philippines,",
+          "f": 1
+        },
+        {
           "w": "started",
           "f": 1
         },
         {
-          "w": "basis",
+          "w": "ethiopia,",
+          "f": 1
+        },
+        {
+          "w": "canada,",
           "f": 1
         },
         {
           "w": "july",
+          "f": 1
+        },
+        {
+          "w": "1953,",
+          "f": 2
+        },
+        {
+          "w": "france,",
           "f": 1
         },
         {
@@ -5293,6 +1890,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "australia,",
+          "f": 1
+        },
+        {
           "w": "called",
           "f": 1
         },
@@ -5305,10 +1906,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "kingdom",
-          "f": 1
-        },
-        {
           "w": "spying",
           "f": 1
         },
@@ -5318,7 +1915,7 @@ var years =[
         },
         {
           "w": "states",
-          "f": 6
+          "f": 3
         },
         {
           "w": "il",
@@ -5326,6 +1923,14 @@ var years =[
         },
         {
           "w": "sentences",
+          "f": 1
+        },
+        {
+          "w": "south,",
+          "f": 1
+        },
+        {
+          "w": "sides.",
           "f": 1
         },
         {
@@ -5341,11 +1946,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "nam",
+          "w": "k.",
           "f": 1
         },
         {
-          "w": "ethiopia",
+          "w": "nam",
           "f": 1
         },
         {
@@ -5357,7 +1962,7 @@ var years =[
           "f": 5
         },
         {
-          "w": "conflict",
+          "w": "600,000",
           "f": 1
         },
         {
@@ -5369,15 +1974,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "publicized",
-          "f": 1
-        },
-        {
           "w": "william",
           "f": 1
         },
         {
-          "w": "il-sung",
+          "w": "s.l.a.",
           "f": 1
         },
         {
@@ -5385,11 +1986,15 @@ var years =[
           "f": 2
         },
         {
-          "w": "law",
+          "w": "belgium,",
           "f": 1
         },
         {
-          "w": "sides",
+          "w": "greece,",
+          "f": 1
+        },
+        {
+          "w": "law",
           "f": 1
         },
         {
@@ -5405,7 +2010,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "command",
+          "w": "1,000",
           "f": 1
         },
         {
@@ -5413,11 +2018,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "volunteers",
+          "w": "killed.",
           "f": 1
         },
         {
           "w": "charged",
+          "f": 1
+        },
+        {
+          "w": "harrison,",
           "f": 1
         }
       ],
@@ -5430,172 +2039,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "korea",
-            "f": 1
-          },
-          {
-            "w": "geneva",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.8888888888888888,
-      "sub": 0.1111111111111111,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "serving",
-            "f": 1
-          },
-          {
-            "w": "chinese",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 1
-          },
-          {
-            "w": "unofficially",
-            "f": 1
-          },
-          {
-            "w": "radio",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "march",
-            "f": 1
-          },
-          {
-            "w": "wooing",
-            "f": 1
-          },
-          {
-            "w": "monitored",
-            "f": 1
-          },
-          {
-            "w": "service",
-            "f": 1
-          },
-          {
-            "w": "west",
-            "f": 1
-          },
-          {
-            "w": "agency",
-            "f": 1
-          },
-          {
-            "w": "reuters",
-            "f": 1
-          },
-          {
-            "w": "bloc",
-            "f": 1
-          },
-          {
-            "w": "details",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 2
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "notice",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 4
-          },
-          {
-            "w": "monday",
-            "f": 1
-          },
-          {
-            "w": "government",
-            "f": 1
-          },
-          {
-            "w": "reshuffle",
-            "f": 1
-          },
-          {
-            "w": "news",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "entire",
-            "f": 1
-          },
-          {
-            "w": "central",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 3
-          },
-          {
-            "w": "official",
-            "f": 1
-          },
-          {
-            "w": "rehabilitation",
-            "f": 1
-          },
-          {
-            "w": "project",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "sources",
-            "f": 1
-          },
-          {
-            "w": "propaganda",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -5624,6 +2067,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "contributed",
+          "f": 1
+        },
+        {
           "w": "committed",
           "f": 1
         },
@@ -5636,8 +2083,8 @@ var years =[
           "f": 4
         },
         {
-          "w": "attended",
-          "f": 1
+          "w": "rok",
+          "f": 2
         },
         {
           "w": "states-rok",
@@ -5648,8 +2095,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "treaty",
-          "f": 2
+          "w": "china,",
+          "f": 1
+        },
+        {
+          "w": "28,500",
+          "f": 1
         },
         {
           "w": "disassociating",
@@ -5668,11 +2119,7 @@ var years =[
           "f": 6
         },
         {
-          "w": "troops",
-          "f": 1
-        },
-        {
-          "w": "union",
+          "w": "defence",
           "f": 1
         },
         {
@@ -5680,7 +2127,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "contributed",
+          "w": "months,",
+          "f": 1
+        },
+        {
+          "w": "time,",
           "f": 1
         },
         {
@@ -5689,14 +2140,18 @@ var years =[
         },
         {
           "w": "forces",
-          "f": 3
-        },
-        {
-          "w": "rok",
           "f": 2
         },
         {
-          "w": "korea",
+          "w": "command",
+          "f": 2
+        },
+        {
+          "w": "command.",
+          "f": 1
+        },
+        {
+          "w": "attended",
           "f": 1
         },
         {
@@ -5716,11 +2171,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "defence",
+          "w": "1954",
+          "f": 2
+        },
+        {
+          "w": "treaty.",
           "f": 1
         },
         {
-          "w": "china",
+          "w": "resumed.",
+          "f": 1
+        },
+        {
+          "w": "forces.",
           "f": 1
         },
         {
@@ -5728,11 +2191,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "dprk",
+          "w": "troops",
           "f": 1
         },
         {
-          "w": "resumed",
+          "w": "dprk,",
+          "f": 1
+        },
+        {
+          "w": "17",
+          "f": 1
+        },
+        {
+          "w": "16",
           "f": 1
         },
         {
@@ -5740,7 +2211,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "months",
+          "w": "union,",
           "f": 1
         },
         {
@@ -5748,11 +2219,11 @@ var years =[
           "f": 3
         },
         {
-          "w": "command",
-          "f": 3
+          "w": "treaty.the",
+          "f": 1
         },
         {
-          "w": "time",
+          "w": "korea,",
           "f": 1
         },
         {
@@ -5773,231 +2244,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "emerge",
-            "f": 1
-          },
-          {
-            "w": "flier",
-            "f": 1
-          },
-          {
-            "w": "statements",
-            "f": 1
-          },
-          {
-            "w": "lieut",
-            "f": 1
-          },
-          {
-            "w": "collaborating",
-            "f": 1
-          },
-          {
-            "w": "young",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "captive",
-            "f": 1
-          },
-          {
-            "w": "radio",
-            "f": 2
-          },
-          {
-            "w": "signed",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 2
-          },
-          {
-            "w": "protocol",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 2
-          },
-          {
-            "w": "united",
-            "f": 3
-          },
-          {
-            "w": "aug",
-            "f": 1
-          },
-          {
-            "w": "hanoi",
-            "f": 1
-          },
-          {
-            "w": "repudiated",
-            "f": 1
-          },
-          {
-            "w": "charge",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 2
-          },
-          {
-            "w": "war",
-            "f": 2
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "harold",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 3
-          },
-          {
-            "w": "north",
-            "f": 4
-          },
-          {
-            "w": "dunn",
-            "f": 1
-          },
-          {
-            "w": "bumpus",
-            "f": 1
-          },
-          {
-            "w": "enemy",
-            "f": 1
-          },
-          {
-            "w": "china's",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 1
-          },
-          {
-            "w": "yesterday",
-            "f": 1
-          },
-          {
-            "w": "jr",
-            "f": 1
-          },
-          {
-            "w": "peiping",
-            "f": 2
-          },
-          {
-            "w": "prisoner",
-            "f": 1
-          },
-          {
-            "w": "pleaded",
-            "f": 1
-          },
-          {
-            "w": "years",
-            "f": 1
-          },
-          {
-            "w": "beginning",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "aiding",
-            "f": 1
-          },
-          {
-            "w": "cpl",
-            "f": 1
-          },
-          {
-            "w": "antiamerican",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 2
-          },
-          {
-            "w": "charges",
-            "f": 1
-          },
-          {
-            "w": "guilty",
-            "f": 1
-          },
-          {
-            "w": "attributed",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 2
-          },
-          {
-            "w": "admit",
-            "f": 1
-          },
-          {
-            "w": "vietnam",
-            "f": 1
-          },
-          {
-            "w": "truth",
-            "f": 1
-          },
-          {
-            "w": "aid",
-            "f": 1
-          },
-          {
-            "w": "guy",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 1
-          },
-          {
-            "w": "ruins",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -6027,127 +2273,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.9,
-      "sub": 0.1,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "people",
-            "f": 1
-          },
-          {
-            "w": "russian",
-            "f": 1
-          },
-          {
-            "w": "apcommunist",
-            "f": 1
-          },
-          {
-            "w": "radio",
-            "f": 2
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "campaigning",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 1
-          },
-          {
-            "w": "give",
-            "f": 1
-          },
-          {
-            "w": "glowing",
-            "f": 1
-          },
-          {
-            "w": "paradise",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 4
-          },
-          {
-            "w": "north",
-            "f": 2
-          },
-          {
-            "w": "seoul",
-            "f": 2
-          },
-          {
-            "w": "prairies",
-            "f": 1
-          },
-          {
-            "w": "continues",
-            "f": 1
-          },
-          {
-            "w": "vanishing",
-            "f": 1
-          },
-          {
-            "w": "4years",
-            "f": 1
-          },
-          {
-            "w": "teach",
-            "f": 1
-          },
-          {
-            "w": "ago",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 4
-          },
-          {
-            "w": "midamerica",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "classes",
-            "f": 1
-          },
-          {
-            "w": "accounts",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -6169,10 +2294,6 @@ var years =[
         {
           "w": "il-sung",
           "f": 3
-        },
-        {
-          "w": "plenum",
-          "f": 1
         },
         {
           "w": "rank",
@@ -6227,6 +2348,14 @@ var years =[
           "f": 3
         },
         {
+          "w": "plenum.",
+          "f": 1
+        },
+        {
+          "w": "account,",
+          "f": 1
+        },
+        {
           "w": "criticized",
           "f": 1
         },
@@ -6243,15 +2372,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "account",
-          "f": 1
-        },
-        {
           "w": "central",
           "f": 1
         },
         {
           "w": "official",
+          "f": 1
+        },
+        {
+          "w": "1956,",
           "f": 1
         },
         {
@@ -6281,180 +2410,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "control",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "easing",
-            "f": 1
-          },
-          {
-            "w": "modern",
-            "f": 1
-          },
-          {
-            "w": "trade",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "london",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "regime",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 4
-          },
-          {
-            "w": "weapons",
-            "f": 1
-          },
-          {
-            "w": "ny",
-            "f": 3
-          },
-          {
-            "w": "poured",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "rebuilding",
-            "f": 1
-          },
-          {
-            "w": "exports",
-            "f": 1
-          },
-          {
-            "w": "artillery",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 4
-          },
-          {
-            "w": "31britain's",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 1
-          },
-          {
-            "w": "relaxation",
-            "f": 1
-          },
-          {
-            "w": "report",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "largescale",
-            "f": 1
-          },
-          {
-            "w": "embargo",
-            "f": 1
-          },
-          {
-            "w": "12the",
-            "f": 1
-          },
-          {
-            "w": "similar",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 2
-          },
-          {
-            "w": "nations",
-            "f": 3
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "vietnam",
-            "f": 1
-          },
-          {
-            "w": "rockets",
-            "f": 1
-          },
-          {
-            "w": "1travelers",
-            "f": 1
-          },
-          {
-            "w": "including",
-            "f": 1
-          },
-          {
-            "w": "soviet",
-            "f": 1
-          },
-          {
-            "w": "involves",
-            "f": 1
-          },
-          {
-            "w": "charged",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -6474,7 +2429,7 @@ var years =[
       },
       "kw": [
         {
-          "w": "landlords",
+          "w": "control",
           "f": 1
         },
         {
@@ -6514,11 +2469,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "production",
+          "w": "60",
           "f": 1
         },
         {
-          "w": "control",
+          "w": "production",
           "f": 1
         },
         {
@@ -6534,11 +2489,15 @@ var years =[
           "f": 2
         },
         {
-          "w": "estimated",
+          "w": "urbanized,",
           "f": 1
         },
         {
-          "w": "distributions",
+          "w": "goods.",
+          "f": 1
+        },
+        {
+          "w": "estimated",
           "f": 1
         },
         {
@@ -6550,6 +2509,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "il-sung.",
+          "f": 1
+        },
+        {
+          "w": "system,",
+          "f": 1
+        },
+        {
           "w": "counter-revolutionary",
           "f": 1
         },
@@ -6558,8 +2525,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "people",
-          "f": 1
+          "w": "1957,",
+          "f": 2
         },
         {
           "w": "political",
@@ -6567,7 +2534,7 @@ var years =[
         },
         {
           "w": "system",
-          "f": 3
+          "f": 2
         },
         {
           "w": "adopted",
@@ -6598,6 +2565,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "social,",
+          "f": 1
+        },
+        {
           "w": "party",
           "f": 2
         },
@@ -6619,10 +2590,6 @@ var years =[
         },
         {
           "w": "resolution)",
-          "f": 1
-        },
-        {
-          "w": "necessities",
           "f": 1
         },
         {
@@ -6658,11 +2625,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "il-sung",
-          "f": 1
-        },
-        {
-          "w": "urbanized",
+          "w": "distributions.",
           "f": 1
         },
         {
@@ -6674,12 +2637,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "70",
+          "f": 1
+        },
+        {
           "w": "suppressed",
           "f": 1
         },
         {
           "w": "dprk",
-          "f": 4
+          "f": 2
         },
         {
           "w": "developments",
@@ -6690,15 +2657,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "social",
-          "f": 1
+          "w": "dprk.",
+          "f": 2
         },
         {
           "w": "entire",
           "f": 1
         },
         {
-          "w": "goods",
+          "w": "necessities.",
           "f": 1
         },
         {
@@ -6710,11 +2677,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "country",
+          "w": "people,",
           "f": 1
         },
         {
           "w": "purges",
+          "f": 1
+        },
+        {
+          "w": "30",
+          "f": 1
+        },
+        {
+          "w": "country,",
           "f": 1
         },
         {
@@ -6742,6 +2717,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "landlords,",
+          "f": 1
+        },
+        {
           "w": "adult",
           "f": 1
         }
@@ -6755,112 +2734,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "korea",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "announcement",
-            "f": 1
-          },
-          {
-            "w": "renewed",
-            "f": 1
-          },
-          {
-            "w": "feb",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 1
-          },
-          {
-            "w": "enlai",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 1
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "foreign",
-            "f": 1
-          },
-          {
-            "w": "leave",
-            "f": 1
-          },
-          {
-            "w": "reuters",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 1
-          },
-          {
-            "w": "chou",
-            "f": 1
-          },
-          {
-            "w": "demand",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 1
-          },
-          {
-            "w": "peiping",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 2
-          },
-          {
-            "w": "month",
-            "f": 1
-          },
-          {
-            "w": "added",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "troops",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -6885,7 +2758,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "enhanced",
+          "w": "system,",
           "f": 1
         },
         {
@@ -6898,14 +2771,6 @@ var years =[
         },
         {
           "w": "1959in",
-          "f": 1
-        },
-        {
-          "w": "executions",
-          "f": 1
-        },
-        {
-          "w": "sources",
           "f": 1
         },
         {
@@ -6929,7 +2794,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "hak-se",
+          "w": "champion",
+          "f": 1
+        },
+        {
+          "w": "hak-se,",
           "f": 1
         },
         {
@@ -6941,7 +2810,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "champion",
+          "w": "judicial,",
           "f": 1
         },
         {
@@ -6961,11 +2830,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "system",
-          "f": 1
-        },
-        {
-          "w": "dprk",
+          "w": "relying",
           "f": 1
         },
         {
@@ -6981,8 +2846,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "policy",
-          "f": 2
+          "w": "purge,",
+          "f": 1
+        },
+        {
+          "w": "resulted",
+          "f": 1
         },
         {
           "w": "party",
@@ -6998,10 +2867,14 @@ var years =[
         },
         {
           "w": "public",
-          "f": 3
+          "f": 2
         },
         {
           "w": "told",
+          "f": 1
+        },
+        {
+          "w": "dprk",
           "f": 1
         },
         {
@@ -7021,6 +2894,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "100,000",
+          "f": 1
+        },
+        {
           "w": "serve",
           "f": 1
         },
@@ -7033,7 +2910,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "resulted",
+          "w": "1960,",
           "f": 1
         },
         {
@@ -7049,6 +2926,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "public.",
+          "f": 1
+        },
+        {
           "w": "explained",
           "f": 1
         },
@@ -7061,8 +2942,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "relying",
-          "f": 1
+          "w": "1958",
+          "f": 2
         },
         {
           "w": "instructions",
@@ -7077,8 +2958,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "sources,",
+          "f": 1
+        },
+        {
+          "w": "policy",
+          "f": 2
+        },
+        {
+          "w": "executions,",
+          "f": 1
+        },
+        {
           "w": "judicial",
-          "f": 4
+          "f": 3
         },
         {
           "w": "weapon",
@@ -7089,7 +2982,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "purge",
+          "w": "particular,",
+          "f": 1
+        },
+        {
+          "w": "security,",
           "f": 1
         },
         {
@@ -7098,7 +2995,7 @@ var years =[
         },
         {
           "w": "security",
-          "f": 2
+          "f": 1
         },
         {
           "w": "laws",
@@ -7106,6 +3003,10 @@ var years =[
         },
         {
           "w": "soviet",
+          "f": 1
+        },
+        {
+          "w": "enhanced.",
           "f": 1
         },
         {
@@ -7122,224 +3023,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "soviet",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.875,
-      "sub": 0.125,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "signing",
-            "f": 1
-          },
-          {
-            "w": "heavily",
-            "f": 1
-          },
-          {
-            "w": "dealing",
-            "f": 1
-          },
-          {
-            "w": "national",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 1
-          },
-          {
-            "w": "rest",
-            "f": 1
-          },
-          {
-            "w": "underdeveloped",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 2
-          },
-          {
-            "w": "kinkead",
-            "f": 1
-          },
-          {
-            "w": "economic",
-            "f": 1
-          },
-          {
-            "w": "london",
-            "f": 1
-          },
-          {
-            "w": "japan",
-            "f": 1
-          },
-          {
-            "w": "staff",
-            "f": 1
-          },
-          {
-            "w": "blow",
-            "f": 1
-          },
-          {
-            "w": "union",
-            "f": 1
-          },
-          {
-            "w": "writer",
-            "f": 1
-          },
-          {
-            "w": "ships",
-            "f": 1
-          },
-          {
-            "w": "march",
-            "f": 1
-          },
-          {
-            "w": "proposes",
-            "f": 1
-          },
-          {
-            "w": "strike",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "east",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 2
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "unescorted",
-            "f": 1
-          },
-          {
-            "w": "koreans",
-            "f": 1
-          },
-          {
-            "w": "conscience",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 2
-          },
-          {
-            "w": "north",
-            "f": 1
-          },
-          {
-            "w": "clean",
-            "f": 1
-          },
-          {
-            "w": "geneva",
-            "f": 1
-          },
-          {
-            "w": "completed",
-            "f": 1
-          },
-          {
-            "w": "continues",
-            "f": 1
-          },
-          {
-            "w": "subject",
-            "f": 1
-          },
-          {
-            "w": "repatriate",
-            "f": 1
-          },
-          {
-            "w": "unarmed",
-            "f": 1
-          },
-          {
-            "w": "men",
-            "f": 1
-          },
-          {
-            "w": "pacts",
-            "f": 1
-          },
-          {
-            "w": "made",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 2
-          },
-          {
-            "w": "country",
-            "f": 1
-          },
-          {
-            "w": "prisoners",
-            "f": 1
-          },
-          {
-            "w": "fighting",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 1
-          },
-          {
-            "w": "middle",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "american",
-            "f": 1
-          },
-          {
-            "w": "yorker",
-            "f": 1
-          },
-          {
-            "w": "eugene",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -7384,7 +3067,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "executions",
+          "w": "persecution",
           "f": 1
         },
         {
@@ -7396,7 +3079,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "hak-se",
+          "w": "hydropower",
+          "f": 1
+        },
+        {
+          "w": "hak-se,",
+          "f": 1
+        },
+        {
+          "w": "1959,",
           "f": 1
         },
         {
@@ -7404,7 +3095,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "system",
+          "w": "areas,",
           "f": 1
         },
         {
@@ -7420,11 +3111,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "mines",
+          "w": "system",
           "f": 1
         },
         {
-          "w": "hydropower",
+          "w": "dprk",
           "f": 1
         },
         {
@@ -7444,6 +3135,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "purge,",
+          "f": 1
+        },
+        {
           "w": "capital",
           "f": 1
         },
@@ -7456,23 +3151,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "areas",
-          "f": 1
-        },
-        {
           "w": "thousands",
           "f": 1
         },
         {
           "w": "public",
-          "f": 2
+          "f": 1
         },
         {
           "w": "told",
           "f": 1
         },
         {
-          "w": "increased",
+          "w": "increased.",
+          "f": 1
+        },
+        {
+          "w": "that,",
           "f": 1
         },
         {
@@ -7480,11 +3175,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "100,000",
+          "f": 1
+        },
+        {
           "w": "express",
           "f": 1
         },
         {
-          "w": "reported",
+          "w": "up,",
+          "f": 1
+        },
+        {
+          "w": "1960,",
+          "f": 1
+        },
+        {
+          "w": "mines,",
           "f": 1
         },
         {
@@ -7496,15 +3203,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "persecution",
+          "w": "public.",
           "f": 1
         },
         {
-          "w": "1950s",
-          "f": 1
-        },
-        {
-          "w": "dprk",
+          "w": "1958",
           "f": 1
         },
         {
@@ -7513,7 +3216,15 @@ var years =[
         },
         {
           "w": "camps",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "reported",
+          "f": 1
+        },
+        {
+          "w": "executions,",
+          "f": 1
         },
         {
           "w": "purges",
@@ -7524,19 +3235,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "times",
+          "w": "1950s,",
           "f": 1
         },
         {
-          "w": "purge",
+          "w": "security,",
+          "f": 1
+        },
+        {
+          "w": "times,",
           "f": 1
         },
         {
           "w": "comrades",
-          "f": 1
-        },
-        {
-          "w": "security",
           "f": 1
         },
         {
@@ -7566,41 +3277,20 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "havana",
-            "f": 2
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0.8888888888888888,
       "kw": [
         {
-          "w": "sungho",
+          "w": "abroad.mr",
           "f": 1
         },
         {
-          "w": "koreans",
+          "w": "150",
           "f": 1
         },
         {
-          "w": "below)",
-          "f": 1
+          "w": "no.",
+          "f": 2
         },
         {
           "w": "square",
@@ -7615,11 +3305,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "repatriation",
-          "f": 1
-        },
-        {
-          "w": "kang",
+          "w": "repatriation,",
           "f": 1
         },
         {
@@ -7627,11 +3313,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "pyongyang",
+          "w": "civilians",
           "f": 1
         },
         {
           "w": "moved",
+          "f": 1
+        },
+        {
+          "w": "below).",
           "f": 1
         },
         {
@@ -7643,7 +3333,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "1980s",
+          "w": "past",
           "f": 1
         },
         {
@@ -7651,7 +3341,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "war,",
+          "f": 1
+        },
+        {
           "w": "authorities",
+          "f": 1
+        },
+        {
+          "w": "past,",
+          "f": 1
+        },
+        {
+          "w": "existence,",
           "f": 1
         },
         {
@@ -7664,10 +3366,10 @@ var years =[
         },
         {
           "w": "existence",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "paternal",
+          "w": "(north",
           "f": 1
         },
         {
@@ -7675,15 +3377,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "mid-2012",
+          "w": "subversive",
           "f": 1
         },
         {
           "w": "city",
-          "f": 1
-        },
-        {
-          "w": "abroad",
           "f": 1
         },
         {
@@ -7695,7 +3393,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "22",
+          "f": 1
+        },
+        {
           "w": "area",
+          "f": 1
+        },
+        {
+          "w": "camp.in",
+          "f": 1
+        },
+        {
+          "w": "abducted",
+          "f": 1
+        },
+        {
+          "w": "denied",
           "f": 1
         },
         {
@@ -7707,7 +3421,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "(north",
+          "w": "grandparents,",
+          "f": 1
+        },
+        {
+          "w": "mid-2012,",
           "f": 1
         },
         {
@@ -7731,7 +3449,7 @@ var years =[
           "f": 5
         },
         {
-          "w": "international",
+          "w": "sungho,",
           "f": 1
         },
         {
@@ -7739,19 +3457,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "paternal",
+          "f": 1
+        },
+        {
           "w": "war",
-          "f": 2
-        },
-        {
-          "w": "disclosed",
           "f": 1
         },
         {
-          "w": "province",
+          "w": "1980s.from",
           "f": 1
         },
         {
-          "w": "subversive",
+          "w": "koreans",
           "f": 1
         },
         {
@@ -7771,19 +3489,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "grandparents",
+          "w": "1960s.",
           "f": 1
         },
         {
-          "w": "denied",
+          "w": "province).",
           "f": 1
         },
         {
-          "w": "abducted",
+          "w": "26.",
           "f": 1
         },
         {
           "w": "refused",
+          "f": 1
+        },
+        {
+          "w": "camps,",
           "f": 1
         },
         {
@@ -7799,7 +3521,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "civilians",
+          "w": "international",
           "f": 1
         },
         {
@@ -7835,23 +3557,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "camps",
+          "f": 1
+        },
+        {
+          "w": "no.14",
+          "f": 1
+        },
+        {
           "w": "kaechon",
           "f": 1
         },
         {
-          "w": "country",
+          "w": "camp",
+          "f": 3
+        },
+        {
+          "w": "country.",
           "f": 1
         },
         {
-          "w": "past",
-          "f": 2
-        },
-        {
-          "w": "camp",
-          "f": 4
-        },
-        {
           "w": "transferred",
+          "f": 1
+        },
+        {
+          "w": "disclosed",
           "f": 1
         },
         {
@@ -7859,11 +3589,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "mr",
-          "f": 1
-        },
-        {
-          "w": "province)",
+          "w": "kang",
           "f": 1
         },
         {
@@ -7871,15 +3597,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "camps",
-          "f": 2
+          "w": "referred",
+          "f": 1
+        },
+        {
+          "w": "pyongyang,",
+          "f": 1
         },
         {
           "w": "south",
           "f": 1
         },
         {
-          "w": "referred",
+          "w": "province.",
           "f": 1
         }
       ],
@@ -7893,9 +3623,10 @@ var years =[
           "kw": []
         },
         "pol": {
-          "perc": 2,
+          "perc": 3,
           "kw": [
             "early",
+            "1960s,",
             "political",
             "dprk",
             "1960s"
@@ -7916,7 +3647,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "dissent",
+          "w": "worse.",
           "f": 1
         },
         {
@@ -7924,11 +3655,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "executions",
-          "f": 2
+          "w": "dissent.",
+          "f": 1
         },
         {
-          "w": "arrests",
+          "w": "executions",
+          "f": 1
+        },
+        {
+          "w": "russian",
           "f": 1
         },
         {
@@ -7956,7 +3691,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "hak-se",
+          "w": "eliminated",
+          "f": 1
+        },
+        {
+          "w": "hak-se,",
           "f": 1
         },
         {
@@ -7964,7 +3703,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "actively",
+          "w": "potential",
           "f": 1
         },
         {
@@ -7972,19 +3711,35 @@ var years =[
           "f": 1
         },
         {
-          "w": "union",
-          "f": 2
-        },
-        {
-          "w": "positive",
+          "w": "could,",
           "f": 1
         },
         {
-          "w": "1959throughout",
+          "w": "union",
+          "f": 1
+        },
+        {
+          "w": "did,",
+          "f": 1
+        },
+        {
+          "w": "exposed",
+          "f": 1
+        },
+        {
+          "w": "excessively",
+          "f": 1
+        },
+        {
+          "w": "time,",
           "f": 1
         },
         {
           "w": "rivals",
+          "f": 1
+        },
+        {
+          "w": "factions,",
           "f": 1
         },
         {
@@ -7996,11 +3751,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "resulted",
+          "w": "purge,",
           "f": 1
         },
         {
-          "w": "factions",
+          "w": "resulted",
           "f": 1
         },
         {
@@ -8009,11 +3764,7 @@ var years =[
         },
         {
           "w": "public",
-          "f": 3
-        },
-        {
-          "w": "scientific",
-          "f": 1
+          "f": 2
         },
         {
           "w": "told",
@@ -8032,7 +3783,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "worse",
+          "w": "technical,",
           "f": 1
         },
         {
@@ -8044,15 +3795,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "100,000",
+          "f": 1
+        },
+        {
           "w": "countriesin",
           "f": 1
         },
         {
-          "w": "time",
-          "f": 1
-        },
-        {
-          "w": "exposed",
+          "w": "remark",
           "f": 1
         },
         {
@@ -8061,6 +3812,10 @@ var years =[
         },
         {
           "w": "observers",
+          "f": 1
+        },
+        {
+          "w": "1960,",
           "f": 1
         },
         {
@@ -8088,7 +3843,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "russian",
+          "w": "public.",
           "f": 1
         },
         {
@@ -8096,7 +3851,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "eliminated",
+          "w": "scientific,",
           "f": 1
         },
         {
@@ -8104,11 +3859,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "potential",
+          "w": "1958",
           "f": 1
         },
         {
-          "w": "remark",
+          "w": "900",
           "f": 1
         },
         {
@@ -8120,11 +3875,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "arrests",
+          "f": 1
+        },
+        {
+          "w": "executions,",
+          "f": 1
+        },
+        {
+          "w": "1970s,",
+          "f": 1
+        },
+        {
           "w": "largely",
           "f": 1
         },
         {
-          "w": "demilitarized",
+          "w": "union,",
           "f": 1
         },
         {
@@ -8132,11 +3899,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "purge",
-          "f": 1
-        },
-        {
-          "w": "technical",
+          "w": "demilitarized",
           "f": 1
         },
         {
@@ -8144,11 +3907,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "excessively",
+          "w": "security,",
           "f": 1
         },
         {
-          "w": "1970s",
+          "w": "1959throughout",
+          "f": 1
+        },
+        {
+          "w": "positive",
           "f": 1
         },
         {
@@ -8156,7 +3923,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "security",
+          "w": "actively",
           "f": 1
         },
         {
@@ -8177,27 +3944,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "tokyo",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -8227,47 +3973,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6666666666666666,
-      "sub": 0.3333333333333333,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -8296,67 +4001,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "china's",
-            "f": 1
-          },
-          {
-            "w": "jakarta",
-            "f": 1
-          },
-          {
-            "w": "indonesia",
-            "f": 1
-          },
-          {
-            "w": "head",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "state",
-            "f": 1
-          },
-          {
-            "w": "15liu",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 1
-          },
-          {
-            "w": "shaochi",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -8384,188 +4028,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "violations",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.625,
-      "sub": 0.375,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "airspace",
-            "f": 1
-          },
-          {
-            "w": "presence",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "renewed",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 3
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "years",
-            "f": 1
-          },
-          {
-            "w": "deterrent",
-            "f": 1
-          },
-          {
-            "w": "city",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "nk",
-            "f": 1
-          },
-          {
-            "w": "pictures",
-            "f": 1
-          },
-          {
-            "w": "ny",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 1
-          },
-          {
-            "w": "conflict",
-            "f": 1
-          },
-          {
-            "w": "life",
-            "f": 1
-          },
-          {
-            "w": "continues",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 1
-          },
-          {
-            "w": "friday",
-            "f": 1
-          },
-          {
-            "w": "undergone",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "comm",
-            "f": 1
-          },
-          {
-            "w": "shown",
-            "f": 1
-          },
-          {
-            "w": "drastic",
-            "f": 1
-          },
-          {
-            "w": "repts",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 2
-          },
-          {
-            "w": "tokyo",
-            "f": 2
-          },
-          {
-            "w": "charges",
-            "f": 1
-          },
-          {
-            "w": "indonesia",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 1
-          },
-          {
-            "w": "economic",
-            "f": 1
-          },
-          {
-            "w": "command",
-            "f": 1
-          },
-          {
-            "w": "social",
-            "f": 1
-          },
-          {
-            "w": "residents",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 1
-          },
-          {
-            "w": "transformation",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -8602,6 +4064,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "1969,",
+          "f": 1
+        },
+        {
           "w": "plenum",
           "f": 1
         },
@@ -8626,6 +4092,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "population,",
+          "f": 1
+        },
+        {
           "w": "specially",
           "f": 1
         },
@@ -8638,7 +4108,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "committee",
+          "w": "1964",
+          "f": 1
+        },
+        {
+          "w": "1964,",
           "f": 1
         },
         {
@@ -8647,6 +4121,14 @@ var years =[
         },
         {
           "w": "created",
+          "f": 1
+        },
+        {
+          "w": "exiled,",
+          "f": 1
+        },
+        {
+          "w": "military.",
           "f": 1
         },
         {
@@ -8666,7 +4148,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "extreme",
+          "w": "committee,",
           "f": 1
         },
         {
@@ -8687,6 +4169,10 @@ var years =[
         },
         {
           "w": "form",
+          "f": 1
+        },
+        {
+          "w": "example,",
           "f": 1
         },
         {
@@ -8714,12 +4200,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "population",
+          "w": "extreme",
           "f": 1
         },
         {
           "w": "groups",
-          "f": 2
+          "f": 1
         },
         {
           "w": "central",
@@ -8746,15 +4232,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "exiled",
-          "f": 1
-        },
-        {
           "w": "threat",
-          "f": 1
-        },
-        {
-          "w": "military",
           "f": 1
         },
         {
@@ -8779,219 +4257,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "kosygin",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 1
-          },
-          {
-            "w": "fighters",
-            "f": 1
-          },
-          {
-            "w": "sea",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "japan",
-            "f": 1
-          },
-          {
-            "w": "contributions",
-            "f": 1
-          },
-          {
-            "w": "damaged",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "feb",
-            "f": 1
-          },
-          {
-            "w": "jet",
-            "f": 1
-          },
-          {
-            "w": "union",
-            "f": 1
-          },
-          {
-            "w": "unity",
-            "f": 1
-          },
-          {
-            "w": "reuters",
-            "f": 1
-          },
-          {
-            "w": "speech",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 1
-          },
-          {
-            "w": "appeal",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 1
-          },
-          {
-            "w": "match",
-            "f": 1
-          },
-          {
-            "w": "aleksei",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 2
-          },
-          {
-            "w": "north",
-            "f": 2
-          },
-          {
-            "w": "seoul",
-            "f": 1
-          },
-          {
-            "w": "attacked",
-            "f": 1
-          },
-          {
-            "w": "moscow",
-            "f": 1
-          },
-          {
-            "w": "rb47",
-            "f": 1
-          },
-          {
-            "w": "prepared",
-            "f": 1
-          },
-          {
-            "w": "mig17",
-            "f": 1
-          },
-          {
-            "w": "plane",
-            "f": 1
-          },
-          {
-            "w": "world",
-            "f": 1
-          },
-          {
-            "w": "july",
-            "f": 1
-          },
-          {
-            "w": "strong",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "tonight",
-            "f": 1
-          },
-          {
-            "w": "made",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 3
-          },
-          {
-            "w": "korea's",
-            "f": 1
-          },
-          {
-            "w": "wednesday",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "vietnam",
-            "f": 1
-          },
-          {
-            "w": "troop",
-            "f": 1
-          },
-          {
-            "w": "night",
-            "f": 2
-          },
-          {
-            "w": "reconnaissance",
-            "f": 1
-          },
-          {
-            "w": "movement",
-            "f": 1
-          },
-          {
-            "w": "soviet",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 2
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -9020,316 +4285,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "union",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 1
-          },
-          {
-            "w": "soviet",
-            "f": 1
-          },
-          {
-            "w": "countries",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.8823529411764706,
-      "sub": 0.11764705882352941,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "threegoal",
-            "f": 1
-          },
-          {
-            "w": "pakistan",
-            "f": 1
-          },
-          {
-            "w": "declared",
-            "f": 1
-          },
-          {
-            "w": "chinese",
-            "f": 1
-          },
-          {
-            "w": "give",
-            "f": 1
-          },
-          {
-            "w": "agreed",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "halting",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 1
-          },
-          {
-            "w": "championship",
-            "f": 1
-          },
-          {
-            "w": "london",
-            "f": 2
-          },
-          {
-            "w": "lution",
-            "f": 1
-          },
-          {
-            "w": "politics",
-            "f": 1
-          },
-          {
-            "w": "establishing",
-            "f": 1
-          },
-          {
-            "w": "driving",
-            "f": 1
-          },
-          {
-            "w": "july",
-            "f": 2
-          },
-          {
-            "w": "educational",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "treaties",
-            "f": 1
-          },
-          {
-            "w": "portugal",
-            "f": 2
-          },
-          {
-            "w": "aug",
-            "f": 2
-          },
-          {
-            "w": "reform",
-            "f": 1
-          },
-          {
-            "w": "nuclear",
-            "f": 1
-          },
-          {
-            "w": "decision",
-            "f": 1
-          },
-          {
-            "w": "system",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 1
-          },
-          {
-            "w": "weapons",
-            "f": 1
-          },
-          {
-            "w": "ny",
-            "f": 1
-          },
-          {
-            "w": "spread",
-            "f": 1
-          },
-          {
-            "w": "12the",
-            "f": 1
-          },
-          {
-            "w": "deficit",
-            "f": 1
-          },
-          {
-            "w": "peaceful",
-            "f": 1
-          },
-          {
-            "w": "upi",
-            "f": 1
-          },
-          {
-            "w": "curtain",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 3
-          },
-          {
-            "w": "soccer",
-            "f": 1
-          },
-          {
-            "w": "announced",
-            "f": 1
-          },
-          {
-            "w": "rallied",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 3
-          },
-          {
-            "w": "north",
-            "f": 4
-          },
-          {
-            "w": "seoul",
-            "f": 1
-          },
-          {
-            "w": "beat",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "possibility",
-            "f": 1
-          },
-          {
-            "w": "agreement",
-            "f": 1
-          },
-          {
-            "w": "unbeaten",
-            "f": 2
-          },
-          {
-            "w": "leadership",
-            "f": 1
-          },
-          {
-            "w": "convolutions",
-            "f": 1
-          },
-          {
-            "w": "party",
-            "f": 2
-          },
-          {
-            "w": "world",
-            "f": 2
-          },
-          {
-            "w": "nov",
-            "f": 2
-          },
-          {
-            "w": "bamboo",
-            "f": 1
-          },
-          {
-            "w": "proclaimed",
-            "f": 1
-          },
-          {
-            "w": "independence",
-            "f": 1
-          },
-          {
-            "w": "karachi",
-            "f": 1
-          },
-          {
-            "w": "dim",
-            "f": 1
-          },
-          {
-            "w": "havana",
-            "f": 1
-          },
-          {
-            "w": "revo",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 5
-          },
-          {
-            "w": "space",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 1
-          },
-          {
-            "w": "vietnam",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 2
-          },
-          {
-            "w": "murky",
-            "f": 1
-          },
-          {
-            "w": "aid",
-            "f": 1
-          },
-          {
-            "w": "24the",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -9362,10 +4317,6 @@ var years =[
           "f": 2
         },
         {
-          "w": "dwindle",
-          "f": 1
-        },
-        {
           "w": "caused",
           "f": 1
         },
@@ -9378,11 +4329,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "states",
+          "w": "economic",
           "f": 1
         },
         {
-          "w": "economic",
+          "w": "lines",
           "f": 1
         },
         {
@@ -9394,6 +4345,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "juche.",
+          "f": 1
+        },
+        {
           "w": "union",
           "f": 1
         },
@@ -9402,7 +4357,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "assistance",
+          "w": "1966",
           "f": 1
         },
         {
@@ -9410,11 +4365,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "expanded",
+          "w": "time,",
           "f": 1
         },
         {
-          "w": "likewise",
+          "w": "assistance",
           "f": 1
         },
         {
@@ -9434,7 +4389,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "dwindle.",
+          "f": 1
+        },
+        {
           "w": "threatened",
+          "f": 1
+        },
+        {
+          "w": "likewise",
           "f": 1
         },
         {
@@ -9458,15 +4421,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "substantial",
-          "f": 1
-        },
-        {
-          "w": "dprk",
-          "f": 1
-        },
-        {
           "w": "began",
+          "f": 1
+        },
+        {
+          "w": "dprk.",
           "f": 1
         },
         {
@@ -9479,10 +4438,18 @@ var years =[
         },
         {
           "w": "juche",
-          "f": 2
+          "f": 1
         },
         {
           "w": "spill",
+          "f": 1
+        },
+        {
+          "w": "substantial,",
+          "f": 1
+        },
+        {
+          "w": "states,",
           "f": 1
         },
         {
@@ -9490,11 +4457,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "countries",
+          "w": "expanded",
           "f": 1
         },
         {
-          "w": "lines",
+          "w": "countries,",
           "f": 1
         },
         {
@@ -9511,10 +4478,6 @@ var years =[
         },
         {
           "w": "contact",
-          "f": 1
-        },
-        {
-          "w": "time",
           "f": 1
         },
         {
@@ -9548,207 +4511,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.625,
-      "sub": 0.375,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "conciliation",
-            "f": 1
-          },
-          {
-            "w": "tuesday",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 1
-          },
-          {
-            "w": "ii",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 1
-          },
-          {
-            "w": "defense",
-            "f": 1
-          },
-          {
-            "w": "officials",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 2
-          },
-          {
-            "w": "march",
-            "f": 2
-          },
-          {
-            "w": "tokyoreports",
-            "f": 1
-          },
-          {
-            "w": "anticommunist",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 1
-          },
-          {
-            "w": "conditionally",
-            "f": 1
-          },
-          {
-            "w": "salient",
-            "f": 1
-          },
-          {
-            "w": "union",
-            "f": 1
-          },
-          {
-            "w": "5north",
-            "f": 1
-          },
-          {
-            "w": "top",
-            "f": 1
-          },
-          {
-            "w": "reminded",
-            "f": 1
-          },
-          {
-            "w": "approved",
-            "f": 1
-          },
-          {
-            "w": "jan",
-            "f": 1
-          },
-          {
-            "w": "commission",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "party",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 2
-          },
-          {
-            "w": "proposal",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 1
-          },
-          {
-            "w": "week",
-            "f": 1
-          },
-          {
-            "w": "life",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 7
-          },
-          {
-            "w": "north",
-            "f": 4
-          },
-          {
-            "w": "seoul",
-            "f": 2
-          },
-          {
-            "w": "agreement",
-            "f": 1
-          },
-          {
-            "w": "preparations",
-            "f": 1
-          },
-          {
-            "w": "defector",
-            "f": 1
-          },
-          {
-            "w": "strenuous",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 2
-          },
-          {
-            "w": "broadcast",
-            "f": 1
-          },
-          {
-            "w": "explosive",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 2
-          },
-          {
-            "w": "soviet",
-            "f": 1
-          },
-          {
-            "w": "official",
-            "f": 1
-          },
-          {
-            "w": "signed",
-            "f": 1
-          },
-          {
-            "w": "vietnam",
-            "f": 1
-          },
-          {
-            "w": "powers",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 2
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -9772,15 +4534,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "1967,",
+          "f": 1
+        },
+        {
           "w": "destabilize",
           "f": 1
         },
         {
-          "w": "services",
+          "w": "secret",
           "f": 1
         },
         {
-          "w": "secret",
+          "w": "services.",
           "f": 1
         },
         {
@@ -9805,464 +4571,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "president",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.7272727272727273,
-      "sub": 0.2727272727272727,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "lack",
-            "f": 1
-          },
-          {
-            "w": "obtain",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "sources",
-            "f": 1
-          },
-          {
-            "w": "talking",
-            "f": 1
-          },
-          {
-            "w": "hills",
-            "f": 1
-          },
-          {
-            "w": "zone",
-            "f": 1
-          },
-          {
-            "w": "thursday",
-            "f": 1
-          },
-          {
-            "w": "crew",
-            "f": 5
-          },
-          {
-            "w": "jan",
-            "f": 5
-          },
-          {
-            "w": "oct",
-            "f": 1
-          },
-          {
-            "w": "petition",
-            "f": 1
-          },
-          {
-            "w": "koreans",
-            "f": 2
-          },
-          {
-            "w": "good",
-            "f": 1
-          },
-          {
-            "w": "seized",
-            "f": 3
-          },
-          {
-            "w": "delhi",
-            "f": 1
-          },
-          {
-            "w": "skipper",
-            "f": 1
-          },
-          {
-            "w": "foreigners",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 1
-          },
-          {
-            "w": "desire",
-            "f": 1
-          },
-          {
-            "w": "pueblo",
-            "f": 8
-          },
-          {
-            "w": "tokyo",
-            "f": 7
-          },
-          {
-            "w": "release",
-            "f": 2
-          },
-          {
-            "w": "20th",
-            "f": 1
-          },
-          {
-            "w": "secretary",
-            "f": 2
-          },
-          {
-            "w": "dean",
-            "f": 1
-          },
-          {
-            "w": "imposing",
-            "f": 1
-          },
-          {
-            "w": "intelligence",
-            "f": 5
-          },
-          {
-            "w": "surrounding",
-            "f": 1
-          },
-          {
-            "w": "defense",
-            "f": 2
-          },
-          {
-            "w": "shown",
-            "f": 1
-          },
-          {
-            "w": "pattern",
-            "f": 1
-          },
-          {
-            "w": "anniversary",
-            "f": 1
-          },
-          {
-            "w": "state",
-            "f": 1
-          },
-          {
-            "w": "public",
-            "f": 2
-          },
-          {
-            "w": "korea",
-            "f": 14
-          },
-          {
-            "w": "embroilment",
-            "f": 1
-          },
-          {
-            "w": "reported",
-            "f": 1
-          },
-          {
-            "w": "intelligencegathering",
-            "f": 1
-          },
-          {
-            "w": "26president",
-            "f": 1
-          },
-          {
-            "w": "created",
-            "f": 1
-          },
-          {
-            "w": "attacks",
-            "f": 1
-          },
-          {
-            "w": "violence",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 2
-          },
-          {
-            "w": "efforts",
-            "f": 2
-          },
-          {
-            "w": "sept",
-            "f": 3
-          },
-          {
-            "w": "south",
-            "f": 4
-          },
-          {
-            "w": "deputy",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 12
-          },
-          {
-            "w": "leniency",
-            "f": 1
-          },
-          {
-            "w": "addressed",
-            "f": 1
-          },
-          {
-            "w": "feb",
-            "f": 3
-          },
-          {
-            "w": "gravity",
-            "f": 1
-          },
-          {
-            "w": "initial",
-            "f": 1
-          },
-          {
-            "w": "copies",
-            "f": 1
-          },
-          {
-            "w": "adopted",
-            "f": 1
-          },
-          {
-            "w": "cyrus",
-            "f": 1
-          },
-          {
-            "w": "strict",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 6
-          },
-          {
-            "w": "north",
-            "f": 11
-          },
-          {
-            "w": "allegedly",
-            "f": 1
-          },
-          {
-            "w": "moscow",
-            "f": 1
-          },
-          {
-            "w": "releasing",
-            "f": 1
-          },
-          {
-            "w": "part",
-            "f": 1
-          },
-          {
-            "w": "wake",
-            "f": 1
-          },
-          {
-            "w": "demand",
-            "f": 1
-          },
-          {
-            "w": "photographic",
-            "f": 1
-          },
-          {
-            "w": "population",
-            "f": 1
-          },
-          {
-            "w": "rusk",
-            "f": 1
-          },
-          {
-            "w": "made",
-            "f": 3
-          },
-          {
-            "w": "apology",
-            "f": 1
-          },
-          {
-            "w": "celebrating",
-            "f": 1
-          },
-          {
-            "w": "demilitarized",
-            "f": 1
-          },
-          {
-            "w": "diplomatic",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 3
-          },
-          {
-            "w": "states",
-            "f": 4
-          },
-          {
-            "w": "situation",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 2
-          },
-          {
-            "w": "called",
-            "f": 1
-          },
-          {
-            "w": "control",
-            "f": 1
-          },
-          {
-            "w": "rebuffed",
-            "f": 2
-          },
-          {
-            "w": "ordered",
-            "f": 1
-          },
-          {
-            "w": "recognize",
-            "f": 1
-          },
-          {
-            "w": "suspicious",
-            "f": 1
-          },
-          {
-            "w": "tonight",
-            "f": 1
-          },
-          {
-            "w": "ap",
-            "f": 2
-          },
-          {
-            "w": "ship",
-            "f": 6
-          },
-          {
-            "w": "recover",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 7
-          },
-          {
-            "w": "things",
-            "f": 1
-          },
-          {
-            "w": "snow",
-            "f": 1
-          },
-          {
-            "w": "ny",
-            "f": 1
-          },
-          {
-            "w": "department",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 4
-          },
-          {
-            "w": "monday",
-            "f": 1
-          },
-          {
-            "w": "price",
-            "f": 1
-          },
-          {
-            "w": "demanding",
-            "f": 1
-          },
-          {
-            "w": "intensified",
-            "f": 1
-          },
-          {
-            "w": "fell",
-            "f": 1
-          },
-          {
-            "w": "response",
-            "f": 1
-          },
-          {
-            "w": "vance",
-            "f": 1
-          },
-          {
-            "w": "johnson",
-            "f": 3
-          },
-          {
-            "w": "light",
-            "f": 1
-          },
-          {
-            "w": "command",
-            "f": 1
-          },
-          {
-            "w": "barren",
-            "f": 1
-          },
-          {
-            "w": "documents",
-            "f": 1
-          },
-          {
-            "w": "charged",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -10303,7 +4611,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "house",
+          "w": "1968,",
+          "f": 1
+        },
+        {
+          "w": "31",
           "f": 1
         },
         {
@@ -10316,6 +4628,10 @@ var years =[
         },
         {
           "w": "unsuccessful",
+          "f": 1
+        },
+        {
+          "w": "house",
           "f": 1
         },
         {
@@ -10337,282 +4653,13 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.8636363636363636,
-      "sub": 0.13636363636363635,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "prospect",
-            "f": 1
-          },
-          {
-            "w": "pakistan",
-            "f": 2
-          },
-          {
-            "w": "flights",
-            "f": 1
-          },
-          {
-            "w": "shot",
-            "f": 1
-          },
-          {
-            "w": "administration",
-            "f": 2
-          },
-          {
-            "w": "washington",
-            "f": 2
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "decided",
-            "f": 1
-          },
-          {
-            "w": "including",
-            "f": 1
-          },
-          {
-            "w": "korea's",
-            "f": 1
-          },
-          {
-            "w": "navy",
-            "f": 1
-          },
-          {
-            "w": "asserted",
-            "f": 1
-          },
-          {
-            "w": "electronic",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "advertisements",
-            "f": 1
-          },
-          {
-            "w": "american",
-            "f": 1
-          },
-          {
-            "w": "crew",
-            "f": 2
-          },
-          {
-            "w": "retaliation",
-            "f": 1
-          },
-          {
-            "w": "emerged",
-            "f": 1
-          },
-          {
-            "w": "intelligence",
-            "f": 1
-          },
-          {
-            "w": "panmunjon",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 5
-          },
-          {
-            "w": "rely",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "fourmember",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 16
-          },
-          {
-            "w": "north",
-            "f": 5
-          },
-          {
-            "w": "seoul",
-            "f": 6
-          },
-          {
-            "w": "monday",
-            "f": 1
-          },
-          {
-            "w": "exchange",
-            "f": 1
-          },
-          {
-            "w": "fullpage",
-            "f": 1
-          },
-          {
-            "w": "friday",
-            "f": 1
-          },
-          {
-            "w": "commercial",
-            "f": 1
-          },
-          {
-            "w": "agreement",
-            "f": 1
-          },
-          {
-            "w": "coast",
-            "f": 1
-          },
-          {
-            "w": "persons",
-            "f": 1
-          },
-          {
-            "w": "plane",
-            "f": 2
-          },
-          {
-            "w": "york",
-            "f": 1
-          },
-          {
-            "w": "ultimately",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "postal",
-            "f": 1
-          },
-          {
-            "w": "inserted",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 1
-          },
-          {
-            "w": "karachi",
-            "f": 1
-          },
-          {
-            "w": "protect",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 2
-          },
-          {
-            "w": "islamabad",
-            "f": 1
-          },
-          {
-            "w": "carryiing",
-            "f": 1
-          },
-          {
-            "w": "wednesday",
-            "f": 2
-          },
-          {
-            "w": "signed",
-            "f": 1
-          },
-          {
-            "w": "times",
-            "f": 2
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "chief",
-            "f": 1
-          },
-          {
-            "w": "week",
-            "f": 1
-          },
-          {
-            "w": "airline",
-            "f": 1
-          },
-          {
-            "w": "london",
-            "f": 1
-          },
-          {
-            "w": "security",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 2
-          },
-          {
-            "w": "reconnaissance",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 8
-          },
-          {
-            "w": "nixon",
-            "f": 2
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
+        {
+          "w": "secret.",
+          "f": 1
+        },
         {
           "w": "good",
           "f": 1
@@ -10634,7 +4681,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "wife",
+          "w": "young-soon,",
           "f": 1
         },
         {
@@ -10642,15 +4689,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "secret",
+          "w": "young-soon",
           "f": 1
         },
         {
-          "w": "young-soon",
-          "f": 2
-        },
-        {
-          "w": "son",
+          "w": "hae-rim,",
           "f": 1
         },
         {
@@ -10658,11 +4701,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "dancer",
+          "w": "dancer,",
           "f": 1
         },
         {
-          "w": "hae-rim",
+          "w": "jong-nam.",
           "f": 1
         },
         {
@@ -10670,7 +4713,7 @@ var years =[
           "f": 4
         },
         {
-          "w": "mother",
+          "w": "wife",
           "f": 1
         },
         {
@@ -10678,11 +4721,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "jong-nam",
+          "w": "son",
+          "f": 1
+        },
+        {
+          "w": "mother",
           "f": 1
         },
         {
           "w": "friend",
+          "f": 1
+        },
+        {
+          "w": "1969",
           "f": 1
         }
       ],
@@ -10718,7 +4769,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "1964",
+          "f": 1
+        },
+        {
           "w": "arrested",
+          "f": 1
+        },
+        {
+          "w": "1969,",
           "f": 1
         },
         {
@@ -10730,15 +4789,11 @@ var years =[
           "f": 1
         },
         {
+          "w": "exiled,",
+          "f": 1
+        },
+        {
           "w": "conducted",
-          "f": 1
-        },
-        {
-          "w": "exiled",
-          "f": 1
-        },
-        {
-          "w": "groups",
           "f": 1
         },
         {
@@ -10763,7 +4818,15 @@ var years =[
       "obj": 1.0,
       "kw": [
         {
-          "w": "chinese",
+          "w": "state-run",
+          "f": 1
+        },
+        {
+          "w": "1.3",
+          "f": 1
+        },
+        {
+          "w": "reform,",
           "f": 1
         },
         {
@@ -10775,19 +4838,15 @@ var years =[
           "f": 2
         },
         {
-          "w": "years",
+          "w": "rapidly.",
           "f": 1
         },
         {
           "w": "farms",
-          "f": 2
-        },
-        {
-          "w": "cooperative",
           "f": 1
         },
         {
-          "w": "incidentally",
+          "w": "cooperative",
           "f": 1
         },
         {
@@ -10795,23 +4854,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "ultimately",
+          "w": "incidentally,",
           "f": 1
         },
         {
-          "w": "rapidly",
-          "f": 1
-        },
-        {
-          "w": "state-run",
+          "w": "chinese",
           "f": 1
         },
         {
           "w": "farmers",
-          "f": 2
+          "f": 1
         },
         {
           "w": "divided",
+          "f": 1
+        },
+        {
+          "w": "farms.",
           "f": 1
         },
         {
@@ -10819,8 +4878,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "themselves,",
+          "f": 1
+        },
+        {
           "w": "increased",
           "f": 2
+        },
+        {
+          "w": "farmers.",
+          "f": 1
         },
         {
           "w": "food",
@@ -10831,7 +4898,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "began",
+          "w": "years",
+          "f": 1
+        },
+        {
+          "w": "ultimately,",
           "f": 1
         },
         {
@@ -10855,363 +4926,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "which,",
+          "f": 1
+        },
+        {
           "w": "similar",
           "f": 1
         },
         {
-          "w": "reform",
+          "w": "began",
           "f": 1
         }
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "korea",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 1
-          },
-          {
-            "w": "economic",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 4
-          },
-          {
-            "w": "south",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": [
-          {
-            "w": "chinese",
-            "f": 1
-          }
-        ]
-      },
-      "pol": {
-        "kw": [
-          {
-            "w": "korea",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 9
-          },
-          {
-            "w": "months",
-            "f": 1
-          }
-        ]
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "saturday",
-            "f": 1
-          },
-          {
-            "w": "leaders",
-            "f": 1
-          },
-          {
-            "w": "airliner",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 2
-          },
-          {
-            "w": "apthe",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 2
-          },
-          {
-            "w": "ap",
-            "f": 1
-          },
-          {
-            "w": "ii",
-            "f": 1
-          },
-          {
-            "w": "cambodian",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "exile",
-            "f": 1
-          },
-          {
-            "w": "close",
-            "f": 1
-          },
-          {
-            "w": "ship",
-            "f": 1
-          },
-          {
-            "w": "passengers",
-            "f": 2
-          },
-          {
-            "w": "sung",
-            "f": 1
-          },
-          {
-            "w": "returned",
-            "f": 1
-          },
-          {
-            "w": "capture",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 2
-          },
-          {
-            "w": "feb",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 1
-          },
-          {
-            "w": "army",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "prince",
-            "f": 1
-          },
-          {
-            "w": "enlai",
-            "f": 1
-          },
-          {
-            "w": "sunday",
-            "f": 2
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "agence",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 2
-          },
-          {
-            "w": "hijacked",
-            "f": 1
-          },
-          {
-            "w": "oct",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "koreans",
-            "f": 1
-          },
-          {
-            "w": "ago",
-            "f": 1
-          },
-          {
-            "w": "17when",
-            "f": 1
-          },
-          {
-            "w": "norodom",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 5
-          },
-          {
-            "w": "government",
-            "f": 1
-          },
-          {
-            "w": "sihanouk",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "june",
-            "f": 1
-          },
-          {
-            "w": "japanese",
-            "f": 1
-          },
-          {
-            "w": "arrived",
-            "f": 1
-          },
-          {
-            "w": "plan",
-            "f": 1
-          },
-          {
-            "w": "sevenyear",
-            "f": 1
-          },
-          {
-            "w": "news",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "inaugurated",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 2
-          },
-          {
-            "w": "town",
-            "f": 1
-          },
-          {
-            "w": "pueblo",
-            "f": 1
-          },
-          {
-            "w": "join",
-            "f": 1
-          },
-          {
-            "w": "upi",
-            "f": 1
-          },
-          {
-            "w": "trounced",
-            "f": 1
-          },
-          {
-            "w": "friendship",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 4
-          },
-          {
-            "w": "july",
-            "f": 1
-          },
-          {
-            "w": "tabletennis",
-            "f": 1
-          },
-          {
-            "w": "war",
-            "f": 2
-          },
-          {
-            "w": "thought",
-            "f": 1
-          },
-          {
-            "w": "reactionaries",
-            "f": 1
-          },
-          {
-            "w": "peking",
-            "f": 3
-          },
-          {
-            "w": "future",
-            "f": 1
-          },
-          {
-            "w": "chou",
-            "f": 1
-          },
-          {
-            "w": "team",
-            "f": 1
-          },
-          {
-            "w": "reconnaissance",
-            "f": 1
-          },
-          {
-            "w": "francepresse",
-            "f": 1
-          },
-          {
-            "w": "head",
-            "f": 1
-          },
-          {
-            "w": "marshal",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0.7333333333333333,
       "kw": [
+        {
+          "w": "no.",
+          "f": 3
+        },
+        {
+          "w": "1979.",
+          "f": 1
+        },
         {
           "w": "month",
           "f": 1
@@ -11222,14 +4961,26 @@ var years =[
         },
         {
           "w": "children",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "cut",
-          "f": 2
+          "w": "jong-nam.",
+          "f": 1
+        },
+        {
+          "w": "death",
+          "f": 1
+        },
+        {
+          "w": "hunted",
+          "f": 1
         },
         {
           "w": "informal",
+          "f": 1
+        },
+        {
+          "w": "avoid",
           "f": 1
         },
         {
@@ -11253,10 +5004,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "victims",
-          "f": 1
-        },
-        {
           "w": "song",
           "f": 3
         },
@@ -11265,8 +5012,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "survival",
-          "f": 1
+          "w": "cut.",
+          "f": 2
         },
         {
           "w": "detention",
@@ -11285,7 +5032,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "hunted",
+          "w": "interrogated",
+          "f": 1
+        },
+        {
+          "w": "officials,",
           "f": 1
         },
         {
@@ -11297,7 +5048,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "testimony",
+          "f": 1
+        },
+        {
           "w": "large",
+          "f": 1
+        },
+        {
+          "w": "5,",
+          "f": 1
+        },
+        {
+          "w": "succession",
           "f": 1
         },
         {
@@ -11313,8 +5076,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "snakes",
-          "f": 1
+          "w": "her.",
+          "f": 2
         },
         {
           "w": "incarcerated",
@@ -11322,7 +5085,7 @@ var years =[
         },
         {
           "w": "officials",
-          "f": 2
+          "f": 1
         },
         {
           "w": "witness",
@@ -11337,11 +5100,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "giving",
+          "w": "1970,",
           "f": 1
         },
         {
-          "w": "avoid",
+          "w": "assisted",
+          "f": 1
+        },
+        {
+          "w": "completed,",
+          "f": 1
+        },
+        {
+          "w": "time.",
+          "f": 1
+        },
+        {
+          "w": "7",
           "f": 1
         },
         {
@@ -11357,16 +5132,12 @@ var years =[
           "f": 2
         },
         {
-          "w": "disappeared",
-          "f": 1
-        },
-        {
           "w": "met",
           "f": 1
         },
         {
-          "w": "death",
-          "f": 2
+          "w": "explanation,",
+          "f": 1
         },
         {
           "w": "opposition",
@@ -11385,12 +5156,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "testimony",
+          "w": "3,",
           "f": 1
         },
         {
           "w": "yodok",
           "f": 3
+        },
+        {
+          "w": "jong-il.",
+          "f": 1
         },
         {
           "w": "secure",
@@ -11409,11 +5184,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "il-sung",
+          "w": "1990s",
           "f": 1
         },
         {
-          "w": "1990s",
+          "w": "snakes",
           "f": 1
         },
         {
@@ -11422,6 +5197,10 @@ var years =[
         },
         {
           "w": "additional",
+          "f": 1
+        },
+        {
+          "w": "hae-rim.",
           "f": 1
         },
         {
@@ -11445,16 +5224,32 @@ var years =[
           "f": 1
         },
         {
-          "w": "explanation",
+          "w": "understand",
           "f": 1
         },
         {
-          "w": "understand",
+          "w": "il-sung.",
           "f": 1
         },
         {
           "w": "first-hand",
           "f": 1
+        },
+        {
+          "w": "children.",
+          "f": 1
+        },
+        {
+          "w": "later,",
+          "f": 1
+        },
+        {
+          "w": "10",
+          "f": 1
+        },
+        {
+          "w": "15",
+          "f": 2
         },
         {
           "w": "disappeared)",
@@ -11465,12 +5260,20 @@ var years =[
           "f": 2
         },
         {
+          "w": "disappeared.",
+          "f": 1
+        },
+        {
           "w": "ms",
           "f": 5
         },
         {
+          "w": "1970s.",
+          "f": 1
+        },
+        {
           "w": "camp",
-          "f": 6
+          "f": 5
         },
         {
           "w": "ran",
@@ -11485,8 +5288,12 @@ var years =[
           "f": 1
         },
         {
+          "w": "15,",
+          "f": 1
+        },
+        {
           "w": "hae-rim",
-          "f": 3
+          "f": 2
         },
         {
           "w": "information",
@@ -11497,7 +5304,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "interrogated",
+          "w": "camp.",
+          "f": 1
+        },
+        {
+          "w": "victims,",
           "f": 1
         },
         {
@@ -11509,7 +5320,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "completed",
+          "w": "survival",
+          "f": 1
+        },
+        {
+          "w": "salt,",
           "f": 1
         },
         {
@@ -11525,7 +5340,7 @@ var years =[
           "f": 3
         },
         {
-          "w": "jong-nam",
+          "w": "death.",
           "f": 1
         },
         {
@@ -11537,7 +5352,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "purged",
+          "w": "giving",
           "f": 1
         },
         {
@@ -11549,11 +5364,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "salt",
-          "f": 1
-        },
-        {
-          "w": "assisted",
+          "w": "purged",
           "f": 1
         }
       ],
@@ -11569,18 +5380,17 @@ var years =[
           ]
         },
         "pol": {
-          "perc": 5,
+          "perc": 4,
           "kw": [
             "korea",
             "father",
-            "succession",
             "political",
             "jong-il",
             "state",
-            "time",
             "kim",
             "1970s",
-            "party"
+            "party",
+            "1970s,"
           ]
         }
       },
@@ -11590,11 +5400,55 @@ var years =[
           "f": 1
         },
         {
-          "w": "rooted",
+          "w": "re-pay",
           "f": 1
         },
         {
-          "w": "process",
+          "w": "concept",
+          "f": 1
+        },
+        {
+          "w": "soldiers",
+          "f": 1
+        },
+        {
+          "w": "zone",
+          "f": 1
+        },
+        {
+          "w": "daily",
+          "f": 1
+        },
+        {
+          "w": "debts",
+          "f": 1
+        },
+        {
+          "w": "source",
+          "f": 1
+        },
+        {
+          "w": "instrument",
+          "f": 1
+        },
+        {
+          "w": "main",
+          "f": 1
+        },
+        {
+          "w": "resources",
+          "f": 1
+        },
+        {
+          "w": "personality",
+          "f": 2
+        },
+        {
+          "w": "nationthroughout",
+          "f": 1
+        },
+        {
+          "w": "consolidation",
           "f": 1
         },
         {
@@ -11602,11 +5456,31 @@ var years =[
           "f": 1
         },
         {
-          "w": "powerful",
+          "w": "skills",
           "f": 1
         },
         {
-          "w": "period",
+          "w": "juche",
+          "f": 1
+        },
+        {
+          "w": "problems.",
+          "f": 1
+        },
+        {
+          "w": "country.",
+          "f": 1
+        },
+        {
+          "w": "borrow",
+          "f": 2
+        },
+        {
+          "w": "demilitarized",
+          "f": 1
+        },
+        {
+          "w": "civiliansin",
           "f": 1
         },
         {
@@ -11614,7 +5488,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "re-pay",
+          "w": "succession,",
+          "f": 1
+        },
+        {
+          "w": "succession.",
           "f": 1
         },
         {
@@ -11630,58 +5508,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "accumulated",
-          "f": 1
-        },
-        {
-          "w": "substantial",
-          "f": 1
-        },
-        {
-          "w": "soldiers",
-          "f": 1
-        },
-        {
-          "w": "rule",
-          "f": 1
-        },
-        {
-          "w": "linked",
-          "f": 1
-        },
-        {
-          "w": "soviet",
-          "f": 1
-        },
-        {
-          "w": "concept",
-          "f": 1
-        },
-        {
-          "w": "motion",
-          "f": 1
-        },
-        {
-          "w": "billions",
-          "f": 1
-        },
-        {
-          "w": "consolidation",
-          "f": 1
-        },
-        {
-          "w": "zone",
-          "f": 1
-        },
-        {
-          "w": "instrument",
-          "f": 1
-        },
-        {
-          "w": "union",
-          "f": 1
-        },
-        {
           "w": "deeply",
           "f": 1
         },
@@ -11690,11 +5516,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "debts",
-          "f": 1
-        },
-        {
-          "w": "default",
+          "w": "time,",
           "f": 1
         },
         {
@@ -11702,71 +5524,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "funds",
-          "f": 1
-        },
-        {
           "w": "international",
           "f": 1
         },
         {
-          "w": "unwilling",
-          "f": 1
-        },
-        {
-          "w": "main",
-          "f": 1
-        },
-        {
-          "w": "setting",
-          "f": 1
-        },
-        {
-          "w": "resources",
-          "f": 1
-        },
-        {
-          "w": "personality",
-          "f": 2
-        },
-        {
-          "w": "development",
-          "f": 1
-        },
-        {
-          "w": "pay",
-          "f": 1
-        },
-        {
-          "w": "north",
-          "f": 1
-        },
-        {
-          "w": "plans",
-          "f": 1
-        },
-        {
-          "w": "congress",
-          "f": 1
-        },
-        {
-          "w": "fire",
-          "f": 1
-        },
-        {
-          "w": "attempted",
-          "f": 1
-        },
-        {
-          "w": "problems",
-          "f": 1
-        },
-        {
-          "w": "gnp",
-          "f": 1
-        },
-        {
-          "w": "monolithic",
+          "w": "legitimacy",
           "f": 1
         },
         {
@@ -11774,19 +5536,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "kimilsungism",
-          "f": 1
-        },
-        {
-          "w": "important",
-          "f": 1
-        },
-        {
           "w": "china",
-          "f": 1
-        },
-        {
-          "w": "community",
           "f": 1
         },
         {
@@ -11802,35 +5552,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "legitimacy",
-          "f": 1
-        },
-        {
           "w": "dprk",
           "f": 5
         },
         {
-          "w": "proclaimed",
-          "f": 1
-        },
-        {
-          "w": "1980s",
-          "f": 1
-        },
-        {
-          "w": "mid-1970s",
-          "f": 1
-        },
-        {
-          "w": "juche",
-          "f": 2
-        },
-        {
-          "w": "demilitarized",
-          "f": 1
-        },
-        {
-          "w": "invest",
+          "w": "900",
           "f": 1
         },
         {
@@ -11838,47 +5564,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "departments",
+          "w": "motion",
           "f": 1
         },
         {
-          "w": "borrow",
-          "f": 2
-        },
-        {
-          "w": "daily",
+          "w": "community.",
           "f": 1
         },
         {
-          "w": "ideology",
-          "f": 1
-        },
-        {
-          "w": "skills",
-          "f": 1
-        },
-        {
-          "w": "capita",
-          "f": 1
-        },
-        {
-          "w": "nationthroughout",
-          "f": 1
-        },
-        {
-          "w": "source",
-          "f": 1
-        },
-        {
-          "w": "country",
-          "f": 1
-        },
-        {
-          "w": "organization",
-          "f": 1
-        },
-        {
-          "w": "organized",
+          "w": "however,",
           "f": 1
         },
         {
@@ -11886,7 +5580,75 @@ var years =[
           "f": 1
         },
         {
-          "w": "civiliansin",
+          "w": "south",
+          "f": 1
+        },
+        {
+          "w": "rooted",
+          "f": 1
+        },
+        {
+          "w": "powerful",
+          "f": 1
+        },
+        {
+          "w": "period",
+          "f": 1
+        },
+        {
+          "w": "billions",
+          "f": 1
+        },
+        {
+          "w": "accumulated",
+          "f": 1
+        },
+        {
+          "w": "juche.",
+          "f": 1
+        },
+        {
+          "w": "mid-1970s,",
+          "f": 1
+        },
+        {
+          "w": "union",
+          "f": 1
+        },
+        {
+          "w": "kimilsungism,",
+          "f": 1
+        },
+        {
+          "w": "north",
+          "f": 1
+        },
+        {
+          "w": "fire",
+          "f": 1
+        },
+        {
+          "w": "funds",
+          "f": 1
+        },
+        {
+          "w": "pay.",
+          "f": 1
+        },
+        {
+          "w": "same.",
+          "f": 1
+        },
+        {
+          "w": "gnp",
+          "f": 1
+        },
+        {
+          "w": "default",
+          "f": 1
+        },
+        {
+          "w": "further.",
           "f": 1
         },
         {
@@ -11894,7 +5656,91 @@ var years =[
           "f": 1
         },
         {
-          "w": "south",
+          "w": "process",
+          "f": 1
+        },
+        {
+          "w": "organized",
+          "f": 1
+        },
+        {
+          "w": "substantial",
+          "f": 1
+        },
+        {
+          "w": "departments",
+          "f": 1
+        },
+        {
+          "w": "linked",
+          "f": 1
+        },
+        {
+          "w": "ideology",
+          "f": 1
+        },
+        {
+          "w": "setting",
+          "f": 1
+        },
+        {
+          "w": "attempted",
+          "f": 1
+        },
+        {
+          "w": "unwilling",
+          "f": 1
+        },
+        {
+          "w": "development",
+          "f": 1
+        },
+        {
+          "w": "plans",
+          "f": 1
+        },
+        {
+          "w": "congress",
+          "f": 1
+        },
+        {
+          "w": "monolithic",
+          "f": 1
+        },
+        {
+          "w": "important",
+          "f": 1
+        },
+        {
+          "w": "1980s,",
+          "f": 1
+        },
+        {
+          "w": "proclaimed",
+          "f": 1
+        },
+        {
+          "w": "invest",
+          "f": 1
+        },
+        {
+          "w": "rule",
+          "f": 1
+        },
+        {
+          "w": "1970",
+          "f": 1
+        },
+        {
+          "w": "capita",
+          "f": 1
+        },
+        {
+          "w": "organization",
+          "f": 1
+        },
+        {
+          "w": "soviet",
           "f": 1
         }
       ],
@@ -11907,199 +5753,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.25,
-      "sub": 0.75,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "figure",
-            "f": 1
-          },
-          {
-            "w": "century",
-            "f": 1
-          },
-          {
-            "w": "visitor",
-            "f": 2
-          },
-          {
-            "w": "national",
-            "f": 1
-          },
-          {
-            "w": "general",
-            "f": 1
-          },
-          {
-            "w": "il",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "hero",
-            "f": 2
-          },
-          {
-            "w": "invincible",
-            "f": 1
-          },
-          {
-            "w": "children",
-            "f": 1
-          },
-          {
-            "w": "enters",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 1
-          },
-          {
-            "w": "unknown",
-            "f": 1
-          },
-          {
-            "w": "political",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 1
-          },
-          {
-            "w": "state",
-            "f": 1
-          },
-          {
-            "w": "dominated",
-            "f": 1
-          },
-          {
-            "w": "manila",
-            "f": 1
-          },
-          {
-            "w": "party",
-            "f": 1
-          },
-          {
-            "w": "instantly",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 2
-          },
-          {
-            "w": "north",
-            "f": 3
-          },
-          {
-            "w": "relaxed",
-            "f": 1
-          },
-          {
-            "w": "impress",
-            "f": 1
-          },
-          {
-            "w": "worker's",
-            "f": 1
-          },
-          {
-            "w": "plane",
-            "f": 1
-          },
-          {
-            "w": "sensed",
-            "f": 1
-          },
-          {
-            "w": "minister",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 1
-          },
-          {
-            "w": "wellcaredfor",
-            "f": 1
-          },
-          {
-            "w": "prime",
-            "f": 1
-          },
-          {
-            "w": "patriot",
-            "f": 1
-          },
-          {
-            "w": "austere",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 1
-          },
-          {
-            "w": "universe",
-            "f": 1
-          },
-          {
-            "w": "leaves",
-            "f": 1
-          },
-          {
-            "w": "alternately",
-            "f": 1
-          },
-          {
-            "w": "korea:",
-            "f": 1
-          },
-          {
-            "w": "chief",
-            "f": 1
-          },
-          {
-            "w": "things",
-            "f": 1
-          },
-          {
-            "w": "autonomous",
-            "f": 1
-          },
-          {
-            "w": "country",
-            "f": 1
-          },
-          {
-            "w": "20th",
-            "f": 1
-          },
-          {
-            "w": "secretary",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -12128,412 +5781,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "administration",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 5
-          }
-        ]
-      },
-      "obj": 0.7777777777777778,
-      "sub": 0.2222222222222222,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "show",
-            "f": 1
-          },
-          {
-            "w": "trade",
-            "f": 1
-          },
-          {
-            "w": "including",
-            "f": 1
-          },
-          {
-            "w": "cooperative",
-            "f": 1
-          },
-          {
-            "w": "westerners",
-            "f": 1
-          },
-          {
-            "w": "japan",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 1
-          },
-          {
-            "w": "chosen",
-            "f": 2
-          },
-          {
-            "w": "subjected",
-            "f": 1
-          },
-          {
-            "w": "ships",
-            "f": 1
-          },
-          {
-            "w": "jan",
-            "f": 1
-          },
-          {
-            "w": "reuters",
-            "f": 1
-          },
-          {
-            "w": "kingdom",
-            "f": 3
-          },
-          {
-            "w": "march",
-            "f": 1
-          },
-          {
-            "w": "possibly",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "ending",
-            "f": 1
-          },
-          {
-            "w": "posture",
-            "f": 1
-          },
-          {
-            "w": "miles",
-            "f": 1
-          },
-          {
-            "w": "isolation",
-            "f": 1
-          },
-          {
-            "w": "economy",
-            "f": 1
-          },
-          {
-            "w": "sank",
-            "f": 1
-          },
-          {
-            "w": "dour",
-            "f": 1
-          },
-          {
-            "w": "inching",
-            "f": 1
-          },
-          {
-            "w": "entering",
-            "f": 1
-          },
-          {
-            "w": "chickenraising",
-            "f": 1
-          },
-          {
-            "w": "recognition",
-            "f": 1
-          },
-          {
-            "w": "extroverted",
-            "f": 1
-          },
-          {
-            "w": "contacts",
-            "f": 1
-          },
-          {
-            "w": "factory",
-            "f": 1
-          },
-          {
-            "w": "19th",
-            "f": 1
-          },
-          {
-            "w": "progress",
-            "f": 1
-          },
-          {
-            "w": "burned",
-            "f": 1
-          },
-          {
-            "w": "announced",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 17
-          },
-          {
-            "w": "business",
-            "f": 1
-          },
-          {
-            "w": "harvard",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 1
-          },
-          {
-            "w": "pursuit",
-            "f": 1
-          },
-          {
-            "w": "intensely",
-            "f": 1
-          },
-          {
-            "w": "appears",
-            "f": 1
-          },
-          {
-            "w": "chongsanri",
-            "f": 1
-          },
-          {
-            "w": "country",
-            "f": 2
-          },
-          {
-            "w": "taking",
-            "f": 1
-          },
-          {
-            "w": "foreign",
-            "f": 1
-          },
-          {
-            "w": "today's",
-            "f": 1
-          },
-          {
-            "w": "patriotic",
-            "f": 1
-          },
-          {
-            "w": "chongsan",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 1
-          },
-          {
-            "w": "pakistan",
-            "f": 2
-          },
-          {
-            "w": "americans",
-            "f": 2
-          },
-          {
-            "w": "relations",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 9
-          },
-          {
-            "w": "open",
-            "f": 1
-          },
-          {
-            "w": "ancient",
-            "f": 1
-          },
-          {
-            "w": "families",
-            "f": 1
-          },
-          {
-            "w": "west",
-            "f": 2
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "long",
-            "f": 1
-          },
-          {
-            "w": "mangyondae",
-            "f": 1
-          },
-          {
-            "w": "fought",
-            "f": 1
-          },
-          {
-            "w": "flexible",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 1
-          },
-          {
-            "w": "vigorous",
-            "f": 1
-          },
-          {
-            "w": "reminds",
-            "f": 1
-          },
-          {
-            "w": "improved",
-            "f": 1
-          },
-          {
-            "w": "considerable",
-            "f": 1
-          },
-          {
-            "w": "present",
-            "f": 1
-          },
-          {
-            "w": "commerce",
-            "f": 1
-          },
-          {
-            "w": "made",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 4
-          },
-          {
-            "w": "islamabad",
-            "f": 1
-          },
-          {
-            "w": "evolved",
-            "f": 1
-          },
-          {
-            "w": "shool",
-            "f": 1
-          },
-          {
-            "w": "century",
-            "f": 2
-          },
-          {
-            "w": "portraits",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 1
-          },
-          {
-            "w": "mind",
-            "f": 1
-          },
-          {
-            "w": "fiercely",
-            "f": 2
-          },
-          {
-            "w": "il",
-            "f": 1
-          },
-          {
-            "w": "sought",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 14
-          },
-          {
-            "w": "times",
-            "f": 2
-          },
-          {
-            "w": "graduate",
-            "f": 1
-          },
-          {
-            "w": "hermitlike",
-            "f": 1
-          },
-          {
-            "w": "unsmiling",
-            "f": 1
-          },
-          {
-            "w": "analogy",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "hermit",
-            "f": 1
-          },
-          {
-            "w": "farm",
-            "f": 1
-          },
-          {
-            "w": "visitors",
-            "f": 1
-          },
-          {
-            "w": "ago",
-            "f": 1
-          },
-          {
-            "w": "remote",
-            "f": 1
-          },
-          {
-            "w": "outskirts",
-            "f": 1
-          },
-          {
-            "w": "proud",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -12590,6 +5837,18 @@ var years =[
           "f": 1
         },
         {
+          "w": "stalin.",
+          "f": 1
+        },
+        {
+          "w": "nevertheless,",
+          "f": 1
+        },
+        {
+          "w": "1972",
+          "f": 2
+        },
+        {
           "w": "yong-ju",
           "f": 1
         },
@@ -12610,15 +5869,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "constitution,",
+          "f": 1
+        },
+        {
           "w": "negotiations",
           "f": 1
         },
         {
-          "w": "constitution",
-          "f": 1
-        },
-        {
-          "w": "apparatus",
+          "w": "walls.",
           "f": 1
         },
         {
@@ -12639,6 +5898,10 @@ var years =[
         },
         {
           "w": "surpassed",
+          "f": 1
+        },
+        {
+          "w": "time,",
           "f": 1
         },
         {
@@ -12686,19 +5949,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "hu-rak",
-          "f": 1
-        },
-        {
           "w": "zedong",
           "f": 1
         },
         {
-          "w": "joint",
+          "w": "released",
           "f": 1
         },
         {
-          "w": "walls",
+          "w": "1972,",
           "f": 1
         },
         {
@@ -12730,7 +5989,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "released",
+          "w": "joint",
+          "f": 1
+        },
+        {
+          "w": "hu-rak,",
+          "f": 1
+        },
+        {
+          "w": "apparatus.",
           "f": 1
         },
         {
@@ -12746,10 +6013,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "stalin",
-          "f": 1
-        },
-        {
           "w": "chief",
           "f": 1
         },
@@ -12758,7 +6021,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "time",
+          "w": "succession",
           "f": 1
         },
         {
@@ -12768,10 +6031,6 @@ var years =[
         {
           "w": "security",
           "f": 2
-        },
-        {
-          "w": "succession",
-          "f": 1
         },
         {
           "w": "wear",
@@ -12787,399 +6046,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.8636363636363636,
-      "sub": 0.13636363636363635,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "proposed",
-            "f": 1
-          },
-          {
-            "w": "session",
-            "f": 1
-          },
-          {
-            "w": "cambodian",
-            "f": 2
-          },
-          {
-            "w": "prince",
-            "f": 2
-          },
-          {
-            "w": "hsinhua",
-            "f": 1
-          },
-          {
-            "w": "admission",
-            "f": 5
-          },
-          {
-            "w": "regrets",
-            "f": 1
-          },
-          {
-            "w": "adviser",
-            "f": 1
-          },
-          {
-            "w": "government",
-            "f": 1
-          },
-          {
-            "w": "peking's",
-            "f": 1
-          },
-          {
-            "w": "undisclosed",
-            "f": 1
-          },
-          {
-            "w": "press",
-            "f": 1
-          },
-          {
-            "w": "world",
-            "f": 2
-          },
-          {
-            "w": "accepted",
-            "f": 1
-          },
-          {
-            "w": "solution",
-            "f": 1
-          },
-          {
-            "w": "nixon's",
-            "f": 1
-          },
-          {
-            "w": "leave",
-            "f": 1
-          },
-          {
-            "w": "peking",
-            "f": 1
-          },
-          {
-            "w": "security",
-            "f": 1
-          },
-          {
-            "w": "interparliamentary",
-            "f": 1
-          },
-          {
-            "w": "official",
-            "f": 1
-          },
-          {
-            "w": "national",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 1
-          },
-          {
-            "w": "state",
-            "f": 3
-          },
-          {
-            "w": "health",
-            "f": 2
-          },
-          {
-            "w": "leader",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 9
-          },
-          {
-            "w": "deposed",
-            "f": 1
-          },
-          {
-            "w": "reported",
-            "f": 1
-          },
-          {
-            "w": "suggested",
-            "f": 1
-          },
-          {
-            "w": "kissinger",
-            "f": 1
-          },
-          {
-            "w": "federated",
-            "f": 1
-          },
-          {
-            "w": "admit",
-            "f": 1
-          },
-          {
-            "w": "military",
-            "f": 1
-          },
-          {
-            "w": "introduced",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 1
-          },
-          {
-            "w": "president",
-            "f": 2
-          },
-          {
-            "w": "vote",
-            "f": 3
-          },
-          {
-            "w": "union",
-            "f": 1
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "opposed",
-            "f": 1
-          },
-          {
-            "w": "abstentions",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 8
-          },
-          {
-            "w": "head",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 9
-          },
-          {
-            "w": "geneva",
-            "f": 1
-          },
-          {
-            "w": "sihanouk",
-            "f": 2
-          },
-          {
-            "w": "threeweek",
-            "f": 1
-          },
-          {
-            "w": "chile",
-            "f": 1
-          },
-          {
-            "w": "demand",
-            "f": 1
-          },
-          {
-            "w": "taek",
-            "f": 1
-          },
-          {
-            "w": "chong",
-            "f": 1
-          },
-          {
-            "w": "ii",
-            "f": 1
-          },
-          {
-            "w": "made",
-            "f": 1
-          },
-          {
-            "w": "join",
-            "f": 1
-          },
-          {
-            "w": "korea's",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 5
-          },
-          {
-            "w": "henry",
-            "f": 1
-          },
-          {
-            "w": "meet",
-            "f": 1
-          },
-          {
-            "w": "specialized",
-            "f": 1
-          },
-          {
-            "w": "called",
-            "f": 1
-          },
-          {
-            "w": "illness",
-            "f": 1
-          },
-          {
-            "w": "norodom",
-            "f": 2
-          },
-          {
-            "w": "states",
-            "f": 3
-          },
-          {
-            "w": "single",
-            "f": 1
-          },
-          {
-            "w": "council",
-            "f": 1
-          },
-          {
-            "w": "exile",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 7
-          },
-          {
-            "w": "italy",
-            "f": 1
-          },
-          {
-            "w": "agency",
-            "f": 2
-          },
-          {
-            "w": "cambodia",
-            "f": 1
-          },
-          {
-            "w": "member",
-            "f": 2
-          },
-          {
-            "w": "complex",
-            "f": 1
-          },
-          {
-            "w": "speech",
-            "f": 1
-          },
-          {
-            "w": "reject",
-            "f": 1
-          },
-          {
-            "w": "department",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 1
-          },
-          {
-            "w": "week",
-            "f": 1
-          },
-          {
-            "w": "santiago",
-            "f": 1
-          },
-          {
-            "w": "jun",
-            "f": 1
-          },
-          {
-            "w": "yesterday",
-            "f": 2
-          },
-          {
-            "w": "kim",
-            "f": 1
-          },
-          {
-            "w": "entry",
-            "f": 1
-          },
-          {
-            "w": "end",
-            "f": 1
-          },
-          {
-            "w": "approved",
-            "f": 2
-          },
-          {
-            "w": "died",
-            "f": 1
-          },
-          {
-            "w": "vice",
-            "f": 1
-          },
-          {
-            "w": "request",
-            "f": 1
-          },
-          {
-            "w": "fighting",
-            "f": 1
-          },
-          {
-            "w": "dissolved",
-            "f": 1
-          },
-          {
-            "w": "command",
-            "f": 1
-          },
-          {
-            "w": "organization",
-            "f": 3
-          },
-          {
-            "w": "resolution",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -13209,144 +6075,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "called",
-            "f": 1
-          },
-          {
-            "w": "announced",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "barbarous",
-            "f": 1
-          },
-          {
-            "w": "yellow",
-            "f": 1
-          },
-          {
-            "w": "existing",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "defense",
-            "f": 1
-          },
-          {
-            "w": "fishing",
-            "f": 1
-          },
-          {
-            "w": "sea",
-            "f": 1
-          },
-          {
-            "w": "talks",
-            "f": 1
-          },
-          {
-            "w": "seized",
-            "f": 1
-          },
-          {
-            "w": "boat",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "peace",
-            "f": 1
-          },
-          {
-            "w": "attack",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 2
-          },
-          {
-            "w": "armistice",
-            "f": 1
-          },
-          {
-            "w": "conclusion",
-            "f": 1
-          },
-          {
-            "w": "accord",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 2
-          },
-          {
-            "w": "replacing",
-            "f": 1
-          },
-          {
-            "w": "agreement",
-            "f": 1
-          },
-          {
-            "w": "ministry",
-            "f": 1
-          },
-          {
-            "w": "morning",
-            "f": 1
-          },
-          {
-            "w": "gunboats",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 2
-          },
-          {
-            "w": "military",
-            "f": 1
-          },
-          {
-            "w": "sank",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -13370,7 +6098,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "il-sung",
+          "w": "moreover,",
           "f": 1
         },
         {
@@ -13402,6 +6130,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "10.1",
+          "f": 1
+        },
+        {
+          "w": "1974,",
+          "f": 1
+        },
+        {
           "w": "politburo",
           "f": 1
         },
@@ -13418,10 +6154,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "system",
-          "f": 2
-        },
-        {
           "w": "adhere",
           "f": 1
         },
@@ -13436,10 +6168,6 @@ var years =[
         {
           "w": "party",
           "f": 2
-        },
-        {
-          "w": "leader",
-          "f": 1
         },
         {
           "w": "announced",
@@ -13478,6 +6206,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "il-sung.",
+          "f": 1
+        },
+        {
           "w": "kim",
           "f": 5
         },
@@ -13510,6 +6242,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "system.",
+          "f": 1
+        },
+        {
+          "w": "system,",
+          "f": 1
+        },
+        {
           "w": "establishing",
           "f": 1
         },
@@ -13536,612 +6276,13 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "kim",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.4444444444444444,
-      "sub": 0.5555555555555556,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": [
-          {
-            "w": "city",
-            "f": 1
-          },
-          {
-            "w": "state",
-            "f": 1
-          },
-          {
-            "w": "train",
-            "f": 1
-          }
-        ]
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "reductions",
-            "f": 1
-          },
-          {
-            "w": "trade",
-            "f": 1
-          },
-          {
-            "w": "embassy",
-            "f": 1
-          },
-          {
-            "w": "committed",
-            "f": 1
-          },
-          {
-            "w": "japan",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 3
-          },
-          {
-            "w": "decade",
-            "f": 1
-          },
-          {
-            "w": "principal",
-            "f": 1
-          },
-          {
-            "w": "subversive",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 1
-          },
-          {
-            "w": "vietnamese",
-            "f": 1
-          },
-          {
-            "w": "paris",
-            "f": 1
-          },
-          {
-            "w": "reuters",
-            "f": 2
-          },
-          {
-            "w": "stalled",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 1
-          },
-          {
-            "w": "oct",
-            "f": 1
-          },
-          {
-            "w": "penh",
-            "f": 1
-          },
-          {
-            "w": "activities",
-            "f": 1
-          },
-          {
-            "w": "australia",
-            "f": 1
-          },
-          {
-            "w": "return",
-            "f": 1
-          },
-          {
-            "w": "cambodia's",
-            "f": 1
-          },
-          {
-            "w": "monique",
-            "f": 1
-          },
-          {
-            "w": "fall",
-            "f": 1
-          },
-          {
-            "w": "world",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "governments",
-            "f": 1
-          },
-          {
-            "w": "mauritania",
-            "f": 1
-          },
-          {
-            "w": "systematically",
-            "f": 1
-          },
-          {
-            "w": "joined",
-            "f": 1
-          },
-          {
-            "w": "peking",
-            "f": 2
-          },
-          {
-            "w": "steadfastness",
-            "f": 1
-          },
-          {
-            "w": "withdrawal",
-            "f": 1
-          },
-          {
-            "w": "economy",
-            "f": 1
-          },
-          {
-            "w": "bulgaria",
-            "f": 1
-          },
-          {
-            "w": "belgrade",
-            "f": 1
-          },
-          {
-            "w": "observed",
-            "f": 1
-          },
-          {
-            "w": "urgent",
-            "f": 1
-          },
-          {
-            "w": "inopportune",
-            "f": 1
-          },
-          {
-            "w": "officials",
-            "f": 1
-          },
-          {
-            "w": "yugoslavia",
-            "f": 2
-          },
-          {
-            "w": "begun",
-            "f": 1
-          },
-          {
-            "w": "year",
-            "f": 1
-          },
-          {
-            "w": "close",
-            "f": 1
-          },
-          {
-            "w": "tokyoto",
-            "f": 1
-          },
-          {
-            "w": "plans",
-            "f": 1
-          },
-          {
-            "w": "schlesinger",
-            "f": 1
-          },
-          {
-            "w": "indochina",
-            "f": 1
-          },
-          {
-            "w": "rigidly",
-            "f": 1
-          },
-          {
-            "w": "visiting",
-            "f": 1
-          },
-          {
-            "w": "10yugoslavia",
-            "f": 1
-          },
-          {
-            "w": "asia",
-            "f": 1
-          },
-          {
-            "w": "prince",
-            "f": 2
-          },
-          {
-            "w": "nominal",
-            "f": 1
-          },
-          {
-            "w": "told",
-            "f": 2
-          },
-          {
-            "w": "korea",
-            "f": 12
-          },
-          {
-            "w": "power",
-            "f": 1
-          },
-          {
-            "w": "june",
-            "f": 1
-          },
-          {
-            "w": "view",
-            "f": 1
-          },
-          {
-            "w": "bangkok",
-            "f": 1
-          },
-          {
-            "w": "thailand",
-            "f": 1
-          },
-          {
-            "w": "loans",
-            "f": 1
-          },
-          {
-            "w": "abroad",
-            "f": 1
-          },
-          {
-            "w": "shaken",
-            "f": 1
-          },
-          {
-            "w": "bills",
-            "f": 1
-          },
-          {
-            "w": "foreign",
-            "f": 1
-          },
-          {
-            "w": "american",
-            "f": 1
-          },
-          {
-            "w": "secretary",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 6
-          },
-          {
-            "w": "major",
-            "f": 1
-          },
-          {
-            "w": "diplomats",
-            "f": 1
-          },
-          {
-            "w": "campaign",
-            "f": 1
-          },
-          {
-            "w": "danger",
-            "f": 1
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 3
-          },
-          {
-            "w": "rumania",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "phnom",
-            "f": 1
-          },
-          {
-            "w": "confidence",
-            "f": 1
-          },
-          {
-            "w": "foolish",
-            "f": 1
-          },
-          {
-            "w": "troops",
-            "f": 1
-          },
-          {
-            "w": "$500million",
-            "f": 1
-          },
-          {
-            "w": "west",
-            "f": 1
-          },
-          {
-            "w": "informed",
-            "f": 1
-          },
-          {
-            "w": "princess",
-            "f": 1
-          },
-          {
-            "w": "attack",
-            "f": 1
-          },
-          {
-            "w": "interest",
-            "f": 1
-          },
-          {
-            "w": "takeo",
-            "f": 1
-          },
-          {
-            "w": "proposal",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 4
-          },
-          {
-            "w": "vienna",
-            "f": 1
-          },
-          {
-            "w": "dialogue",
-            "f": 1
-          },
-          {
-            "w": "premier",
-            "f": 1
-          },
-          {
-            "w": "controlled",
-            "f": 1
-          },
-          {
-            "w": "algeria",
-            "f": 1
-          },
-          {
-            "w": "completed",
-            "f": 1
-          },
-          {
-            "w": "sihanouk",
-            "f": 2
-          },
-          {
-            "w": "miki",
-            "f": 1
-          },
-          {
-            "w": "ford",
-            "f": 1
-          },
-          {
-            "w": "western",
-            "f": 1
-          },
-          {
-            "w": "july",
-            "f": 2
-          },
-          {
-            "w": "reunification",
-            "f": 1
-          },
-          {
-            "w": "weeks",
-            "f": 1
-          },
-          {
-            "w": "apnorth",
-            "f": 1
-          },
-          {
-            "w": "paying",
-            "f": 1
-          },
-          {
-            "w": "reopening",
-            "f": 1
-          },
-          {
-            "w": "left",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 3
-          },
-          {
-            "w": "default",
-            "f": 1
-          },
-          {
-            "w": "mo",
-            "f": 1
-          },
-          {
-            "w": "korea's",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "defense",
-            "f": 1
-          },
-          {
-            "w": "venture",
-            "f": 1
-          },
-          {
-            "w": "norodom",
-            "f": 2
-          },
-          {
-            "w": "head",
-            "f": 1
-          },
-          {
-            "w": "ii",
-            "f": 3
-          },
-          {
-            "w": "surveying",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 9
-          },
-          {
-            "w": "washingtonshortly",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "end",
-            "f": 1
-          },
-          {
-            "w": "cambodia",
-            "f": 1
-          },
-          {
-            "w": "special",
-            "f": 1
-          },
-          {
-            "w": "forces",
-            "f": 1
-          },
-          {
-            "w": "agence",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 2
-          },
-          {
-            "w": "european",
-            "f": 1
-          },
-          {
-            "w": "staying",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 1
-          },
-          {
-            "w": "kansas",
-            "f": 1
-          },
-          {
-            "w": "spot",
-            "f": 1
-          },
-          {
-            "w": "demanding",
-            "f": 1
-          },
-          {
-            "w": "rejected",
-            "f": 1
-          },
-          {
-            "w": "president",
-            "f": 4
-          },
-          {
-            "w": "fighting",
-            "f": 1
-          },
-          {
-            "w": "vietnam",
-            "f": 1
-          },
-          {
-            "w": "banks",
-            "f": 1
-          },
-          {
-            "w": "francepresse",
-            "f": 1
-          },
-          {
-            "w": "talk",
-            "f": 1
-          },
-          {
-            "w": "overdue",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
+        {
+          "w": "no.",
+          "f": 2
+        },
         {
           "w": "camp",
           "f": 2
@@ -14187,6 +6328,18 @@ var years =[
           "f": 1
         },
         {
+          "w": "charges.",
+          "f": 1
+        },
+        {
+          "w": "18.",
+          "f": 1
+        },
+        {
+          "w": "department,",
+          "f": 1
+        },
+        {
           "w": "state",
           "f": 1
         },
@@ -14199,7 +6352,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "department",
+          "w": "closed.",
           "f": 1
         },
         {
@@ -14207,11 +6360,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "closed",
+          "w": "descendants",
           "f": 1
         },
         {
-          "w": "descendants",
+          "w": "300",
           "f": 1
         },
         {
@@ -14243,7 +6396,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "charges",
+          "w": "18",
           "f": 1
         },
         {
@@ -14256,6 +6409,10 @@ var years =[
         },
         {
           "w": "train",
+          "f": 1
+        },
+        {
+          "w": "2006",
           "f": 1
         },
         {
@@ -14273,8 +6430,9 @@ var years =[
           "kw": []
         },
         "pol": {
-          "perc": 2,
+          "perc": 4,
           "kw": [
+            "1975,",
             "political"
           ]
         }
@@ -14282,10 +6440,6 @@ var years =[
       "kw": [
         {
           "w": "applied",
-          "f": 1
-        },
-        {
-          "w": "police",
           "f": 1
         },
         {
@@ -14313,16 +6467,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "bureau",
-          "f": 1
-        },
-        {
           "w": "kim",
           "f": 1
         },
         {
           "w": "military",
           "f": 2
+        },
+        {
+          "w": "police.",
+          "f": 1
+        },
+        {
+          "w": "bureau,",
+          "f": 1
         },
         {
           "w": "staff",
@@ -14338,379 +6496,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.8181818181818182,
-      "sub": 0.18181818181818182,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "proposed",
-            "f": 1
-          },
-          {
-            "w": "radio",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 3
-          },
-          {
-            "w": "monitored",
-            "f": 1
-          },
-          {
-            "w": "chinese",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 2
-          },
-          {
-            "w": "hsinhua",
-            "f": 1
-          },
-          {
-            "w": "21president",
-            "f": 1
-          },
-          {
-            "w": "killed",
-            "f": 1
-          },
-          {
-            "w": "reasons",
-            "f": 1
-          },
-          {
-            "w": "oct",
-            "f": 2
-          },
-          {
-            "w": "march",
-            "f": 1
-          },
-          {
-            "w": "disappearance",
-            "f": 1
-          },
-          {
-            "w": "press",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 3
-          },
-          {
-            "w": "prime",
-            "f": 3
-          },
-          {
-            "w": "scandinavia",
-            "f": 1
-          },
-          {
-            "w": "peking",
-            "f": 1
-          },
-          {
-            "w": "payments",
-            "f": 2
-          },
-          {
-            "w": "set",
-            "f": 1
-          },
-          {
-            "w": "defense",
-            "f": 1
-          },
-          {
-            "w": "reutersdeputy",
-            "f": 1
-          },
-          {
-            "w": "operation",
-            "f": 1
-          },
-          {
-            "w": "reportedly",
-            "f": 1
-          },
-          {
-            "w": "avoid",
-            "f": 1
-          },
-          {
-            "w": "asia",
-            "f": 1
-          },
-          {
-            "w": "difficulties",
-            "f": 1
-          },
-          {
-            "w": "health",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "public",
-            "f": 1
-          },
-          {
-            "w": "stockholm",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 10
-          },
-          {
-            "w": "recently",
-            "f": 1
-          },
-          {
-            "w": "friday",
-            "f": 1
-          },
-          {
-            "w": "reported",
-            "f": 1
-          },
-          {
-            "w": "job",
-            "f": 1
-          },
-          {
-            "w": "debt",
-            "f": 1
-          },
-          {
-            "w": "accident",
-            "f": 1
-          },
-          {
-            "w": "choe",
-            "f": 1
-          },
-          {
-            "w": "foreign",
-            "f": 2
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "american",
-            "f": 2
-          },
-          {
-            "w": "adopting",
-            "f": 2
-          },
-          {
-            "w": "south",
-            "f": 2
-          },
-          {
-            "w": "named",
-            "f": 1
-          },
-          {
-            "w": "diplomats",
-            "f": 1
-          },
-          {
-            "w": "deputy",
-            "f": 1
-          },
-          {
-            "w": "appeared",
-            "f": 2
-          },
-          {
-            "w": "washington",
-            "f": 9
-          },
-          {
-            "w": "scene",
-            "f": 1
-          },
-          {
-            "w": "hyon",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 3
-          },
-          {
-            "w": "feb",
-            "f": 2
-          },
-          {
-            "w": "army",
-            "f": 1
-          },
-          {
-            "w": "wondering",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 3
-          },
-          {
-            "w": "north",
-            "f": 9
-          },
-          {
-            "w": "interest",
-            "f": 1
-          },
-          {
-            "w": "relieved",
-            "f": 1
-          },
-          {
-            "w": "smuggling",
-            "f": 1
-          },
-          {
-            "w": "minister",
-            "f": 4
-          },
-          {
-            "w": "directed",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 4
-          },
-          {
-            "w": "incidents",
-            "f": 1
-          },
-          {
-            "w": "making",
-            "f": 1
-          },
-          {
-            "w": "balance",
-            "f": 1
-          },
-          {
-            "w": "organized",
-            "f": 1
-          },
-          {
-            "w": "site",
-            "f": 1
-          },
-          {
-            "w": "ii",
-            "f": 3
-          },
-          {
-            "w": "ap",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 1
-          },
-          {
-            "w": "ministries",
-            "f": 1
-          },
-          {
-            "w": "agency",
-            "f": 1
-          },
-          {
-            "w": "nam",
-            "f": 1
-          },
-          {
-            "w": "agence",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 3
-          },
-          {
-            "w": "pak",
-            "f": 1
-          },
-          {
-            "w": "chul",
-            "f": 1
-          },
-          {
-            "w": "week",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 2
-          },
-          {
-            "w": "monday",
-            "f": 1
-          },
-          {
-            "w": "yesterday",
-            "f": 1
-          },
-          {
-            "w": "plan",
-            "f": 2
-          },
-          {
-            "w": "kim",
-            "f": 2
-          },
-          {
-            "w": "president",
-            "f": 1
-          },
-          {
-            "w": "partition",
-            "f": 1
-          },
-          {
-            "w": "truce",
-            "f": 1
-          },
-          {
-            "w": "francepresse",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -14759,6 +6544,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "1976,",
+          "f": 1
+        },
+        {
           "w": "hundreds",
           "f": 1
         },
@@ -14772,14 +6561,18 @@ var years =[
         },
         {
           "w": "china",
-          "f": 2
+          "f": 1
         },
         {
           "w": "ties",
           "f": 1
         },
         {
-          "w": "poverty",
+          "w": "china,",
+          "f": 1
+        },
+        {
+          "w": "poverty.",
           "f": 1
         },
         {
@@ -14809,438 +6602,13 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7391304347826086,
-      "sub": 0.2608695652173913,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "swirls",
-            "f": 1
-          },
-          {
-            "w": "shot",
-            "f": 3
-          },
-          {
-            "w": "downing",
-            "f": 1
-          },
-          {
-            "w": "fishing",
-            "f": 1
-          },
-          {
-            "w": "facts",
-            "f": 1
-          },
-          {
-            "w": "tempted",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 1
-          },
-          {
-            "w": "ground",
-            "f": 1
-          },
-          {
-            "w": "zone",
-            "f": 1
-          },
-          {
-            "w": "thursday",
-            "f": 2
-          },
-          {
-            "w": "crew",
-            "f": 1
-          },
-          {
-            "w": "location",
-            "f": 1
-          },
-          {
-            "w": "koreans",
-            "f": 2
-          },
-          {
-            "w": "violating",
-            "f": 1
-          },
-          {
-            "w": "seized",
-            "f": 1
-          },
-          {
-            "w": "cuba",
-            "f": 1
-          },
-          {
-            "w": "nov",
-            "f": 1
-          },
-          {
-            "w": "3according",
-            "f": 1
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "wednesday",
-            "f": 1
-          },
-          {
-            "w": "view",
-            "f": 1
-          },
-          {
-            "w": "korea's",
-            "f": 1
-          },
-          {
-            "w": "carter",
-            "f": 4
-          },
-          {
-            "w": "crewmen",
-            "f": 3
-          },
-          {
-            "w": "japanese",
-            "f": 1
-          },
-          {
-            "w": "yugoslavia",
-            "f": 1
-          },
-          {
-            "w": "sea",
-            "f": 1
-          },
-          {
-            "w": "saturday",
-            "f": 2
-          },
-          {
-            "w": "cargo",
-            "f": 1
-          },
-          {
-            "w": "richard",
-            "f": 1
-          },
-          {
-            "w": "koreawhile",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "invade",
-            "f": 1
-          },
-          {
-            "w": "announced",
-            "f": 1
-          },
-          {
-            "w": "told",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 13
-          },
-          {
-            "w": "nature",
-            "f": 1
-          },
-          {
-            "w": "possibility",
-            "f": 1
-          },
-          {
-            "w": "killing",
-            "f": 1
-          },
-          {
-            "w": "incident",
-            "f": 1
-          },
-          {
-            "w": "advisability",
-            "f": 1
-          },
-          {
-            "w": "members",
-            "f": 1
-          },
-          {
-            "w": "restrictions",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 1
-          },
-          {
-            "w": "withdrawing",
-            "f": 1
-          },
-          {
-            "w": "controversy",
-            "f": 1
-          },
-          {
-            "w": "american",
-            "f": 4
-          },
-          {
-            "w": "aboard",
-            "f": 1
-          },
-          {
-            "w": "military",
-            "f": 1
-          },
-          {
-            "w": "efforts",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 6
-          },
-          {
-            "w": "nixon",
-            "f": 1
-          },
-          {
-            "w": "major",
-            "f": 1
-          },
-          {
-            "w": "stray",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 8
-          },
-          {
-            "w": "pyongyang",
-            "f": 1
-          },
-          {
-            "w": "boat",
-            "f": 1
-          },
-          {
-            "w": "bolster",
-            "f": 1
-          },
-          {
-            "w": "troops",
-            "f": 2
-          },
-          {
-            "w": "army",
-            "f": 3
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "handshakes",
-            "f": 1
-          },
-          {
-            "w": "helicopter",
-            "f": 5
-          },
-          {
-            "w": "territory",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 6
-          },
-          {
-            "w": "firm",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 12
-          },
-          {
-            "w": "allegedly",
-            "f": 1
-          },
-          {
-            "w": "released",
-            "f": 1
-          },
-          {
-            "w": "construction",
-            "f": 1
-          },
-          {
-            "w": "july",
-            "f": 4
-          },
-          {
-            "w": "apnorth",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 4
-          },
-          {
-            "w": "official",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 2
-          },
-          {
-            "w": "engaged",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 2
-          },
-          {
-            "w": "ap",
-            "f": 3
-          },
-          {
-            "w": "il",
-            "f": 1
-          },
-          {
-            "w": "march",
-            "f": 1
-          },
-          {
-            "w": "apparently",
-            "f": 2
-          },
-          {
-            "w": "forced",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 2
-          },
-          {
-            "w": "tito",
-            "f": 1
-          },
-          {
-            "w": "administration",
-            "f": 1
-          },
-          {
-            "w": "vietnam",
-            "f": 1
-          },
-          {
-            "w": "hugs",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 3
-          },
-          {
-            "w": "economy",
-            "f": 1
-          },
-          {
-            "w": "week",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 5
-          },
-          {
-            "w": "congress",
-            "f": 1
-          },
-          {
-            "w": "earlier",
-            "f": 1
-          },
-          {
-            "w": "yesterday",
-            "f": 1
-          },
-          {
-            "w": "greeted",
-            "f": 1
-          },
-          {
-            "w": "arrived",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 1
-          },
-          {
-            "w": "president",
-            "f": 6
-          },
-          {
-            "w": "accelerated",
-            "f": 1
-          },
-          {
-            "w": "warm",
-            "f": 1
-          },
-          {
-            "w": "travel",
-            "f": 1
-          },
-          {
-            "w": "bodies",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
+        {
+          "w": "after,",
+          "f": 1
+        },
         {
           "w": "camp",
           "f": 1
@@ -15250,7 +6618,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "trial",
+          "w": "trial,",
           "f": 1
         },
         {
@@ -15270,11 +6638,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "disappeared",
+          "w": "1977,",
+          "f": 1
+        },
+        {
+          "w": "disappeared.",
+          "f": 1
+        },
+        {
+          "w": "grandfather",
           "f": 1
         },
         {
           "w": "(then",
+          "f": 1
+        },
+        {
+          "w": "no.",
           "f": 1
         },
         {
@@ -15286,15 +6666,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "9",
+          "f": 1
+        },
+        {
           "w": "years",
           "f": 1
         },
         {
-          "w": "grandfather",
+          "w": "political",
           "f": 1
         },
         {
-          "w": "political",
+          "w": "taken,",
+          "f": 1
+        },
+        {
+          "w": "15.",
           "f": 1
         }
       ],
@@ -15322,119 +6710,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 1.0,
-      "sub": 0.0,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "chinese",
-            "f": 2
-          },
-          {
-            "w": "upihua",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "kuofeng",
-            "f": 2
-          },
-          {
-            "w": "yugoslavia",
-            "f": 1
-          },
-          {
-            "w": "trip",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "belgrade",
-            "f": 1
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "chairman",
-            "f": 2
-          },
-          {
-            "w": "party",
-            "f": 3
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "leader",
-            "f": 1
-          },
-          {
-            "w": "ago",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 1
-          },
-          {
-            "w": "10hua",
-            "f": 1
-          },
-          {
-            "w": "early",
-            "f": 1
-          },
-          {
-            "w": "minister",
-            "f": 1
-          },
-          {
-            "w": "years",
-            "f": 1
-          },
-          {
-            "w": "prime",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 1
-          },
-          {
-            "w": "april",
-            "f": 1
-          },
-          {
-            "w": "aboard",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0,
@@ -15464,628 +6739,39 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.8,
-      "sub": 0.2,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "threeyear",
-            "f": 1
-          },
-          {
-            "w": "proposed",
-            "f": 1
-          },
-          {
-            "w": "administration",
-            "f": 1
-          },
-          {
-            "w": "agreed",
-            "f": 1
-          },
-          {
-            "w": "years",
-            "f": 1
-          },
-          {
-            "w": "london",
-            "f": 1
-          },
-          {
-            "w": "talks",
-            "f": 4
-          },
-          {
-            "w": "zone",
-            "f": 1
-          },
-          {
-            "w": "vietnamese",
-            "f": 1
-          },
-          {
-            "w": "father",
-            "f": 1
-          },
-          {
-            "w": "30the",
-            "f": 1
-          },
-          {
-            "w": "rick",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 2
-          },
-          {
-            "w": "main",
-            "f": 1
-          },
-          {
-            "w": "remaining",
-            "f": 1
-          },
-          {
-            "w": "exchanged",
-            "f": 1
-          },
-          {
-            "w": "return",
-            "f": 1
-          },
-          {
-            "w": "dam",
-            "f": 1
-          },
-          {
-            "w": "denounce",
-            "f": 1
-          },
-          {
-            "w": "nation",
-            "f": 1
-          },
-          {
-            "w": "commentary",
-            "f": 1
-          },
-          {
-            "w": "kong",
-            "f": 1
-          },
-          {
-            "w": "wipe",
-            "f": 1
-          },
-          {
-            "w": "severely",
-            "f": 1
-          },
-          {
-            "w": "countries",
-            "f": 1
-          },
-          {
-            "w": "rockville",
-            "f": 1
-          },
-          {
-            "w": "11prince",
-            "f": 1
-          },
-          {
-            "w": "strayed",
-            "f": 1
-          },
-          {
-            "w": "peking",
-            "f": 1
-          },
-          {
-            "w": "team",
-            "f": 1
-          },
-          {
-            "w": "scott",
-            "f": 1
-          },
-          {
-            "w": "side",
-            "f": 1
-          },
-          {
-            "w": "view",
-            "f": 1
-          },
-          {
-            "w": "policemen",
-            "f": 1
-          },
-          {
-            "w": "leaders",
-            "f": 1
-          },
-          {
-            "w": "chung",
-            "f": 1
-          },
-          {
-            "w": "reduce",
-            "f": 2
-          },
-          {
-            "w": "ambassadors",
-            "f": 1
-          },
-          {
-            "w": "nations",
-            "f": 1
-          },
-          {
-            "w": "nicaragua",
-            "f": 1
-          },
-          {
-            "w": "saturday",
-            "f": 1
-          },
-          {
-            "w": "depression",
-            "f": 1
-          },
-          {
-            "w": "bottom",
-            "f": 1
-          },
-          {
-            "w": "tales",
-            "f": 1
-          },
-          {
-            "w": "beaten",
-            "f": 1
-          },
-          {
-            "w": "anniversary",
-            "f": 1
-          },
-          {
-            "w": "carter's",
-            "f": 1
-          },
-          {
-            "w": "issue",
-            "f": 1
-          },
-          {
-            "w": "told",
-            "f": 1
-          },
-          {
-            "w": "body",
-            "f": 1
-          },
-          {
-            "w": "hailing",
-            "f": 1
-          },
-          {
-            "w": "korea",
-            "f": 13
-          },
-          {
-            "w": "exchange",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 2
-          },
-          {
-            "w": "threeway",
-            "f": 3
-          },
-          {
-            "w": "opposition",
-            "f": 1
-          },
-          {
-            "w": "mer",
-            "f": 1
-          },
-          {
-            "w": "aug",
-            "f": 2
-          },
-          {
-            "w": "ministry",
-            "f": 1
-          },
-          {
-            "w": "messages",
-            "f": 1
-          },
-          {
-            "w": "foreign",
-            "f": 2
-          },
-          {
-            "w": "soldier",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 8
-          },
-          {
-            "w": "30th",
-            "f": 1
-          },
-          {
-            "w": "major",
-            "f": 1
-          },
-          {
-            "w": "tennis",
-            "f": 1
-          },
-          {
-            "w": "huang",
-            "f": 1
-          },
-          {
-            "w": "appeared",
-            "f": 1
-          },
-          {
-            "w": "visit",
-            "f": 1
-          },
-          {
-            "w": "pot",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 3
-          },
-          {
-            "w": "negative",
-            "f": 1
-          },
-          {
-            "w": "pol",
-            "f": 1
-          },
-          {
-            "w": "table",
-            "f": 1
-          },
-          {
-            "w": "tuesday",
-            "f": 2
-          },
-          {
-            "w": "establish",
-            "f": 1
-          },
-          {
-            "w": "tomorrow",
-            "f": 1
-          },
-          {
-            "w": "reutersthe",
-            "f": 2
-          },
-          {
-            "w": "boggan",
-            "f": 1
-          },
-          {
-            "w": "13the",
-            "f": 1
-          },
-          {
-            "w": "initial",
-            "f": 1
-          },
-          {
-            "w": "3the",
-            "f": 1
-          },
-          {
-            "w": "ministers",
-            "f": 1
-          },
-          {
-            "w": "relations",
-            "f": 2
-          },
-          {
-            "w": "hee",
-            "f": 1
-          },
-          {
-            "w": "call",
-            "f": 1
-          },
-          {
-            "w": "calm",
-            "f": 1
-          },
-          {
-            "w": "proposal",
-            "f": 2
-          },
-          {
-            "w": "recovered",
-            "f": 1
-          },
-          {
-            "w": "north",
-            "f": 6
-          },
-          {
-            "w": "hua",
-            "f": 1
-          },
-          {
-            "w": "riot",
-            "f": 1
-          },
-          {
-            "w": "sihanouk",
-            "f": 1
-          },
-          {
-            "w": "rejected",
-            "f": 2
-          },
-          {
-            "w": "peninsula",
-            "f": 2
-          },
-          {
-            "w": "panmunjom",
-            "f": 1
-          },
-          {
-            "w": "ho",
-            "f": 1
-          },
-          {
-            "w": "reutersnorth",
-            "f": 1
-          },
-          {
-            "w": "july",
-            "f": 4
-          },
-          {
-            "w": "reunification",
-            "f": 1
-          },
-          {
-            "w": "effort",
-            "f": 1
-          },
-          {
-            "w": "carter",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 8
-          },
-          {
-            "w": "demilitarized",
-            "f": 1
-          },
-          {
-            "w": "korea's",
-            "f": 2
-          },
-          {
-            "w": "diplomatic",
-            "f": 2
-          },
-          {
-            "w": "oct",
-            "f": 3
-          },
-          {
-            "w": "today",
-            "f": 7
-          },
-          {
-            "w": "believed",
-            "f": 1
-          },
-          {
-            "w": "visited",
-            "f": 1
-          },
-          {
-            "w": "dec",
-            "f": 1
-          },
-          {
-            "w": "onslaught",
-            "f": 1
-          },
-          {
-            "w": "norodom",
-            "f": 1
-          },
-          {
-            "w": "upinorth",
-            "f": 1
-          },
-          {
-            "w": "states",
-            "f": 6
-          },
-          {
-            "w": "ap",
-            "f": 3
-          },
-          {
-            "w": "hit",
-            "f": 1
-          },
-          {
-            "w": "feasible",
-            "f": 1
-          },
-          {
-            "w": "eric",
-            "f": 1
-          },
-          {
-            "w": "regime",
-            "f": 1
-          },
-          {
-            "w": "hong",
-            "f": 1
-          },
-          {
-            "w": "united",
-            "f": 7
-          },
-          {
-            "w": "dryseason",
-            "f": 1
-          },
-          {
-            "w": "koreas",
-            "f": 2
-          },
-          {
-            "w": "divided",
-            "f": 1
-          },
-          {
-            "w": "offensive",
-            "f": 1
-          },
-          {
-            "w": "cambodia",
-            "f": 1
-          },
-          {
-            "w": "member",
-            "f": 1
-          },
-          {
-            "w": "tim",
-            "f": 1
-          },
-          {
-            "w": "forces",
-            "f": 1
-          },
-          {
-            "w": "ruler",
-            "f": 1
-          },
-          {
-            "w": "party",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 4
-          },
-          {
-            "w": "establishment",
-            "f": 1
-          },
-          {
-            "w": "president's",
-            "f": 1
-          },
-          {
-            "w": "tension",
-            "f": 2
-          },
-          {
-            "w": "seoul",
-            "f": 3
-          },
-          {
-            "w": "monday",
-            "f": 1
-          },
-          {
-            "w": "centre",
-            "f": 1
-          },
-          {
-            "w": "park",
-            "f": 1
-          },
-          {
-            "w": "june",
-            "f": 1
-          },
-          {
-            "w": "president",
-            "f": 2
-          },
-          {
-            "w": "weekend",
-            "f": 1
-          },
-          {
-            "w": "remember",
-            "f": 1
-          },
-          {
-            "w": "headquarters",
-            "f": 1
-          },
-          {
-            "w": "command",
-            "f": 1
-          }
-        ]
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
-          "w": "camp",
-          "f": 4
+          "w": "no.",
+          "f": 2
         },
         {
-          "w": "birth",
+          "w": "camp",
+          "f": 3
+        },
+        {
+          "w": "jong-il.",
           "f": 1
+        },
+        {
+          "w": "her.",
+          "f": 2
         },
         {
           "w": "facility",
           "f": 1
         },
         {
+          "w": "15,",
+          "f": 1
+        },
+        {
           "w": "disclosing",
+          "f": 1
+        },
+        {
+          "w": "1979.",
           "f": 1
         },
         {
@@ -16097,12 +6783,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "hae-rim.",
+          "f": 1
+        },
+        {
           "w": "children",
           "f": 1
         },
         {
           "w": "hae-rim",
-          "f": 3
+          "f": 2
         },
         {
           "w": "information",
@@ -16113,7 +6803,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "informal",
+          "w": "camp.",
+          "f": 1
+        },
+        {
+          "w": "trial",
+          "f": 1
+        },
+        {
+          "w": "1970,",
           "f": 1
         },
         {
@@ -16129,7 +6827,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "jong-il",
+          "w": "completed,",
           "f": 1
         },
         {
@@ -16141,15 +6839,19 @@ var years =[
           "f": 2
         },
         {
+          "w": "jong-nam.",
+          "f": 1
+        },
+        {
+          "w": "7",
+          "f": 1
+        },
+        {
           "w": "prison",
           "f": 1
         },
         {
           "w": "department",
-          "f": 1
-        },
-        {
-          "w": "explanation",
           "f": 1
         },
         {
@@ -16173,7 +6875,7 @@ var years =[
           "f": 3
         },
         {
-          "w": "completed",
+          "w": "5,",
           "f": 1
         },
         {
@@ -16181,11 +6883,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "detention",
+          "w": "birth",
           "f": 1
         },
         {
-          "w": "disappeared",
+          "w": "detention",
           "f": 1
         },
         {
@@ -16197,7 +6899,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "sons",
+          "w": "explanation,",
           "f": 1
         },
         {
@@ -16213,11 +6915,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "jong-nam",
+          "w": "died",
           "f": 1
         },
         {
-          "w": "died",
+          "w": "later,",
+          "f": 1
+        },
+        {
+          "w": "10",
+          "f": 1
+        },
+        {
+          "w": "15",
           "f": 1
         },
         {
@@ -16233,12 +6943,24 @@ var years =[
           "f": 1
         },
         {
-          "w": "trial",
+          "w": "disappeared.",
+          "f": 1
+        },
+        {
+          "w": "informal",
+          "f": 1
+        },
+        {
+          "w": "sons",
           "f": 1
         },
         {
           "w": "ms",
           "f": 4
+        },
+        {
+          "w": "3,",
+          "f": 1
         },
         {
           "w": "security",
@@ -16281,6 +7003,10 @@ var years =[
       "obj": 0.4,
       "kw": [
         {
+          "w": "accountability,",
+          "f": 1
+        },
+        {
           "w": "control",
           "f": 1
         },
@@ -16289,11 +7015,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "prevented",
+          "w": "structural",
           "f": 1
         },
         {
           "w": "lack",
+          "f": 1
+        },
+        {
+          "w": "directives",
           "f": 1
         },
         {
@@ -16330,7 +7060,15 @@ var years =[
         },
         {
           "w": "crisis",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "policymakers,",
+          "f": 1
+        },
+        {
+          "w": "association,",
+          "f": 1
         },
         {
           "w": "information",
@@ -16341,19 +7079,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "accountability",
-          "f": 1
-        },
-        {
-          "w": "freedoms",
+          "w": "commission",
           "f": 1
         },
         {
           "w": "adoption",
-          "f": 1
-        },
-        {
-          "w": "bloc",
           "f": 1
         },
         {
@@ -16365,11 +7095,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "structural",
+          "w": "crisis,",
           "f": 1
         },
         {
-          "w": "directives",
+          "w": "bloc.",
           "f": 1
         },
         {
@@ -16381,7 +7111,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "korea",
+          "w": "cause.",
           "f": 1
         },
         {
@@ -16389,15 +7119,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "loss",
+          "w": "expression,",
           "f": 1
         },
         {
-          "w": "started",
+          "w": "received",
+          "f": 1
+        },
+        {
+          "w": "prevented",
           "f": 1
         },
         {
           "w": "restrictions",
+          "f": 1
+        },
+        {
+          "w": "started.\"the",
+          "f": 1
+        },
+        {
+          "w": "transparency,",
           "f": 1
         },
         {
@@ -16421,11 +7163,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "policymakers",
-          "f": 1
-        },
-        {
-          "w": "association",
+          "w": "korea.",
           "f": 1
         },
         {
@@ -16433,11 +7171,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "received",
+          "w": "loss",
           "f": 1
         },
         {
-          "w": "starvation",
+          "w": "democratic",
+          "f": 1
+        },
+        {
+          "w": "freedoms",
           "f": 1
         },
         {
@@ -16457,10 +7199,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "transparency",
-          "f": 1
-        },
-        {
           "w": "stressed",
           "f": 1
         },
@@ -16469,11 +7207,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "\"the",
-          "f": 1
-        },
-        {
-          "w": "expression",
+          "w": "starvation",
           "f": 1
         },
         {
@@ -16483,793 +7217,9 @@ var years =[
         {
           "w": "triggering",
           "f": 1
-        },
-        {
-          "w": "democratic",
-          "f": 1
         }
       ],
       "sub": 0.6
-    },
-    "news": {
-      "his": {
-        "kw": [
-          {
-            "w": "held",
-            "f": 1
-          },
-          {
-            "w": "china",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 4
-          },
-          {
-            "w": "military",
-            "f": 2
-          },
-          {
-            "w": "party",
-            "f": 1
-          },
-          {
-            "w": "officially",
-            "f": 1
-          }
-        ]
-      },
-      "obj": 0.9615384615384616,
-      "sub": 0.038461538461538464,
-      "food": {
-        "kw": [
-          {
-            "w": "party",
-            "f": 1
-          },
-          {
-            "w": "information",
-            "f": 2
-          },
-          {
-            "w": "korea",
-            "f": 1
-          },
-          {
-            "w": "crisis",
-            "f": 2
-          },
-          {
-            "w": "supplies",
-            "f": 1
-          }
-        ]
-      },
-      "pol": {
-        "kw": [
-          {
-            "w": "north",
-            "f": 1
-          },
-          {
-            "w": "area",
-            "f": 2
-          },
-          {
-            "w": "political",
-            "f": 4
-          },
-          {
-            "w": "month",
-            "f": 2
-          },
-          {
-            "w": "state",
-            "f": 1
-          },
-          {
-            "w": "kim",
-            "f": 1
-          },
-          {
-            "w": "south",
-            "f": 2
-          }
-        ]
-      },
-      "no_over": {
-        "kw": [
-          {
-            "w": "agreed",
-            "f": 1
-          },
-          {
-            "w": "hwan",
-            "f": 1
-          },
-          {
-            "w": "years",
-            "f": 1
-          },
-          {
-            "w": "unrest",
-            "f": 2
-          },
-          {
-            "w": "stepping",
-            "f": 1
-          },
-          {
-            "w": "excerpts",
-            "f": 1
-          },
-          {
-            "w": "sung",
-            "f": 2
-          },
-          {
-            "w": "denials",
-            "f": 2
-          },
-          {
-            "w": "internationally",
-            "f": 2
-          },
-          {
-            "w": "effort",
-            "f": 1
-          },
-          {
-            "w": "regarded",
-            "f": 1
-          },
-          {
-            "w": "assassination",
-            "f": 2
-          },
-          {
-            "w": "written",
-            "f": 1
-          },
-          {
-            "w": "source",
-            "f": 2
-          },
-          {
-            "w": "broadcasts",
-            "f": 1
-          },
-          {
-            "w": "program",
-            "f": 1
-          },
-          {
-            "w": "edmund",
-            "f": 1
-          },
-          {
-            "w": "treasury",
-            "f": 1
-          },
-          {
-            "w": "communist",
-            "f": 1
-          },
-          {
-            "w": "areas",
-            "f": 1
-          },
-          {
-            "w": "oct",
-            "f": 2
-          },
-          {
-            "w": "koreans",
-            "f": 2
-          },
-          {
-            "w": "eventually",
-            "f": 1
-          },
-          {
-            "w": "advantage",
-            "f": 2
-          },
-          {
-            "w": "communique",
-            "f": 1
-          },
-          {
-            "w": "hostage",
-            "f": 2
-          },
-          {
-            "w": "joint",
-            "f": 1
-          },
-          {
-            "w": "sons",
-            "f": 1
-          },
-          {
-            "w": "reporters",
-            "f": 1
-          },
-          {
-            "w": "press",
-            "f": 1
-          },
-          {
-            "w": "world",
-            "f": 1
-          },
-          {
-            "w": "highly",
-            "f": 1
-          },
-          {
-            "w": "successor",
-            "f": 1
-          },
-          {
-            "w": "runs",
-            "f": 1
-          },
-          {
-            "w": "increasing",
-            "f": 1
-          },
-          {
-            "w": "''the",
-            "f": 1
-          },
-          {
-            "w": "tokyo",
-            "f": 2
-          },
-          {
-            "w": "july",
-            "f": 1
-          },
-          {
-            "w": "defame",
-            "f": 1
-          },
-          {
-            "w": "8iran",
-            "f": 1
-          },
-          {
-            "w": "extremely",
-            "f": 1
-          },
-          {
-            "w": "espionage",
-            "f": 1
-          },
-          {
-            "w": "agents",
-            "f": 1
-          },
-          {
-            "w": "doctrinaire",
-            "f": 1
-          },
-          {
-            "w": "hamhung",
-            "f": 1
-          },
-          {
-            "w": "secretary",
-            "f": 2
-          },
-          {
-            "w": "force",
-            "f": 1
-          },
-          {
-            "w": "directly",
-            "f": 1
-          },
-          {
-            "w": "chung",
-            "f": 2
-          },
-          {
-            "w": "miller",
-            "f": 2
-          },
-          {
-            "w": "whie",
-            "f": 1
-          },
-          {
-            "w": "officials",
-            "f": 2
-          },
-          {
-            "w": "infiltration",
-            "f": 1
-          },
-          {
-            "w": "nbc",
-            "f": 1
-          },
-          {
-            "w": "close",
-            "f": 1
-          },
-          {
-            "w": "plans",
-            "f": 2
-          },
-          {
-            "w": "cargo",
-            "f": 1
-          },
-          {
-            "w": "reducing",
-            "f": 2
-          },
-          {
-            "w": "contacts",
-            "f": 1
-          },
-          {
-            "w": "open",
-            "f": 1
-          },
-          {
-            "w": "father's",
-            "f": 1
-          },
-          {
-            "w": "acting",
-            "f": 1
-          },
-          {
-            "w": "capital",
-            "f": 1
-          },
-          {
-            "w": "consecutive",
-            "f": 1
-          },
-          {
-            "w": "ammunition",
-            "f": 1
-          },
-          {
-            "w": "leader",
-            "f": 1
-          },
-          {
-            "w": "loudspeakers",
-            "f": 1
-          },
-          {
-            "w": "3despite",
-            "f": 1
-          },
-          {
-            "w": "iran",
-            "f": 2
-          },
-          {
-            "w": "lee",
-            "f": 1
-          },
-          {
-            "w": "sixth",
-            "f": 1
-          },
-          {
-            "w": "handpicked",
-            "f": 1
-          },
-          {
-            "w": "hours",
-            "f": 1
-          },
-          {
-            "w": "succeed",
-            "f": 1
-          },
-          {
-            "w": "provocations",
-            "f": 1
-          },
-          {
-            "w": "meet",
-            "f": 1
-          },
-          {
-            "w": "dissuade",
-            "f": 1
-          },
-          {
-            "w": "news",
-            "f": 1
-          },
-          {
-            "w": "iraq",
-            "f": 2
-          },
-          {
-            "w": "zone",
-            "f": 1
-          },
-          {
-            "w": "months",
-            "f": 2
-          },
-          {
-            "w": "messages",
-            "f": 1
-          },
-          {
-            "w": "days",
-            "f": 3
-          },
-          {
-            "w": "foreign",
-            "f": 1
-          },
-          {
-            "w": "taped",
-            "f": 1
-          },
-          {
-            "w": "american",
-            "f": 2
-          },
-          {
-            "w": "act",
-            "f": 1
-          },
-          {
-            "w": "action",
-            "f": 1
-          },
-          {
-            "w": "sept",
-            "f": 2
-          },
-          {
-            "w": "silence",
-            "f": 2
-          },
-          {
-            "w": "image",
-            "f": 1
-          },
-          {
-            "w": "kwang",
-            "f": 1
-          },
-          {
-            "w": "washington",
-            "f": 2
-          },
-          {
-            "w": "son",
-            "f": 1
-          },
-          {
-            "w": "americans",
-            "f": 2
-          },
-          {
-            "w": "dong",
-            "f": 1
-          },
-          {
-            "w": "pyongyang",
-            "f": 3
-          },
-          {
-            "w": "total",
-            "f": 1
-          },
-          {
-            "w": "armed",
-            "f": 2
-          },
-          {
-            "w": "carter",
-            "f": 1
-          },
-          {
-            "w": "army",
-            "f": 1
-          },
-          {
-            "w": "defaming",
-            "f": 1
-          },
-          {
-            "w": "top",
-            "f": 2
-          },
-          {
-            "w": "world's",
-            "f": 1
-          },
-          {
-            "w": "long",
-            "f": 1
-          },
-          {
-            "w": "hee",
-            "f": 2
-          },
-          {
-            "w": "mutiny",
-            "f": 1
-          },
-          {
-            "w": "expected",
-            "f": 1
-          },
-          {
-            "w": "meeting",
-            "f": 1
-          },
-          {
-            "w": "west",
-            "f": 1
-          },
-          {
-            "w": "today",
-            "f": 5
-          },
-          {
-            "w": "paved",
-            "f": 1
-          },
-          {
-            "w": "buy",
-            "f": 2
-          },
-          {
-            "w": "statement",
-            "f": 1
-          },
-          {
-            "w": "wary",
-            "f": 1
-          },
-          {
-            "w": "chun",
-            "f": 1
-          },
-          {
-            "w": "overthrow",
-            "f": 1
-          },
-          {
-            "w": "park",
-            "f": 2
-          },
-          {
-            "w": "broadcast",
-            "f": 1
-          },
-          {
-            "w": "minister",
-            "f": 2
-          },
-          {
-            "w": "line",
-            "f": 1
-          },
-          {
-            "w": "chong",
-            "f": 1
-          },
-          {
-            "w": "naval",
-            "f": 1
-          },
-          {
-            "w": "versions",
-            "f": 1
-          },
-          {
-            "w": "demilitarized",
-            "f": 1
-          },
-          {
-            "w": "southnorth",
-            "f": 1
-          },
-          {
-            "w": "official",
-            "f": 3
-          },
-          {
-            "w": "nations",
-            "f": 1
-          },
-          {
-            "w": "project",
-            "f": 1
-          },
-          {
-            "w": "slander",
-            "f": 1
-          },
-          {
-            "w": "armistice",
-            "f": 1
-          },
-          {
-            "w": "mr",
-            "f": 1
-          },
-          {
-            "w": "ferry",
-            "f": 1
-          },
-          {
-            "w": "urging",
-            "f": 1
-          },
-          {
-            "w": "''",
-            "f": 3
-          },
-          {
-            "w": "heard",
-            "f": 1
-          },
-          {
-            "w": "experts",
-            "f": 1
-          },
-          {
-            "w": "il",
-            "f": 4
-          },
-          {
-            "w": "30a",
-            "f": 1
-          },
-          {
-            "w": "''this",
-            "f": 1
-          },
-          {
-            "w": "regime",
-            "f": 2
-          },
-          {
-            "w": "confirmed",
-            "f": 1
-          },
-          {
-            "w": "fiveday",
-            "f": 1
-          },
-          {
-            "w": "make",
-            "f": 1
-          },
-          {
-            "w": "breaking",
-            "f": 1
-          },
-          {
-            "w": "administration",
-            "f": 1
-          },
-          {
-            "w": "isolated",
-            "f": 3
-          },
-          {
-            "w": "''as",
-            "f": 1
-          },
-          {
-            "w": "jong",
-            "f": 1
-          },
-          {
-            "w": "forces",
-            "f": 1
-          },
-          {
-            "w": "interview",
-            "f": 1
-          },
-          {
-            "w": "korean",
-            "f": 9
-          },
-          {
-            "w": "conflict",
-            "f": 2
-          },
-          {
-            "w": "tension",
-            "f": 2
-          },
-          {
-            "w": "added",
-            "f": 1
-          },
-          {
-            "w": "6breaking",
-            "f": 1
-          },
-          {
-            "w": "seoul",
-            "f": 3
-          },
-          {
-            "w": "congress",
-            "f": 3
-          },
-          {
-            "w": "muskie",
-            "f": 1
-          },
-          {
-            "w": "june",
-            "f": 2
-          },
-          {
-            "w": "watchful",
-            "f": 1
-          },
-          {
-            "w": "william",
-            "f": 1
-          },
-          {
-            "w": "pyo",
-            "f": 1
-          },
-          {
-            "w": "authorities",
-            "f": 1
-          },
-          {
-            "w": "president",
-            "f": 5
-          },
-          {
-            "w": "transcript",
-            "f": 1
-          },
-          {
-            "w": "recent",
-            "f": 2
-          },
-          {
-            "w": "boeing",
-            "f": 1
-          },
-          {
-            "w": "doo",
-            "f": 1
-          },
-          {
-            "w": "workers'",
-            "f": 2
-          },
-          {
-            "w": "medical",
-            "f": 2
-          },
-          {
-            "w": "counter",
-            "f": 1
-          }
-        ]
-      }
     },
     "pol": {
       "obj": 0.9230769230769231,
@@ -17279,8 +7229,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "no.",
+          "f": 3
+        },
+        {
+          "w": "area.",
+          "f": 1
+        },
+        {
           "w": "month",
-          "f": 2
+          "f": 1
         },
         {
           "w": "human",
@@ -17295,7 +7253,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "bukchang",
+          "w": "operation.food",
+          "f": 1
+        },
+        {
+          "w": "department,",
           "f": 1
         },
         {
@@ -17315,7 +7277,11 @@ var years =[
           "f": 4
         },
         {
-          "w": "covered",
+          "w": "month,",
+          "f": 1
+        },
+        {
+          "w": "seen.",
           "f": 1
         },
         {
@@ -17331,8 +7297,12 @@ var years =[
           "f": 1
         },
         {
+          "w": "22.political",
+          "f": 1
+        },
+        {
           "w": "food",
-          "f": 2
+          "f": 1
         },
         {
           "w": "reopened",
@@ -17359,6 +7329,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "16",
+          "f": 1
+        },
+        {
           "w": "arrested",
           "f": 1
         },
@@ -17367,12 +7341,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "wooden",
+          "w": "agency,",
           "f": 1
         },
         {
           "w": "security",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "1990s.",
+          "f": 1
         },
         {
           "w": "upper",
@@ -17387,6 +7365,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "bukchang,",
+          "f": 1
+        },
+        {
+          "w": "11,",
+          "f": 1
+        },
+        {
           "w": "frame",
           "f": 1
         },
@@ -17395,7 +7381,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "operation",
+          "w": "transferred",
           "f": 1
         },
         {
@@ -17413,6 +7399,10 @@ var years =[
         {
           "w": "hamgyong",
           "f": 3
+        },
+        {
+          "w": "initially,",
+          "f": 1
         },
         {
           "w": "toksong",
@@ -17443,19 +7433,31 @@ var years =[
           "f": 1
         },
         {
-          "w": "city",
+          "w": "families.",
+          "f": 1
+        },
+        {
+          "w": "kernels",
           "f": 1
         },
         {
           "w": "initially",
-          "f": 2
+          "f": 1
         },
         {
           "w": "corn",
           "f": 1
         },
         {
+          "w": "mid-1980s.",
+          "f": 1
+        },
+        {
           "w": "reported",
+          "f": 1
+        },
+        {
+          "w": "cloth.",
           "f": 1
         },
         {
@@ -17495,6 +7497,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "out,",
+          "f": 1
+        },
+        {
           "w": "south",
           "f": 2
         },
@@ -17516,31 +7522,31 @@ var years =[
         },
         {
           "w": "1990s",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "kernels",
+          "w": "wooden",
+          "f": 1
+        },
+        {
+          "w": "city",
           "f": 1
         },
         {
           "w": "area",
-          "f": 2
+          "f": 1
         },
         {
           "w": "political",
-          "f": 4
+          "f": 2
         },
         {
           "w": "inflow",
           "f": 1
         },
         {
-          "w": "slumping",
-          "f": 1
-        },
-        {
-          "w": "families",
-          "f": 1
+          "w": "controlled",
+          "f": 2
         },
         {
           "w": "boy",
@@ -17555,6 +7561,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "covered",
+          "f": 1
+        },
+        {
           "w": "present",
           "f": 1
         },
@@ -17563,11 +7573,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "17",
+          "f": 1
+        },
+        {
           "w": "rights",
           "f": 1
         },
         {
-          "w": "transferred",
+          "w": "18",
+          "f": 1
+        },
+        {
+          "w": "1980s.political",
           "f": 1
         },
         {
@@ -17583,6 +7601,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "province.",
+          "f": 2
+        },
+        {
+          "w": "150",
+          "f": 1
+        },
+        {
           "w": "covers",
           "f": 1
         },
@@ -17591,8 +7617,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "controlled",
-          "f": 2
+          "w": "north",
+          "f": 1
         },
         {
           "w": "constructed",
@@ -17611,7 +7637,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "agency",
+          "w": "slumping",
           "f": 1
         },
         {
@@ -17620,14 +7646,6 @@ var years =[
         },
         {
           "w": "located",
-          "f": 2
-        },
-        {
-          "w": "department",
-          "f": 1
-        },
-        {
-          "w": "province",
           "f": 2
         },
         {
@@ -17651,6 +7669,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "1980s.",
+          "f": 1
+        },
+        {
           "w": "silhouette",
           "f": 1
         },
@@ -17663,7 +7685,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "cloth",
+          "w": "no.14",
           "f": 1
         },
         {
@@ -17675,15 +7697,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "mid-1980s",
+          "w": "security.",
           "f": 1
         },
         {
           "w": "time",
-          "f": 1
-        },
-        {
-          "w": "north",
           "f": 1
         },
         {
@@ -17705,21 +7723,20 @@ var years =[
       "obj": 0.75,
       "over": {
         "food": {
-          "perc": 3,
+          "perc": 2,
           "kw": [
-            "commission",
-            "dprk",
-            "party"
+            "party",
+            "dprk"
           ]
         },
         "pol": {
-          "perc": 3,
+          "perc": 2,
           "kw": [
-            "1980s",
+            "dprk",
             "unable",
             "il-sung",
             "kim",
-            "dprk"
+            "1980s,"
           ]
         }
       },
@@ -17729,7 +7746,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "office",
+          "w": "nevertheless,",
           "f": 1
         },
         {
@@ -17741,12 +7758,24 @@ var years =[
           "f": 1
         },
         {
+          "w": "pay.",
+          "f": 1
+        },
+        {
           "w": "accumulated",
           "f": 1
         },
         {
+          "w": "politburo,",
+          "f": 1
+        },
+        {
+          "w": "stage,",
+          "f": 1
+        },
+        {
           "w": "politburo",
-          "f": 3
+          "f": 2
         },
         {
           "w": "union",
@@ -17757,12 +7786,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "jong-il",
-          "f": 3
+          "w": "commission).",
+          "f": 1
         },
         {
-          "w": "leadership",
-          "f": 2
+          "w": "office,",
+          "f": 1
+        },
+        {
+          "w": "jong-il",
+          "f": 3
         },
         {
           "w": "unwilling",
@@ -17777,7 +7810,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "pay",
+          "w": "china",
           "f": 1
         },
         {
@@ -17789,15 +7822,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "1980,",
+          "f": 1
+        },
+        {
           "w": "appointments",
           "f": 1
         },
         {
-          "w": "commission)",
+          "w": "ranked",
           "f": 1
         },
         {
-          "w": "china",
+          "w": "commission.",
           "f": 1
         },
         {
@@ -17813,10 +7850,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "stage",
-          "f": 1
-        },
-        {
           "w": "powerthroughout",
           "f": 1
         },
@@ -17829,7 +7862,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "ranked",
+          "w": "leadership.",
+          "f": 1
+        },
+        {
+          "w": "leadership",
           "f": 1
         },
         {
@@ -17871,40 +7908,32 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7129629629629629,
-      "sub": 0.28703703703703703,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
+          "w": "1981,",
+          "f": 2
+        },
+        {
           "w": "prevent",
           "f": 1
+        },
+        {
+          "w": "no.",
+          "f": 2
         },
         {
           "w": "married",
           "f": 1
         },
         {
-          "w": "shin",
-          "f": 1
+          "w": "jong-il.",
+          "f": 2
         },
         {
           "w": "family",
-          "f": 7
+          "f": 5
         },
         {
           "w": "father",
@@ -17915,7 +7944,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "matter.",
+          "f": 1
+        },
+        {
           "w": "related",
+          "f": 1
+        },
+        {
+          "w": "arms",
           "f": 1
         },
         {
@@ -17923,7 +7960,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "born",
+          "w": "children",
           "f": 1
         },
         {
@@ -17940,7 +7977,11 @@ var years =[
         },
         {
           "w": "hwan-hyup",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "shin",
+          "f": 1
         },
         {
           "w": "aged",
@@ -17955,7 +7996,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "witness",
+          "w": "party,",
+          "f": 1
+        },
+        {
+          "w": "born",
+          "f": 1
+        },
+        {
+          "w": "camp,",
           "f": 1
         },
         {
@@ -17963,31 +8012,35 @@ var years =[
           "f": 1
         },
         {
-          "w": "dong-hyuk",
-          "f": 1
+          "w": "family,",
+          "f": 2
         },
         {
           "w": "political",
           "f": 2
         },
         {
-          "w": "arms",
+          "w": "4,",
           "f": 1
         },
         {
-          "w": "children",
+          "w": "witness,",
           "f": 1
         },
         {
-          "w": "jong-il",
-          "f": 2
+          "w": "korea.",
+          "f": 1
         },
         {
           "w": "state",
           "f": 1
         },
         {
-          "w": "parents",
+          "w": "2",
+          "f": 1
+        },
+        {
+          "w": "republic",
           "f": 1
         },
         {
@@ -17999,10 +8052,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "party",
-          "f": 1
-        },
-        {
           "w": "korean",
           "f": 1
         },
@@ -18011,7 +8060,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "korea",
+          "w": "again.",
           "f": 1
         },
         {
@@ -18023,6 +8072,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "dong-hyuk",
+          "f": 1
+        },
+        {
+          "w": "12.",
+          "f": 1
+        },
+        {
           "w": "choice",
           "f": 1
         },
@@ -18031,11 +8088,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "hwan-hyup,",
+          "f": 1
+        },
+        {
           "w": "kim",
           "f": 5
         },
         {
-          "w": "republic",
+          "w": "purged.",
           "f": 1
         },
         {
@@ -18052,6 +8113,10 @@ var years =[
         },
         {
           "w": "arranged",
+          "f": 1
+        },
+        {
+          "w": "14",
           "f": 1
         },
         {
@@ -18072,22 +8137,18 @@ var years =[
         },
         {
           "w": "camp",
-          "f": 3
+          "f": 2
         },
         {
           "w": "arrested",
           "f": 1
         },
         {
-          "w": "purged",
+          "w": "parents,",
           "f": 1
         },
         {
           "w": "guards",
-          "f": 1
-        },
-        {
-          "w": "matter",
           "f": 1
         },
         {
@@ -18140,43 +8201,15 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.8506493506493507,
-      "sub": 0.14935064935064934,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
-          "w": "provided",
-          "f": 1
-        },
-        {
-          "w": "korea",
+          "w": "no.",
           "f": 1
         },
         {
           "w": "shin",
-          "f": 1
-        },
-        {
-          "w": "service",
-          "f": 1
-        },
-        {
-          "w": "food",
           "f": 1
         },
         {
@@ -18188,47 +8221,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "mr",
-          "f": 1
-        },
-        {
-          "w": "testified",
-          "f": 1
-        },
-        {
-          "w": "dong-hyuk",
-          "f": 1
-        },
-        {
-          "w": "hungry",
-          "f": 1
-        },
-        {
-          "w": "camp",
-          "f": 1
-        },
-        {
           "w": "born",
           "f": 1
         },
         {
-          "w": "refers",
-          "f": 1
-        },
-        {
-          "w": "republic",
-          "f": 1
-        },
-        {
-          "w": "detention",
-          "f": 1
-        },
-        {
-          "w": "prison",
-          "f": 1
-        },
-        {
-          "w": "estimate",
+          "w": "provided",
           "f": 1
         },
         {
@@ -18236,11 +8233,71 @@ var years =[
           "f": 1
         },
         {
-          "w": "prisoners",
+          "w": "1982",
+          "f": 2
+        },
+        {
+          "w": "service",
+          "f": 1
+        },
+        {
+          "w": "republic",
+          "f": 1
+        },
+        {
+          "w": "prisoners.mr",
+          "f": 1
+        },
+        {
+          "w": "prison",
           "f": 1
         },
         {
           "w": "population",
+          "f": 1
+        },
+        {
+          "w": "dong-hyuk,",
+          "f": 1
+        },
+        {
+          "w": "testified",
+          "f": 1
+        },
+        {
+          "w": "food.",
+          "f": 1
+        },
+        {
+          "w": "estimate,",
+          "f": 1
+        },
+        {
+          "w": "14,",
+          "f": 1
+        },
+        {
+          "w": "refers",
+          "f": 1
+        },
+        {
+          "w": "105,000",
+          "f": 1
+        },
+        {
+          "w": "detention,",
+          "f": 1
+        },
+        {
+          "w": "camp",
+          "f": 1
+        },
+        {
+          "w": "hungry",
+          "f": 1
+        },
+        {
+          "w": "korea,",
           "f": 1
         }
       ],
@@ -18268,7 +8325,19 @@ var years =[
       "obj": 1.0,
       "kw": [
         {
+          "w": "eat.",
+          "f": 1
+        },
+        {
+          "w": "causes,",
+          "f": 1
+        },
+        {
           "w": "expert",
+          "f": 1
+        },
+        {
+          "w": "sen,",
           "f": 1
         },
         {
@@ -18292,8 +8361,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "commenced",
-          "f": 1
+          "w": "characteristic",
+          "f": 2
         },
         {
           "w": "mass",
@@ -18304,11 +8373,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "characteristic",
-          "f": 2
-        },
-        {
-          "w": "sen",
+          "w": "commenced,",
           "f": 1
         },
         {
@@ -18320,31 +8385,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "eat",
-          "f": 2
-        },
-        {
           "w": "stated:",
           "f": 1
         }
       ],
       "sub": 0.0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7549019607843137,
-      "sub": 0.24509803921568626,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0,
@@ -18355,7 +8400,7 @@ var years =[
       "obj": 1.0,
       "over": {
         "food": {
-          "perc": 5,
+          "perc": 4,
           "kw": [
             "dprk",
             "people"
@@ -18368,7 +8413,27 @@ var years =[
       },
       "kw": [
         {
-          "w": "assassination",
+          "w": "rok",
+          "f": 1
+        },
+        {
+          "w": "myanmar",
+          "f": 1
+        },
+        {
+          "w": "number",
+          "f": 1
+        },
+        {
+          "w": "including",
+          "f": 1
+        },
+        {
+          "w": "acts",
+          "f": 1
+        },
+        {
+          "w": "bombing",
           "f": 1
         },
         {
@@ -18376,7 +8441,31 @@ var years =[
           "f": 1
         },
         {
-          "w": "myanmar",
+          "w": "21",
+          "f": 1
+        },
+        {
+          "w": "rok.",
+          "f": 1
+        },
+        {
+          "w": "assassination",
+          "f": 1
+        },
+        {
+          "w": "doo-hwan",
+          "f": 1
+        },
+        {
+          "w": "targets",
+          "f": 1
+        },
+        {
+          "w": "yangon",
+          "f": 1
+        },
+        {
+          "w": "included:",
           "f": 1
         },
         {
@@ -18392,35 +8481,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "killed",
-          "f": 1
-        },
-        {
-          "w": "acts",
-          "f": 1
-        },
-        {
-          "w": "number",
-          "f": 1
-        },
-        {
-          "w": "including",
-          "f": 1
-        },
-        {
-          "w": "doo-hwan",
-          "f": 1
-        },
-        {
-          "w": "rok",
-          "f": 2
-        },
-        {
           "w": "sponsored",
           "f": 1
         },
         {
-          "w": "yangon",
+          "w": "developments,",
           "f": 1
         },
         {
@@ -18428,23 +8493,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "included:",
+          "w": "killed",
+          "f": 1
+        },
+        {
+          "w": "1983",
           "f": 1
         },
         {
           "w": "nationals",
-          "f": 1
-        },
-        {
-          "w": "targets",
-          "f": 1
-        },
-        {
-          "w": "developments",
-          "f": 1
-        },
-        {
-          "w": "bombing",
           "f": 1
         }
       ],
@@ -18457,22 +8514,6 @@ var years =[
       "obj": 0,
       "kw": [],
       "sub": 0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7864077669902912,
-      "sub": 0.21359223300970873,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0,
@@ -18502,22 +8543,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6653386454183267,
-      "sub": 0.3346613545816733,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -18546,22 +8571,6 @@ var years =[
       "kw": [],
       "sub": 0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6326530612244898,
-      "sub": 0.3673469387755102,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0,
       "kw": [],
@@ -18581,15 +8590,19 @@ var years =[
       },
       "kw": [
         {
+          "w": "1986",
+          "f": 1
+        },
+        {
+          "w": "people",
+          "f": 1
+        },
+        {
           "w": "airport",
           "f": 1
         },
         {
           "w": "gimpo",
-          "f": 1
-        },
-        {
-          "w": "people",
           "f": 1
         },
         {
@@ -18611,31 +8624,11 @@ var years =[
       "kw": [],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6828703703703703,
-      "sub": 0.31712962962962965,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
-          "w": "province",
-          "f": 1
-        },
-        {
-          "w": "agency",
+          "w": "no.",
           "f": 1
         },
         {
@@ -18643,7 +8636,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "country",
+          "w": "23",
+          "f": 1
+        },
+        {
+          "w": "prison",
           "f": 1
         },
         {
@@ -18655,7 +8652,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "prison",
+          "w": "agency,",
+          "f": 1
+        },
+        {
+          "w": "1987.",
+          "f": 1
+        },
+        {
+          "w": "country,",
           "f": 1
         },
         {
@@ -18679,6 +8684,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "province,",
+          "f": 1
+        },
+        {
           "w": "south",
           "f": 1
         }
@@ -18699,11 +8708,15 @@ var years =[
       },
       "kw": [
         {
-          "w": "people",
+          "w": "1987",
           "f": 1
         },
         {
           "w": "isolation",
+          "f": 1
+        },
+        {
+          "w": "people.",
           "f": 1
         },
         {
@@ -18720,6 +8733,10 @@ var years =[
         },
         {
           "w": "dprk",
+          "f": 1
+        },
+        {
+          "w": "115",
           "f": 1
         },
         {
@@ -18781,7 +8798,7 @@ var years =[
         },
         {
           "w": "trade",
-          "f": 2
+          "f": 1
         },
         {
           "w": "festival",
@@ -18793,6 +8810,10 @@ var years =[
         },
         {
           "w": "republic",
+          "f": 1
+        },
+        {
+          "w": "trade.",
           "f": 1
         },
         {
@@ -18817,22 +8838,6 @@ var years =[
         }
       ],
       "sub": 0.0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7461139896373057,
-      "sub": 0.2538860103626943,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0,
@@ -18873,7 +8878,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "held",
+          "w": "students,",
           "f": 1
         },
         {
@@ -18893,7 +8898,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "students",
+          "w": "held.",
           "f": 1
         },
         {
@@ -18915,27 +8920,15 @@ var years =[
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6266233766233766,
-      "sub": 0.37337662337662336,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
           "w": "europe",
+          "f": 1
+        },
+        {
+          "w": "countries",
           "f": 1
         },
         {
@@ -18979,10 +8972,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "wall",
-          "f": 1
-        },
-        {
           "w": "berlin",
           "f": 1
         },
@@ -18991,11 +8980,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "wall.",
+          "f": 1
+        },
+        {
           "w": "suffered",
           "f": 1
         },
         {
-          "w": "countries",
+          "w": "1989",
           "f": 1
         },
         {
@@ -19027,15 +9020,19 @@ var years =[
       },
       "kw": [
         {
+          "w": "1989,",
+          "f": 1
+        },
+        {
           "w": "sino-soviet",
           "f": 1
         },
         {
-          "w": "end",
+          "w": "split",
           "f": 1
         },
         {
-          "w": "split",
+          "w": "end.",
           "f": 1
         }
       ],
@@ -19056,10 +9053,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "ordinary",
-          "f": 1
-        },
-        {
           "w": "features",
           "f": 1
         },
@@ -19072,6 +9065,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "paid.",
+          "f": 1
+        },
+        {
           "w": "washington",
           "f": 1
         },
@@ -19080,15 +9077,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "rations",
-          "f": 2
-        },
-        {
-          "w": "hearing",
+          "w": "state-assigned",
           "f": 1
         },
         {
-          "w": "minimum",
+          "w": "1970s",
+          "f": 1
+        },
+        {
+          "w": "therefore,",
+          "f": 1
+        },
+        {
+          "w": "underlying",
           "f": 1
         },
         {
@@ -19101,6 +9102,10 @@ var years =[
         },
         {
           "w": "soldiers",
+          "f": 1
+        },
+        {
+          "w": "minimum,",
           "f": 1
         },
         {
@@ -19132,11 +9137,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "system",
-          "f": 1
-        },
-        {
-          "w": "halved",
+          "w": "country",
           "f": 1
         },
         {
@@ -19144,7 +9145,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "apparentthe",
+          "w": "system",
           "f": 1
         },
         {
@@ -19160,11 +9161,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "state",
-          "f": 1
-        },
-        {
-          "w": "difficulties",
+          "w": "apparentthe",
           "f": 1
         },
         {
@@ -19180,7 +9177,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "thousands",
+          "w": "mid-1990s.",
+          "f": 1
+        },
+        {
+          "w": "hearing,",
           "f": 1
         },
         {
@@ -19204,6 +9205,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "halved.",
+          "f": 1
+        },
+        {
           "w": "ration",
           "f": 1
         },
@@ -19212,7 +9217,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "paid",
+          "w": "state.",
           "f": 1
         },
         {
@@ -19221,10 +9226,6 @@ var years =[
         },
         {
           "w": "affecting",
-          "f": 1
-        },
-        {
-          "w": "state-assigned",
           "f": 1
         },
         {
@@ -19248,11 +9249,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "killed",
+          "w": "ordinary",
+          "f": 1
+        },
+        {
+          "w": "difficulties.",
           "f": 1
         },
         {
           "w": "women",
+          "f": 1
+        },
+        {
+          "w": "changed.",
           "f": 1
         },
         {
@@ -19268,20 +9277,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "country",
+          "w": "thousands",
           "f": 1
         },
         {
-          "w": "changed",
+          "w": "famine.",
           "f": 1
         },
         {
-          "w": "1970s",
-          "f": 1
-        },
-        {
-          "w": "underlying",
-          "f": 1
+          "w": "rations",
+          "f": 2
         },
         {
           "w": "economic",
@@ -19300,6 +9305,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "killed,",
+          "f": 1
+        },
+        {
           "w": "\"the",
           "f": 1
         },
@@ -19314,35 +9323,19 @@ var years =[
       ],
       "sub": 0.25
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.65,
-      "sub": 0.35,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.9642857142857143,
       "kw": [
+        {
+          "w": "no.",
+          "f": 9
+        },
         {
           "w": "executed",
           "f": 2
         },
         {
-          "w": "finalized",
-          "f": 1
-        },
-        {
-          "w": "month",
+          "w": "victims,",
           "f": 1
         },
         {
@@ -19354,19 +9347,27 @@ var years =[
           "f": 1
         },
         {
+          "w": "(rodongdanryundae).",
+          "f": 1
+        },
+        {
           "w": "including",
           "f": 1
         },
         {
-          "w": "victim",
+          "w": "inmates.",
           "f": 1
         },
         {
-          "w": "existence",
+          "w": "existence,",
           "f": 1
         },
         {
-          "w": "cases",
+          "w": "left",
+          "f": 1
+        },
+        {
+          "w": "time,",
           "f": 1
         },
         {
@@ -19382,20 +9383,28 @@ var years =[
           "f": 1
         },
         {
-          "w": "family",
+          "w": "il-sung.",
           "f": 1
         },
         {
           "w": "bukchang",
-          "f": 2
+          "f": 1
         },
         {
           "w": "father",
           "f": 1
         },
         {
+          "w": "50,000",
+          "f": 1
+        },
+        {
           "w": "late",
           "f": 3
+        },
+        {
+          "w": "continue",
+          "f": 1
         },
         {
           "w": "disclosed",
@@ -19406,7 +9415,7 @@ var years =[
           "f": 5
         },
         {
-          "w": "covered",
+          "w": "month,",
           "f": 1
         },
         {
@@ -19418,6 +9427,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "family",
+          "f": 1
+        },
+        {
           "w": "embezzling",
           "f": 1
         },
@@ -19426,7 +9439,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "1960s,",
+          "f": 1
+        },
+        {
           "w": "reopened",
+          "f": 1
+        },
+        {
+          "w": "26.",
           "f": 1
         },
         {
@@ -19438,11 +9459,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "today.",
+          "f": 1
+        },
+        {
           "w": "executions",
-          "f": 4
+          "f": 3
         },
         {
           "w": "bank",
+          "f": 1
+        },
+        {
+          "w": "landowners,",
+          "f": 1
+        },
+        {
+          "w": "organizations,",
           "f": 1
         },
         {
@@ -19450,7 +9483,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "wooden",
+          "w": "officials,",
           "f": 1
         },
         {
@@ -19458,19 +9491,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "level",
+          "w": "arrested",
           "f": 1
         },
         {
-          "w": "arrested",
-          "f": 1
+          "w": "public",
+          "f": 3
         },
         {
           "w": "large",
           "f": 2
         },
         {
-          "w": "continue",
+          "w": "wooden",
+          "f": 1
+        },
+        {
+          "w": "control.",
           "f": 1
         },
         {
@@ -19482,7 +9519,7 @@ var years =[
           "f": 5
         },
         {
-          "w": "succession",
+          "w": "rival",
           "f": 1
         },
         {
@@ -19490,23 +9527,31 @@ var years =[
           "f": 1
         },
         {
-          "w": "river",
+          "w": "summarily",
           "f": 1
         },
         {
-          "w": "summarily",
+          "w": "executions.",
           "f": 1
+        },
+        {
+          "w": "1990s,",
+          "f": 2
         },
         {
           "w": "referred",
           "f": 1
         },
         {
-          "w": "breakdown",
+          "w": "temporarily",
           "f": 1
         },
         {
-          "w": "temporarily",
+          "w": "victim",
+          "f": 1
+        },
+        {
+          "w": "bukchang,",
           "f": 1
         },
         {
@@ -19518,15 +9563,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "estimates",
-          "f": 1
-        },
-        {
           "w": "japanese",
-          "f": 1
-        },
-        {
-          "w": "1960s",
           "f": 1
         },
         {
@@ -19534,7 +9571,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "officials",
+          "w": "economic",
           "f": 1
         },
         {
@@ -19550,7 +9587,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "operation",
+          "w": "150,000-200,000",
           "f": 1
         },
         {
@@ -19586,12 +9623,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "camp.located",
+          "f": 1
+        },
+        {
           "w": "extensively",
           "f": 1
         },
         {
           "w": "victims",
-          "f": 2
+          "f": 1
         },
         {
           "w": "state",
@@ -19610,8 +9651,16 @@ var years =[
           "f": 4
         },
         {
-          "w": "public",
-          "f": 4
+          "w": "22.since",
+          "f": 1
+        },
+        {
+          "w": "sungho,",
+          "f": 1
+        },
+        {
+          "w": "tanchon,",
+          "f": 1
         },
         {
           "w": "body",
@@ -19630,19 +9679,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "corn",
-          "f": 1
-        },
-        {
-          "w": "misdemeanours",
-          "f": 1
-        },
-        {
           "w": "non-governmental",
           "f": 1
         },
         {
-          "w": "cloth",
+          "w": "corn",
+          "f": 1
+        },
+        {
+          "w": "succession",
+          "f": 1
+        },
+        {
+          "w": "1990s.political",
+          "f": 1
+        },
+        {
+          "w": "mid-1980s.",
           "f": 1
         },
         {
@@ -19650,15 +9703,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "cloth.",
+          "f": 1
+        },
+        {
           "w": "opposition",
           "f": 1
         },
         {
-          "w": "landowners",
+          "w": "security",
           "f": 1
         },
         {
-          "w": "received",
+          "w": "river,",
           "f": 1
         },
         {
@@ -19678,11 +9735,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "brutal",
+          "w": "county,",
           "f": 1
         },
         {
-          "w": "trial",
+          "w": "brutal",
           "f": 1
         },
         {
@@ -19690,19 +9747,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "social",
-          "f": 3
+          "w": "testimony",
+          "f": 2
+        },
+        {
+          "w": "pyongyang,",
+          "f": 1
         },
         {
           "w": "south",
           "f": 3
         },
         {
-          "w": "sungho",
+          "w": "surviving",
           "f": 1
         },
         {
-          "w": "surviving",
+          "w": "18.",
           "f": 1
         },
         {
@@ -19719,7 +9780,7 @@ var years =[
         },
         {
           "w": "county",
-          "f": 3
+          "f": 2
         },
         {
           "w": "included",
@@ -19730,23 +9791,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "2000s",
-          "f": 1
-        },
-        {
           "w": "aimed",
           "f": 1
         },
         {
-          "w": "pyongyang",
+          "w": "operation.the",
+          "f": 1
+        },
+        {
+          "w": "survive.",
           "f": 1
         },
         {
           "w": "existed",
-          "f": 1
-        },
-        {
-          "w": "accused",
           "f": 1
         },
         {
@@ -19755,7 +9812,11 @@ var years =[
         },
         {
           "w": "political",
-          "f": 6
+          "f": 5
+        },
+        {
+          "w": "seen.public",
+          "f": 1
         },
         {
           "w": "spike",
@@ -19763,7 +9824,7 @@ var years =[
         },
         {
           "w": "survive",
-          "f": 2
+          "f": 1
         },
         {
           "w": "factions",
@@ -19771,10 +9832,14 @@ var years =[
         },
         {
           "w": "today",
-          "f": 2
+          "f": 1
         },
         {
           "w": "inflow",
+          "f": 1
+        },
+        {
+          "w": "slumping",
           "f": 1
         },
         {
@@ -19790,11 +9855,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "boy",
+          "w": "administration.",
           "f": 1
         },
         {
           "w": "kilograms",
+          "f": 1
+        },
+        {
+          "w": "2000.",
           "f": 1
         },
         {
@@ -19815,7 +9884,15 @@ var years =[
         },
         {
           "w": "inmates",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "covered",
+          "f": 1
+        },
+        {
+          "w": "2000s,",
+          "f": 1
         },
         {
           "w": "line",
@@ -19830,11 +9907,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "organizations",
+          "w": "13",
           "f": 1
         },
         {
-          "w": "augment",
+          "w": "12",
+          "f": 1
+        },
+        {
+          "w": "14",
+          "f": 1
+        },
+        {
+          "w": "17",
           "f": 1
         },
         {
@@ -19842,8 +9927,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "rival",
+          "w": "19",
           "f": 1
+        },
+        {
+          "w": "18",
+          "f": 2
         },
         {
           "w": "socialist",
@@ -19858,11 +9947,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "economic",
+          "w": "accused",
           "f": 1
         },
         {
           "w": "ms",
+          "f": 1
+        },
+        {
+          "w": "estimates,",
           "f": 1
         },
         {
@@ -19878,15 +9971,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "control",
-          "f": 1
-        },
-        {
-          "w": "security",
+          "w": "province.",
           "f": 2
         },
         {
+          "w": "received",
+          "f": 1
+        },
+        {
+          "w": "finalized,",
+          "f": 1
+        },
+        {
           "w": "site",
+          "f": 1
+        },
+        {
+          "w": "level.",
           "f": 1
         },
         {
@@ -19894,7 +9995,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "1980s",
+          "w": "motivated",
           "f": 1
         },
         {
@@ -19902,15 +10003,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "warning",
-          "f": 1
-        },
-        {
           "w": "authorities",
           "f": 1
         },
         {
+          "w": "misdemeanours",
+          "f": 1
+        },
+        {
           "w": "families",
+          "f": 1
+        },
+        {
+          "w": "warning.",
           "f": 1
         },
         {
@@ -19922,15 +10027,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "4.5",
+          "f": 1
+        },
+        {
+          "w": "boy",
+          "f": 1
+        },
+        {
           "w": "silhouette",
           "f": 1
         },
         {
-          "w": "slumping",
-          "f": 1
-        },
-        {
-          "w": "administration",
+          "w": "agency",
           "f": 1
         },
         {
@@ -19939,14 +10048,10 @@ var years =[
         },
         {
           "w": "located",
-          "f": 2
-        },
-        {
-          "w": "department)",
           "f": 1
         },
         {
-          "w": "(rodongdanryundae)",
+          "w": "department)",
           "f": 1
         },
         {
@@ -19958,15 +10063,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "motivated",
+          "w": "breakdown",
           "f": 1
         },
         {
-          "w": "province",
-          "f": 2
+          "w": "satellite",
+          "f": 1
         },
         {
-          "w": "satellite",
+          "w": "augment",
           "f": 1
         },
         {
@@ -19974,8 +10079,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "testimony",
-          "f": 2
+          "w": "social",
+          "f": 3
         },
         {
           "w": "diet",
@@ -19983,6 +10088,10 @@ var years =[
         },
         {
           "w": "(also",
+          "f": 1
+        },
+        {
+          "w": "1980s,",
           "f": 1
         },
         {
@@ -19998,31 +10107,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "released",
-          "f": 1
-        },
-        {
-          "w": "000-200",
+          "w": "out,",
           "f": 1
         },
         {
           "w": "camp",
-          "f": 12
+          "f": 11
         },
         {
           "w": "order",
           "f": 3
         },
         {
-          "w": "tanchon",
+          "w": "security.",
           "f": 1
         },
         {
-          "w": "mid-1980s",
+          "w": "trial.",
           "f": 1
         },
         {
-          "w": "time",
+          "w": "cases,",
           "f": 1
         },
         {
@@ -20046,7 +10151,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "left",
+          "w": "released.later",
           "f": 1
         }
       ],
@@ -20056,17 +10161,15 @@ var years =[
       "obj": 0.7777777777777778,
       "over": {
         "food": {
-          "perc": 5,
+          "perc": 4,
           "kw": [
+            "dprk.",
+            "china.",
             "collapse",
             "shortages",
             "food",
-            "famine",
             "mass",
-            "china",
-            "starvation",
-            "mid-1990s",
-            "dprk"
+            "starvation"
           ]
         },
         "pol": {
@@ -20074,22 +10177,224 @@ var years =[
           "kw": [
             "provided",
             "death",
-            "il-sung",
             "reportedly",
+            "1990",
             "food",
-            "agency",
+            "agency,",
             "famine",
             "jong-il",
             "kim",
             "international",
             "1990s",
+            "however,",
+            "1990s.",
             "dprk"
           ]
         }
       },
       "kw": [
         {
-          "w": "inspectors",
+          "w": "rok",
+          "f": 1
+        },
+        {
+          "w": "reactor",
+          "f": 1
+        },
+        {
+          "w": "chinese",
+          "f": 1
+        },
+        {
+          "w": "1995,",
+          "f": 1
+        },
+        {
+          "w": "agreed",
+          "f": 1
+        },
+        {
+          "w": "half",
+          "f": 1
+        },
+        {
+          "w": "years",
+          "f": 1
+        },
+        {
+          "w": "atomic",
+          "f": 1
+        },
+        {
+          "w": "talks",
+          "f": 1
+        },
+        {
+          "w": "japan",
+          "f": 1
+        },
+        {
+          "w": "improvement",
+          "f": 1
+        },
+        {
+          "w": "reparationsalthough",
+          "f": 1
+        },
+        {
+          "w": "amelioration",
+          "f": 1
+        },
+        {
+          "w": "fuel",
+          "f": 1
+        },
+        {
+          "w": "exports",
+          "f": 1
+        },
+        {
+          "w": "fact,",
+          "f": 1
+        },
+        {
+          "w": "dependent",
+          "f": 1
+        },
+        {
+          "w": "1994,",
+          "f": 1
+        },
+        {
+          "w": "carter,",
+          "f": 1
+        },
+        {
+          "w": "ten-fold",
+          "f": 1
+        },
+        {
+          "w": "framework",
+          "f": 1
+        },
+        {
+          "w": "mid-1990s,",
+          "f": 1
+        },
+        {
+          "w": "non-aggression",
+          "f": 1
+        },
+        {
+          "w": "trade",
+          "f": 3
+        },
+        {
+          "w": "continued",
+          "f": 1
+        },
+        {
+          "w": "rhetoric",
+          "f": 1
+        },
+        {
+          "w": "states,",
+          "f": 1
+        },
+        {
+          "w": "states.",
+          "f": 1
+        },
+        {
+          "w": "us-dprk",
+          "f": 1
+        },
+        {
+          "w": "1994.normalization",
+          "f": 1
+        },
+        {
+          "w": "unloaded",
+          "f": 1
+        },
+        {
+          "w": "$2.56",
+          "f": 1
+        },
+        {
+          "w": "energy",
+          "f": 1
+        },
+        {
+          "w": "begun",
+          "f": 1
+        },
+        {
+          "w": "$1.4",
+          "f": 1
+        },
+        {
+          "w": "brokered",
+          "f": 1
+        },
+        {
+          "w": "ejecting",
+          "f": 1
+        },
+        {
+          "w": "nuclear",
+          "f": 1
+        },
+        {
+          "w": "contributed",
+          "f": 1
+        },
+        {
+          "w": "progress",
+          "f": 1
+        },
+        {
+          "w": "led",
+          "f": 1
+        },
+        {
+          "w": "us$900",
+          "f": 1
+        },
+        {
+          "w": "example,",
+          "f": 1
+        },
+        {
+          "w": "million",
+          "f": 3
+        },
+        {
+          "w": "$550",
+          "f": 1
+        },
+        {
+          "w": "leadership",
+          "f": 1
+        },
+        {
+          "w": "china",
+          "f": 2
+        },
+        {
+          "w": "change",
+          "f": 1
+        },
+        {
+          "w": "withdrew",
+          "f": 1
+        },
+        {
+          "w": "strains",
+          "f": 1
+        },
+        {
+          "w": "levels",
           "f": 1
         },
         {
@@ -20105,18 +10410,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "chinese",
-          "f": 1
-        },
-        {
-          "w": "proximate",
-          "f": 1
-        },
-        {
-          "w": "energy",
-          "f": 1
-        },
-        {
           "w": "explained",
           "f": 1
         },
@@ -20125,95 +10418,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "years",
-          "f": 1
-        },
-        {
-          "w": "states",
-          "f": 4
-        },
-        {
           "w": "patience",
-          "f": 1
-        },
-        {
-          "w": "agreed",
-          "f": 1
-        },
-        {
-          "w": "rok",
-          "f": 1
-        },
-        {
-          "w": "relations",
-          "f": 4
-        },
-        {
-          "w": "fell",
-          "f": 2
-        },
-        {
-          "w": "talks",
-          "f": 1
-        },
-        {
-          "w": "japan",
-          "f": 1
-        },
-        {
-          "w": "rods",
-          "f": 1
-        },
-        {
-          "w": "assurances",
-          "f": 1
-        },
-        {
-          "w": "crisis",
-          "f": 2
-        },
-        {
-          "w": "negotiations",
-          "f": 1
-        },
-        {
-          "w": "reactor",
-          "f": 1
-        },
-        {
-          "w": "brokered",
-          "f": 1
-        },
-        {
-          "w": "united",
-          "f": 4
-        },
-        {
-          "w": "end",
-          "f": 1
-        },
-        {
-          "w": "ejecting",
-          "f": 1
-        },
-        {
-          "w": "neighborchina",
-          "f": 1
-        },
-        {
-          "w": "union",
-          "f": 2
-        },
-        {
-          "w": "nuclear",
-          "f": 1
-        },
-        {
-          "w": "assistance",
-          "f": 1
-        },
-        {
-          "w": "contributed",
           "f": 1
         },
         {
@@ -20221,67 +10426,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "improvement",
+          "w": "il-sung",
           "f": 1
         },
         {
-          "w": "dependent",
-          "f": 1
+          "w": "crisis",
+          "f": 2
         },
         {
-          "w": "reparationsalthough",
-          "f": 1
+          "w": "union",
+          "f": 2
         },
         {
-          "w": "amelioration",
-          "f": 1
-        },
-        {
-          "w": "normalization",
-          "f": 1
-        },
-        {
-          "w": "fuel",
-          "f": 1
-        },
-        {
-          "w": "progress",
-          "f": 1
-        },
-        {
-          "w": "$1",
-          "f": 1
-        },
-        {
-          "w": "decades",
-          "f": 1
+          "w": "relations",
+          "f": 4
         },
         {
           "w": "war",
-          "f": 1
-        },
-        {
-          "w": "billion",
-          "f": 1
-        },
-        {
-          "w": "exports",
-          "f": 1
-        },
-        {
-          "w": "led",
-          "f": 1
-        },
-        {
-          "w": "normalized",
-          "f": 1
-        },
-        {
-          "w": "us$900",
-          "f": 1
-        },
-        {
-          "w": "dropped",
           "f": 1
         },
         {
@@ -20289,59 +10450,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "million",
-          "f": 3
-        },
-        {
           "w": "occurred",
           "f": 1
         },
         {
-          "w": "$550",
+          "w": "normalized",
           "f": 1
         },
         {
-          "w": "ten-fold",
-          "f": 1
-        },
-        {
-          "w": "risked",
-          "f": 1
-        },
-        {
-          "w": "framework",
-          "f": 1
-        },
-        {
-          "w": "leadership",
-          "f": 1
-        },
-        {
-          "w": "concessionsby",
-          "f": 1
-        },
-        {
-          "w": "half",
-          "f": 1
-        },
-        {
-          "w": "non-aggression",
-          "f": 1
-        },
-        {
-          "w": "president",
-          "f": 2
-        },
-        {
-          "w": "trade",
-          "f": 3
-        },
-        {
-          "w": "continued",
-          "f": 1
-        },
-        {
-          "w": "change",
+          "w": "decades.",
           "f": 1
         },
         {
@@ -20349,59 +10466,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "carter",
-          "f": 1
-        },
-        {
-          "w": "begun",
-          "f": 1
-        },
-        {
-          "w": "rhetoric",
-          "f": 1
+          "w": "1993",
+          "f": 2
         },
         {
           "w": "made",
           "f": 1
         },
         {
-          "w": "bilateral",
-          "f": 2
-        },
-        {
-          "w": "$2",
-          "f": 1
-        },
-        {
-          "w": "1990sthis",
-          "f": 1
-        },
-        {
-          "w": "withdrew",
-          "f": 1
+          "w": "1994",
+          "f": 3
         },
         {
           "w": "bill",
           "f": 1
         },
         {
-          "w": "levels",
-          "f": 1
-        },
-        {
           "w": "choices",
-          "f": 1
-        },
-        {
-          "w": "strains",
-          "f": 1
-        },
-        {
-          "w": "us-dprk",
-          "f": 1
-        },
-        {
-          "w": "fact",
           "f": 1
         },
         {
@@ -20413,6 +10494,74 @@ var years =[
           "f": 1
         },
         {
+          "w": "states",
+          "f": 2
+        },
+        {
+          "w": "dropped",
+          "f": 1
+        },
+        {
+          "w": "rods",
+          "f": 1
+        },
+        {
+          "w": "assurances",
+          "f": 1
+        },
+        {
+          "w": "negotiations",
+          "f": 1
+        },
+        {
+          "w": "united",
+          "f": 4
+        },
+        {
+          "w": "end",
+          "f": 1
+        },
+        {
+          "w": "neighborchina",
+          "f": 1
+        },
+        {
+          "w": "inspectors.",
+          "f": 1
+        },
+        {
+          "w": "assistance.",
+          "f": 1
+        },
+        {
+          "w": "risked",
+          "f": 1
+        },
+        {
+          "w": "fell",
+          "f": 2
+        },
+        {
+          "w": "president",
+          "f": 2
+        },
+        {
+          "w": "1992,",
+          "f": 1
+        },
+        {
+          "w": "billion",
+          "f": 1
+        },
+        {
+          "w": "bilateral",
+          "f": 2
+        },
+        {
+          "w": "1990sthis",
+          "f": 1
+        },
+        {
           "w": "coincided",
           "f": 1
         },
@@ -20421,11 +10570,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "unloaded",
+          "w": "proximate",
           "f": 1
         },
         {
-          "w": "atomic",
+          "w": "concessionsby",
           "f": 1
         }
       ],
@@ -20442,12 +10591,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "context",
-          "f": 1
-        },
-        {
           "w": "campaign",
-          "f": 3
+          "f": 2
         },
         {
           "w": "people",
@@ -20490,14 +10635,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "cuts",
-          "f": 1
-        },
-        {
-          "w": "soldiers",
-          "f": 1
-        },
-        {
           "w": "alternative",
           "f": 1
         },
@@ -20514,12 +10651,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "systems.882",
+          "f": 1
+        },
+        {
           "w": "supposedly",
           "f": 1
         },
         {
           "w": "thinking",
           "f": 1
+        },
+        {
+          "w": "government",
+          "f": 2
         },
         {
           "w": "political",
@@ -20546,15 +10691,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "remarks",
+          "w": "military.",
           "f": 1
         },
         {
-          "w": "systems",
+          "w": "context,",
           "f": 1
         },
         {
-          "w": "punished",
+          "w": "punished.",
           "f": 1
         },
         {
@@ -20574,8 +10719,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "government",
-          "f": 2
+          "w": "on,",
+          "f": 1
+        },
+        {
+          "w": "launched,",
+          "f": 1
         },
         {
           "w": "started",
@@ -20594,6 +10743,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "campaign.",
+          "f": 1
+        },
+        {
           "w": "donation",
           "f": 1
         },
@@ -20602,7 +10755,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "situation",
+          "w": "soldiers.",
           "f": 1
         },
         {
@@ -20622,6 +10775,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "10",
+          "f": 1
+        },
+        {
           "w": "rhetoric",
           "f": 1
         },
@@ -20631,6 +10788,10 @@ var years =[
         },
         {
           "w": "attempt",
+          "f": 1
+        },
+        {
+          "w": "remarks",
           "f": 1
         },
         {
@@ -20647,6 +10808,10 @@ var years =[
         },
         {
           "w": "arduous",
+          "f": 1
+        },
+        {
+          "w": "cuts.",
           "f": 1
         },
         {
@@ -20678,7 +10843,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "military",
+          "w": "situation",
           "f": 1
         },
         {
@@ -20687,26 +10852,10 @@ var years =[
         },
         {
           "w": "launched",
-          "f": 3
+          "f": 2
         }
       ],
       "sub": 0.2
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6816479400749064,
-      "sub": 0.31835205992509363,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0,
@@ -20735,19 +10884,23 @@ var years =[
       "obj": 1.0,
       "kw": [
         {
+          "w": "market.",
+          "f": 1
+        },
+        {
           "w": "selling",
           "f": 1
         },
         {
-          "w": "videos",
+          "w": "14",
           "f": 1
         },
         {
           "w": "business",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "arrested",
+          "w": "arrested.",
           "f": 1
         },
         {
@@ -20755,11 +10908,19 @@ var years =[
           "f": 2
         },
         {
-          "w": "years",
+          "w": "witness,",
           "f": 1
         },
         {
-          "w": "market",
+          "w": "years,",
+          "f": 1
+        },
+        {
+          "w": "teenager",
+          "f": 1
+        },
+        {
+          "w": "videos",
           "f": 1
         },
         {
@@ -20767,75 +10928,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "business,",
+          "f": 1
+        },
+        {
           "w": "\"one",
-          "f": 1
-        },
-        {
-          "w": "witness",
-          "f": 1
-        },
-        {
-          "w": "teenager",
           "f": 1
         }
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.619140625,
-      "sub": 0.380859375,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
-        {
-          "w": "back",
-          "f": 1
-        },
-        {
-          "w": "execution",
-          "f": 1
-        },
-        {
-          "w": "statistics",
-          "f": 1
-        },
-        {
-          "w": "carried",
-          "f": 2
-        },
-        {
-          "w": "october",
-          "f": 2
-        },
-        {
-          "w": "rights",
-          "f": 1
-        },
-        {
-          "w": "provide",
-          "f": 1
-        },
-        {
-          "w": "question",
-          "f": 1
-        },
-        {
-          "w": "committee",
-          "f": 1
-        },
         {
           "w": "stated",
           "f": 1
@@ -20853,7 +10958,31 @@ var years =[
           "f": 2
         },
         {
+          "w": "human",
+          "f": 1
+        },
+        {
+          "w": "statistics",
+          "f": 1
+        },
+        {
+          "w": "provide",
+          "f": 1
+        },
+        {
+          "w": "question",
+          "f": 1
+        },
+        {
+          "w": "committee,",
+          "f": 1
+        },
+        {
           "w": "public",
+          "f": 1
+        },
+        {
+          "w": "back",
           "f": 1
         },
         {
@@ -20861,11 +10990,35 @@ var years =[
           "f": 1
         },
         {
-          "w": "dated",
+          "w": "execution",
           "f": 1
         },
         {
-          "w": "human",
+          "w": "response",
+          "f": 1
+        },
+        {
+          "w": "1992.",
+          "f": 1
+        },
+        {
+          "w": "13",
+          "f": 1
+        },
+        {
+          "w": "october",
+          "f": 2
+        },
+        {
+          "w": "carried",
+          "f": 2
+        },
+        {
+          "w": "rights",
+          "f": 1
+        },
+        {
+          "w": "1998",
           "f": 1
         },
         {
@@ -20873,7 +11026,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "response",
+          "w": "2001",
+          "f": 2
+        },
+        {
+          "w": "dated",
+          "f": 1
+        },
+        {
+          "w": "out.",
           "f": 1
         }
       ],
@@ -20899,6 +11060,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "$2.56",
+          "f": 1
+        },
+        {
+          "w": "1995,",
+          "f": 1
+        },
+        {
           "w": "trade",
           "f": 3
         },
@@ -20919,6 +11088,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "china.",
+          "f": 2
+        },
+        {
           "w": "death",
           "f": 1
         },
@@ -20927,7 +11100,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "assistance",
+          "w": "us$900",
           "f": 1
         },
         {
@@ -20943,11 +11116,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "billion",
+          "f": 1
+        },
+        {
           "w": "exports",
           "f": 1
         },
         {
-          "w": "us$900",
+          "w": "$1.4",
+          "f": 1
+        },
+        {
+          "w": "assistance.",
+          "f": 1
+        },
+        {
+          "w": "fact,",
           "f": 1
         },
         {
@@ -20956,6 +11141,10 @@ var years =[
         },
         {
           "w": "unsettled",
+          "f": 1
+        },
+        {
+          "w": "1994,",
           "f": 1
         },
         {
@@ -20976,7 +11165,7 @@ var years =[
         },
         {
           "w": "china",
-          "f": 5
+          "f": 3
         },
         {
           "w": "normalized",
@@ -20991,7 +11180,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "$2",
+          "w": "1992,",
           "f": 1
         },
         {
@@ -20999,16 +11188,28 @@ var years =[
           "f": 1
         },
         {
-          "w": "$1",
+          "w": "1994",
           "f": 1
         },
         {
-          "w": "billion",
+          "w": "dprk.",
           "f": 1
+        },
+        {
+          "w": "1990",
+          "f": 1
+        },
+        {
+          "w": "1993",
+          "f": 2
         },
         {
           "w": "bilateral",
           "f": 2
+        },
+        {
+          "w": "1994.",
+          "f": 1
         },
         {
           "w": "strains",
@@ -21019,7 +11220,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "fact",
+          "w": "however,",
           "f": 1
         },
         {
@@ -21044,27 +11245,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "continued",
+          "w": "imports",
           "f": 1
         },
         {
-          "w": "approached",
+          "w": "imports.",
           "f": 1
         },
         {
-          "w": "countries",
+          "w": "asian",
+          "f": 1
+        },
+        {
+          "w": "68",
+          "f": 1
+        },
+        {
+          "w": "china,",
           "f": 1
         },
         {
           "w": "provide",
-          "f": 1
-        },
-        {
-          "w": "imports",
-          "f": 2
-        },
-        {
-          "w": "knew",
           "f": 1
         },
         {
@@ -21076,19 +11277,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "supplying",
-          "f": 1
-        },
-        {
           "w": "fuel",
           "f": 1
         },
         {
-          "w": "mass",
-          "f": 2
+          "w": "deteriorate.",
+          "f": 1
         },
         {
-          "w": "asian",
+          "w": "approached",
+          "f": 1
+        },
+        {
+          "w": "knew",
+          "f": 1
+        },
+        {
+          "w": "77",
+          "f": 1
+        },
+        {
+          "w": "external",
           "f": 1
         },
         {
@@ -21100,6 +11309,26 @@ var years =[
           "f": 1
         },
         {
+          "w": "continued",
+          "f": 1
+        },
+        {
+          "w": "supplying",
+          "f": 1
+        },
+        {
+          "w": "countries",
+          "f": 1
+        },
+        {
+          "w": "help,",
+          "f": 1
+        },
+        {
+          "w": "mass",
+          "f": 2
+        },
+        {
           "w": "aid",
           "f": 1
         },
@@ -21108,39 +11337,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "deaths",
-          "f": 1
-        },
-        {
-          "w": "deteriorate",
+          "w": "deaths.",
           "f": 1
         },
         {
           "w": "south",
           "f": 1
-        },
-        {
-          "w": "external",
-          "f": 1
         }
       ],
       "sub": 0.0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6033478893740902,
-      "sub": 0.39665211062590977,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 1.0,
@@ -21150,15 +11355,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "executed",
-          "f": 2
-        },
-        {
-          "w": "represented",
+          "w": "punishment,",
           "f": 1
         },
         {
-          "w": "officials",
+          "w": "executed",
+          "f": 1
+        },
+        {
+          "w": "represented",
           "f": 1
         },
         {
@@ -21170,16 +11375,20 @@ var years =[
           "f": 2
         },
         {
+          "w": "250",
+          "f": 1
+        },
+        {
           "w": "apparently",
           "f": 2
         },
         {
-          "w": "trial",
+          "w": "reportedly",
           "f": 1
         },
         {
           "w": "families",
-          "f": 3
+          "f": 2
         },
         {
           "w": "political",
@@ -21190,11 +11399,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "1998,",
+          "f": 1
+        },
+        {
           "w": "prison",
           "f": 1
         },
         {
-          "w": "command",
+          "w": "command.",
+          "f": 1
+        },
+        {
+          "w": "families.",
           "f": 1
         },
         {
@@ -21206,7 +11423,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "reportedly",
+          "w": "executed.",
           "f": 1
         },
         {
@@ -21218,6 +11435,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "camps.",
+          "f": 1
+        },
+        {
           "w": "determination",
           "f": 1
         },
@@ -21226,8 +11447,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "security",
-          "f": 2
+          "w": "hatched",
+          "f": 1
         },
         {
           "w": "february",
@@ -21242,7 +11463,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "collective",
+          "w": "officials.",
           "f": 1
         },
         {
@@ -21262,19 +11483,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "trial,",
+          "f": 1
+        },
+        {
           "w": "military",
           "f": 3
         },
         {
-          "w": "hatched",
-          "f": 1
+          "w": "security",
+          "f": 2
         },
         {
-          "w": "camps",
-          "f": 1
-        },
-        {
-          "w": "punishment",
+          "w": "collective",
           "f": 1
         }
       ],
@@ -21284,7 +11505,7 @@ var years =[
       "obj": 1.0,
       "over": {
         "food": {
-          "perc": 5,
+          "perc": 4,
           "kw": [
             "food",
             "china",
@@ -21292,9 +11513,10 @@ var years =[
           ]
         },
         "pol": {
-          "perc": 2,
+          "perc": 3,
           "kw": [
             "union",
+            "1993",
             "soviet"
           ]
         }
@@ -21302,6 +11524,14 @@ var years =[
       "kw": [
         {
           "w": "rok",
+          "f": 1
+        },
+        {
+          "w": "$2.56",
+          "f": 1
+        },
+        {
+          "w": "1995,",
           "f": 1
         },
         {
@@ -21329,6 +11559,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "china.",
+          "f": 2
+        },
+        {
           "w": "death",
           "f": 1
         },
@@ -21337,7 +11571,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "assistance",
+          "w": "us$900",
           "f": 1
         },
         {
@@ -21357,6 +11591,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "billion",
+          "f": 1
+        },
+        {
           "w": "exports",
           "f": 1
         },
@@ -21365,7 +11603,15 @@ var years =[
           "f": 3
         },
         {
-          "w": "us$900",
+          "w": "$1.4",
+          "f": 1
+        },
+        {
+          "w": "assistance.",
+          "f": 1
+        },
+        {
+          "w": "fact,",
           "f": 1
         },
         {
@@ -21374,6 +11620,10 @@ var years =[
         },
         {
           "w": "unsettled",
+          "f": 1
+        },
+        {
+          "w": "1994,",
           "f": 1
         },
         {
@@ -21405,7 +11655,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "$2",
+          "w": "1992,",
           "f": 1
         },
         {
@@ -21413,16 +11663,24 @@ var years =[
           "f": 1
         },
         {
-          "w": "$1",
-          "f": 1
-        },
-        {
-          "w": "billion",
-          "f": 1
-        },
-        {
           "w": "bilateral",
           "f": 2
+        },
+        {
+          "w": "dprk.",
+          "f": 1
+        },
+        {
+          "w": "1990",
+          "f": 1
+        },
+        {
+          "w": "1994",
+          "f": 1
+        },
+        {
+          "w": "1994.",
+          "f": 1
         },
         {
           "w": "strains",
@@ -21433,7 +11691,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "fact",
+          "w": "however,",
+          "f": 1
+        },
+        {
+          "w": "1993,",
           "f": 1
         },
         {
@@ -21450,7 +11712,7 @@ var years =[
       "obj": 0.6,
       "kw": [
         {
-          "w": "province",
+          "w": "280,000",
           "f": 1
         },
         {
@@ -21478,10 +11740,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "hearing",
-          "f": 1
-        },
-        {
           "w": "tons",
           "f": 1
         },
@@ -21494,7 +11752,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "authorities,",
+          "f": 1
+        },
+        {
           "w": "agricultural",
+          "f": 1
+        },
+        {
+          "w": "population.",
           "f": 1
         },
         {
@@ -21502,12 +11768,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "provinces",
+          "w": "hamgyong,",
           "f": 1
         },
         {
           "w": "hamgyong",
-          "f": 2
+          "f": 1
         },
         {
           "w": "harsh",
@@ -21550,11 +11816,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "kangwon",
+          "w": "stopped",
           "f": 1
         },
         {
-          "w": "stopped",
+          "w": "hearing,",
           "f": 1
         },
         {
@@ -21586,7 +11852,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "reportedly",
+          "w": "degrade",
+          "f": 1
+        },
+        {
+          "w": "jang-yop",
           "f": 1
         },
         {
@@ -21598,7 +11868,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "submarines",
+          "w": "submarines.",
           "f": 1
         },
         {
@@ -21607,10 +11877,6 @@ var years =[
         },
         {
           "w": "western",
-          "f": 1
-        },
-        {
-          "w": "authorities",
           "f": 1
         },
         {
@@ -21626,11 +11892,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "population",
+          "w": "financing",
           "f": 1
         },
         {
-          "w": "financing",
+          "w": "provinces,",
           "f": 1
         },
         {
@@ -21638,7 +11904,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "jang-yop",
+          "w": "province",
           "f": 1
         },
         {
@@ -21678,6 +11944,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "reportedly",
+          "f": 1
+        },
+        {
           "w": "hwang",
           "f": 1
         },
@@ -21686,27 +11956,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "degrade",
+          "w": "kangwon.",
           "f": 1
         }
       ],
       "sub": 0.4
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6496396114070824,
-      "sub": 0.35036038859291757,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0,
@@ -21717,7 +11971,7 @@ var years =[
       "obj": 1.0,
       "over": {
         "food": {
-          "perc": 2,
+          "perc": 1,
           "kw": [
             "food",
             "fell",
@@ -21731,10 +11985,6 @@ var years =[
       },
       "kw": [
         {
-          "w": "inspectors",
-          "f": 1
-        },
-        {
           "w": "jimmy",
           "f": 1
         },
@@ -21743,11 +11993,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "reactor",
+          "w": "yongbyon",
           "f": 1
         },
         {
-          "w": "proximate",
+          "w": "$2.56",
+          "f": 1
+        },
+        {
+          "w": "contributed",
           "f": 1
         },
         {
@@ -21759,6 +12013,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "1993",
+          "f": 2
+        },
+        {
           "w": "marked",
           "f": 1
         },
@@ -21768,7 +12026,7 @@ var years =[
         },
         {
           "w": "states",
-          "f": 3
+          "f": 1
         },
         {
           "w": "rok",
@@ -21791,6 +12049,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "china.",
+          "f": 2
+        },
+        {
           "w": "assurances",
           "f": 1
         },
@@ -21803,7 +12065,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "yongbyon",
+          "w": "reactor",
           "f": 1
         },
         {
@@ -21831,15 +12093,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "assistance",
+          "w": "us$900",
           "f": 1
         },
         {
-          "w": "agency",
-          "f": 1
-        },
-        {
-          "w": "contributed",
+          "w": "1992,",
           "f": 1
         },
         {
@@ -21855,6 +12113,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "1994.",
+          "f": 1
+        },
+        {
           "w": "amelioration",
           "f": 1
         },
@@ -21863,11 +12125,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "1995,",
+          "f": 1
+        },
+        {
           "w": "fuel",
           "f": 1
         },
         {
           "w": "international",
+          "f": 1
+        },
+        {
+          "w": "inspectors.",
           "f": 1
         },
         {
@@ -21883,7 +12153,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "us$900",
+          "w": "$1.4",
+          "f": 1
+        },
+        {
+          "w": "assistance.",
+          "f": 1
+        },
+        {
+          "w": "fact,",
           "f": 1
         },
         {
@@ -21892,6 +12170,10 @@ var years =[
         },
         {
           "w": "unsettled",
+          "f": 1
+        },
+        {
+          "w": "1994,",
           "f": 1
         },
         {
@@ -21924,7 +12206,7 @@ var years =[
         },
         {
           "w": "china",
-          "f": 4
+          "f": 2
         },
         {
           "w": "normalized",
@@ -21951,15 +12233,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "bill",
+          "f": 1
+        },
+        {
           "w": "died",
           "f": 1
         },
         {
-          "w": "$1",
-          "f": 1
+          "w": "bilateral",
+          "f": 2
         },
         {
-          "w": "carter",
+          "w": "dprk.",
           "f": 1
         },
         {
@@ -21971,11 +12257,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "bilateral",
-          "f": 2
+          "w": "1994",
+          "f": 4
         },
         {
-          "w": "$2",
+          "w": "carter,",
+          "f": 1
+        },
+        {
+          "w": "states,",
           "f": 1
         },
         {
@@ -21983,11 +12273,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "bill",
+          "w": "states.",
+          "f": 1
+        },
+        {
+          "w": "agency,",
           "f": 1
         },
         {
           "w": "levels",
+          "f": 1
+        },
+        {
+          "w": "1990",
           "f": 1
         },
         {
@@ -21999,11 +12297,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "fact",
+          "w": "proximate",
           "f": 1
         },
         {
           "w": "derailing",
+          "f": 1
+        },
+        {
+          "w": "however,",
           "f": 1
         },
         {
@@ -22032,6 +12334,10 @@ var years =[
       "obj": 0.9411764705882353,
       "kw": [
         {
+          "w": "collapse.",
+          "f": 1
+        },
+        {
           "w": "hunger",
           "f": 1
         },
@@ -22040,11 +12346,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "ngo",
+          "w": "1995.",
           "f": 1
         },
         {
-          "w": "father",
+          "w": "view,",
+          "f": 1
+        },
+        {
+          "w": "time,",
+          "f": 2
+        },
+        {
+          "w": "300,000",
+          "f": 1
+        },
+        {
+          "w": "supply",
           "f": 1
         },
         {
@@ -22064,6 +12382,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "stopped.",
+          "f": 1
+        },
+        {
           "w": "woman",
           "f": 1
         },
@@ -22072,15 +12394,23 @@ var years =[
           "f": 2
         },
         {
-          "w": "suffering",
+          "w": "ngo.",
           "f": 1
         },
         {
-          "w": "height",
+          "w": "markets.",
+          "f": 1
+        },
+        {
+          "w": "hyuk",
           "f": 1
         },
         {
           "w": "floods",
+          "f": 1
+        },
+        {
+          "w": "country.",
           "f": 1
         },
         {
@@ -22096,11 +12426,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "shortage",
-          "f": 1
-        },
-        {
-          "w": "view",
+          "w": "famine.",
           "f": 1
         },
         {
@@ -22132,8 +12458,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "hamgyong",
+          "w": "that,",
           "f": 2
+        },
+        {
+          "w": "hamgyong",
+          "f": 1
         },
         {
           "w": "access",
@@ -22157,6 +12487,10 @@ var years =[
         },
         {
           "w": "announced",
+          "f": 1
+        },
+        {
+          "w": "aid.",
           "f": 1
         },
         {
@@ -22188,6 +12522,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "community.",
+          "f": 1
+        },
+        {
           "w": "torrential",
           "f": 1
         },
@@ -22204,15 +12542,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "northeastern",
+          "w": "father.",
           "f": 1
         },
         {
-          "w": "community",
-          "f": 1
-        },
-        {
-          "w": "hearing",
+          "w": "height",
           "f": 1
         },
         {
@@ -22232,6 +12566,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "hamgyong,",
+          "f": 1
+        },
+        {
           "w": "provinces",
           "f": 2
         },
@@ -22244,15 +12582,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "stopped",
-          "f": 1
-        },
-        {
           "w": "deteriorating",
           "f": 2
         },
         {
-          "w": "markets",
+          "w": "hearing,",
           "f": 1
         },
         {
@@ -22260,16 +12594,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "collapse",
-          "f": 1
-        },
-        {
           "w": "started",
           "f": 2
         },
         {
-          "w": "hyuk",
-          "f": 1
+          "w": "aware",
+          "f": 2
         },
         {
           "w": "effort",
@@ -22277,10 +12607,14 @@ var years =[
         },
         {
           "w": "aid",
-          "f": 5
+          "f": 4
         },
         {
           "w": "decided",
+          "f": 1
+        },
+        {
+          "w": "dprk],",
           "f": 1
         },
         {
@@ -22297,7 +12631,7 @@ var years =[
         },
         {
           "w": "dprk]",
-          "f": 2
+          "f": 1
         },
         {
           "w": "mr",
@@ -22310,14 +12644,6 @@ var years =[
         {
           "w": "distribution",
           "f": 2
-        },
-        {
-          "w": "country",
-          "f": 1
-        },
-        {
-          "w": "supply",
-          "f": 1
         },
         {
           "w": "humanitarian",
@@ -22334,6 +12660,10 @@ var years =[
         {
           "w": "stated",
           "f": 2
+        },
+        {
+          "w": "correspond",
+          "f": 1
         },
         {
           "w": "numbers",
@@ -22372,6 +12702,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "starvation.",
+          "f": 1
+        },
+        {
           "w": "department",
           "f": 2
         },
@@ -22388,11 +12722,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "authorities",
-          "f": 2
+          "w": "food.",
+          "f": 1
         },
         {
-          "w": "aware",
+          "w": "authorities",
           "f": 2
         },
         {
@@ -22408,7 +12742,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "correspond",
+          "w": "suffering",
           "f": 1
         },
         {
@@ -22420,27 +12754,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "time",
-          "f": 2
+          "w": "northeastern",
+          "f": 1
         }
       ],
       "sub": 0.058823529411764705
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7047619047619048,
-      "sub": 0.29523809523809524,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0,
@@ -22453,9 +12771,10 @@ var years =[
         "food": {
           "perc": 4,
           "kw": [
+            "dprk.",
+            "1995",
+            "assistance.",
             "food",
-            "assistance",
-            "famine",
             "rains",
             "kim",
             "starvation",
@@ -22477,7 +12796,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "soil",
+          "w": "$2.56",
+          "f": 1
+        },
+        {
+          "w": "1995,",
           "f": 1
         },
         {
@@ -22487,6 +12810,10 @@ var years =[
         {
           "w": "trade",
           "f": 3
+        },
+        {
+          "w": "famine",
+          "f": 2
         },
         {
           "w": "dropped",
@@ -22501,6 +12828,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "china.",
+          "f": 2
+        },
+        {
           "w": "death",
           "f": 1
         },
@@ -22513,8 +12844,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "us$900",
+          "f": 1
+        },
+        {
           "w": "contributed",
           "f": 2
+        },
+        {
+          "w": "led",
+          "f": 1
         },
         {
           "w": "relations",
@@ -22522,6 +12861,14 @@ var years =[
         },
         {
           "w": "destroyed",
+          "f": 1
+        },
+        {
+          "w": "1994.the",
+          "f": 1
+        },
+        {
+          "w": "soil",
           "f": 1
         },
         {
@@ -22541,7 +12888,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "led",
+          "w": "$1.4",
           "f": 1
         },
         {
@@ -22553,7 +12900,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "us$900",
+          "w": "fact,",
           "f": 1
         },
         {
@@ -22565,8 +12912,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "1994,",
+          "f": 1
+        },
+        {
           "w": "million",
           "f": 3
+        },
+        {
+          "w": "great",
+          "f": 1
         },
         {
           "w": "$550",
@@ -22582,7 +12937,7 @@ var years =[
         },
         {
           "w": "china",
-          "f": 5
+          "f": 3
         },
         {
           "w": "normalized",
@@ -22601,7 +12956,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "$2",
+          "w": "1992,",
           "f": 1
         },
         {
@@ -22609,20 +12964,24 @@ var years =[
           "f": 1
         },
         {
-          "w": "$1",
-          "f": 1
+          "w": "bilateral",
+          "f": 2
         },
         {
           "w": "billion",
           "f": 1
         },
         {
-          "w": "great",
+          "w": "1990",
           "f": 1
         },
         {
-          "w": "bilateral",
+          "w": "1993",
           "f": 2
+        },
+        {
+          "w": "1994",
+          "f": 1
         },
         {
           "w": "flooding",
@@ -22641,7 +13000,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "fact",
+          "w": "however,",
           "f": 1
         },
         {
@@ -22690,7 +13049,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "additionally,",
+          "f": 1
+        },
+        {
           "w": "mortality",
+          "f": 1
+        },
+        {
+          "w": "it.",
           "f": 1
         },
         {
@@ -22698,15 +13065,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "affected",
-          "f": 1
-        },
-        {
           "w": "diseases",
-          "f": 1
-        },
-        {
-          "w": "provisions",
           "f": 1
         },
         {
@@ -22719,6 +13078,10 @@ var years =[
         },
         {
           "w": "stop",
+          "f": 1
+        },
+        {
+          "w": "year.",
           "f": 1
         },
         {
@@ -22750,15 +13113,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "lost",
-          "f": 1
-        },
-        {
           "w": "warned",
-          "f": 1
-        },
-        {
-          "w": "university",
           "f": 1
         },
         {
@@ -22782,7 +13137,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "diarrhoea",
+          "w": "husband",
           "f": 1
         },
         {
@@ -22790,7 +13145,19 @@ var years =[
           "f": 2
         },
         {
+          "w": "affected,",
+          "f": 1
+        },
+        {
           "w": "spring",
+          "f": 1
+        },
+        {
+          "w": "house.",
+          "f": 1
+        },
+        {
+          "w": "rations",
           "f": 1
         },
         {
@@ -22814,11 +13181,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "year",
-          "f": 1
-        },
-        {
-          "w": "disasters",
+          "w": "disasters,",
           "f": 1
         },
         {
@@ -22835,10 +13198,6 @@ var years =[
         },
         {
           "w": "health",
-          "f": 1
-        },
-        {
-          "w": "market",
           "f": 1
         },
         {
@@ -22882,6 +13241,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "consequently,",
+          "f": 1
+        },
+        {
           "w": "amount",
           "f": 1
         },
@@ -22894,7 +13257,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "husband",
+          "w": "out,",
           "f": 1
         },
         {
@@ -22902,7 +13265,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "additionally",
+          "w": "out.",
+          "f": 1
+        },
+        {
+          "w": "diarrhoea,",
           "f": 1
         },
         {
@@ -22910,7 +13277,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "supply",
+          "w": "university,",
           "f": 1
         },
         {
@@ -22927,6 +13294,10 @@ var years =[
         },
         {
           "w": "il-sung",
+          "f": 1
+        },
+        {
+          "w": "population.",
           "f": 1
         },
         {
@@ -22960,10 +13331,6 @@ var years =[
         {
           "w": "jong-il",
           "f": 3
-        },
-        {
-          "w": "house",
-          "f": 1
         },
         {
           "w": "type",
@@ -23011,7 +13378,11 @@ var years =[
         },
         {
           "w": "population",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "market.",
+          "f": 1
         },
         {
           "w": "made",
@@ -23019,6 +13390,10 @@ var years =[
         },
         {
           "w": "critically",
+          "f": 1
+        },
+        {
+          "w": "supply,",
           "f": 1
         },
         {
@@ -23038,6 +13413,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "1.5",
+          "f": 1
+        },
+        {
           "w": "ordered",
           "f": 1
         },
@@ -23054,11 +13433,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "sharp",
+          "w": "vulnerable.",
           "f": 1
         },
         {
-          "w": "vulnerable",
+          "w": "sharp",
           "f": 1
         },
         {
@@ -23082,7 +13461,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "europe",
+          "w": "provisions.",
           "f": 1
         },
         {
@@ -23098,7 +13477,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "rations",
+          "w": "3,180,000",
           "f": 1
         },
         {
@@ -23126,11 +13505,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "lost.699",
+          "f": 1
+        },
+        {
           "w": "acknowledged",
           "f": 1
         },
         {
           "w": "cigarettes",
+          "f": 1
+        },
+        {
+          "w": "europe.",
           "f": 1
         },
         {
@@ -23140,22 +13527,6 @@ var years =[
       ],
       "sub": 0.2222222222222222
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6944922547332186,
-      "sub": 0.3055077452667814,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
@@ -23164,11 +13535,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "sent,",
+          "f": 1
+        },
+        {
           "w": "explained",
           "f": 1
         },
         {
+          "w": "head",
+          "f": 1
+        },
+        {
           "w": "rank",
+          "f": 1
+        },
+        {
+          "w": "joo-il,",
           "f": 1
         },
         {
@@ -23184,7 +13567,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "trial",
+          "w": "camp.",
           "f": 1
         },
         {
@@ -23204,11 +13587,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "head",
+          "w": "1996.",
           "f": 1
         },
         {
-          "w": "food",
+          "w": "food,",
           "f": 1
         },
         {
@@ -23228,19 +13611,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "camp",
-          "f": 1
-        },
-        {
-          "w": "joo-il",
-          "f": 1
-        },
-        {
           "w": "kpa",
           "f": 2
         },
         {
-          "w": "officer",
+          "w": "officer,",
+          "f": 1
+        },
+        {
+          "w": "trial,",
           "f": 1
         },
         {
@@ -23275,11 +13654,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "estimated",
+          "w": "1996",
+          "f": 1
+        },
+        {
+          "w": "450,000",
+          "f": 1
+        },
+        {
+          "w": "1999,",
+          "f": 1
+        },
+        {
+          "w": "2",
           "f": 1
         },
         {
           "w": "starved",
+          "f": 1
+        },
+        {
+          "w": "estimated",
           "f": 1
         }
       ],
@@ -23332,11 +13727,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "food",
-          "f": 4
+          "w": "it.",
+          "f": 1
         },
         {
-          "w": "survival",
+          "w": "food",
+          "f": 2
+        },
+        {
+          "w": "powder.",
           "f": 1
         },
         {
@@ -23372,19 +13771,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "orphanages.",
+          "f": 1
+        },
+        {
           "w": "subjugation",
           "f": 1
         },
         {
-          "w": "starvation",
-          "f": 1
-        },
-        {
-          "w": "constipation",
-          "f": 1
-        },
-        {
-          "w": "ten",
+          "w": "got,",
           "f": 1
         },
         {
@@ -23424,6 +13819,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "that,",
+          "f": 1
+        },
+        {
           "w": "established",
           "f": 1
         },
@@ -23448,7 +13847,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "corn",
+          "w": "man.",
           "f": 1
         },
         {
@@ -23476,10 +13875,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "orphanage",
-          "f": 1
-        },
-        {
           "w": "ate",
           "f": 1
         },
@@ -23489,6 +13884,10 @@ var years =[
         },
         {
           "w": "pds",
+          "f": 1
+        },
+        {
+          "w": "(kfic)",
           "f": 1
         },
         {
@@ -23520,11 +13919,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "constipation....",
+          "f": 1
+        },
+        {
           "w": "county",
           "f": 1
         },
         {
           "w": "aimed",
+          "f": 1
+        },
+        {
+          "w": "population.",
+          "f": 1
+        },
+        {
+          "w": "ten",
           "f": 1
         },
         {
@@ -23536,7 +13947,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "subsidized",
+          "w": "2",
+          "f": 1
+        },
+        {
+          "w": "passed",
+          "f": 1
+        },
+        {
+          "w": "6",
           "f": 1
         },
         {
@@ -23552,7 +13971,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "passed",
+          "w": "subsidized",
           "f": 1
         },
         {
@@ -23576,7 +13995,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "population",
+          "w": "survival.",
+          "f": 1
+        },
+        {
+          "w": "starvation...",
           "f": 1
         },
         {
@@ -23593,10 +14016,6 @@ var years =[
         },
         {
           "w": "called",
-          "f": 1
-        },
-        {
-          "w": "powder",
           "f": 1
         },
         {
@@ -23628,15 +14047,23 @@ var years =[
           "f": 2
         },
         {
+          "w": "corn.",
+          "f": 1
+        },
+        {
           "w": "provided",
           "f": 1
+        },
+        {
+          "w": "food.",
+          "f": 2
         },
         {
           "w": "plunder",
           "f": 1
         },
         {
-          "w": "(kfic)",
+          "w": "75",
           "f": 1
         },
         {
@@ -23645,10 +14072,6 @@ var years =[
         },
         {
           "w": "authorities",
-          "f": 1
-        },
-        {
-          "w": "man",
           "f": 1
         },
         {
@@ -23664,10 +14087,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "orphanages",
-          "f": 1
-        },
-        {
           "w": "\"the",
           "f": 1
         },
@@ -23678,36 +14097,20 @@ var years =[
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6617977528089888,
-      "sub": 0.3382022471910112,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.8888888888888888,
       "kw": [
+        {
+          "w": "no.",
+          "f": 4
+        },
         {
           "w": "shot",
           "f": 1
         },
         {
-          "w": "sensitive",
+          "w": "inmates",
           "f": 2
-        },
-        {
-          "w": "linked",
-          "f": 1
         },
         {
           "w": "serve",
@@ -23719,14 +14122,10 @@ var years =[
         },
         {
           "w": "counter-purge",
-          "f": 2
-        },
-        {
-          "w": "ended",
           "f": 1
         },
         {
-          "w": "attempts",
+          "w": "ended",
           "f": 1
         },
         {
@@ -23742,6 +14141,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "jonggo-ri.",
+          "f": 1
+        },
+        {
           "w": "subjected",
           "f": 1
         },
@@ -23751,7 +14154,7 @@ var years =[
         },
         {
           "w": "prison",
-          "f": 7
+          "f": 6
         },
         {
           "w": "main",
@@ -23762,7 +14165,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "meant",
+          "w": "it.",
+          "f": 1
+        },
+        {
+          "w": "taehun,",
           "f": 1
         },
         {
@@ -23778,7 +14185,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "detention",
+          "w": "history.",
           "f": 1
         },
         {
@@ -23786,12 +14193,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "mps",
-          "f": 3
+          "w": "year.",
+          "f": 1
         },
         {
-          "w": "ssd",
-          "f": 1
+          "w": "mps",
+          "f": 3
         },
         {
           "w": "execution",
@@ -23826,7 +14233,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "body",
+          "w": "spectacle,",
+          "f": 1
+        },
+        {
+          "w": "week",
+          "f": 1
+        },
+        {
+          "w": "released.",
           "f": 1
         },
         {
@@ -23846,12 +14261,16 @@ var years =[
           "f": 4
         },
         {
+          "w": "car.",
+          "f": 1
+        },
+        {
           "w": "escape",
-          "f": 2
+          "f": 1
         },
         {
           "w": "operation",
-          "f": 2
+          "f": 1
         },
         {
           "w": "estimated",
@@ -23862,11 +14281,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "rope",
-          "f": 2
+          "w": "purge",
+          "f": 1
         },
         {
           "w": "suspects",
+          "f": 1
+        },
+        {
+          "w": "counter-purge,",
+          "f": 1
+        },
+        {
+          "w": "charges",
           "f": 1
         },
         {
@@ -23882,10 +14309,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "investigation",
-          "f": 1
-        },
-        {
           "w": "bureau",
           "f": 1
         },
@@ -23898,11 +14321,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "purge",
+          "w": "body",
+          "f": 1
+        },
+        {
+          "w": "attempts.a",
           "f": 1
         },
         {
           "w": "(kyohwaso)",
+          "f": 1
+        },
+        {
+          "w": "questionable.",
           "f": 1
         },
         {
@@ -23918,7 +14349,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "rope",
+          "f": 2
+        },
+        {
           "w": "concealed",
+          "f": 1
+        },
+        {
+          "w": "them.",
+          "f": 1
+        },
+        {
+          "w": "20,000",
           "f": 1
         },
         {
@@ -23926,11 +14369,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "reaction",
+          "w": "stint.",
           "f": 1
         },
         {
-          "w": "yard",
+          "w": "received",
           "f": 1
         },
         {
@@ -23946,8 +14389,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "trial",
-          "f": 1
+          "w": "sensitive",
+          "f": 2
         },
         {
           "w": "corrections",
@@ -23967,6 +14410,10 @@ var years =[
         },
         {
           "w": "family",
+          "f": 1
+        },
+        {
+          "w": "1.5",
           "f": 1
         },
         {
@@ -24002,6 +14449,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "18,",
+          "f": 1
+        },
+        {
           "w": "inmate",
           "f": 1
         },
@@ -24010,7 +14461,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "questionable",
+          "w": "yard,",
+          "f": 1
+        },
+        {
+          "w": "500",
           "f": 1
         },
         {
@@ -24018,7 +14473,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "received",
+          "w": "reaction",
           "f": 1
         },
         {
@@ -24030,28 +14485,36 @@ var years =[
           "f": 1
         },
         {
+          "w": "manner.",
+          "f": 1
+        },
+        {
           "w": "shimhwajo",
           "f": 2
+        },
+        {
+          "w": "court",
+          "f": 1
         },
         {
           "w": "survived",
           "f": 1
         },
         {
-          "w": "taehun",
+          "w": "prisoner.",
           "f": 1
         },
         {
-          "w": "week",
-          "f": 1
+          "w": "12",
+          "f": 3
         },
         {
-          "w": "jonggo-ri",
+          "w": "operation.in",
           "f": 1
         },
         {
           "w": "car",
-          "f": 2
+          "f": 1
         },
         {
           "w": "official",
@@ -24066,16 +14529,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "charges",
+          "w": "considered",
           "f": 1
         },
         {
           "w": "future",
           "f": 1
-        },
-        {
-          "w": "inmates",
-          "f": 2
         },
         {
           "w": "mr",
@@ -24086,11 +14545,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "history",
+          "w": "meant",
           "f": 1
         },
         {
-          "w": "year",
+          "w": "over,",
+          "f": 1
+        },
+        {
+          "w": "trial",
           "f": 1
         },
         {
@@ -24106,11 +14569,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "manner",
+          "w": "block.",
           "f": 1
         },
         {
-          "w": "spectacle",
+          "w": "investigation,",
           "f": 1
         },
         {
@@ -24126,7 +14589,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "stint",
+          "w": "orders",
           "f": 1
         },
         {
@@ -24134,7 +14597,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "end",
+          "w": "ssd.",
           "f": 1
         },
         {
@@ -24146,7 +14609,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "orders",
+          "w": "1998,",
+          "f": 1
+        },
+        {
+          "w": "linked",
           "f": 1
         },
         {
@@ -24194,6 +14661,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "prison,",
+          "f": 1
+        },
+        {
           "w": "designed",
           "f": 1
         },
@@ -24203,10 +14674,14 @@ var years =[
         },
         {
           "w": "prisoner",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "court",
+          "w": "end",
+          "f": 1
+        },
+        {
+          "w": "escape.",
           "f": 1
         },
         {
@@ -24222,11 +14697,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "released",
-          "f": 1
-        },
-        {
-          "w": "considered",
+          "w": "detention.",
           "f": 1
         },
         {
@@ -24239,10 +14710,6 @@ var years =[
         },
         {
           "w": "command",
-          "f": 1
-        },
-        {
-          "w": "block",
           "f": 1
         },
         {
@@ -24269,8 +14736,10 @@ var years =[
         "pol": {
           "perc": 3,
           "kw": [
+            "1997",
             "apparatus",
             "ministry",
+            "1997,",
             "jong-il",
             "kim",
             "security",
@@ -24284,7 +14753,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "rok",
+          "w": "engagement",
           "f": 1
         },
         {
@@ -24312,6 +14781,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "changes,",
+          "f": 1
+        },
+        {
           "w": "human",
           "f": 1
         },
@@ -24336,6 +14809,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "rok,",
+          "f": 1
+        },
+        {
           "w": "pursued",
           "f": 1
         },
@@ -24345,10 +14822,6 @@ var years =[
         },
         {
           "w": "system",
-          "f": 1
-        },
-        {
-          "w": "relations",
           "f": 1
         },
         {
@@ -24388,15 +14861,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "relations.",
+          "f": 1
+        },
+        {
           "w": "rested",
           "f": 1
         },
         {
-          "w": "confrontation",
-          "f": 1
-        },
-        {
-          "w": "credentials",
+          "w": "credentials,",
           "f": 1
         },
         {
@@ -24416,6 +14889,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "apparatus.",
+          "f": 1
+        },
+        {
           "w": "expanded",
           "f": 2
         },
@@ -24424,7 +14901,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "engagement",
+          "w": "confrontation.",
           "f": 1
         },
         {
@@ -24453,7 +14930,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "jong-yop",
+          "w": "stunted.",
           "f": 1
         },
         {
@@ -24461,7 +14938,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "classification",
+          "w": "figure",
           "f": 1
         },
         {
@@ -24489,8 +14966,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "rate",
-          "f": 2
+          "w": "old.779",
+          "f": 1
+        },
+        {
+          "w": "62",
+          "f": 1
         },
         {
           "w": "9-year",
@@ -24501,15 +14982,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "manner",
-          "f": 1
-        },
-        {
-          "w": "year",
+          "w": "migration",
           "f": 1
         },
         {
           "w": "impossible",
+          "f": 1
+        },
+        {
+          "w": "jong-yop,",
+          "f": 1
+        },
+        {
+          "w": "limit",
           "f": 1
         },
         {
@@ -24521,12 +15006,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "children",
-          "f": 2
+          "w": "nations,",
+          "f": 1
         },
         {
-          "w": "ideology",
-          "f": 1
+          "w": "children",
+          "f": 2
         },
         {
           "w": "olds",
@@ -24541,7 +15026,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "figure",
+          "w": "additional",
           "f": 1
         },
         {
@@ -24593,11 +15078,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "limit",
+          "w": "classification.",
           "f": 1
         },
         {
           "w": "preserve",
+          "f": 1
+        },
+        {
+          "w": "aid.",
+          "f": 1
+        },
+        {
+          "w": "aid,",
           "f": 1
         },
         {
@@ -24621,11 +15114,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "released",
+          "w": "9",
           "f": 1
         },
         {
-          "w": "additional",
+          "w": "year.",
+          "f": 1
+        },
+        {
+          "w": "1980s,",
           "f": 1
         },
         {
@@ -24650,10 +15147,10 @@ var years =[
         },
         {
           "w": "aid",
-          "f": 3
+          "f": 1
         },
         {
-          "w": "1980s",
+          "w": "restrict",
           "f": 1
         },
         {
@@ -24685,11 +15182,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "nations",
+          "w": "released.",
+          "f": 1
+        },
+        {
+          "w": "rate",
           "f": 2
         },
         {
-          "w": "stunted",
+          "w": "nations",
+          "f": 1
+        },
+        {
+          "w": "ideology",
           "f": 1
         },
         {
@@ -24719,33 +15224,9 @@ var years =[
         {
           "w": "discontinued",
           "f": 1
-        },
-        {
-          "w": "restrict",
-          "f": 1
-        },
-        {
-          "w": "migration",
-          "f": 1
         }
       ],
       "sub": 0.25
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7014705882352941,
-      "sub": 0.2985294117647059,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0.9444444444444444,
@@ -24755,27 +15236,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "no.",
+          "f": 2
+        },
+        {
           "w": "executed",
-          "f": 3
+          "f": 1
         },
         {
           "w": "assigned",
           "f": 1
         },
         {
-          "w": "facilities",
-          "f": 1
-        },
-        {
-          "w": "intervals",
-          "f": 1
-        },
-        {
-          "w": "human",
+          "w": "victim",
           "f": 2
         },
         {
+          "w": "jonggo-ri.",
+          "f": 1
+        },
+        {
           "w": "killings",
+          "f": 1
+        },
+        {
+          "w": "committee",
           "f": 1
         },
         {
@@ -24783,7 +15268,7 @@ var years =[
           "f": 7
         },
         {
-          "w": "main",
+          "w": "committee,",
           "f": 1
         },
         {
@@ -24791,11 +15276,19 @@ var years =[
           "f": 5
         },
         {
-          "w": "made",
+          "w": "room,",
           "f": 1
         },
         {
-          "w": "mps",
+          "w": "1993",
+          "f": 1
+        },
+        {
+          "w": "12",
+          "f": 2
+        },
+        {
+          "w": "accusations.",
           "f": 1
         },
         {
@@ -24807,7 +15300,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "killed",
+          "w": "testimony,",
           "f": 1
         },
         {
@@ -24827,7 +15320,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "collective",
+          "w": "officials.",
           "f": 1
         },
         {
@@ -24855,15 +15348,23 @@ var years =[
           "f": 2
         },
         {
-          "w": "committee",
+          "w": "collective",
+          "f": 1
+        },
+        {
+          "w": "punishment,",
+          "f": 1
+        },
+        {
+          "w": "2000.a",
+          "f": 1
+        },
+        {
+          "w": "human",
           "f": 2
         },
         {
           "w": "people",
-          "f": 1
-        },
-        {
-          "w": "crimes",
           "f": 1
         },
         {
@@ -24872,19 +15373,19 @@ var years =[
         },
         {
           "w": "officials",
-          "f": 2
+          "f": 1
         },
         {
           "w": "secretly",
           "f": 1
         },
         {
-          "w": "wire",
+          "w": "and/or",
           "f": 1
         },
         {
-          "w": "housed",
-          "f": 1
+          "w": "executed.",
+          "f": 2
         },
         {
           "w": "kpa",
@@ -24895,7 +15396,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "remembered",
+          "w": "targeted",
           "f": 1
         },
         {
@@ -24911,6 +15412,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "command.",
+          "f": 1
+        },
+        {
+          "w": "families.",
+          "f": 1
+        },
+        {
           "w": "led",
           "f": 1
         },
@@ -24919,7 +15428,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "targeted",
+          "w": "remembered",
+          "f": 1
+        },
+        {
+          "w": "crimes.",
+          "f": 1
+        },
+        {
+          "w": "housed",
           "f": 1
         },
         {
@@ -24943,7 +15460,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "influential",
+          "w": "intervals,",
           "f": 1
         },
         {
@@ -24955,15 +15472,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "regular",
-          "f": 1
-        },
-        {
           "w": "dated",
-          "f": 1
-        },
-        {
-          "w": "testimony",
           "f": 1
         },
         {
@@ -24971,11 +15480,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "punishment",
-          "f": 1
-        },
-        {
-          "w": "block",
+          "w": "out.",
           "f": 1
         },
         {
@@ -25015,6 +15520,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "250",
+          "f": 1
+        },
+        {
           "w": "eyewitness",
           "f": 1
         },
@@ -25027,6 +15536,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "thereafter,",
+          "f": 1
+        },
+        {
           "w": "union",
           "f": 1
         },
@@ -25035,8 +15548,28 @@ var years =[
           "f": 1
         },
         {
+          "w": "facilities,",
+          "f": 1
+        },
+        {
+          "w": "500",
+          "f": 1
+        },
+        {
+          "w": "main",
+          "f": 1
+        },
+        {
           "w": "families",
-          "f": 3
+          "f": 2
+        },
+        {
+          "w": "1,153",
+          "f": 1
+        },
+        {
+          "w": "1,426",
+          "f": 1
         },
         {
           "w": "academy",
@@ -25044,6 +15577,10 @@ var years =[
         },
         {
           "w": "occurred",
+          "f": 1
+        },
+        {
+          "w": "camps.",
           "f": 1
         },
         {
@@ -25055,20 +15592,36 @@ var years =[
           "f": 2
         },
         {
+          "w": "killed.between",
+          "f": 1
+        },
+        {
           "w": "jonggo-ri",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "13",
+          "f": 1
         },
         {
           "w": "october",
           "f": 2
         },
         {
-          "w": "room",
+          "w": "1997",
           "f": 1
         },
         {
           "w": "rights",
           "f": 2
+        },
+        {
+          "w": "1999",
+          "f": 1
+        },
+        {
+          "w": "1998",
+          "f": 1
         },
         {
           "w": "work",
@@ -25080,6 +15633,10 @@ var years =[
         },
         {
           "w": "guards",
+          "f": 1
+        },
+        {
+          "w": "influential",
           "f": 1
         },
         {
@@ -25103,11 +15660,27 @@ var years =[
           "f": 1
         },
         {
+          "w": "2001,",
+          "f": 1
+        },
+        {
+          "w": "3,049",
+          "f": 1
+        },
+        {
+          "w": "block.",
+          "f": 1
+        },
+        {
+          "w": "made",
+          "f": 1
+        },
+        {
           "w": "apparently",
           "f": 2
         },
         {
-          "w": "orders",
+          "w": "wire.",
           "f": 1
         },
         {
@@ -25121,10 +15694,6 @@ var years =[
         {
           "w": "end",
           "f": 3
-        },
-        {
-          "w": "trial",
-          "f": 1
         },
         {
           "w": "provide",
@@ -25147,7 +15716,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "accusations",
+          "w": "orders.",
           "f": 1
         },
         {
@@ -25171,11 +15740,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "victim",
-          "f": 2
-        },
-        {
-          "w": "and/or",
+          "w": "regular",
           "f": 1
         },
         {
@@ -25184,6 +15749,10 @@ var years =[
         },
         {
           "w": "prisoner",
+          "f": 1
+        },
+        {
+          "w": "1992.from",
           "f": 1
         },
         {
@@ -25207,15 +15776,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "command",
+          "w": "2001",
+          "f": 2
+        },
+        {
+          "w": "trial,",
           "f": 1
         },
         {
           "w": "time",
-          "f": 1
-        },
-        {
-          "w": "camps",
           "f": 1
         },
         {
@@ -25224,6 +15793,10 @@ var years =[
         },
         {
           "w": "bodies",
+          "f": 1
+        },
+        {
+          "w": "mps",
           "f": 1
         }
       ],
@@ -25241,11 +15814,12 @@ var years =[
           ]
         },
         "pol": {
-          "perc": 1,
+          "perc": 2,
           "kw": [
             "large",
             "military",
-            "death"
+            "death",
+            "1998,"
           ]
         }
       },
@@ -25260,6 +15834,14 @@ var years =[
         },
         {
           "w": "orientation",
+          "f": 1
+        },
+        {
+          "w": "jong-il,",
+          "f": 1
+        },
+        {
+          "w": "ascendancy",
           "f": 1
         },
         {
@@ -25279,7 +15861,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "period",
+          "w": "government.",
           "f": 1
         },
         {
@@ -25299,7 +15881,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "credentials",
+          "w": "first,",
           "f": 1
         },
         {
@@ -25311,11 +15893,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "songun",
+          "w": "prestige,",
           "f": 1
         },
         {
           "w": "bestowing",
+          "f": 1
+        },
+        {
+          "w": "doctrine",
           "f": 1
         },
         {
@@ -25335,7 +15921,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "father",
+          "w": "1998.",
           "f": 1
         },
         {
@@ -25344,11 +15930,7 @@ var years =[
         },
         {
           "w": "jong-il",
-          "f": 4
-        },
-        {
-          "w": "chairman",
-          "f": 1
+          "f": 3
         },
         {
           "w": "leader",
@@ -25367,7 +15949,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "government",
+          "w": "eternal",
+          "f": 1
+        },
+        {
+          "w": "period,",
           "f": 1
         },
         {
@@ -25375,27 +15961,31 @@ var years =[
           "f": 1
         },
         {
-          "w": "eternal",
-          "f": 1
-        },
-        {
-          "w": "prestige",
-          "f": 1
-        },
-        {
           "w": "mourning",
           "f": 1
         },
         {
-          "w": "doctrine",
-          "f": 2
+          "w": "chairman,",
+          "f": 1
+        },
+        {
+          "w": "state,",
+          "f": 1
+        },
+        {
+          "w": "president.",
+          "f": 1
+        },
+        {
+          "w": "father,",
+          "f": 1
         },
         {
           "w": "kim",
           "f": 6
         },
         {
-          "w": "president",
+          "w": "credentials",
           "f": 1
         },
         {
@@ -25411,15 +16001,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "songun,",
+          "f": 1
+        },
+        {
           "w": "organ",
           "f": 1
         },
         {
-          "w": "budget",
+          "w": "war",
           "f": 1
         },
         {
-          "w": "war",
+          "w": "doctrine.",
           "f": 1
         },
         {
@@ -25439,7 +16033,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "ascendancy",
+          "w": "budget,",
           "f": 1
         }
       ],
@@ -25474,27 +16068,15 @@ var years =[
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6475170399221032,
-      "sub": 0.3524829600778968,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
-          "w": "anti-state",
+          "w": "2000.during",
+          "f": 1
+        },
+        {
+          "w": "no.",
           "f": 1
         },
         {
@@ -25506,11 +16088,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "activities,",
+          "f": 1
+        },
+        {
           "w": "imprisonment",
           "f": 1
         },
         {
-          "w": "alleged",
+          "w": "2001,",
+          "f": 1
+        },
+        {
+          "w": "1200",
           "f": 1
         },
         {
@@ -25518,7 +16108,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "facilities",
+          "w": "held",
           "f": 1
         },
         {
@@ -25530,11 +16120,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "held",
+          "w": "including",
+          "f": 1
+        },
+        {
+          "w": "months.",
           "f": 1
         },
         {
           "w": "committee",
+          "f": 1
+        },
+        {
+          "w": "3,049",
           "f": 1
         },
         {
@@ -25562,15 +16160,27 @@ var years =[
           "f": 3
         },
         {
-          "w": "housed",
+          "w": "(kyohwaso)",
           "f": 1
         },
         {
-          "w": "months",
+          "w": "winter",
           "f": 1
         },
         {
-          "w": "including",
+          "w": "alleged",
+          "f": 1
+        },
+        {
+          "w": "1998,",
+          "f": 1
+        },
+        {
+          "w": "recalled,",
+          "f": 1
+        },
+        {
+          "w": "department.",
           "f": 1
         },
         {
@@ -25578,11 +16188,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "facilities,",
+          "f": 1
+        },
+        {
           "w": "prison",
           "f": 2
         },
         {
-          "w": "department",
+          "w": "9",
           "f": 1
         },
         {
@@ -25598,19 +16212,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "activities",
-          "f": 1
-        },
-        {
           "w": "head",
           "f": 1
         },
         {
-          "w": "(kyohwaso)",
+          "w": "1,153",
+          "f": 1
+        },
+        {
+          "w": "housed",
           "f": 1
         },
         {
           "w": "provided",
+          "f": 1
+        },
+        {
+          "w": "1,426",
+          "f": 1
+        },
+        {
+          "w": "hamhung,",
           "f": 1
         },
         {
@@ -25626,11 +16248,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "execution.",
+          "f": 1
+        },
+        {
           "w": "management",
           "f": 1
         },
         {
-          "w": "recalled",
+          "w": "anti-state",
           "f": 1
         },
         {
@@ -25646,10 +16272,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "execution",
-          "f": 1
-        },
-        {
           "w": "dprk",
           "f": 1
         },
@@ -25658,7 +16280,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "winter",
+          "w": "480",
           "f": 1
         },
         {
@@ -25666,7 +16288,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "12",
+          "f": 1
+        },
+        {
           "w": "rights",
+          "f": 1
+        },
+        {
+          "w": "1999",
           "f": 1
         },
         {
@@ -25688,10 +16318,6 @@ var years =[
         {
           "w": "security",
           "f": 1
-        },
-        {
-          "w": "hamhung",
-          "f": 1
         }
       ],
       "sub": 0.0
@@ -25704,21 +16330,23 @@ var years =[
           "kw": []
         },
         "pol": {
-          "perc": 0,
-          "kw": []
+          "perc": 1,
+          "kw": [
+            "1999,"
+          ]
         }
       },
       "kw": [
         {
-          "w": "death",
+          "w": "1996",
           "f": 1
         },
         {
-          "w": "estimated",
+          "w": "people",
           "f": 1
         },
         {
-          "w": "starved",
+          "w": "450,000",
           "f": 1
         },
         {
@@ -25726,7 +16354,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "people",
+          "w": "death",
+          "f": 1
+        },
+        {
+          "w": "2",
+          "f": 1
+        },
+        {
+          "w": "starved",
+          "f": 1
+        },
+        {
+          "w": "estimated",
           "f": 1
         }
       ],
@@ -25751,15 +16391,19 @@ var years =[
           "f": 2
         },
         {
+          "w": "children.",
+          "f": 1
+        },
+        {
           "w": "soil",
           "f": 1
         },
         {
-          "w": "leniency",
-          "f": 1
+          "w": "famine",
+          "f": 2
         },
         {
-          "w": "affected",
+          "w": "authorities",
           "f": 1
         },
         {
@@ -25771,7 +16415,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "wheat",
+          "w": "peaked,",
+          "f": 1
+        },
+        {
+          "w": "affected",
           "f": 1
         },
         {
@@ -25779,11 +16427,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "action",
+          "w": "poverty,",
           "f": 1
         },
         {
           "w": "aggression",
+          "f": 1
+        },
+        {
+          "w": "moisture,",
           "f": 1
         },
         {
@@ -25795,15 +16447,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "death",
-          "f": 1
-        },
-        {
-          "w": "treat",
-          "f": 1
-        },
-        {
           "w": "vulnerable",
+          "f": 1
+        },
+        {
+          "w": "wheat,",
+          "f": 1
+        },
+        {
+          "w": "access",
           "f": 1
         },
         {
@@ -25811,11 +16463,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "children",
-          "f": 2
+          "w": "crops.",
+          "f": 1
         },
         {
-          "w": "access",
+          "w": "systems.",
           "f": 1
         },
         {
@@ -25827,7 +16479,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "moisture",
+          "w": "action",
           "f": 1
         },
         {
@@ -25839,11 +16491,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "tool",
+          "w": "treat",
           "f": 1
         },
         {
-          "w": "systems",
+          "w": "...",
           "f": 1
         },
         {
@@ -25871,8 +16523,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "famine",
-          "f": 2
+          "w": "tool",
+          "f": 1
         },
         {
           "w": "denied",
@@ -25880,6 +16532,10 @@ var years =[
         },
         {
           "w": "stop",
+          "f": 1
+        },
+        {
+          "w": "malnutrition.",
           "f": 1
         },
         {
@@ -25891,15 +16547,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "poverty",
-          "f": 1
-        },
-        {
           "w": "acute",
           "f": 1
         },
         {
-          "w": "authorities",
+          "w": "death,",
           "f": 1
         },
         {
@@ -25915,11 +16567,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "peaked",
+          "w": "severely",
           "f": 1
         },
         {
-          "w": "severely",
+          "w": "dprk,",
           "f": 1
         },
         {
@@ -25931,15 +16583,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "crops",
-          "f": 1
-        },
-        {
           "w": "dangerous",
           "f": 1
         },
         {
           "w": "official",
+          "f": 1
+        },
+        {
+          "w": "children",
           "f": 1
         },
         {
@@ -25951,11 +16603,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "crossed",
+          "w": "leniency.",
           "f": 1
         },
         {
-          "w": "malnutrition",
+          "w": "crossed",
           "f": 1
         },
         {
@@ -25981,35 +16633,27 @@ var years =[
       ],
       "sub": 0.5
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6787819253438114,
-      "sub": 0.3212180746561886,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.9655172413793104,
       "kw": [
+        {
+          "w": "2000.during",
+          "f": 1
+        },
+        {
+          "w": "no.",
+          "f": 3
+        },
         {
           "w": "chinese",
           "f": 1
         },
         {
-          "w": "finalized",
+          "w": "agreed",
           "f": 1
         },
         {
-          "w": "agreed",
+          "w": "arrested.",
           "f": 1
         },
         {
@@ -26021,31 +16665,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "facilities",
-          "f": 2
+          "w": "held",
+          "f": 1
         },
         {
           "w": "sleep",
           "f": 1
         },
         {
-          "w": "committee",
-          "f": 2
-        },
-        {
-          "w": "fear",
+          "w": "40",
           "f": 1
         },
         {
-          "w": "2000-2003",
+          "w": "human",
+          "f": 2
+        },
+        {
+          "w": "inmates.mr",
           "f": 1
         },
         {
           "w": "raw",
-          "f": 1
-        },
-        {
-          "w": "cell",
           "f": 1
         },
         {
@@ -26057,7 +16697,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "surviving",
+          "w": "family",
           "f": 1
         },
         {
@@ -26065,11 +16705,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "ease",
+          "w": "rok,",
           "f": 1
         },
         {
-          "w": "falsely",
+          "w": "rok.",
+          "f": 1
+        },
+        {
+          "w": "months.",
+          "f": 1
+        },
+        {
+          "w": "labour",
           "f": 1
         },
         {
@@ -26081,7 +16729,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "population",
+          "w": "soup.",
+          "f": 1
+        },
+        {
+          "w": "run.",
           "f": 1
         },
         {
@@ -26109,7 +16761,19 @@ var years =[
           "f": 2
         },
         {
+          "w": "instil",
+          "f": 1
+        },
+        {
+          "w": "30",
+          "f": 1
+        },
+        {
           "w": "report",
+          "f": 1
+        },
+        {
+          "w": "today.",
           "f": 1
         },
         {
@@ -26117,7 +16781,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "held",
+          "w": "publicly",
+          "f": 1
+        },
+        {
+          "w": "bring",
+          "f": 1
+        },
+        {
+          "w": "executions.",
           "f": 1
         },
         {
@@ -26125,15 +16797,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "arrested",
-          "f": 1
-        },
-        {
           "w": "fewer",
-          "f": 1
-        },
-        {
-          "w": "rocks",
           "f": 1
         },
         {
@@ -26141,12 +16805,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "common",
-          "f": 2
+          "w": "labour,",
+          "f": 1
         },
         {
-          "w": "night",
-          "f": 1
+          "w": "common",
+          "f": 2
         },
         {
           "w": "security",
@@ -26157,19 +16821,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "hamhung",
+          "w": "1990s.",
           "f": 1
         },
         {
-          "w": "human",
+          "w": "committee",
           "f": 2
+        },
+        {
+          "w": "repression,",
+          "f": 1
         },
         {
           "w": "imprisonment",
-          "f": 2
-        },
-        {
-          "w": "estimates",
           "f": 2
         },
         {
@@ -26193,6 +16857,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "china.",
+          "f": 1
+        },
+        {
+          "w": "fear",
+          "f": 1
+        },
+        {
           "w": "jeong",
           "f": 3
         },
@@ -26201,12 +16873,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "hamgyong",
+          "w": "(kyohwaso)",
           "f": 1
-        },
-        {
-          "w": "housed",
-          "f": 2
         },
         {
           "w": "contacts",
@@ -26218,10 +16886,6 @@ var years =[
         },
         {
           "w": "confess",
-          "f": 1
-        },
-        {
-          "w": "beaten",
           "f": 1
         },
         {
@@ -26245,12 +16909,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "run",
-          "f": 1
+          "w": "150,000-200,000",
+          "f": 2
         },
         {
-          "w": "(kyohwaso)",
-          "f": 1
+          "w": "housed",
+          "f": 2
         },
         {
           "w": "corn",
@@ -26261,19 +16925,23 @@ var years =[
           "f": 2
         },
         {
-          "w": "reported",
-          "f": 2
+          "w": "crimes.",
+          "f": 1
         },
         {
-          "w": "china",
+          "w": "reported",
+          "f": 1
+        },
+        {
+          "w": "prohibited",
+          "f": 1
+        },
+        {
+          "w": "released.according",
           "f": 1
         },
         {
           "w": "members",
-          "f": 1
-        },
-        {
-          "w": "repression",
           "f": 1
         },
         {
@@ -26285,7 +16953,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "bring",
+          "w": "improved",
           "f": 1
         },
         {
@@ -26293,8 +16961,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "estimates,",
+          "f": 2
+        },
+        {
           "w": "months",
-          "f": 3
+          "f": 2
+        },
+        {
+          "w": "reported.",
+          "f": 1
         },
         {
           "w": "range",
@@ -26305,12 +16981,20 @@ var years =[
           "f": 2
         },
         {
-          "w": "prohibited",
+          "w": "however,",
+          "f": 2
+        },
+        {
+          "w": "ease",
           "f": 1
         },
         {
-          "w": "family",
-          "f": 2
+          "w": "company,",
+          "f": 1
+        },
+        {
+          "w": "surviving",
+          "f": 1
         },
         {
           "w": "straw",
@@ -26329,12 +17013,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "executions",
-          "f": 5
+          "w": "inmates.according",
+          "f": 1
         },
         {
-          "w": "2000s",
-          "f": 2
+          "w": "executions",
+          "f": 4
         },
         {
           "w": "directly",
@@ -26346,10 +17030,22 @@ var years =[
         },
         {
           "w": "1990s",
-          "f": 3
+          "f": 2
+        },
+        {
+          "w": "population.",
+          "f": 1
         },
         {
           "w": "crammed",
+          "f": 1
+        },
+        {
+          "w": "hamgyong.",
+          "f": 1
+        },
+        {
+          "w": "family,",
           "f": 1
         },
         {
@@ -26357,15 +17053,11 @@ var years =[
           "f": 3
         },
         {
-          "w": "intermediaries",
-          "f": 1
+          "w": "facilities,",
+          "f": 2
         },
         {
-          "w": "spike",
-          "f": 1
-        },
-        {
-          "w": "today",
+          "w": "cell.",
           "f": 1
         },
         {
@@ -26377,23 +17069,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "instil",
+          "w": "1,153",
+          "f": 2
+        },
+        {
+          "w": "trial;",
           "f": 1
+        },
+        {
+          "w": "1,426",
+          "f": 2
         },
         {
           "w": "punish",
           "f": 1
         },
         {
-          "w": "company",
-          "f": 1
+          "w": "2000,",
+          "f": 2
         },
         {
-          "w": "apparent",
-          "f": 1
-        },
-        {
-          "w": "released",
+          "w": "floor.",
           "f": 1
         },
         {
@@ -26401,35 +17097,39 @@ var years =[
           "f": 1
         },
         {
-          "w": "inmates",
-          "f": 7
+          "w": "policy,",
+          "f": 1
         },
         {
-          "w": "improved",
-          "f": 1
+          "w": "inmates",
+          "f": 5
+        },
+        {
+          "w": "2000s,",
+          "f": 2
         },
         {
           "w": "level",
           "f": 1
         },
         {
-          "w": "matter",
+          "w": "15",
           "f": 1
         },
         {
-          "w": "organizations",
-          "f": 2
-        },
-        {
-          "w": "crimes",
-          "f": 2
-        },
-        {
-          "w": "publicly",
+          "w": "beaten.from",
           "f": 1
+        },
+        {
+          "w": "organizations,",
+          "f": 2
         },
         {
           "w": "rights",
+          "f": 2
+        },
+        {
+          "w": "1999",
           "f": 2
         },
         {
@@ -26445,12 +17145,12 @@ var years =[
           "f": 2
         },
         {
-          "w": "soup",
+          "w": "matter",
           "f": 1
         },
         {
           "w": "mr",
-          "f": 3
+          "f": 2
         },
         {
           "w": "situation",
@@ -26458,6 +17158,14 @@ var years =[
         },
         {
           "w": "politically",
+          "f": 1
+        },
+        {
+          "w": "spike",
+          "f": 1
+        },
+        {
+          "w": "intermediaries.",
           "f": 1
         },
         {
@@ -26469,6 +17177,18 @@ var years =[
           "f": 1
         },
         {
+          "w": "allowed",
+          "f": 1
+        },
+        {
+          "w": "2001,",
+          "f": 2
+        },
+        {
+          "w": "1200",
+          "f": 1
+        },
+        {
           "w": "general",
           "f": 1
         },
@@ -26477,15 +17197,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "allowed",
+          "w": "rocks.",
           "f": 1
+        },
+        {
+          "w": "3,049",
+          "f": 2
         },
         {
           "w": "motivated",
           "f": 1
         },
         {
-          "w": "forced",
+          "w": "15,",
+          "f": 1
+        },
+        {
+          "w": "information",
           "f": 2
         },
         {
@@ -26501,7 +17229,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "floor",
+          "w": "finalized,",
           "f": 1
         },
         {
@@ -26509,12 +17237,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "food",
+          "w": "1998,",
+          "f": 2
+        },
+        {
+          "w": "department,",
           "f": 1
         },
         {
-          "w": "labour",
-          "f": 2
+          "w": "falsely",
+          "f": 1
         },
         {
           "w": "role",
@@ -26525,7 +17257,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "department",
+          "w": "9",
           "f": 1
         },
         {
@@ -26541,8 +17273,16 @@ var years =[
           "f": 2
         },
         {
-          "w": "information",
+          "w": "apparent",
+          "f": 1
+        },
+        {
+          "w": "forced",
           "f": 2
+        },
+        {
+          "w": "hamhung,",
+          "f": 1
         },
         {
           "w": "social",
@@ -26550,6 +17290,10 @@ var years =[
         },
         {
           "w": "kwang-il",
+          "f": 1
+        },
+        {
+          "w": "food.",
           "f": 1
         },
         {
@@ -26573,7 +17317,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "trial;",
+          "w": "480",
+          "f": 1
+        },
+        {
+          "w": "2000.later",
           "f": 1
         },
         {
@@ -26581,8 +17329,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "000-200",
-          "f": 2
+          "w": "2000-2003.",
+          "f": 1
+        },
+        {
+          "w": "crimes",
+          "f": 1
         },
         {
           "w": "yodok",
@@ -26609,6 +17361,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "night,",
+          "f": 1
+        },
+        {
           "w": "order",
           "f": 1
         }
@@ -26619,24 +17375,23 @@ var years =[
       "obj": 1.0,
       "over": {
         "food": {
-          "perc": 6,
+          "perc": 4,
           "kw": [
-            "prosperity",
             "provide",
             "jong-il",
+            "dprk",
             "kim",
-            "aid",
-            "dprk"
+            "aid"
           ]
         },
         "pol": {
           "perc": 2,
           "kw": [
             "policy",
-            "provided",
-            "rok",
+            "2000.",
             "engaged",
-            "dprk"
+            "dprk",
+            "provided"
           ]
         }
       },
@@ -26646,11 +17401,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "industrial",
-          "f": 1
+          "w": "rok",
+          "f": 2
         },
         {
           "w": "channels",
+          "f": 1
+        },
+        {
+          "w": "industrial",
           "f": 1
         },
         {
@@ -26662,7 +17421,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "market",
+          "w": "prosperity",
           "f": 1
         },
         {
@@ -26671,6 +17430,10 @@ var years =[
         },
         {
           "w": "opportunities",
+          "f": 1
+        },
+        {
+          "w": "3",
           "f": 1
         },
         {
@@ -26686,6 +17449,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "dprk.",
+          "f": 1
+        },
+        {
           "w": "culminated",
           "f": 1
         },
@@ -26698,7 +17465,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "essentially",
+          "w": "earn",
           "f": 1
         },
         {
@@ -26734,7 +17501,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "earn",
+          "w": "market.",
+          "f": 1
+        },
+        {
+          "w": "essentially",
           "f": 1
         },
         {
@@ -26771,6 +17542,10 @@ var years =[
           "f": 3
         },
         {
+          "w": "johns",
+          "f": 1
+        },
+        {
           "w": "revised",
           "f": 1
         },
@@ -26787,6 +17562,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "2.1",
+          "f": 1
+        },
+        {
           "w": "estimated",
           "f": 1
         },
@@ -26797,6 +17576,10 @@ var years =[
         {
           "w": "west",
           "f": 2
+        },
+        {
+          "w": "1998.",
+          "f": 1
         },
         {
           "w": "due",
@@ -26811,7 +17594,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "johns",
+          "w": "2000.",
+          "f": 1
+        },
+        {
+          "w": "600,000",
+          "f": 1
+        },
+        {
+          "w": "earlier",
           "f": 1
         },
         {
@@ -26823,12 +17614,12 @@ var years =[
           "f": 2
         },
         {
-          "w": "excess",
-          "f": 2
+          "w": "490,000.999",
+          "f": 1
         },
         {
-          "w": "earlier",
-          "f": 1
+          "w": "excess",
+          "f": 2
         },
         {
           "w": "numbered",
@@ -26837,6 +17628,10 @@ var years =[
         {
           "w": "school",
           "f": 1
+        },
+        {
+          "w": "1995",
+          "f": 2
         },
         {
           "w": "loraine",
@@ -26865,31 +17660,23 @@ var years =[
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6464646464646465,
-      "sub": 0.35353535353535354,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
-          "w": "forced",
+          "w": "no.",
           "f": 1
         },
         {
-          "w": "camp",
+          "w": "executed",
+          "f": 1
+        },
+        {
+          "w": "wall.",
+          "f": 1
+        },
+        {
+          "w": "including",
           "f": 1
         },
         {
@@ -26897,23 +17684,163 @@ var years =[
           "f": 3
         },
         {
-          "w": "family",
+          "w": "injuries",
           "f": 1
         },
         {
-          "w": "statistics",
+          "w": "group",
+          "f": 3
+        },
+        {
+          "w": "cells.",
           "f": 1
         },
         {
-          "w": "wall",
+          "w": "prison",
+          "f": 3
+        },
+        {
+          "w": "committee,",
           "f": 1
         },
         {
-          "w": "generally",
+          "w": "food",
+          "f": 1
+        },
+        {
+          "w": "attempt,",
+          "f": 1
+        },
+        {
+          "w": "interrogation",
+          "f": 1
+        },
+        {
+          "w": "ssd",
+          "f": 1
+        },
+        {
+          "w": "execution",
+          "f": 1
+        },
+        {
+          "w": "fled",
+          "f": 1
+        },
+        {
+          "w": "dig",
+          "f": 1
+        },
+        {
+          "w": "released.",
+          "f": 1
+        },
+        {
+          "w": "grandfather",
+          "f": 1
+        },
+        {
+          "w": "1998",
+          "f": 1
+        },
+        {
+          "w": "found",
+          "f": 2
+        },
+        {
+          "w": "committee",
+          "f": 2
+        },
+        {
+          "w": "back",
+          "f": 1
+        },
+        {
+          "w": "2000.in",
+          "f": 1
+        },
+        {
+          "w": "relative",
           "f": 1
         },
         {
           "w": "escape",
+          "f": 1
+        },
+        {
+          "w": "witness",
+          "f": 2
+        },
+        {
+          "w": "provided",
+          "f": 2
+        },
+        {
+          "w": "hamgyong",
+          "f": 1
+        },
+        {
+          "w": "hungry.",
+          "f": 1
+        },
+        {
+          "w": "detainees",
+          "f": 1
+        },
+        {
+          "w": "him.",
+          "f": 1
+        },
+        {
+          "w": "one's",
+          "f": 1
+        },
+        {
+          "w": "korea",
+          "f": 1
+        },
+        {
+          "w": "august",
+          "f": 1
+        },
+        {
+          "w": "housed",
+          "f": 2
+        },
+        {
+          "w": "days,",
+          "f": 1
+        },
+        {
+          "w": "graves",
+          "f": 1
+        },
+        {
+          "w": "hiding,",
+          "f": 1
+        },
+        {
+          "w": "carried",
+          "f": 2
+        },
+        {
+          "w": "leaving",
+          "f": 1
+        },
+        {
+          "w": "dated",
+          "f": 1
+        },
+        {
+          "w": "out.",
+          "f": 1
+        },
+        {
+          "w": "family",
+          "f": 1
+        },
+        {
+          "w": "question",
           "f": 1
         },
         {
@@ -26925,23 +17852,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "group",
-          "f": 3
-        },
-        {
-          "w": "relative",
-          "f": 1
-        },
-        {
-          "w": "facilities",
+          "w": "executions",
           "f": 2
         },
         {
-          "w": "executed",
-          "f": 1
-        },
-        {
-          "w": "including",
+          "w": "war.",
           "f": 1
         },
         {
@@ -26949,11 +17864,103 @@ var years =[
           "f": 1
         },
         {
-          "w": "committee",
+          "w": "beaten",
+          "f": 1
+        },
+        {
+          "w": "statistics",
+          "f": 1
+        },
+        {
+          "w": "political",
+          "f": 1
+        },
+        {
+          "w": "inmate",
+          "f": 1
+        },
+        {
+          "w": "punished",
+          "f": 1
+        },
+        {
+          "w": "1992.",
+          "f": 1
+        },
+        {
+          "w": "facilities,",
+          "f": 2
+        },
+        {
+          "w": "head",
+          "f": 1
+        },
+        {
+          "w": "north",
+          "f": 1
+        },
+        {
+          "w": "1,153",
+          "f": 2
+        },
+        {
+          "w": "1,426",
+          "f": 2
+        },
+        {
+          "w": "shallow",
+          "f": 1
+        },
+        {
+          "w": "inmates",
+          "f": 4
+        },
+        {
+          "w": "13",
+          "f": 1
+        },
+        {
+          "w": "october",
+          "f": 2
+        },
+        {
+          "w": "publicly",
+          "f": 1
+        },
+        {
+          "w": "rights",
           "f": 3
         },
         {
-          "w": "sustained",
+          "w": "1999",
+          "f": 2
+        },
+        {
+          "w": "18",
+          "f": 1
+        },
+        {
+          "w": "nations",
+          "f": 3
+        },
+        {
+          "w": "guards",
+          "f": 1
+        },
+        {
+          "w": "information",
+          "f": 2
+        },
+        {
+          "w": "downsizing,",
+          "f": 1
+        },
+        {
+          "w": "male",
+          "f": 1
+        },
+        {
+          "w": "province,",
           "f": 1
         },
         {
@@ -26961,27 +17968,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "question",
-          "f": 1
+          "w": "2001,",
+          "f": 5
         },
         {
-          "w": "grandfather",
-          "f": 1
-        },
-        {
-          "w": "injuries",
-          "f": 1
-        },
-        {
-          "w": "witness",
+          "w": "3,049",
           "f": 2
         },
         {
-          "w": "information",
-          "f": 2
-        },
-        {
-          "w": "execution",
+          "w": "forced",
           "f": 1
         },
         {
@@ -27001,36 +17996,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "detainees",
+          "w": "generally",
           "f": 1
         },
         {
-          "w": "beaten",
-          "f": 1
-        },
-        {
-          "w": "political",
-          "f": 1
-        },
-        {
-          "w": "response",
-          "f": 1
-        },
-        {
-          "w": "inmate",
-          "f": 1
-        },
-        {
-          "w": "hungry",
-          "f": 1
-        },
-        {
-          "w": "punished",
-          "f": 1
-        },
-        {
-          "w": "prison",
-          "f": 3
+          "w": "1998,",
+          "f": 2
         },
         {
           "w": "republic",
@@ -27041,95 +18012,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "hiding",
-          "f": 1
-        },
-        {
-          "w": "war",
-          "f": 1
-        },
-        {
-          "w": "one's",
-          "f": 1
-        },
-        {
-          "w": "province",
-          "f": 1
-        },
-        {
-          "w": "head",
-          "f": 1
-        },
-        {
-          "w": "korea",
-          "f": 1
-        },
-        {
-          "w": "north",
-          "f": 1
-        },
-        {
-          "w": "august",
-          "f": 1
-        },
-        {
-          "w": "housed",
-          "f": 2
-        },
-        {
           "w": "centre",
           "f": 1
         },
         {
-          "w": "food",
+          "w": "sustained.",
           "f": 1
         },
         {
-          "w": "shallow",
+          "w": "death.",
           "f": 1
         },
         {
-          "w": "carried",
-          "f": 2
-        },
-        {
-          "w": "leaving",
-          "f": 1
-        },
-        {
-          "w": "interrogation",
-          "f": 1
-        },
-        {
-          "w": "released",
-          "f": 1
-        },
-        {
-          "w": "death",
-          "f": 1
-        },
-        {
-          "w": "inmates",
-          "f": 4
-        },
-        {
-          "w": "found",
-          "f": 2
-        },
-        {
-          "w": "downsizing",
-          "f": 1
-        },
-        {
-          "w": "ssd",
-          "f": 1
-        },
-        {
-          "w": "executions",
-          "f": 2
-        },
-        {
-          "w": "fled",
+          "w": "response",
           "f": 1
         },
         {
@@ -27141,79 +18036,31 @@ var years =[
           "f": 1
         },
         {
-          "w": "days",
+          "w": "2000.the",
           "f": 1
-        },
-        {
-          "w": "attempt",
-          "f": 1
-        },
-        {
-          "w": "left",
-          "f": 1
-        },
-        {
-          "w": "publicly",
-          "f": 1
-        },
-        {
-          "w": "rights",
-          "f": 3
         },
         {
           "w": "considered",
           "f": 1
         },
         {
-          "w": "cells",
+          "w": "camp",
           "f": 1
-        },
-        {
-          "w": "dig",
-          "f": 1
-        },
-        {
-          "w": "october",
-          "f": 2
         },
         {
           "w": "inferred",
           "f": 1
         },
         {
-          "w": "nations",
-          "f": 3
-        },
-        {
-          "w": "guards",
-          "f": 1
-        },
-        {
-          "w": "hamgyong",
-          "f": 1
+          "w": "2001",
+          "f": 2
         },
         {
           "w": "mass",
           "f": 1
         },
         {
-          "w": "dated",
-          "f": 1
-        },
-        {
-          "w": "back",
-          "f": 1
-        },
-        {
-          "w": "provided",
-          "f": 2
-        },
-        {
-          "w": "male",
-          "f": 1
-        },
-        {
-          "w": "graves",
+          "w": "left",
           "f": 1
         }
       ],
@@ -27229,7 +18076,7 @@ var years =[
           ]
         },
         "pol": {
-          "perc": 2,
+          "perc": 1,
           "kw": [
             "dprk",
             "public"
@@ -27238,23 +18085,23 @@ var years =[
       },
       "kw": [
         {
+          "w": "time,",
+          "f": 1
+        },
+        {
           "w": "made",
           "f": 1
         },
         {
-          "w": "china",
-          "f": 1
-        },
-        {
-          "w": "farmers",
-          "f": 1
-        },
-        {
-          "w": "attempted",
+          "w": "farmers.",
           "f": 1
         },
         {
           "w": "government",
+          "f": 1
+        },
+        {
+          "w": "attempted",
           "f": 1
         },
         {
@@ -27270,11 +18117,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "grain",
+          "w": "2005,",
           "f": 1
         },
         {
-          "w": "time",
+          "w": "grain",
           "f": 1
         },
         {
@@ -27283,6 +18130,10 @@ var years =[
         },
         {
           "w": "distribution",
+          "f": 1
+        },
+        {
+          "w": "china.",
           "f": 1
         },
         {
@@ -27307,11 +18158,231 @@ var years =[
           "f": 1
         },
         {
+          "w": "infant",
+          "f": 1
+        },
+        {
+          "w": "msf,",
+          "f": 1
+        },
+        {
+          "w": "caused",
+          "f": 1
+        },
+        {
+          "w": "summarized",
+          "f": 1
+        },
+        {
+          "w": "years",
+          "f": 1
+        },
+        {
+          "w": "including",
+          "f": 1
+        },
+        {
+          "w": "children",
+          "f": 3
+        },
+        {
+          "w": "methods.",
+          "f": 1
+        },
+        {
+          "w": "27",
+          "f": 1
+        },
+        {
+          "w": "20",
+          "f": 1
+        },
+        {
+          "w": "improvement",
+          "f": 1
+        },
+        {
+          "w": "parents",
+          "f": 1
+        },
+        {
+          "w": "suffered",
+          "f": 2
+        },
+        {
+          "w": "mortality",
+          "f": 1
+        },
+        {
+          "w": "federation",
+          "f": 1
+        },
+        {
+          "w": "government",
+          "f": 4
+        },
+        {
+          "w": "food",
+          "f": 2
+        },
+        {
+          "w": "familial",
+          "f": 1
+        },
+        {
+          "w": "report",
+          "f": 2
+        },
+        {
+          "w": "world",
+          "f": 2
+        },
+        {
+          "w": "acute",
+          "f": 1
+        },
+        {
+          "w": "respiratory",
+          "f": 1
+        },
+        {
+          "w": "lost",
+          "f": 1
+        },
+        {
+          "w": "orphans",
+          "f": 1
+        },
+        {
+          "w": "country.",
+          "f": 1
+        },
+        {
+          "w": "leave",
+          "f": 1
+        },
+        {
+          "w": "rearing",
+          "f": 1
+        },
+        {
+          "w": "benefit",
+          "f": 1
+        },
+        {
+          "w": "stopped",
+          "f": 1
+        },
+        {
+          "w": "nationals",
+          "f": 1
+        },
+        {
           "w": "declared",
           "f": 2
         },
         {
-          "w": "methods",
+          "w": "rate",
+          "f": 1
+        },
+        {
+          "w": "multiple-stage",
+          "f": 1
+        },
+        {
+          "w": "levels.",
+          "f": 1
+        },
+        {
+          "w": "nations",
+          "f": 1
+        },
+        {
+          "w": "societies,",
+          "f": 1
+        },
+        {
+          "w": "crc",
+          "f": 1
+        },
+        {
+          "w": "research",
+          "f": 1
+        },
+        {
+          "w": "health",
+          "f": 1
+        },
+        {
+          "w": "cooperation",
+          "f": 1
+        },
+        {
+          "w": "red",
+          "f": 1
+        },
+        {
+          "w": "programme,",
+          "f": 1
+        },
+        {
+          "w": "attention",
+          "f": 1
+        },
+        {
+          "w": "6,000",
+          "f": 1
+        },
+        {
+          "w": "represented",
+          "f": 1
+        },
+        {
+          "w": "reports,",
+          "f": 1
+        },
+        {
+          "w": "dprk.",
+          "f": 1
+        },
+        {
+          "w": "great",
+          "f": 1
+        },
+        {
+          "w": "unicef",
+          "f": 1
+        },
+        {
+          "w": "taking",
+          "f": 1
+        },
+        {
+          "w": "protection.",
+          "f": 1
+        },
+        {
+          "w": "leaving",
+          "f": 1
+        },
+        {
+          "w": "conducted",
+          "f": 1
+        },
+        {
+          "w": "survey",
+          "f": 1
+        },
+        {
+          "w": "introduced",
+          "f": 1
+        },
+        {
+          "w": "1000",
+          "f": 2
+        },
+        {
+          "w": "diarrhoea.",
           "f": 1
         },
         {
@@ -27323,71 +18394,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "caused",
-          "f": 1
-        },
-        {
-          "w": "child",
-          "f": 1
-        },
-        {
           "w": "obtaining",
-          "f": 1
-        },
-        {
-          "w": "infant",
-          "f": 1
-        },
-        {
-          "w": "environments",
-          "f": 1
-        },
-        {
-          "w": "years",
-          "f": 1
-        },
-        {
-          "w": "represented",
-          "f": 1
-        },
-        {
-          "w": "rate",
-          "f": 1
-        },
-        {
-          "w": "multiple-stage",
-          "f": 1
-        },
-        {
-          "w": "including",
-          "f": 1
-        },
-        {
-          "w": "benefit",
-          "f": 1
-        },
-        {
-          "w": "research",
-          "f": 1
-        },
-        {
-          "w": "claimed",
-          "f": 1
-        },
-        {
-          "w": "familial",
-          "f": 1
-        },
-        {
-          "w": "leaving",
-          "f": 1
-        },
-        {
-          "w": "children",
-          "f": 3
-        },
-        {
-          "w": "federation",
           "f": 1
         },
         {
@@ -27395,23 +18402,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "rearing",
+          "w": "environments",
           "f": 1
         },
         {
-          "w": "provide",
+          "w": "sampling",
           "f": 1
         },
         {
-          "w": "summarized",
-          "f": 1
-        },
-        {
-          "w": "msf",
-          "f": 2
-        },
-        {
-          "w": "cross",
+          "w": "60",
           "f": 1
         },
         {
@@ -27419,15 +18418,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "improvement",
-          "f": 1
-        },
-        {
           "w": "households",
-          "f": 1
-        },
-        {
-          "w": "majority",
           "f": 1
         },
         {
@@ -27435,11 +18426,47 @@ var years =[
           "f": 2
         },
         {
-          "w": "health",
+          "w": "(unicef)",
           "f": 1
         },
         {
-          "w": "cooperation",
+          "w": "organization,",
+          "f": 1
+        },
+        {
+          "w": "societal",
+          "f": 1
+        },
+        {
+          "w": "fund",
+          "f": 1
+        },
+        {
+          "w": "child",
+          "f": 1
+        },
+        {
+          "w": "women",
+          "f": 2
+        },
+        {
+          "w": "paying",
+          "f": 1
+        },
+        {
+          "w": "organizations",
+          "f": 2
+        },
+        {
+          "w": "1993",
+          "f": 1
+        },
+        {
+          "w": "dprk.811",
+          "f": 1
+        },
+        {
+          "w": "1999.",
           "f": 1
         },
         {
@@ -27447,31 +18474,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "institutions",
-          "f": 1
-        },
-        {
-          "w": "(unicef)",
-          "f": 1
-        },
-        {
-          "w": "suffered",
-          "f": 2
-        },
-        {
-          "w": "women",
-          "f": 2
-        },
-        {
-          "w": "mortality",
-          "f": 1
-        },
-        {
-          "w": "stopped",
-          "f": 1
-        },
-        {
-          "w": "attention",
+          "w": "claimed",
           "f": 1
         },
         {
@@ -27479,16 +18482,24 @@ var years =[
           "f": 1
         },
         {
-          "w": "protection",
+          "w": "48",
           "f": 1
         },
         {
-          "w": "government",
-          "f": 4
+          "w": "provide",
+          "f": 1
         },
         {
-          "w": "food",
-          "f": 3
+          "w": "msf",
+          "f": 1
+        },
+        {
+          "w": "cross",
+          "f": 1
+        },
+        {
+          "w": "majority",
+          "f": 1
         },
         {
           "w": "role",
@@ -27503,15 +18514,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "great",
-          "f": 1
-        },
-        {
-          "w": "societal",
-          "f": 1
-        },
-        {
-          "w": "parents",
+          "w": "food,",
           "f": 1
         },
         {
@@ -27519,63 +18522,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "fund",
+          "w": "terry,",
           "f": 1
-        },
-        {
-          "w": "terry",
-          "f": 1
-        },
-        {
-          "w": "respiratory",
-          "f": 1
-        },
-        {
-          "w": "orphans",
-          "f": 1
-        },
-        {
-          "w": "acute",
-          "f": 1
-        },
-        {
-          "w": "report",
-          "f": 2
-        },
-        {
-          "w": "world",
-          "f": 2
-        },
-        {
-          "w": "sampling",
-          "f": 1
-        },
-        {
-          "w": "societies",
-          "f": 1
-        },
-        {
-          "w": "paying",
-          "f": 1
-        },
-        {
-          "w": "organizations",
-          "f": 2
         },
         {
           "w": "younger",
-          "f": 1
-        },
-        {
-          "w": "\"the",
-          "f": 1
-        },
-        {
-          "w": "lost",
-          "f": 1
-        },
-        {
-          "w": "unicef",
           "f": 1
         },
         {
@@ -27587,75 +18538,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "reports",
+          "w": "\"the",
           "f": 1
         },
         {
-          "w": "nations",
-          "f": 1
-        },
-        {
-          "w": "leave",
-          "f": 1
-        },
-        {
-          "w": "crc",
-          "f": 1
-        },
-        {
-          "w": "conducted",
-          "f": 1
-        },
-        {
-          "w": "levels",
-          "f": 1
-        },
-        {
-          "w": "survey",
-          "f": 1
-        },
-        {
-          "w": "red",
-          "f": 1
-        },
-        {
-          "w": "organization",
-          "f": 1
-        },
-        {
-          "w": "introduced",
-          "f": 1
-        },
-        {
-          "w": "nationals",
-          "f": 1
-        },
-        {
-          "w": "taking",
-          "f": 1
-        },
-        {
-          "w": "diarrhoea",
+          "w": "institutions",
           "f": 1
         }
       ],
       "sub": 0.0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6681491618200479,
-      "sub": 0.3318508381799521,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0,
@@ -27669,14 +18560,13 @@ var years =[
           "perc": 3,
           "kw": [
             "management",
-            "country",
             "humanitarian",
             "united",
-            "dprk",
+            "crisis",
+            "2002",
             "economic",
             "international",
-            "crisis",
-            "programme"
+            "dprk"
           ]
         },
         "pol": {
@@ -27690,16 +18580,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "rok",
-          "f": 1
-        },
-        {
           "w": "evidence",
           "f": 1
-        },
-        {
-          "w": "reactor",
-          "f": 2
         },
         {
           "w": "september",
@@ -27731,6 +18613,18 @@ var years =[
         },
         {
           "w": "removed",
+          "f": 1
+        },
+        {
+          "w": "equipment",
+          "f": 1
+        },
+        {
+          "w": "rok,",
+          "f": 1
+        },
+        {
+          "w": "months.",
           "f": 1
         },
         {
@@ -27770,15 +18664,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "framework",
-          "f": 1
-        },
-        {
-          "w": "reforms",
-          "f": 1
-        },
-        {
-          "w": "credentials",
+          "w": "markets.",
           "f": 1
         },
         {
@@ -27798,20 +18684,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "retreated",
-          "f": 1
-        },
-        {
           "w": "moo-hyun",
           "f": 1
         },
         {
-          "w": "domestically",
+          "w": "country,",
           "f": 1
         },
         {
-          "w": "announced",
-          "f": 2
+          "w": "confrontation.in",
+          "f": 1
         },
         {
           "w": "dae-jung",
@@ -27866,8 +18748,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "accept.",
+          "f": 1
+        },
+        {
           "w": "state",
           "f": 2
+        },
+        {
+          "w": "independence,",
+          "f": 1
         },
         {
           "w": "increasing",
@@ -27878,8 +18768,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "independence",
-          "f": 1
+          "w": "announced",
+          "f": 2
         },
         {
           "w": "terms",
@@ -27902,7 +18792,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "confrontation",
+          "w": "reforms.",
           "f": 1
         },
         {
@@ -27910,7 +18800,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "strong",
+          "w": "domestically,",
           "f": 1
         },
         {
@@ -27926,7 +18816,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "months",
+          "w": "meantime,",
           "f": 1
         },
         {
@@ -27934,7 +18824,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "military",
+          "w": "2002,",
+          "f": 1
+        },
+        {
+          "w": "2002.",
+          "f": 1
+        },
+        {
+          "w": "programme",
+          "f": 1
+        },
+        {
+          "w": "pyongyang,",
           "f": 1
         },
         {
@@ -27954,7 +18856,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "date",
+          "w": "relations.",
           "f": 1
         },
         {
@@ -27962,19 +18864,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "pyongyang",
-          "f": 1
-        },
-        {
-          "w": "wages",
-          "f": 1
-        },
-        {
           "w": "market",
           "f": 1
         },
         {
-          "w": "meantime",
+          "w": "strong",
           "f": 1
         },
         {
@@ -27990,7 +18884,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "relations",
+          "w": "framework,",
           "f": 1
         },
         {
@@ -28006,7 +18900,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "markets",
+          "w": "military,",
+          "f": 1
+        },
+        {
+          "w": "wages,",
           "f": 1
         },
         {
@@ -28046,8 +18944,12 @@ var years =[
           "f": 1
         },
         {
+          "w": "credentials,",
+          "f": 1
+        },
+        {
           "w": "prices",
-          "f": 2
+          "f": 1
         },
         {
           "w": "july",
@@ -28059,6 +18961,14 @@ var years =[
         },
         {
           "w": "producing",
+          "f": 1
+        },
+        {
+          "w": "1994",
+          "f": 1
+        },
+        {
+          "w": "1997",
           "f": 1
         },
         {
@@ -28086,15 +18996,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "acknowledged.",
+          "f": 1
+        },
+        {
           "w": "liberal",
           "f": 1
         },
         {
           "w": "junichiro",
-          "f": 1
-        },
-        {
-          "w": "accept",
           "f": 1
         },
         {
@@ -28114,6 +19024,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "retreated.",
+          "f": 1
+        },
+        {
           "w": "rods",
           "f": 1
         },
@@ -28123,6 +19037,10 @@ var years =[
         },
         {
           "w": "regime",
+          "f": 1
+        },
+        {
+          "w": "date",
           "f": 1
         },
         {
@@ -28146,7 +19064,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "equipment",
+          "w": "1",
+          "f": 1
+        },
+        {
+          "w": "prices,",
           "f": 1
         },
         {
@@ -28166,8 +19088,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "ultimately",
-          "f": 1
+          "w": "reactor,",
+          "f": 2
         },
         {
           "w": "accurately",
@@ -28194,7 +19116,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "acknowledged",
+          "w": "ultimately",
+          "f": 1
+        },
+        {
+          "w": "1,000",
           "f": 1
         },
         {
@@ -28243,11 +19169,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "authorities",
+          "w": "situation,",
           "f": 1
         },
         {
-          "w": "situation",
+          "w": "authorities",
           "f": 1
         },
         {
@@ -28261,28 +19187,12 @@ var years =[
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6344928956393925,
-      "sub": 0.36550710436060757,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.7857142857142857,
       "kw": [
         {
-          "w": "rok",
-          "f": 2
+          "w": "no.",
+          "f": 3
         },
         {
           "w": "shot",
@@ -28297,6 +19207,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "arrested.",
+          "f": 1
+        },
+        {
           "w": "years",
           "f": 1
         },
@@ -28305,7 +19219,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "2000-2003",
+          "w": "increase",
           "f": 1
         },
         {
@@ -28313,19 +19227,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "surviving",
-          "f": 1
-        },
-        {
           "w": "zone",
           "f": 1
         },
         {
-          "w": "workers",
+          "w": "rok,",
           "f": 1
         },
         {
-          "w": "falsely",
+          "w": "rok.",
+          "f": 1
+        },
+        {
+          "w": "dead.",
           "f": 1
         },
         {
@@ -28345,6 +19259,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "120",
+          "f": 1
+        },
+        {
           "w": "half",
           "f": 1
         },
@@ -28353,7 +19271,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "day",
+          "w": "hungry.",
           "f": 1
         },
         {
@@ -28361,7 +19279,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "arrested",
+          "w": "labour,",
           "f": 1
         },
         {
@@ -28385,15 +19303,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "dead",
-          "f": 2
-        },
-        {
-          "w": "trading",
+          "w": "eun-chol,",
           "f": 1
         },
         {
-          "w": "escape",
+          "w": "dead",
+          "f": 1
+        },
+        {
+          "w": "trading",
           "f": 1
         },
         {
@@ -28401,12 +19319,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "jeong",
-          "f": 4
+          "w": "china.",
+          "f": 1
         },
         {
-          "w": "hide",
-          "f": 1
+          "w": "jeong",
+          "f": 4
         },
         {
           "w": "halved",
@@ -28425,7 +19343,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "increase",
+          "w": "him.",
           "f": 1
         },
         {
@@ -28445,10 +19363,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "kwang-il",
-          "f": 2
-        },
-        {
           "w": "corn",
           "f": 1
         },
@@ -28457,7 +19371,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "china",
+          "w": "days,",
+          "f": 1
+        },
+        {
+          "w": "prohibited",
           "f": 1
         },
         {
@@ -28473,10 +19391,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "days",
-          "f": 1
-        },
-        {
           "w": "times",
           "f": 1
         },
@@ -28485,16 +19399,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "prohibited",
+          "w": "workers",
           "f": 1
         },
         {
-          "w": "family",
+          "w": "company,",
           "f": 1
         },
         {
-          "w": "political",
-          "f": 2
+          "w": "surviving",
+          "f": 1
+        },
+        {
+          "w": "chased",
+          "f": 1
         },
         {
           "w": "prisoners",
@@ -28513,16 +19431,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "chased",
+          "w": "family,",
           "f": 1
         },
         {
-          "w": "eun-chol",
-          "f": 1
-        },
-        {
-          "w": "intermediaries",
-          "f": 1
+          "w": "political",
+          "f": 2
         },
         {
           "w": "dogs",
@@ -28537,15 +19451,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "company",
-          "f": 1
-        },
-        {
-          "w": "released",
-          "f": 1
-        },
-        {
           "w": "engage",
+          "f": 1
+        },
+        {
+          "w": "grams",
+          "f": 1
+        },
+        {
+          "w": "15",
           "f": 1
         },
         {
@@ -28557,7 +19471,7 @@ var years =[
           "f": 3
         },
         {
-          "w": "soup",
+          "w": "spot.",
           "f": 1
         },
         {
@@ -28566,6 +19480,10 @@ var years =[
         },
         {
           "w": "piece",
+          "f": 1
+        },
+        {
+          "w": "intermediaries.",
           "f": 1
         },
         {
@@ -28581,6 +19499,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "well.",
+          "f": 1
+        },
+        {
+          "w": "15,",
+          "f": 2
+        },
+        {
           "w": "forced",
           "f": 1
         },
@@ -28593,11 +19519,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "storage",
+          "w": "department,",
           "f": 1
         },
         {
-          "w": "labour",
+          "w": "falsely",
+          "f": 1
+        },
+        {
+          "w": "soup.",
           "f": 1
         },
         {
@@ -28605,7 +19535,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "department",
+          "w": "day.",
           "f": 1
         },
         {
@@ -28613,8 +19543,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "spot",
+          "w": "hide.",
           "f": 1
+        },
+        {
+          "w": "kwang-il",
+          "f": 2
         },
         {
           "w": "revolutionizing",
@@ -28629,6 +19563,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "escape,",
+          "f": 1
+        },
+        {
           "w": "extremely",
           "f": 1
         },
@@ -28637,7 +19575,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "grams",
+          "w": "storage,",
+          "f": 1
+        },
+        {
+          "w": "2000-2003.",
           "f": 1
         },
         {
@@ -28645,12 +19587,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "hungry",
+          "w": "2003",
           "f": 1
         },
         {
           "w": "detained",
           "f": 2
+        },
+        {
+          "w": "released.in",
+          "f": 1
         },
         {
           "w": "order",
@@ -28672,10 +19618,16 @@ var years =[
         },
         "pol": {
           "perc": 0,
-          "kw": []
+          "kw": [
+            "2003,"
+          ]
         }
       },
       "kw": [
+        {
+          "w": "dprk.",
+          "f": 1
+        },
         {
           "w": "united",
           "f": 1
@@ -28689,7 +19641,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "dprk",
+          "w": "w.",
           "f": 1
         },
         {
@@ -28706,6 +19658,10 @@ var years =[
         },
         {
           "w": "determined",
+          "f": 1
+        },
+        {
+          "w": "negotiations",
           "f": 1
         },
         {
@@ -28729,7 +19685,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "negotiations",
+          "w": "instead,",
           "f": 1
         }
       ],
@@ -28743,28 +19699,16 @@ var years =[
       "kw": [],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.684939411425274,
-      "sub": 0.3150605885747259,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.7368421052631579,
       "kw": [
         {
-          "w": "sinuiju",
+          "w": "diseases.",
           "f": 1
+        },
+        {
+          "w": "no.",
+          "f": 2
         },
         {
           "w": "code",
@@ -28779,12 +19723,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "pregnancy.",
+          "f": 1
+        },
+        {
           "w": "undetected",
           "f": 1
         },
         {
           "w": "ssd",
           "f": 2
+        },
+        {
+          "w": "5a.m.",
+          "f": 1
         },
         {
           "w": "death",
@@ -28803,8 +19755,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "witness,",
+          "f": 2
+        },
+        {
           "w": "penalty",
-          "f": 3
+          "f": 2
+        },
+        {
+          "w": "labour",
+          "f": 1
         },
         {
           "w": "extends",
@@ -28839,11 +19799,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "woman",
+          "w": "case",
           "f": 1
         },
         {
-          "w": "diseases",
+          "w": "penalty.",
           "f": 1
         },
         {
@@ -28851,7 +19811,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "survival",
+          "w": "wide",
+          "f": 1
+        },
+        {
+          "w": "caught",
           "f": 1
         },
         {
@@ -28863,11 +19827,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "sanitary",
+          "w": "12",
           "f": 1
         },
         {
-          "w": "day",
+          "w": "sanitary",
           "f": 1
         },
         {
@@ -28883,15 +19847,15 @@ var years =[
           "f": 3
         },
         {
-          "w": "nauseous",
-          "f": 1
-        },
-        {
           "w": "cheungsan",
           "f": 1
         },
         {
           "w": "defecation",
+          "f": 1
+        },
+        {
+          "w": "woman,",
           "f": 1
         },
         {
@@ -28907,8 +19871,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "pleas",
-          "f": 1
+          "w": "2004,",
+          "f": 2
         },
         {
           "w": "bleeding",
@@ -28931,12 +19895,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "escape",
+          "w": "day.the",
+          "f": 1
+        },
+        {
+          "w": "pain",
           "f": 1
         },
         {
           "w": "witness",
-          "f": 7
+          "f": 5
         },
         {
           "w": "subject",
@@ -28955,15 +19923,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "assistance",
-          "f": 1
-        },
-        {
           "w": "beaten",
-          "f": 1
-        },
-        {
-          "w": "critical",
           "f": 1
         },
         {
@@ -28971,7 +19931,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "conduct",
+          "w": "province).",
           "f": 1
         },
         {
@@ -28984,6 +19944,10 @@ var years =[
         },
         {
           "w": "china",
+          "f": 1
+        },
+        {
+          "w": "lump",
           "f": 1
         },
         {
@@ -29000,7 +19964,11 @@ var years =[
         },
         {
           "w": "dprk",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "dprk.",
+          "f": 1
         },
         {
           "w": "received",
@@ -29012,6 +19980,10 @@ var years =[
         },
         {
           "w": "logging",
+          "f": 1
+        },
+        {
+          "w": "pleas,",
           "f": 1
         },
         {
@@ -29027,7 +19999,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "hospital",
+          "w": "critical,",
+          "f": 1
+        },
+        {
+          "w": "however,",
+          "f": 1
+        },
+        {
+          "w": "asked",
           "f": 1
         },
         {
@@ -29043,19 +20023,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "prisoners",
-          "f": 1
-        },
-        {
           "w": "number",
           "f": 1
         },
         {
           "w": "executions",
-          "f": 1
-        },
-        {
-          "w": "pregnancy",
           "f": 1
         },
         {
@@ -29067,11 +20039,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "caught",
+          "w": "hospital",
           "f": 1
         },
         {
           "w": "due",
+          "f": 1
+        },
+        {
+          "w": ".",
           "f": 1
         },
         {
@@ -29091,7 +20067,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "recovered",
+          "w": "recovered.",
           "f": 1
         },
         {
@@ -29103,6 +20079,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "6",
+          "f": 1
+        },
+        {
+          "w": "2004-2011.in",
+          "f": 1
+        },
+        {
           "w": "strenuous",
           "f": 1
         },
@@ -29111,27 +20095,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "hole",
-          "f": 1
-        },
-        {
           "w": "pieces",
           "f": 1
         },
         {
-          "w": "case",
+          "w": "2007,",
           "f": 1
         },
         {
-          "w": "wide",
+          "w": "11",
+          "f": 1
+        },
+        {
+          "w": "survival.",
           "f": 1
         },
         {
           "w": "made",
-          "f": 1
-        },
-        {
-          "w": "5a",
           "f": 1
         },
         {
@@ -29143,6 +20123,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "prisoners.another",
+          "f": 1
+        },
+        {
           "w": "seated",
           "f": 1
         },
@@ -29151,15 +20135,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "napkins",
-          "f": 1
-        },
-        {
-          "w": "province)",
-          "f": 1
-        },
-        {
           "w": "situation",
+          "f": 1
+        },
+        {
+          "w": "napkins.",
           "f": 1
         },
         {
@@ -29179,6 +20159,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "2004",
+          "f": 2
+        },
+        {
           "w": "physical",
           "f": 1
         },
@@ -29191,6 +20175,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "conduct",
+          "f": 1
+        },
+        {
           "w": "(north",
           "f": 1
         },
@@ -29199,7 +20187,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "labour",
+          "w": "hole,",
           "f": 1
         },
         {
@@ -29207,11 +20195,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "pain",
+          "w": "again.",
           "f": 1
         },
         {
-          "w": "2004-2011",
+          "w": "assistance.",
           "f": 1
         },
         {
@@ -29219,7 +20207,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "lump",
+          "w": "hide.",
+          "f": 1
+        },
+        {
+          "w": "nauseous.",
           "f": 1
         },
         {
@@ -29231,7 +20223,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "hide",
+          "w": "escape.",
           "f": 1
         },
         {
@@ -29239,12 +20231,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "man",
-          "f": 2
+          "w": "motionless.",
+          "f": 1
         },
         {
-          "w": "motionless",
-          "f": 1
+          "w": "man",
+          "f": 2
         },
         {
           "w": "medical",
@@ -29259,11 +20251,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "asked",
+          "w": "still,",
           "f": 1
         },
         {
           "w": "severe",
+          "f": 1
+        },
+        {
+          "w": "sinuiju.",
           "f": 1
         },
         {
@@ -29312,27 +20308,23 @@ var years =[
       "kw": [],
       "sub": 0.25
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6358803986710964,
-      "sub": 0.36411960132890364,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
         {
+          "w": "development,",
+          "f": 1
+        },
+        {
+          "w": "no.",
+          "f": 1
+        },
+        {
           "w": "code",
+          "f": 1
+        },
+        {
+          "w": "extended,",
           "f": 1
         },
         {
@@ -29368,7 +20360,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "remunerated",
+          "w": "documented",
           "f": 1
         },
         {
@@ -29376,7 +20368,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "chinese",
+          "w": "bags,",
+          "f": 1
+        },
+        {
+          "w": "months.",
+          "f": 1
+        },
+        {
+          "w": "fled",
           "f": 1
         },
         {
@@ -29392,7 +20392,15 @@ var years =[
           "f": 3
         },
         {
+          "w": "chinese",
+          "f": 1
+        },
+        {
           "w": "criminal",
+          "f": 1
+        },
+        {
+          "w": "2012",
           "f": 1
         },
         {
@@ -29420,11 +20428,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "unification",
-          "f": 1
-        },
-        {
-          "w": "mps",
+          "w": "commission.",
           "f": 1
         },
         {
@@ -29432,11 +20436,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "documented",
+          "w": "remunerated.",
           "f": 1
         },
         {
-          "w": "fled",
+          "w": "colleagues",
           "f": 1
         },
         {
@@ -29456,23 +20460,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "system,",
+          "f": 1
+        },
+        {
           "w": "married",
           "f": 1
         },
         {
+          "w": "testimony",
+          "f": 1
+        },
+        {
           "w": "found",
-          "f": 1
-        },
-        {
-          "w": "clothes",
-          "f": 1
-        },
-        {
-          "w": "concluded",
-          "f": 1
-        },
-        {
-          "w": "development",
           "f": 1
         },
         {
@@ -29492,7 +20492,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "successfully",
+          "w": "crimes",
           "f": 1
         },
         {
@@ -29508,6 +20508,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "farming.",
+          "f": 1
+        },
+        {
+          "w": "korea",
+          "f": 1
+        },
+        {
           "w": "college",
           "f": 1
         },
@@ -29520,11 +20528,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "images",
+          "w": "pyongan",
           "f": 1
         },
         {
-          "w": "pyongan",
+          "w": "women,",
           "f": 1
         },
         {
@@ -29532,11 +20540,19 @@ var years =[
           "f": 2
         },
         {
+          "w": "mps,",
+          "f": 1
+        },
+        {
           "w": "legal",
           "f": 1
         },
         {
-          "w": "escaped",
+          "w": "2005.",
+          "f": 1
+        },
+        {
+          "w": "prosecutor,",
           "f": 1
         },
         {
@@ -29544,15 +20560,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "family.in",
+          "f": 1
+        },
+        {
           "w": "told",
           "f": 1
         },
         {
-          "w": "korea",
-          "f": 2
-        },
-        {
-          "w": "disappeared",
+          "w": "paektu,",
           "f": 1
         },
         {
@@ -29568,19 +20584,15 @@ var years =[
           "f": 2
         },
         {
+          "w": "dprk.",
+          "f": 1
+        },
+        {
           "w": "received",
           "f": 2
         },
         {
           "w": "engage",
-          "f": 2
-        },
-        {
-          "w": "daughter",
-          "f": 1
-        },
-        {
-          "w": "conviction",
           "f": 1
         },
         {
@@ -29597,7 +20609,7 @@ var years =[
         },
         {
           "w": "months",
-          "f": 2
+          "f": 1
         },
         {
           "w": "place",
@@ -29608,11 +20620,15 @@ var years =[
           "f": 2
         },
         {
+          "w": "510",
+          "f": 1
+        },
+        {
           "w": "introduced",
           "f": 1
         },
         {
-          "w": "paektu",
+          "w": "south",
           "f": 1
         },
         {
@@ -29625,7 +20641,7 @@ var years =[
         },
         {
           "w": "family",
-          "f": 3
+          "f": 2
         },
         {
           "w": "manage",
@@ -29637,6 +20653,10 @@ var years =[
         },
         {
           "w": "executions",
+          "f": 1
+        },
+        {
+          "w": "unification",
           "f": 1
         },
         {
@@ -29680,6 +20700,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "respected.",
+          "f": 1
+        },
+        {
           "w": "jong-il",
           "f": 1
         },
@@ -29688,19 +20712,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "expanded",
+          "w": "mining",
           "f": 1
         },
         {
-          "w": "prosecutor",
+          "w": "successfully",
           "f": 1
         },
         {
-          "w": "life",
-          "f": 1
-        },
-        {
-          "w": "crimes",
+          "w": "daughter,",
           "f": 1
         },
         {
@@ -29709,6 +20729,10 @@ var years =[
         },
         {
           "w": "broadcast",
+          "f": 1
+        },
+        {
+          "w": "pay,",
           "f": 1
         },
         {
@@ -29724,27 +20748,19 @@ var years =[
           "f": 2
         },
         {
-          "w": "cases",
-          "f": 1
-        },
-        {
           "w": "present",
           "f": 1
         },
         {
           "w": "women",
-          "f": 4
+          "f": 3
         },
         {
-          "w": "1980s",
+          "w": "yodok.",
           "f": 1
         },
         {
-          "w": "colleagues",
-          "f": 1
-        },
-        {
-          "w": "farming",
+          "w": "15",
           "f": 1
         },
         {
@@ -29752,11 +20768,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "border.",
+          "f": 1
+        },
+        {
           "w": "mount",
           "f": 1
         },
         {
-          "w": "official",
+          "w": "expanded",
+          "f": 1
+        },
+        {
+          "w": "disappeared,",
           "f": 1
         },
         {
@@ -29764,11 +20788,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "images,",
+          "f": 1
+        },
+        {
           "w": "limit",
           "f": 1
         },
         {
+          "w": "time",
+          "f": 2
+        },
+        {
           "w": "mr",
+          "f": 1
+        },
+        {
+          "w": "life.",
           "f": 1
         },
         {
@@ -29780,11 +20816,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "gathering",
+          "w": "province.",
           "f": 1
         },
         {
-          "w": "yodok",
+          "w": "150",
+          "f": 1
+        },
+        {
+          "w": "gathering",
           "f": 1
         },
         {
@@ -29792,7 +20832,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "mining",
+          "w": "official",
           "f": 1
         },
         {
@@ -29804,15 +20844,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "respected",
+          "w": "escaped",
           "f": 1
         },
         {
-          "w": "claims)",
+          "w": "conviction.",
           "f": 1
         },
         {
           "w": "periods",
+          "f": 1
+        },
+        {
+          "w": "claims).",
           "f": 1
         },
         {
@@ -29832,11 +20876,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "pay",
+          "w": "dong-hyuk",
           "f": 1
         },
         {
-          "w": "dong-hyuk",
+          "w": "40",
           "f": 1
         },
         {
@@ -29860,24 +20904,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "province",
-          "f": 1
-        },
-        {
           "w": "satellite",
           "f": 1
         },
         {
-          "w": "extended",
+          "w": "engage,",
           "f": 1
         },
         {
-          "w": "bags",
+          "w": "clothes,",
           "f": 1
         },
         {
-          "w": "testimony",
-          "f": 1
+          "w": "2005",
+          "f": 3
         },
         {
           "w": "persons",
@@ -29889,6 +20929,10 @@ var years =[
         },
         {
           "w": "kim",
+          "f": 1
+        },
+        {
+          "w": "1980s.",
           "f": 1
         },
         {
@@ -29912,6 +20956,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "no.14",
+          "f": 1
+        },
+        {
           "w": "professor",
           "f": 1
         },
@@ -29921,10 +20969,10 @@ var years =[
         },
         {
           "w": "commission",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "south",
+          "w": "cases,",
           "f": 1
         },
         {
@@ -29932,7 +20980,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "korea.",
+          "f": 1
+        },
+        {
           "w": "institutions",
+          "f": 1
+        },
+        {
+          "w": "concluded.",
           "f": 1
         }
       ],
@@ -29946,11 +21002,9 @@ var years =[
           "kw": []
         },
         "pol": {
-          "perc": 2,
+          "perc": 1,
           "kw": [
-            "system",
-            "time",
-            "border",
+            "2005,",
             "dprk",
             "public"
           ]
@@ -29962,15 +21016,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "farmers",
-          "f": 1
-        },
-        {
-          "w": "attempted",
+          "w": "farmers.",
           "f": 1
         },
         {
           "w": "government",
+          "f": 1
+        },
+        {
+          "w": "attempted",
           "f": 1
         },
         {
@@ -29982,7 +21036,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "cross",
+          "w": "system",
+          "f": 1
+        },
+        {
+          "w": "time,",
           "f": 1
         },
         {
@@ -29990,11 +21048,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "china",
+          "w": "cross",
           "f": 1
         },
         {
           "w": "distribution",
+          "f": 1
+        },
+        {
+          "w": "china.",
+          "f": 1
+        },
+        {
+          "w": "border",
           "f": 1
         },
         {
@@ -30012,31 +21078,23 @@ var years =[
       "kw": [],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6731409544950056,
-      "sub": 0.32685904550499445,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.9047619047619048,
       "kw": [
+        {
+          "w": "no.",
+          "f": 9
+        },
         {
           "w": "managed",
           "f": 1
         },
         {
-          "w": "years",
+          "w": "existing",
+          "f": 2
+        },
+        {
+          "w": "disease.",
           "f": 1
         },
         {
@@ -30044,11 +21102,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "(e",
+          "w": "25",
+          "f": 4
+        },
+        {
+          "w": "died.",
           "f": 1
         },
         {
-          "w": "bukchang",
+          "w": "22",
+          "f": 1
+        },
+        {
+          "w": "metres.",
           "f": 1
         },
         {
@@ -30068,6 +21134,10 @@ var years =[
           "f": 8
         },
         {
+          "w": "seong-ho",
+          "f": 1
+        },
+        {
           "w": "suffered",
           "f": 1
         },
@@ -30080,10 +21150,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "predecessor",
-          "f": 1
-        },
-        {
           "w": "woman",
           "f": 3
         },
@@ -30093,7 +21159,7 @@ var years =[
         },
         {
           "w": "torture",
-          "f": 2
+          "f": 1
         },
         {
           "w": "disappearance",
@@ -30116,10 +21182,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "walls",
-          "f": 1
-        },
-        {
           "w": "mps",
           "f": 1
         },
@@ -30129,18 +21191,14 @@ var years =[
         },
         {
           "w": "ssd",
-          "f": 4
+          "f": 2
         },
         {
           "w": "interrogated",
           "f": 1
         },
         {
-          "w": "existing",
-          "f": 2
-        },
-        {
-          "w": "metres",
+          "w": "(e.g.",
           "f": 1
         },
         {
@@ -30158,6 +21216,18 @@ var years =[
         {
           "w": "doubled",
           "f": 1
+        },
+        {
+          "w": "agency,",
+          "f": 1
+        },
+        {
+          "w": "labour.",
+          "f": 1
+        },
+        {
+          "w": "18",
+          "f": 2
         },
         {
           "w": "found",
@@ -30180,6 +21250,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "city,",
+          "f": 1
+        },
+        {
           "w": "people",
           "f": 1
         },
@@ -30188,11 +21262,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "dead",
+          "w": "980",
+          "f": 1
+        },
+        {
+          "w": "elderly",
           "f": 1
         },
         {
           "w": "aggravated",
+          "f": 1
+        },
+        {
+          "w": "farming.",
           "f": 1
         },
         {
@@ -30210,6 +21292,10 @@ var years =[
         {
           "w": "home",
           "f": 2
+        },
+        {
+          "w": "china.",
+          "f": 1
         },
         {
           "w": "tumen",
@@ -30232,7 +21318,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "yongkwang",
+          "w": "him.",
           "f": 1
         },
         {
@@ -30244,8 +21330,12 @@ var years =[
           "f": 1
         },
         {
+          "w": "years,",
+          "f": 1
+        },
+        {
           "w": "closed",
-          "f": 2
+          "f": 1
         },
         {
           "w": "denied",
@@ -30260,11 +21350,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "korea",
+          "w": "(kyohwaso)",
           "f": 1
         },
         {
-          "w": "(kyohwaso)",
+          "w": "300",
           "f": 1
         },
         {
@@ -30272,11 +21362,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "cart",
+          "w": "grounds,",
           "f": 1
         },
         {
-          "w": "oro",
+          "w": "cart",
           "f": 1
         },
         {
@@ -30288,7 +21378,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "yongkwang",
+          "f": 1
+        },
+        {
           "w": "appears",
+          "f": 1
+        },
+        {
+          "w": "oro,",
           "f": 1
         },
         {
@@ -30308,12 +21406,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "area",
+          "f": 1
+        },
+        {
           "w": "days",
           "f": 1
         },
         {
-          "w": "trial",
-          "f": 2
+          "w": "turn",
+          "f": 1
         },
         {
           "w": "social",
@@ -30321,10 +21423,6 @@ var years =[
         },
         {
           "w": "block",
-          "f": 1
-        },
-        {
-          "w": "grounds",
           "f": 1
         },
         {
@@ -30340,8 +21438,12 @@ var years =[
           "f": 3
         },
         {
+          "w": "18.",
+          "f": 1
+        },
+        {
           "w": "prisoners",
-          "f": 3
+          "f": 1
         },
         {
           "w": "county",
@@ -30353,14 +21455,18 @@ var years =[
         },
         {
           "w": "agents",
-          "f": 3
+          "f": 2
         },
         {
           "w": "female",
           "f": 1
         },
         {
-          "w": "city",
+          "w": "survive,",
+          "f": 1
+        },
+        {
+          "w": "expanded.",
           "f": 1
         },
         {
@@ -30368,20 +21474,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "area",
+          "w": "bukchang,",
+          "f": 1
+        },
+        {
+          "w": "torture,",
           "f": 1
         },
         {
           "w": "political",
           "f": 7
-        },
-        {
-          "w": "survive",
-          "f": 1
-        },
-        {
-          "w": "farming",
-          "f": 1
         },
         {
           "w": "life",
@@ -30408,6 +21510,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "camps,",
+          "f": 2
+        },
+        {
           "w": "released",
           "f": 1
         },
@@ -30416,16 +21522,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "marriage)",
-          "f": 1
-        },
-        {
-          "w": "elderly",
+          "w": "liver",
           "f": 1
         },
         {
           "w": "inmates",
           "f": 2
+        },
+        {
+          "w": "closed.",
+          "f": 1
         },
         {
           "w": "sustained",
@@ -30440,7 +21546,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "seong-ho",
+          "w": "15",
+          "f": 2
+        },
+        {
+          "w": "16",
           "f": 1
         },
         {
@@ -30452,7 +21562,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "expanded",
+          "w": "work",
           "f": 1
         },
         {
@@ -30461,6 +21571,10 @@ var years =[
         },
         {
           "w": "tortured",
+          "f": 1
+        },
+        {
+          "w": "marriage),",
           "f": 1
         },
         {
@@ -30488,6 +21602,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "province.",
+          "f": 1
+        },
+        {
+          "w": "predecessor,",
+          "f": 1
+        },
+        {
           "w": "enforced",
           "f": 1
         },
@@ -30512,11 +21634,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "walls.",
+          "f": 1
+        },
+        {
           "w": "high",
           "f": 1
         },
         {
-          "w": "work",
+          "w": "agents.",
           "f": 1
         },
         {
@@ -30524,11 +21650,23 @@ var years =[
           "f": 2
         },
         {
-          "w": "turn",
+          "w": "dead.ssd",
           "f": 1
         },
         {
-          "w": "agency",
+          "w": "ssd.",
+          "f": 1
+        },
+        {
+          "w": "camp.",
+          "f": 1
+        },
+        {
+          "w": "trial",
+          "f": 2
+        },
+        {
+          "w": "centre,",
           "f": 1
         },
         {
@@ -30537,7 +21675,7 @@ var years =[
         },
         {
           "w": "labour",
-          "f": 2
+          "f": 1
         },
         {
           "w": "witness",
@@ -30556,12 +21694,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "province",
-          "f": 1
-        },
-        {
           "w": "centre",
-          "f": 2
+          "f": 1
         },
         {
           "w": "hand",
@@ -30572,12 +21706,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "14,",
+          "f": 1
+        },
+        {
           "w": "died",
-          "f": 2
+          "f": 1
         },
         {
           "w": "recent",
           "f": 1
+        },
+        {
+          "w": "2006.",
+          "f": 3
         },
         {
           "w": "attempt",
@@ -30593,18 +21735,22 @@ var years =[
         },
         {
           "w": "camp",
-          "f": 10
+          "f": 9
         },
         {
-          "w": "disease",
+          "w": "prisoners.",
           "f": 1
+        },
+        {
+          "w": "prisoners,",
+          "f": 1
+        },
+        {
+          "w": "2006",
+          "f": 2
         },
         {
           "w": "south",
-          "f": 1
-        },
-        {
-          "w": "(south",
           "f": 1
         },
         {
@@ -30612,11 +21758,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "camps",
-          "f": 7
+          "w": "korea.",
+          "f": 1
         },
         {
-          "w": "liver",
+          "w": "camps",
+          "f": 5
+        },
+        {
+          "w": "(south",
           "f": 1
         }
       ],
@@ -30630,8 +21780,9 @@ var years =[
           "kw": []
         },
         "pol": {
-          "perc": 0,
+          "perc": 1,
           "kw": [
+            "2006,",
             "security",
             "china"
           ]
@@ -30671,11 +21822,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "nevertheless,",
+          "f": 2
+        },
+        {
           "w": "related",
           "f": 1
         },
         {
-          "w": "ended",
+          "w": "effectively",
+          "f": 1
+        },
+        {
+          "w": "development.",
           "f": 1
         },
         {
@@ -30691,11 +21850,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "activity.",
+          "f": 1
+        },
+        {
           "w": "calling",
           "f": 1
         },
         {
-          "w": "missiles",
+          "w": "test.",
+          "f": 1
+        },
+        {
+          "w": "united",
           "f": 1
         },
         {
@@ -30727,11 +21894,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "test",
-          "f": 1
-        },
-        {
-          "w": "rice",
+          "w": "ended.in",
           "f": 1
         },
         {
@@ -30740,10 +21903,6 @@ var years =[
         },
         {
           "w": "announced",
-          "f": 1
-        },
-        {
-          "w": "development",
           "f": 1
         },
         {
@@ -30763,15 +21922,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "time",
-          "f": 1
-        },
-        {
           "w": "missile",
-          "f": 1
-        },
-        {
-          "w": "effectively",
           "f": 1
         },
         {
@@ -30779,7 +21930,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "united",
+          "w": "leadership",
           "f": 1
         },
         {
@@ -30799,12 +21950,24 @@ var years =[
           "f": 6
         },
         {
+          "w": "later,",
+          "f": 1
+        },
+        {
           "w": "toned",
           "f": 1
         },
         {
-          "w": "countries",
+          "w": "rice",
           "f": 1
+        },
+        {
+          "w": "missiles.",
+          "f": 1
+        },
+        {
+          "w": "sanctions",
+          "f": 2
         },
         {
           "w": "long-range",
@@ -30815,19 +21978,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "sanctions",
-          "f": 2
+          "w": "countries",
+          "f": 1
         },
         {
           "w": "nations",
           "f": 1
         },
         {
-          "w": "leadership",
-          "f": 1
-        },
-        {
-          "w": "activity",
+          "w": "time",
           "f": 1
         },
         {
@@ -30853,22 +22012,6 @@ var years =[
       "kw": [],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6868965517241379,
-      "sub": 0.31310344827586206,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.8571428571428571,
       "kw": [
@@ -30877,8 +22020,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "emerging",
-          "f": 1
+          "w": "no.",
+          "f": 8
         },
         {
           "w": "code",
@@ -30886,6 +22029,10 @@ var years =[
         },
         {
           "w": "theft",
+          "f": 1
+        },
+        {
+          "w": "extended.",
           "f": 1
         },
         {
@@ -30897,11 +22044,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "areas",
+          "w": "arrested,",
           "f": 1
         },
         {
           "w": "find",
+          "f": 1
+        },
+        {
+          "w": "emerging",
           "f": 1
         },
         {
@@ -30910,18 +22061,22 @@ var years =[
         },
         {
           "w": "offences",
-          "f": 2
+          "f": 1
         },
         {
           "w": "executed",
           "f": 3
         },
         {
+          "w": "inmates.",
+          "f": 2
+        },
+        {
           "w": "victim",
           "f": 1
         },
         {
-          "w": "japan",
+          "w": "authorities,",
           "f": 1
         },
         {
@@ -30945,7 +22100,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "front",
+          "w": "2,000",
           "f": 1
         },
         {
@@ -30953,15 +22108,19 @@ var years =[
           "f": 3
         },
         {
+          "w": "witness.",
+          "f": 1
+        },
+        {
           "w": "mongolia",
           "f": 1
         },
         {
-          "w": "late",
+          "w": "witness,",
           "f": 1
         },
         {
-          "w": "squad",
+          "w": "late",
           "f": 1
         },
         {
@@ -30977,11 +22136,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "2007,",
+          "f": 8
+        },
+        {
           "w": "criminal",
           "f": 1
         },
         {
-          "w": "disturbingly",
+          "w": "2010",
           "f": 1
         },
         {
@@ -30993,8 +22156,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "starving",
-          "f": 1
+          "w": "crimes",
+          "f": 3
         },
         {
           "w": "(kangwon",
@@ -31017,11 +22180,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "yodok,",
+          "f": 1
+        },
+        {
           "w": "execution",
           "f": 1
         },
         {
-          "w": "inhabitants",
+          "w": "front",
           "f": 1
         },
         {
@@ -31062,10 +22229,6 @@ var years =[
         },
         {
           "w": "arrested",
-          "f": 2
-        },
-        {
-          "w": "public",
           "f": 1
         },
         {
@@ -31077,7 +22240,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "labour.",
+          "f": 1
+        },
+        {
           "w": "found",
+          "f": 1
+        },
+        {
+          "w": "woman.",
+          "f": 1
+        },
+        {
+          "w": "grave,",
           "f": 1
         },
         {
@@ -31113,20 +22288,32 @@ var years =[
           "f": 1
         },
         {
+          "w": "rehabilitated.",
+          "f": 1
+        },
+        {
           "w": "economic",
           "f": 1
         },
         {
           "w": "escape",
-          "f": 3
+          "f": 1
+        },
+        {
+          "w": "trafficking),",
+          "f": 1
         },
         {
           "w": "operation",
           "f": 1
         },
         {
+          "w": "china.",
+          "f": 1
+        },
+        {
           "w": "witness",
-          "f": 5
+          "f": 3
         },
         {
           "w": "subject",
@@ -31138,10 +22325,14 @@ var years =[
         },
         {
           "w": "decree",
-          "f": 2
+          "f": 1
         },
         {
           "w": "hamgyong",
+          "f": 1
+        },
+        {
+          "w": "clause,",
           "f": 1
         },
         {
@@ -31149,7 +22340,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "inmate.",
+          "f": 1
+        },
+        {
           "w": "beaten",
+          "f": 1
+        },
+        {
+          "w": "offences.",
           "f": 1
         },
         {
@@ -31165,11 +22364,15 @@ var years =[
           "f": 3
         },
         {
+          "w": "disturbingly,",
+          "f": 1
+        },
+        {
           "w": "suspect",
           "f": 1
         },
         {
-          "w": "commits",
+          "w": "province),",
           "f": 1
         },
         {
@@ -31181,15 +22384,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "guns",
+          "w": "public",
           "f": 1
         },
         {
-          "w": "methamphetamine",
-          "f": 1
-        },
-        {
-          "w": "korea",
+          "w": "inhabitants",
           "f": 1
         },
         {
@@ -31201,11 +22400,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "murder)",
+          "w": "decree,",
           "f": 1
         },
         {
-          "w": "deliver",
+          "w": "commits",
           "f": 1
         },
         {
@@ -31217,7 +22416,11 @@ var years =[
           "f": 3
         },
         {
-          "w": "foetus",
+          "w": "deliver",
+          "f": 1
+        },
+        {
+          "w": "foetus.ordinary",
           "f": 1
         },
         {
@@ -31226,6 +22429,14 @@ var years =[
         },
         {
           "w": "houses",
+          "f": 1
+        },
+        {
+          "w": "murder).",
+          "f": 1
+        },
+        {
+          "w": "expanded.",
           "f": 1
         },
         {
@@ -31238,6 +22449,10 @@ var years =[
         },
         {
           "w": "wanted",
+          "f": 1
+        },
+        {
+          "w": "dprk.",
           "f": 1
         },
         {
@@ -31277,7 +22492,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "rehabilitated",
+          "w": "tied",
           "f": 1
         },
         {
@@ -31285,31 +22500,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "clause",
+          "w": "2013,",
           "f": 1
         },
         {
-          "w": "prisoners",
-          "f": 2
+          "w": "abortion,",
+          "f": 1
+        },
+        {
+          "w": "abortion.",
+          "f": 1
         },
         {
           "w": "executions",
           "f": 2
         },
         {
-          "w": "authorities",
-          "f": 1
-        },
-        {
-          "w": "pole",
+          "w": "village,",
           "f": 1
         },
         {
           "w": "female",
-          "f": 1
-        },
-        {
-          "w": "village",
           "f": 1
         },
         {
@@ -31329,11 +22540,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "trafficking)",
+          "w": "officials",
           "f": 1
         },
         {
-          "w": "officials",
+          "w": "exception.",
           "f": 1
         },
         {
@@ -31353,10 +22564,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "inmate",
-          "f": 1
-        },
-        {
           "w": "scope",
           "f": 1
         },
@@ -31365,12 +22572,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "mountains",
+          "w": "subsequently,",
           "f": 1
-        },
-        {
-          "w": "crimes",
-          "f": 3
         },
         {
           "w": "human",
@@ -31378,7 +22581,7 @@ var years =[
         },
         {
           "w": "penalty",
-          "f": 3
+          "f": 1
         },
         {
           "w": "smuggling",
@@ -31401,8 +22604,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "inmates",
-          "f": 2
+          "w": "prisoner,",
+          "f": 1
         },
         {
           "w": "injection",
@@ -31421,20 +22624,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "exception",
-          "f": 1
+          "w": "15",
+          "f": 4
         },
         {
           "w": "accordance",
           "f": 1
         },
         {
-          "w": "expanded",
+          "w": "attend,",
           "f": 1
-        },
-        {
-          "w": "abortion",
-          "f": 2
         },
         {
           "w": "premature",
@@ -31450,14 +22649,22 @@ var years =[
         },
         {
           "w": "province)",
-          "f": 2
+          "f": 1
         },
         {
           "w": "politically",
           "f": 1
         },
         {
+          "w": "japan.",
+          "f": 1
+        },
+        {
           "w": "control",
+          "f": 1
+        },
+        {
+          "w": "guns.",
           "f": 1
         },
         {
@@ -31466,7 +22673,7 @@ var years =[
         },
         {
           "w": "camp",
-          "f": 10
+          "f": 9
         },
         {
           "w": "ordered",
@@ -31478,6 +22685,10 @@ var years =[
         },
         {
           "w": "turned",
+          "f": 1
+        },
+        {
+          "w": "starving",
           "f": 1
         },
         {
@@ -31493,12 +22704,24 @@ var years =[
           "f": 1
         },
         {
-          "w": "woman",
-          "f": 1
+          "w": "penalty.",
+          "f": 2
         },
         {
           "w": "victims",
           "f": 2
+        },
+        {
+          "w": "methamphetamine,",
+          "f": 1
+        },
+        {
+          "w": "15,",
+          "f": 1
+        },
+        {
+          "w": "15.",
+          "f": 1
         },
         {
           "w": "forced",
@@ -31506,6 +22729,10 @@ var years =[
         },
         {
           "w": "court",
+          "f": 1
+        },
+        {
+          "w": "pole.",
           "f": 1
         },
         {
@@ -31529,7 +22756,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "labour",
+          "w": "squad",
           "f": 1
         },
         {
@@ -31542,14 +22769,14 @@ var years =[
         },
         {
           "w": "ordinary",
-          "f": 2
-        },
-        {
-          "w": "extended",
           "f": 1
         },
         {
-          "w": "attend",
+          "w": "88,",
+          "f": 1
+        },
+        {
+          "w": "2004",
           "f": 1
         },
         {
@@ -31557,11 +22784,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "2008",
+          "f": 1
+        },
+        {
           "w": "reach",
           "f": 1
         },
         {
-          "w": "tied",
+          "w": "camp.a",
           "f": 1
         },
         {
@@ -31577,12 +22808,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "prisoner",
+          "w": "escape,",
+          "f": 1
+        },
+        {
+          "w": "areas,",
+          "f": 1
+        },
+        {
+          "w": "escape.",
           "f": 1
         },
         {
           "w": "cases",
-          "f": 4
+          "f": 3
         },
         {
           "w": "repatriated",
@@ -31590,10 +22829,14 @@ var years =[
         },
         {
           "w": "grave",
-          "f": 2
+          "f": 1
         },
         {
           "w": "man",
+          "f": 1
+        },
+        {
+          "w": "prisoners.since",
           "f": 1
         },
         {
@@ -31610,7 +22853,11 @@ var years =[
         },
         {
           "w": "yodok",
-          "f": 4
+          "f": 3
+        },
+        {
+          "w": "prisoners.",
+          "f": 1
         },
         {
           "w": "intentionally",
@@ -31621,11 +22868,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "2007",
+          "f": 3
+        },
+        {
           "w": "detained",
           "f": 1
         },
         {
-          "w": "subsequently",
+          "w": "cases,",
+          "f": 1
+        },
+        {
+          "w": "11",
+          "f": 1
+        },
+        {
+          "w": "korea.",
+          "f": 1
+        },
+        {
+          "w": "2009",
+          "f": 1
+        },
+        {
+          "w": "mountains.",
           "f": 1
         },
         {
@@ -31643,12 +22910,10 @@ var years =[
           "kw": []
         },
         "pol": {
-          "perc": 2,
+          "perc": 1,
           "kw": [
-            "china",
             "security",
             "multiple",
-            "dprk",
             "announced"
           ]
         }
@@ -31663,7 +22928,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "months",
+          "w": "suspend",
           "f": 1
         },
         {
@@ -31687,11 +22952,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "nevertheless,",
+          "f": 1
+        },
+        {
           "w": "related",
           "f": 1
         },
         {
-          "w": "suspend",
+          "w": "development.",
           "f": 1
         },
         {
@@ -31699,11 +22968,19 @@ var years =[
           "f": 2
         },
         {
+          "w": "activity.",
+          "f": 1
+        },
+        {
           "w": "calling",
           "f": 1
         },
         {
-          "w": "missiles",
+          "w": "test.",
+          "f": 1
+        },
+        {
+          "w": "united",
           "f": 1
         },
         {
@@ -31735,15 +23012,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "test",
-          "f": 1
-        },
-        {
           "w": "ballistics",
-          "f": 1
-        },
-        {
-          "w": "development",
           "f": 1
         },
         {
@@ -31751,11 +23020,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "condemning",
+          "w": "months",
           "f": 1
         },
         {
-          "w": "time",
+          "w": "condemning",
           "f": 1
         },
         {
@@ -31763,8 +23032,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "united",
+          "w": "leadership",
           "f": 1
+        },
+        {
+          "w": "china",
+          "f": 2
         },
         {
           "w": "actions",
@@ -31779,7 +23052,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "dprk",
+          "f": 6
+        },
+        {
+          "w": "later,",
+          "f": 1
+        },
+        {
           "w": "toned",
+          "f": 1
+        },
+        {
+          "w": "missiles.",
           "f": 1
         },
         {
@@ -31803,15 +23088,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "leadership",
-          "f": 1
-        },
-        {
-          "w": "activity",
+          "w": "time",
           "f": 1
         },
         {
           "w": "criticizing",
+          "f": 1
+        },
+        {
+          "w": "2006,",
           "f": 1
         },
         {
@@ -31840,7 +23125,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "hoeryoung",
+          "w": "573",
+          "f": 1
+        },
+        {
+          "w": "households.",
           "f": 1
         },
         {
@@ -31856,11 +23145,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "county",
-          "f": 1
-        },
-        {
-          "w": "currency",
+          "w": "2008",
           "f": 1
         },
         {
@@ -31892,6 +23177,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "250",
+          "f": 1
+        },
+        {
           "w": "witness",
           "f": 1
         },
@@ -31904,11 +23193,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "million",
+          "f": 1
+        },
+        {
           "w": "informal",
           "f": 1
         },
         {
-          "w": "shortages",
+          "w": "currency.",
           "f": 1
         },
         {
@@ -31917,10 +23210,6 @@ var years =[
         },
         {
           "w": "christianity",
-          "f": 1
-        },
-        {
-          "w": "households",
           "f": 1
         },
         {
@@ -31944,15 +23233,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "experiencing",
+          "f": 1
+        },
+        {
           "w": "criminal",
           "f": 2
         },
         {
-          "w": "day",
+          "w": "target",
           "f": 1
         },
         {
-          "w": "province",
+          "w": "day",
           "f": 1
         },
         {
@@ -31960,11 +23253,15 @@ var years =[
           "f": 2
         },
         {
-          "w": "million",
+          "w": "hoeryoung",
           "f": 1
         },
         {
           "w": "north",
+          "f": 1
+        },
+        {
+          "w": "activity",
           "f": 1
         },
         {
@@ -31976,7 +23273,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "activity",
+          "w": "testimony",
           "f": 1
         },
         {
@@ -31988,15 +23285,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "shortages.",
+          "f": 1
+        },
+        {
           "w": "reported",
           "f": 1
         },
         {
           "w": "rations",
-          "f": 1
-        },
-        {
-          "w": "china",
           "f": 1
         },
         {
@@ -32020,7 +23317,7 @@ var years =[
           "f": 3
         },
         {
-          "w": "target",
+          "w": "78",
           "f": 1
         },
         {
@@ -32036,7 +23333,7 @@ var years =[
           "f": 3
         },
         {
-          "w": "experiencing",
+          "w": "county,",
           "f": 1
         },
         {
@@ -32056,49 +23353,45 @@ var years =[
           "f": 1
         },
         {
-          "w": "testimony",
+          "w": "china.",
+          "f": 1
+        },
+        {
+          "w": "500",
+          "f": 1
+        },
+        {
+          "w": "350",
           "f": 1
         },
         {
           "w": "wfp",
           "f": 1
+        },
+        {
+          "w": "province.",
+          "f": 1
         }
       ],
       "sub": 0.0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.7190934065934066,
-      "sub": 0.2809065934065934,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0.8823529411764706,
       "kw": [
         {
+          "w": "factories.in",
+          "f": 1
+        },
+        {
           "w": "executed",
           "f": 1
         },
         {
-          "w": "discovered",
+          "w": "produced",
           "f": 1
         },
         {
           "w": "human",
-          "f": 1
-        },
-        {
-          "w": "surveillance",
           "f": 1
         },
         {
@@ -32114,7 +23407,11 @@ var years =[
           "f": 3
         },
         {
-          "w": "squad",
+          "w": "instruction",
+          "f": 1
+        },
+        {
+          "w": "department.",
           "f": 1
         },
         {
@@ -32122,7 +23419,7 @@ var years =[
           "f": 3
         },
         {
-          "w": "woman",
+          "w": "guns.",
           "f": 1
         },
         {
@@ -32130,15 +23427,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "entire",
-          "f": 1
-        },
-        {
           "w": "watch",
-          "f": 1
-        },
-        {
-          "w": "interrogation",
           "f": 1
         },
         {
@@ -32158,7 +23447,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "produced",
+          "w": "entire",
           "f": 1
         },
         {
@@ -32166,23 +23455,31 @@ var years =[
           "f": 1
         },
         {
-          "w": "public",
-          "f": 1
-        },
-        {
           "w": "large",
           "f": 1
         },
         {
-          "w": "security",
+          "w": "interrogation,",
           "f": 1
         },
         {
-          "w": "instruction",
+          "w": "woman.",
+          "f": 1
+        },
+        {
+          "w": "attend,",
+          "f": 1
+        },
+        {
+          "w": "christian",
           "f": 1
         },
         {
           "w": "crowd",
+          "f": 1
+        },
+        {
+          "w": "pastor.",
           "f": 1
         },
         {
@@ -32194,7 +23491,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "christian",
+          "w": "trafficking),",
+          "f": 1
+        },
+        {
+          "w": "china,",
           "f": 1
         },
         {
@@ -32202,11 +23503,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "capacity",
-          "f": 1
-        },
-        {
-          "w": "reportedly",
+          "w": "hamgyong",
           "f": 1
         },
         {
@@ -32230,15 +23527,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "guns",
+          "w": "public",
           "f": 1
         },
         {
           "w": "announced",
-          "f": 1
-        },
-        {
-          "w": "methamphetamine",
           "f": 1
         },
         {
@@ -32250,19 +23543,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "murder)",
-          "f": 1
-        },
-        {
           "w": "sold",
           "f": 1
         },
         {
           "w": "china",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "security",
+          "f": 1
         },
         {
           "w": "received",
+          "f": 1
+        },
+        {
+          "w": "discovered,",
           "f": 1
         },
         {
@@ -32282,16 +23579,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "prisoners",
+          "w": "murder).",
+          "f": 1
+        },
+        {
+          "w": "12,000",
+          "f": 1
+        },
+        {
+          "w": "2013,",
           "f": 1
         },
         {
           "w": "son",
           "f": 3
-        },
-        {
-          "w": "pole",
-          "f": 1
         },
         {
           "w": "agents",
@@ -32303,6 +23604,14 @@ var years =[
         },
         {
           "w": "city",
+          "f": 1
+        },
+        {
+          "w": "capacity.",
+          "f": 1
+        },
+        {
+          "w": "exception.",
           "f": 1
         },
         {
@@ -32323,26 +23632,22 @@ var years =[
         },
         {
           "w": "pastor",
-          "f": 3
+          "f": 2
         },
         {
           "w": "repeatedly",
           "f": 1
         },
         {
-          "w": "factories",
-          "f": 1
-        },
-        {
-          "w": "trafficking)",
-          "f": 1
-        },
-        {
-          "w": "exception",
+          "w": "squad",
           "f": 1
         },
         {
           "w": "official",
+          "f": 1
+        },
+        {
+          "w": "pole.",
           "f": 1
         },
         {
@@ -32362,12 +23667,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "surveillance.",
+          "f": 1
+        },
+        {
           "w": "mine",
           "f": 1
         },
         {
           "w": "victims",
           "f": 2
+        },
+        {
+          "w": "methamphetamine,",
+          "f": 1
         },
         {
           "w": "end",
@@ -32378,7 +23691,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "amounts",
+          "w": "inhabitants",
+          "f": 1
+        },
+        {
+          "w": "since.in",
           "f": 1
         },
         {
@@ -32394,23 +23711,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "department",
-          "f": 1
-        },
-        {
           "w": "intended",
           "f": 1
         },
         {
-          "w": "attend",
+          "w": "reportedly",
           "f": 1
         },
         {
           "w": "tied",
-          "f": 1
-        },
-        {
-          "w": "hamgyong",
           "f": 1
         },
         {
@@ -32430,7 +23739,23 @@ var years =[
           "f": 2
         },
         {
-          "w": "inhabitants",
+          "w": "prisoners,",
+          "f": 1
+        },
+        {
+          "w": "amounts",
+          "f": 1
+        },
+        {
+          "w": "2007",
+          "f": 1
+        },
+        {
+          "w": "2008",
+          "f": 1
+        },
+        {
+          "w": "2009",
           "f": 1
         }
       ],
@@ -32445,7 +23770,9 @@ var years =[
         },
         "pol": {
           "perc": 0,
-          "kw": []
+          "kw": [
+            "2008,"
+          ]
         }
       },
       "kw": [
@@ -32458,7 +23785,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "stroke",
+          "w": "stroke.",
           "f": 1
         },
         {
@@ -32475,6 +23802,14 @@ var years =[
       "obj": 0.8,
       "kw": [
         {
+          "w": "increased.",
+          "f": 1
+        },
+        {
+          "w": "stunted.",
+          "f": 1
+        },
+        {
           "w": "chinese",
           "f": 1
         },
@@ -32487,11 +23822,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "2,000",
+          "f": 1
+        },
+        {
           "w": "number",
           "f": 2
         },
         {
-          "w": "phone",
+          "w": "currencies",
           "f": 1
         },
         {
@@ -32527,7 +23866,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "calling",
+          "w": "maintained,",
           "f": 1
         },
         {
@@ -32539,11 +23878,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "stunted",
+          "w": "that,",
           "f": 1
         },
         {
-          "w": "highest",
+          "w": "calling",
           "f": 1
         },
         {
@@ -32551,15 +23890,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "maintained",
-          "f": 1
-        },
-        {
-          "w": "100:1",
+          "w": "aunder",
           "f": 1
         },
         {
           "w": "began",
+          "f": 1
+        },
+        {
+          "w": "45",
+          "f": 1
+        },
+        {
+          "w": "currency.",
           "f": 1
         },
         {
@@ -32571,7 +23914,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "won",
+          "w": "future",
           "f": 1
         },
         {
@@ -32583,7 +23926,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "won.",
+          "f": 1
+        },
+        {
           "w": "rice",
+          "f": 1
+        },
+        {
+          "w": "markets",
           "f": 1
         },
         {
@@ -32599,15 +23950,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "currencies",
+          "w": "founding,",
           "f": 1
         },
         {
-          "w": "founding",
+          "w": "fluctuating",
           "f": 1
         },
         {
-          "w": "increased",
+          "w": "again.",
+          "f": 1
+        },
+        {
+          "w": "years.",
           "f": 1
         },
         {
@@ -32635,15 +23990,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "aunder",
+          "w": "100:1.",
           "f": 1
         },
         {
-          "w": "reported",
+          "w": "contrary,",
           "f": 1
         },
         {
-          "w": "fluctuating",
+          "w": "step",
+          "f": 1
+        },
+        {
+          "w": "2008,",
+          "f": 1
+        },
+        {
+          "w": "phone.",
           "f": 1
         },
         {
@@ -32659,7 +24022,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "future",
+          "w": "highest",
           "f": 1
         },
         {
@@ -32675,15 +24038,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "days",
-          "f": 1
-        },
-        {
           "w": "moderate",
           "f": 1
         },
         {
-          "w": "countries",
+          "w": "reported",
           "f": 1
         },
         {
@@ -32691,7 +24050,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "country",
+          "w": "18",
           "f": 1
         },
         {
@@ -32699,7 +24058,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "step",
+          "w": "countries",
+          "f": 1
+        },
+        {
+          "w": "days",
           "f": 1
         },
         {
@@ -32707,7 +24070,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "years",
+          "w": "2003",
           "f": 1
         },
         {
@@ -32719,7 +24082,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "contrary",
+          "w": "situation.",
           "f": 1
         },
         {
@@ -32728,7 +24091,11 @@ var years =[
         },
         {
           "w": "situation",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "however,",
+          "f": 1
         },
         {
           "w": "\"the",
@@ -32741,22 +24108,6 @@ var years =[
       ],
       "sub": 0.2
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6874820143884892,
-      "sub": 0.3125179856115108,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.8,
       "kw": [
@@ -32765,11 +24116,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "anti-state",
-          "f": 1
+          "w": "no.",
+          "f": 6
         },
         {
-          "w": "code",
+          "w": "beaten",
           "f": 1
         },
         {
@@ -32789,6 +24140,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "anti-state",
+          "f": 1
+        },
+        {
+          "w": "officers",
+          "f": 1
+        },
+        {
           "w": "assigned",
           "f": 1
         },
@@ -32798,14 +24157,30 @@ var years =[
         },
         {
           "w": "executed",
-          "f": 3
+          "f": 2
         },
         {
           "w": "including",
           "f": 2
         },
         {
+          "w": "inmates.",
+          "f": 1
+        },
+        {
           "w": "destruction",
+          "f": 1
+        },
+        {
+          "w": "inmates,",
+          "f": 1
+        },
+        {
+          "w": "jong-il.in",
+          "f": 1
+        },
+        {
+          "w": "authorities.",
           "f": 1
         },
         {
@@ -32814,11 +24189,23 @@ var years =[
         },
         {
           "w": "death",
+          "f": 2
+        },
+        {
+          "w": "22",
           "f": 4
+        },
+        {
+          "w": "rok,",
+          "f": 1
         },
         {
           "w": "proclamation",
           "f": 2
+        },
+        {
+          "w": "rok.",
+          "f": 1
         },
         {
           "w": "distributed",
@@ -32829,12 +24216,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "crime",
+          "w": "witness,",
           "f": 1
         },
         {
           "w": "penalty",
-          "f": 2
+          "f": 1
         },
         {
           "w": "prison",
@@ -32845,16 +24232,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "happened",
+          "w": "divergent",
           "f": 1
         },
         {
-          "w": "firing",
+          "w": "guns.",
           "f": 1
         },
         {
           "w": "woman",
-          "f": 2
+          "f": 1
         },
         {
           "w": "march",
@@ -32865,7 +24252,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "government",
+          "w": "3",
           "f": 1
         },
         {
@@ -32874,6 +24261,10 @@ var years =[
         },
         {
           "w": "secretly",
+          "f": 1
+        },
+        {
+          "w": "year,",
           "f": 1
         },
         {
@@ -32917,11 +24308,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "publicly",
+          "w": "presented",
           "f": 1
         },
         {
-          "w": "presented",
+          "w": "released.",
           "f": 1
         },
         {
@@ -32941,7 +24332,15 @@ var years =[
           "f": 2
         },
         {
+          "w": "woman.",
+          "f": 1
+        },
+        {
           "w": "view",
+          "f": 1
+        },
+        {
+          "w": "attend,",
           "f": 1
         },
         {
@@ -32957,7 +24356,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "crimes",
+          "w": "code.during",
           "f": 1
         },
         {
@@ -32973,11 +24372,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "000-50",
-          "f": 1
-        },
-        {
-          "w": "fever",
+          "w": "extended",
           "f": 1
         },
         {
@@ -32985,11 +24380,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "victims",
-          "f": 2
+          "w": "escape",
+          "f": 1
         },
         {
-          "w": "escape",
+          "w": "trafficking),",
           "f": 1
         },
         {
@@ -33001,7 +24396,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "estimated",
+          "w": "china.",
           "f": 1
         },
         {
@@ -33010,7 +24405,7 @@ var years =[
         },
         {
           "w": "witness",
-          "f": 2
+          "f": 1
         },
         {
           "w": "provided",
@@ -33029,7 +24424,19 @@ var years =[
           "f": 2
         },
         {
+          "w": "executed.",
+          "f": 1
+        },
+        {
           "w": "movies",
+          "f": 1
+        },
+        {
+          "w": "30,000-50,000",
+          "f": 1
+        },
+        {
+          "w": "survive.",
           "f": 1
         },
         {
@@ -33049,11 +24456,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "cell",
-          "f": 1
+          "w": "victims",
+          "f": 2
         },
         {
           "w": "icy",
+          "f": 1
+        },
+        {
+          "w": "province),",
           "f": 1
         },
         {
@@ -33081,8 +24492,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "methamphetamine",
-          "f": 1
+          "w": "2010,",
+          "f": 3
         },
         {
           "w": "korea",
@@ -33090,10 +24501,6 @@ var years =[
         },
         {
           "w": "housed",
-          "f": 1
-        },
-        {
-          "w": "murder)",
           "f": 1
         },
         {
@@ -33105,19 +24512,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "amounts",
+          "f": 1
+        },
+        {
+          "w": "crimes.",
+          "f": 1
+        },
+        {
           "w": "water",
           "f": 1
         },
         {
           "w": "province)",
-          "f": 2
-        },
-        {
-          "w": "china",
-          "f": 1
-        },
-        {
-          "w": "article",
           "f": 1
         },
         {
@@ -33125,7 +24532,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "disastreous",
+          "w": "article",
           "f": 1
         },
         {
@@ -33141,11 +24548,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "involved",
+          "w": "crime",
           "f": 1
         },
         {
-          "w": "area",
+          "w": "firing",
           "f": 1
         },
         {
@@ -33157,7 +24564,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "licked",
+          "w": "mine,",
           "f": 1
         },
         {
@@ -33165,7 +24572,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "place",
+          "w": "a.m.",
           "f": 1
         },
         {
@@ -33173,20 +24580,36 @@ var years =[
           "f": 3
         },
         {
+          "w": "murder).",
+          "f": 1
+        },
+        {
+          "w": "fever.",
+          "f": 1
+        },
+        {
+          "w": "out,",
+          "f": 1
+        },
+        {
           "w": "copper",
           "f": 1
         },
         {
-          "w": "father",
+          "w": "for.",
+          "f": 1
+        },
+        {
+          "w": "2013,",
+          "f": 1
+        },
+        {
+          "w": "currency.",
           "f": 1
         },
         {
           "w": "prisoners",
           "f": 5
-        },
-        {
-          "w": "year",
-          "f": 1
         },
         {
           "w": "number",
@@ -33201,11 +24624,11 @@ var years =[
           "f": 3
         },
         {
-          "w": "pole",
+          "w": "friend,",
           "f": 1
         },
         {
-          "w": "beaten",
+          "w": "64",
           "f": 1
         },
         {
@@ -33225,7 +24648,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "jong-un",
+          "w": "14,",
+          "f": 1
+        },
+        {
+          "w": "involving",
+          "f": 1
+        },
+        {
+          "w": "hoeryoung,",
           "f": 1
         },
         {
@@ -33233,11 +24664,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "trafficking)",
+          "w": "exception.",
           "f": 1
         },
         {
-          "w": "jong-il",
+          "w": "area",
           "f": 1
         },
         {
@@ -33253,6 +24684,10 @@ var years =[
           "f": 1
         },
         {
+          "w": ".",
+          "f": 1
+        },
+        {
           "w": "inmate",
           "f": 1
         },
@@ -33265,7 +24700,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "survive",
+          "w": "cell.",
+          "f": 1
+        },
+        {
+          "w": "jong-un",
+          "f": 1
+        },
+        {
+          "w": "exceptional",
           "f": 1
         },
         {
@@ -33273,7 +24716,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "friend",
+          "w": "war",
           "f": 1
         },
         {
@@ -33281,15 +24724,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "function",
-          "f": 1
-        },
-        {
           "w": "starve",
           "f": 1
         },
         {
-          "w": "hoeryoung",
+          "w": "16.",
           "f": 1
         },
         {
@@ -33309,15 +24748,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "enterprises",
+          "w": "disastreous",
           "f": 1
         },
         {
           "w": "observers",
-          "f": 1
-        },
-        {
-          "w": "released",
           "f": 1
         },
         {
@@ -33330,7 +24765,7 @@ var years =[
         },
         {
           "w": "inmates",
-          "f": 5
+          "f": 3
         },
         {
           "w": "july",
@@ -33345,23 +24780,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "exception",
+          "w": "12",
           "f": 1
         },
         {
-          "w": "criminal",
-          "f": 2
+          "w": "15",
+          "f": 1
         },
         {
           "w": "room",
           "f": 1
         },
         {
-          "w": "000-4",
+          "w": "publicly",
           "f": 1
         },
         {
           "w": "work",
+          "f": 1
+        },
+        {
+          "w": "father",
           "f": 1
         },
         {
@@ -33381,12 +24820,20 @@ var years =[
           "f": 2
         },
         {
+          "w": "involved",
+          "f": 1
+        },
+        {
           "w": "believed",
           "f": 1
         },
         {
-          "w": "divergent",
+          "w": "happened",
           "f": 1
+        },
+        {
+          "w": "criminal",
+          "f": 2
         },
         {
           "w": "democratic",
@@ -33409,6 +24856,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "22.",
+          "f": 2
+        },
+        {
           "w": "december",
           "f": 1
         },
@@ -33425,11 +24876,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "mine",
+          "w": "helped",
           "f": 1
         },
         {
-          "w": "helped",
+          "w": "penalty.",
           "f": 1
         },
         {
@@ -33437,7 +24888,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "2009.",
+          "f": 1
+        },
+        {
           "w": "watched",
+          "f": 1
+        },
+        {
+          "w": "2009/2010.",
+          "f": 1
+        },
+        {
+          "w": "methamphetamine,",
           "f": 1
         },
         {
@@ -33449,7 +24912,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "estimated",
+          "f": 1
+        },
+        {
           "w": "winter",
+          "f": 1
+        },
+        {
+          "w": "pole.",
           "f": 1
         },
         {
@@ -33461,11 +24932,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "exceptional",
+          "w": "government",
           "f": 1
         },
         {
-          "w": "officers",
+          "w": "licked",
           "f": 1
         },
         {
@@ -33474,14 +24945,6 @@ var years =[
         },
         {
           "w": "machine",
-          "f": 1
-        },
-        {
-          "w": "guns",
-          "f": 1
-        },
-        {
-          "w": "extended",
           "f": 1
         },
         {
@@ -33498,6 +24961,10 @@ var years =[
         },
         {
           "w": "units",
+          "f": 1
+        },
+        {
+          "w": "place",
           "f": 1
         },
         {
@@ -33525,10 +24992,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "attend",
-          "f": 1
-        },
-        {
           "w": "separate",
           "f": 1
         },
@@ -33549,7 +25012,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "involving",
+          "w": "3,000-4,000",
           "f": 1
         },
         {
@@ -33561,8 +25024,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "authorities",
-          "f": 1
+          "w": "death.",
+          "f": 2
         },
         {
           "w": "died",
@@ -33593,11 +25056,19 @@ var years =[
           "f": 6
         },
         {
+          "w": "sanctions,",
+          "f": 1
+        },
+        {
           "w": "face",
           "f": 1
         },
         {
-          "w": "amounts",
+          "w": "1,000",
+          "f": 1
+        },
+        {
+          "w": "enterprises.another",
           "f": 1
         },
         {
@@ -33605,7 +25076,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "2009/2010",
+          "w": "2007",
           "f": 1
         },
         {
@@ -33613,8 +25084,16 @@ var years =[
           "f": 1
         },
         {
+          "w": "2008",
+          "f": 1
+        },
+        {
           "w": "camps",
           "f": 2
+        },
+        {
+          "w": "function.",
+          "f": 1
         }
       ],
       "sub": 0.2
@@ -33623,7 +25102,7 @@ var years =[
       "obj": 0.5,
       "over": {
         "food": {
-          "perc": 6,
+          "perc": 5,
           "kw": [
             "exchange",
             "notes",
@@ -33631,8 +25110,8 @@ var years =[
             "early",
             "currency",
             "state",
+            "2009,",
             "security",
-            "markets",
             "dprk"
           ]
         },
@@ -33640,17 +25119,18 @@ var years =[
           "perc": 4,
           "kw": [
             "started",
-            "sanctions",
+            "rok",
             "reform",
             "process",
+            "war,",
             "citizens",
             "conducted",
-            "war",
             "early",
             "currency",
             "state",
-            "rok",
+            "2009,",
             "security",
+            "2009",
             "dprk",
             "official"
           ]
@@ -33686,6 +25166,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "reform.",
+          "f": 1
+        },
+        {
+          "w": "markets.",
+          "f": 1
+        },
+        {
           "w": "bound",
           "f": 1
         },
@@ -33698,7 +25186,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "1874",
+          "f": 1
+        },
+        {
           "w": "accused",
+          "f": 1
+        },
+        {
+          "w": "8,000",
           "f": 1
         },
         {
@@ -33710,15 +25206,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "talks",
-          "f": 1
-        },
-        {
           "w": "rods",
           "f": 1
         },
         {
-          "w": "agreementin",
+          "w": "longer",
           "f": 1
         },
         {
@@ -33734,7 +25226,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "announcement",
+          "w": "test.",
+          "f": 1
+        },
+        {
+          "w": "1959,",
           "f": 1
         },
         {
@@ -33747,6 +25243,10 @@ var years =[
         },
         {
           "w": "devaluation",
+          "f": 1
+        },
+        {
+          "w": "inflation.",
           "f": 1
         },
         {
@@ -33786,19 +25286,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "tests,",
+          "f": 1
+        },
+        {
           "w": "dismay",
           "f": 1
         },
         {
-          "w": "tests",
-          "f": 1
-        },
-        {
           "w": "star",
-          "f": 1
-        },
-        {
-          "w": "test",
           "f": 1
         },
         {
@@ -33834,12 +25330,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "1953",
+          "f": 1
+        },
+        {
           "w": "reforms",
           "f": 1
         },
         {
           "w": "drastic",
           "f": 2
+        },
+        {
+          "w": "1992,",
+          "f": 1
         },
         {
           "w": "states",
@@ -33858,7 +25362,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "longer",
+          "w": "agreementin",
+          "f": 1
+        },
+        {
+          "w": "announcement",
+          "f": 1
+        },
+        {
+          "w": "1979",
           "f": 1
         },
         {
@@ -33874,7 +25386,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "propaganda",
+          "w": "sanctions.",
+          "f": 1
+        },
+        {
+          "w": "talks,",
           "f": 1
         },
         {
@@ -33883,7 +25399,7 @@ var years =[
         },
         {
           "w": "inflation",
-          "f": 2
+          "f": 1
         },
         {
           "w": "resulting",
@@ -33895,6 +25411,10 @@ var years =[
         },
         {
           "w": "subsequent",
+          "f": 1
+        },
+        {
+          "w": "propaganda",
           "f": 1
         },
         {
@@ -33947,11 +25467,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "starve",
-          "f": 1
+          "w": "people",
+          "f": 2
         },
         {
-          "w": "money",
+          "w": "issued",
           "f": 1
         },
         {
@@ -33959,7 +25479,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "pyongyang",
+          "w": "measure",
           "f": 1
         },
         {
@@ -33971,7 +25491,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "private",
+          "w": "money,",
+          "f": 1
+        },
+        {
+          "w": "leader.",
           "f": 1
         },
         {
@@ -33979,11 +25503,15 @@ var years =[
           "f": 3
         },
         {
+          "w": "40",
+          "f": 1
+        },
+        {
           "w": "homeless",
           "f": 1
         },
         {
-          "w": "measure",
+          "w": "distributed.",
           "f": 1
         },
         {
@@ -33999,7 +25527,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "conference",
+          "w": "that,",
           "f": 1
         },
         {
@@ -34007,7 +25535,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "resort",
+          "w": "20",
+          "f": 1
+        },
+        {
+          "w": "died,",
           "f": 1
         },
         {
@@ -34015,11 +25547,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "people",
-          "f": 2
+          "w": "stated",
+          "f": 1
         },
         {
-          "w": "distributed",
+          "w": "28",
           "f": 1
         },
         {
@@ -34039,15 +25571,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "died",
-          "f": 1
-        },
-        {
-          "w": "holding",
-          "f": 1
-        },
-        {
-          "w": "issued",
+          "w": "starvation.",
           "f": 1
         },
         {
@@ -34067,11 +25591,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "leader",
+          "w": "2010",
           "f": 1
         },
         {
           "w": "announced",
+          "f": 1
+        },
+        {
+          "w": "pyongyang",
           "f": 1
         },
         {
@@ -34083,20 +25611,20 @@ var years =[
           "f": 2
         },
         {
+          "w": "again.",
+          "f": 1
+        },
+        {
           "w": "risk",
           "f": 1
         },
         {
-          "w": "pyongsong",
-          "f": 1
+          "w": "government",
+          "f": 2
         },
         {
           "w": "food",
           "f": 4
-        },
-        {
-          "w": "government",
-          "f": 2
         },
         {
           "w": "measures",
@@ -34104,6 +25632,10 @@ var years =[
         },
         {
           "w": "non-governmental",
+          "f": 1
+        },
+        {
+          "w": "pyongsong.",
           "f": 1
         },
         {
@@ -34119,11 +25651,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "mps",
+          "w": "left.729",
           "f": 1
         },
         {
-          "w": "situation",
+          "w": "kotjebi",
           "f": 1
         },
         {
@@ -34137,6 +25669,10 @@ var years =[
         {
           "w": "friends",
           "f": 2
+        },
+        {
+          "w": "holding",
+          "f": 1
         },
         {
           "w": "buying",
@@ -34155,10 +25691,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "stated",
-          "f": 1
-        },
-        {
           "w": "markets",
           "f": 1
         },
@@ -34167,7 +25699,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "kotjebi",
+          "w": "conference",
+          "f": 1
+        },
+        {
+          "w": "1,000",
+          "f": 1
+        },
+        {
+          "w": "private",
+          "f": 1
+        },
+        {
+          "w": "resort,",
           "f": 1
         },
         {
@@ -34184,34 +25728,18 @@ var years =[
         },
         {
           "w": "starvation",
-          "f": 2
+          "f": 1
         },
         {
           "w": "order",
           "f": 1
         },
         {
-          "w": "left",
+          "w": "mps",
           "f": 1
         }
       ],
       "sub": 0.0
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6876329383166211,
-      "sub": 0.3123670616833789,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
     },
     "pol": {
       "obj": 0.875,
@@ -34221,11 +25749,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "no.",
+          "f": 8
+        },
+        {
           "w": "executed",
-          "f": 2
+          "f": 1
         },
         {
           "w": "survived",
+          "f": 1
+        },
+        {
+          "w": "extended.",
           "f": 1
         },
         {
@@ -34245,20 +25781,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "inmates.",
+          "f": 1
+        },
+        {
           "w": "victim",
           "f": 1
         },
         {
           "w": "cases",
-          "f": 2
-        },
-        {
-          "w": "death",
-          "f": 2
-        },
-        {
-          "w": "zone",
           "f": 1
+        },
+        {
+          "w": "22",
+          "f": 4
         },
         {
           "w": "distributed",
@@ -34269,6 +25805,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "2009",
+          "f": 3
+        },
+        {
           "w": "late",
           "f": 1
         },
@@ -34277,16 +25817,20 @@ var years =[
           "f": 3
         },
         {
-          "w": "women",
+          "w": "population",
           "f": 1
+        },
+        {
+          "w": "2010",
+          "f": 2
         },
         {
           "w": "happened",
           "f": 1
         },
         {
-          "w": "woman",
-          "f": 2
+          "w": "jong-il.in",
+          "f": 1
         },
         {
           "w": "fate",
@@ -34297,11 +25841,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "operas",
+          "f": 1
+        },
+        {
           "w": "early",
           "f": 1
         },
         {
+          "w": "made",
+          "f": 1
+        },
+        {
           "w": "mps",
+          "f": 1
+        },
+        {
+          "w": "il-sung.another",
           "f": 1
         },
         {
@@ -34325,8 +25881,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "released.",
+          "f": 1
+        },
+        {
           "w": "large",
           "f": 2
+        },
+        {
+          "w": "labour.",
+          "f": 1
+        },
+        {
+          "w": "woman,",
+          "f": 1
         },
         {
           "w": "reform",
@@ -34338,14 +25906,6 @@ var years =[
         },
         {
           "w": "concluded",
-          "f": 1
-        },
-        {
-          "w": "population",
-          "f": 1
-        },
-        {
-          "w": "il-sung",
           "f": 1
         },
         {
@@ -34365,15 +25925,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "000-50",
+          "w": "officials",
           "f": 1
         },
         {
-          "w": "experienced",
-          "f": 1
-        },
-        {
-          "w": "year",
+          "w": "informed",
           "f": 1
         },
         {
@@ -34401,11 +25957,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "hamgyong",
+          "w": "witnessed",
           "f": 1
         },
         {
-          "w": "witnessed",
+          "w": "30,000-50,000",
+          "f": 1
+        },
+        {
+          "w": "survive.",
           "f": 1
         },
         {
@@ -34413,7 +25973,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "cell",
+          "w": "p.m.",
           "f": 1
         },
         {
@@ -34429,7 +25989,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "produced",
+          "w": "saw,",
+          "f": 1
+        },
+        {
+          "w": "7",
           "f": 1
         },
         {
@@ -34449,7 +26013,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "deliver",
+          "w": "executed.",
+          "f": 1
+        },
+        {
+          "w": "weak",
           "f": 1
         },
         {
@@ -34457,11 +26025,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "foetus",
+          "w": "deliver",
           "f": 1
         },
         {
           "w": "water",
+          "f": 1
+        },
+        {
+          "w": "windows",
           "f": 1
         },
         {
@@ -34477,15 +26049,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "hamhung",
+          "w": "women",
           "f": 1
         },
         {
-          "w": "licked",
+          "w": "produced",
           "f": 1
         },
         {
           "w": "corrections",
+          "f": 1
+        },
+        {
+          "w": "fever.",
+          "f": 1
+        },
+        {
+          "w": "out,",
           "f": 1
         },
         {
@@ -34497,12 +26077,24 @@ var years =[
           "f": 1
         },
         {
-          "w": "informed",
+          "w": "for.",
+          "f": 1
+        },
+        {
+          "w": "abortion,",
           "f": 1
         },
         {
           "w": "prisoners",
           "f": 4
+        },
+        {
+          "w": "abortion.",
+          "f": 1
+        },
+        {
+          "w": "year",
+          "f": 1
         },
         {
           "w": "number",
@@ -34518,10 +26110,6 @@ var years =[
         },
         {
           "w": "medication",
-          "f": 1
-        },
-        {
-          "w": "weak",
           "f": 1
         },
         {
@@ -34541,6 +26129,18 @@ var years =[
           "f": 1
         },
         {
+          "w": "14,",
+          "f": 1
+        },
+        {
+          "w": "hamgyong.",
+          "f": 1
+        },
+        {
+          "w": "jong-il",
+          "f": 1
+        },
+        {
           "w": "support",
           "f": 1
         },
@@ -34553,19 +26153,19 @@ var years =[
           "f": 1
         },
         {
+          "w": ".",
+          "f": 1
+        },
+        {
           "w": "inmate",
           "f": 1
         },
         {
-          "w": "jong-il",
-          "f": 2
-        },
-        {
-          "w": "greatness",
+          "w": "commission",
           "f": 1
         },
         {
-          "w": "survive",
+          "w": "greatness",
           "f": 1
         },
         {
@@ -34581,11 +26181,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "function",
+          "w": "starve",
           "f": 1
         },
         {
-          "w": "starve",
+          "w": "16.",
           "f": 1
         },
         {
@@ -34605,6 +26205,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "cell.",
+          "f": 1
+        },
+        {
           "w": "disastreous",
           "f": 1
         },
@@ -34613,20 +26217,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "released",
-          "f": 1
-        },
-        {
           "w": "construction",
           "f": 1
         },
         {
-          "w": "alive",
+          "w": "prisoner,",
           "f": 1
         },
         {
           "w": "inmates",
-          "f": 5
+          "f": 4
         },
         {
           "w": "injection",
@@ -34637,8 +26237,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "made",
+          "w": "yodok,",
           "f": 1
+        },
+        {
+          "w": "12",
+          "f": 1
+        },
+        {
+          "w": "15",
+          "f": 2
         },
         {
           "w": "room",
@@ -34653,10 +26261,6 @@ var years =[
           "f": 3
         },
         {
-          "w": "abortion",
-          "f": 2
-        },
-        {
           "w": "premature",
           "f": 1
         },
@@ -34669,15 +26273,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "windows",
+          "w": "considered",
           "f": 1
         },
         {
           "w": "remain",
-          "f": 1
-        },
-        {
-          "w": "officials",
           "f": 1
         },
         {
@@ -34689,12 +26289,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "similar",
-          "f": 1
-        },
-        {
           "w": "camp",
           "f": 7
+        },
+        {
+          "w": "22.",
+          "f": 2
         },
         {
           "w": "process",
@@ -34713,7 +26313,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "evening",
+          "w": "woman",
           "f": 1
         },
         {
@@ -34725,11 +26325,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "2009/2010.",
+          "f": 1
+        },
+        {
           "w": "watched",
           "f": 1
         },
         {
           "w": "movies",
+          "f": 1
+        },
+        {
+          "w": "alive",
+          "f": 1
+        },
+        {
+          "w": "800",
           "f": 1
         },
         {
@@ -34769,15 +26381,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "operas",
+          "w": "licked",
           "f": 1
         },
         {
           "w": "shocked",
-          "f": 1
-        },
-        {
-          "w": "labour",
           "f": 1
         },
         {
@@ -34789,6 +26397,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "zone",
+          "f": 1
+        },
+        {
           "w": "soap",
           "f": 1
         },
@@ -34797,11 +26409,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "extended",
+          "w": "experienced",
           "f": 1
         },
         {
-          "w": "2009/2010",
+          "w": "foetus.similar",
           "f": 1
         },
         {
@@ -34813,6 +26425,14 @@ var years =[
           "f": 2
         },
         {
+          "w": "hamhung,",
+          "f": 1
+        },
+        {
+          "w": "time",
+          "f": 1
+        },
+        {
           "w": "revolutionizing",
           "f": 1
         },
@@ -34822,14 +26442,22 @@ var years =[
         },
         {
           "w": "prisoner",
-          "f": 2
-        },
-        {
-          "w": "grow",
           "f": 1
         },
         {
+          "w": "death.",
+          "f": 2
+        },
+        {
           "w": "died",
+          "f": 1
+        },
+        {
+          "w": "grow.",
+          "f": 1
+        },
+        {
+          "w": "4.in",
           "f": 1
         },
         {
@@ -34837,19 +26465,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "considered",
+          "w": "evening,",
           "f": 1
         },
         {
           "w": "yodok",
-          "f": 2
+          "f": 1
         },
         {
           "w": "hungry",
           "f": 1
         },
         {
-          "w": "fever",
+          "w": "2007",
           "f": 1
         },
         {
@@ -34857,8 +26485,16 @@ var years =[
           "f": 2
         },
         {
+          "w": "cases,",
+          "f": 1
+        },
+        {
           "w": "camps",
           "f": 2
+        },
+        {
+          "w": "function.",
+          "f": 1
         }
       ],
       "sub": 0.125
@@ -34867,10 +26503,11 @@ var years =[
       "obj": 1.0,
       "over": {
         "food": {
-          "perc": 3,
+          "perc": 4,
           "kw": [
             "september",
             "party",
+            "2010,",
             "kim",
             "jong-un"
           ]
@@ -34878,9 +26515,9 @@ var years =[
         "pol": {
           "perc": 2,
           "kw": [
+            "2010.",
+            "2010,",
             "rok",
-            "commission",
-            "time",
             "kim",
             "jong-un"
           ]
@@ -34900,6 +26537,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "sailors.",
+          "f": 1
+        },
+        {
           "w": "four-star",
           "f": 1
         },
@@ -34916,6 +26557,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "1980",
+          "f": 1
+        },
+        {
+          "w": "46",
+          "f": 1
+        },
+        {
           "w": "cheonan",
           "f": 1
         },
@@ -34928,15 +26577,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "time,",
+          "f": 1
+        },
+        {
+          "w": "military.",
+          "f": 1
+        },
+        {
           "w": "emerged",
           "f": 1
         },
         {
           "w": "convention",
-          "f": 1
-        },
-        {
-          "w": "torpedo",
           "f": 1
         },
         {
@@ -34948,15 +26601,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "congress",
-          "f": 1
-        },
-        {
           "w": "attacked",
-          "f": 1
-        },
-        {
-          "w": "sailors",
           "f": 1
         },
         {
@@ -34968,15 +26613,31 @@ var years =[
           "f": 1
         },
         {
+          "w": "citizens.",
+          "f": 1
+        },
+        {
           "w": "killing",
           "f": 2
         },
         {
+          "w": "torpedo,",
+          "f": 1
+        },
+        {
+          "w": "commission.",
+          "f": 1
+        },
+        {
           "w": "military",
-          "f": 2
+          "f": 1
         },
         {
           "w": "november",
+          "f": 1
+        },
+        {
+          "w": "congress,",
           "f": 1
         },
         {
@@ -35012,10 +26673,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "citizens",
-          "f": 1
-        },
-        {
           "w": "promoted",
           "f": 1
         },
@@ -35037,10 +26694,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "requirement",
-          "f": 1
-        },
-        {
           "w": "people",
           "f": 1
         },
@@ -35054,6 +26707,10 @@ var years =[
         },
         {
           "w": "allowed",
+          "f": 1
+        },
+        {
+          "w": "terms",
           "f": 1
         },
         {
@@ -35089,11 +26746,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "6",
+          "f": 1
+        },
+        {
           "w": "told",
           "f": 1
         },
         {
-          "w": "terms",
+          "w": "200",
+          "f": 1
+        },
+        {
+          "w": "aid.",
           "f": 1
         },
         {
@@ -35117,15 +26782,15 @@ var years =[
           "f": 2
         },
         {
-          "w": "rations",
-          "f": 1
-        },
-        {
           "w": "malnourished",
           "f": 1
         },
         {
-          "w": "aid",
+          "w": "rural",
+          "f": 1
+        },
+        {
+          "w": "rations,",
           "f": 1
         },
         {
@@ -35133,11 +26798,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "security",
+          "w": "areas",
           "f": 1
         },
         {
-          "w": "areas",
+          "w": "dprk.",
           "f": 1
         },
         {
@@ -35173,11 +26838,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "security.",
+          "f": 1
+        },
+        {
           "w": "gram",
           "f": 1
         },
         {
-          "w": "rural",
+          "w": "requirement.",
           "f": 1
         },
         {
@@ -35191,28 +26860,12 @@ var years =[
       ],
       "sub": 0.2
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6924623115577889,
-      "sub": 0.3075376884422111,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 0.8666666666666667,
       "kw": [
         {
-          "w": "wild",
-          "f": 1
+          "w": "no.",
+          "f": 6
         },
         {
           "w": "infested",
@@ -35224,6 +26877,10 @@ var years =[
         },
         {
           "w": "caused",
+          "f": 1
+        },
+        {
+          "w": "movies.",
           "f": 1
         },
         {
@@ -35244,6 +26901,10 @@ var years =[
         },
         {
           "w": "human",
+          "f": 1
+        },
+        {
+          "w": "inmates,",
           "f": 1
         },
         {
@@ -35271,15 +26932,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "interrogations",
-          "f": 2
-        },
-        {
-          "w": "wood",
+          "w": "22",
           "f": 1
         },
         {
-          "w": "treatment",
+          "w": "cells,",
+          "f": 1
+        },
+        {
+          "w": "interrogations",
+          "f": 1
+        },
+        {
+          "w": "witness,",
+          "f": 1
+        },
+        {
+          "w": "setting",
           "f": 1
         },
         {
@@ -35295,12 +26964,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "setting",
+          "w": "2011",
+          "f": 1
+        },
+        {
+          "w": "center,",
           "f": 1
         },
         {
           "w": "woman",
           "f": 2
+        },
+        {
+          "w": "partnered",
+          "f": 1
         },
         {
           "w": "diseases",
@@ -35316,7 +26993,11 @@ var years =[
         },
         {
           "w": "food",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "alive.",
+          "f": 1
         },
         {
           "w": "practice",
@@ -35331,12 +27012,20 @@ var years =[
           "f": 2
         },
         {
+          "w": "wood.",
+          "f": 1
+        },
+        {
           "w": "interrogation",
           "f": 2
         },
         {
+          "w": "12",
+          "f": 5
+        },
+        {
           "w": "mps",
-          "f": 2
+          "f": 1
         },
         {
           "w": "hands",
@@ -35344,7 +27033,7 @@ var years =[
         },
         {
           "w": "ssd",
-          "f": 3
+          "f": 2
         },
         {
           "w": "interrogationin",
@@ -35355,7 +27044,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "day",
+          "w": "lenient",
           "f": 1
         },
         {
@@ -35375,12 +27064,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "die",
+          "w": "targets.",
           "f": 1
-        },
-        {
-          "w": "prisoners",
-          "f": 2
         },
         {
           "w": "arrested",
@@ -35407,11 +27092,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "release",
+          "w": "small",
           "f": 1
         },
         {
-          "w": "lenient",
+          "w": "times,",
+          "f": 1
+        },
+        {
+          "w": "bribe.",
           "f": 1
         },
         {
@@ -35419,11 +27108,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "city,",
+          "f": 1
+        },
+        {
           "w": "people",
-          "f": 3
+          "f": 2
         },
         {
           "w": "incarcerated",
+          "f": 1
+        },
+        {
+          "w": "other.",
           "f": 1
         },
         {
@@ -35447,7 +27144,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "stealing",
+          "w": "reached",
+          "f": 1
+        },
+        {
+          "w": "run",
           "f": 1
         },
         {
@@ -35455,28 +27156,32 @@ var years =[
           "f": 1
         },
         {
-          "w": "targets",
+          "w": "china.",
           "f": 1
         },
         {
           "w": "witness",
-          "f": 7
-        },
-        {
-          "w": "knees",
-          "f": 1
+          "f": 6
         },
         {
           "w": "hamgyong",
           "f": 2
         },
         {
-          "w": "partnered",
+          "w": "mps.",
           "f": 1
         },
         {
           "w": "beaten",
-          "f": 4
+          "f": 3
+        },
+        {
+          "w": "fertilizer",
+          "f": 1
+        },
+        {
+          "w": "day.",
+          "f": 1
         },
         {
           "w": "reassigned",
@@ -35487,7 +27192,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "run",
+          "w": "knees.",
           "f": 1
         },
         {
@@ -35511,19 +27216,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "small",
+          "w": "2011.in",
           "f": 1
         },
         {
-          "w": "(nkdb)",
+          "w": "wild",
           "f": 1
         },
         {
-          "w": "objects",
-          "f": 1
-        },
-        {
-          "w": "china",
+          "w": "carried",
           "f": 1
         },
         {
@@ -35535,12 +27236,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "dead",
+          "w": "easily.a",
           "f": 1
-        },
-        {
-          "w": "ordinary",
-          "f": 3
         },
         {
           "w": "boy",
@@ -35551,7 +27248,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "carried",
+          "w": "work.",
           "f": 1
         },
         {
@@ -35559,23 +27256,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "months",
+          "w": "county,",
           "f": 1
         },
         {
-          "w": "escape",
-          "f": 2
+          "w": "months",
+          "f": 1
         },
         {
           "w": "days",
           "f": 1
         },
         {
-          "w": "2004-2011",
-          "f": 1
-        },
-        {
-          "w": "times",
+          "w": "moved,",
           "f": 1
         },
         {
@@ -35587,7 +27280,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "clothes",
+          "w": "however,",
+          "f": 1
+        },
+        {
+          "w": "handles,",
           "f": 1
         },
         {
@@ -35611,12 +27308,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "ordinary",
+          "f": 3
+        },
+        {
           "w": "family",
           "f": 1
         },
         {
-          "w": "disfigured",
+          "w": "inmate,",
           "f": 1
+        },
+        {
+          "w": "prisoners",
+          "f": 2
         },
         {
           "w": "number",
@@ -35635,7 +27340,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "fertilizer",
+          "w": "escape,",
+          "f": 1
+        },
+        {
+          "w": "2004-2011.a",
           "f": 1
         },
         {
@@ -35651,7 +27360,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "reached",
+          "w": "release,",
+          "f": 1
+        },
+        {
+          "w": "survive.",
+          "f": 1
+        },
+        {
+          "w": "escape.",
           "f": 1
         },
         {
@@ -35659,7 +27376,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "city",
+          "w": "inmate",
+          "f": 2
+        },
+        {
+          "w": "punished.another",
+          "f": 1
+        },
+        {
+          "w": "disfigured.",
           "f": 1
         },
         {
@@ -35683,15 +27408,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "handles",
-          "f": 1
-        },
-        {
           "w": "spread",
-          "f": 1
-        },
-        {
-          "w": "punished",
           "f": 1
         },
         {
@@ -35707,11 +27424,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "survive",
+          "w": "farming",
           "f": 1
         },
         {
-          "w": "farming",
+          "w": "22.",
           "f": 1
         },
         {
@@ -35727,6 +27444,14 @@ var years =[
           "f": 1
         },
         {
+          "w": "interrogations.",
+          "f": 1
+        },
+        {
+          "w": "clothes.",
+          "f": 1
+        },
+        {
           "w": "beatings",
           "f": 3
         },
@@ -35739,12 +27464,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "alive",
+          "w": "dead",
           "f": 1
         },
         {
           "w": "inmates",
-          "f": 6
+          "f": 5
+        },
+        {
+          "w": "(nkdb),",
+          "f": 1
+        },
+        {
+          "w": "objects,",
+          "f": 1
         },
         {
           "w": "line",
@@ -35776,11 +27509,11 @@ var years =[
         },
         {
           "w": "cells",
-          "f": 2
+          "f": 1
         },
         {
           "w": "work",
-          "f": 3
+          "f": 2
         },
         {
           "w": "tree",
@@ -35791,15 +27524,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "beaten.",
+          "f": 1
+        },
+        {
           "w": "tortured",
           "f": 1
         },
         {
           "w": "guards",
-          "f": 2
-        },
-        {
-          "w": "movies",
           "f": 1
         },
         {
@@ -35815,12 +27548,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "grass",
+          "w": "male",
           "f": 1
         },
         {
-          "w": "inmate",
-          "f": 3
+          "w": "province.",
+          "f": 1
         },
         {
           "w": "uncertainty",
@@ -35835,11 +27568,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "moved",
+          "w": "lice",
           "f": 1
         },
         {
-          "w": "lice",
+          "w": "130,500",
           "f": 1
         },
         {
@@ -35847,7 +27580,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "treatment,",
+          "f": 1
+        },
+        {
           "w": "minimum",
+          "f": 1
+        },
+        {
+          "w": "die.",
           "f": 1
         },
         {
@@ -35872,6 +27613,10 @@ var years =[
         },
         {
           "w": "fate",
+          "f": 1
+        },
+        {
+          "w": "ssd,",
           "f": 1
         },
         {
@@ -35904,7 +27649,7 @@ var years =[
         },
         {
           "w": "province",
-          "f": 2
+          "f": 1
         },
         {
           "w": "badly",
@@ -35912,6 +27657,10 @@ var years =[
         },
         {
           "w": "added",
+          "f": 1
+        },
+        {
+          "w": "again.",
           "f": 1
         },
         {
@@ -35923,19 +27672,27 @@ var years =[
           "f": 1
         },
         {
-          "w": "easily",
-          "f": 1
-        },
-        {
           "w": "harsh",
           "f": 1
         },
         {
-          "w": "male",
+          "w": "guards.",
+          "f": 1
+        },
+        {
+          "w": "stealing",
           "f": 1
         },
         {
           "w": "paid",
+          "f": 1
+        },
+        {
+          "w": "food.",
+          "f": 1
+        },
+        {
+          "w": "grass,",
           "f": 1
         },
         {
@@ -35955,6 +27712,10 @@ var years =[
           "f": 3
         },
         {
+          "w": "death.",
+          "f": 1
+        },
+        {
           "w": "died",
           "f": 1
         },
@@ -35971,11 +27732,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "center",
+          "w": "database",
           "f": 1
         },
         {
-          "w": "database",
+          "w": "people,",
           "f": 1
         },
         {
@@ -35984,10 +27745,6 @@ var years =[
         },
         {
           "w": "bugs",
-          "f": 1
-        },
-        {
-          "w": "county",
           "f": 1
         },
         {
@@ -36000,10 +27757,6 @@ var years =[
         },
         {
           "w": "starved",
-          "f": 1
-        },
-        {
-          "w": "bribe",
           "f": 1
         },
         {
@@ -36037,6 +27790,7 @@ var years =[
         "pol": {
           "perc": 0,
           "kw": [
+            "2011,",
             "death",
             "time"
           ]
@@ -36064,7 +27818,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "september",
+          "w": "corvette",
+          "f": 1
+        },
+        {
+          "w": "political,",
           "f": 1
         },
         {
@@ -36072,7 +27830,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "executive",
+          "w": "sailors.",
           "f": 1
         },
         {
@@ -36081,10 +27839,6 @@ var years =[
         },
         {
           "w": "major",
-          "f": 1
-        },
-        {
-          "w": "authority",
           "f": 1
         },
         {
@@ -36100,6 +27854,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "citizens.kim",
+          "f": 1
+        },
+        {
           "w": "organs",
           "f": 1
         },
@@ -36112,19 +27870,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "power",
+          "w": "1983",
           "f": 1
         },
         {
-          "w": "commission",
+          "w": "1980",
           "f": 1
         },
         {
-          "w": "political",
+          "w": "endeavouring",
           "f": 1
         },
         {
-          "w": "cheonan",
+          "w": "46",
           "f": 1
         },
         {
@@ -36132,7 +27890,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "corvette",
+          "w": "time,",
+          "f": 1
+        },
+        {
+          "w": "september",
           "f": 1
         },
         {
@@ -36140,11 +27902,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "organizations.",
+          "f": 1
+        },
+        {
+          "w": "military.",
+          "f": 1
+        },
+        {
           "w": "emerged",
           "f": 1
         },
         {
-          "w": "convention",
+          "w": "cheonan",
           "f": 1
         },
         {
@@ -36156,7 +27926,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "torpedo",
+          "w": "weeks",
           "f": 1
         },
         {
@@ -36164,11 +27934,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "leader",
+          "w": "2010.",
           "f": 1
         },
         {
-          "w": "weeks",
+          "w": "2010,",
+          "f": 3
+        },
+        {
+          "w": "executive",
           "f": 1
         },
         {
@@ -36176,15 +27950,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "congress",
+          "w": "power",
           "f": 1
         },
         {
           "w": "attacked",
-          "f": 1
-        },
-        {
-          "w": "sailors",
           "f": 1
         },
         {
@@ -36204,23 +27974,43 @@ var years =[
           "f": 2
         },
         {
-          "w": "believed",
+          "w": "convention",
+          "f": 1
+        },
+        {
+          "w": "torpedo,",
+          "f": 1
+        },
+        {
+          "w": "commission.",
+          "f": 1
+        },
+        {
+          "w": "8",
           "f": 1
         },
         {
           "w": "kim",
-          "f": 9
+          "f": 8
         },
         {
           "w": "military",
-          "f": 4
+          "f": 3
+        },
+        {
+          "w": "leader.",
+          "f": 1
+        },
+        {
+          "w": "1984.",
+          "f": 1
         },
         {
           "w": "november",
           "f": 1
         },
         {
-          "w": "years",
+          "w": "congress,",
           "f": 1
         },
         {
@@ -36232,7 +28022,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "organizations",
+          "w": "believed",
           "f": 1
         },
         {
@@ -36268,12 +28058,16 @@ var years =[
           "f": 1
         },
         {
-          "w": "citizens",
+          "w": "30",
           "f": 1
         },
         {
           "w": "jong-un",
           "f": 5
+        },
+        {
+          "w": "authority.",
+          "f": 1
         },
         {
           "w": "official",
@@ -36292,7 +28086,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "endeavouring",
+          "w": "years",
           "f": 1
         },
         {
@@ -36309,11 +28103,19 @@ var years =[
       "obj": 1.0,
       "kw": [
         {
-          "w": "limited",
+          "w": "645.8",
+          "f": 1
+        },
+        {
+          "w": "poor",
           "f": 1
         },
         {
           "w": "set",
+          "f": 1
+        },
+        {
+          "w": "luxury",
           "f": 1
         },
         {
@@ -36322,6 +28124,10 @@ var years =[
         },
         {
           "w": "(470",
+          "f": 1
+        },
+        {
+          "w": "10,000",
           "f": 1
         },
         {
@@ -36341,11 +28147,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "provinces",
+          "w": "usd",
           "f": 1
         },
         {
-          "w": "usd",
+          "w": "limited",
           "f": 1
         },
         {
@@ -36358,6 +28164,10 @@ var years =[
         },
         {
           "w": "adopted",
+          "f": 1
+        },
+        {
+          "w": "time,",
           "f": 1
         },
         {
@@ -36381,11 +28191,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "poor",
+          "w": "it.",
           "f": 1
         },
         {
-          "w": "added",
+          "w": "...",
           "f": 1
         },
         {
@@ -36421,6 +28231,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "goods",
+          "f": 1
+        },
+        {
           "w": "expenditure",
           "f": 1
         },
@@ -36429,19 +28243,23 @@ var years =[
           "f": 1
         },
         {
-          "w": "reforms",
+          "w": "reforms.",
           "f": 2
         },
         {
-          "w": "luxury",
+          "w": "90",
           "f": 1
         },
         {
           "w": "harvest",
-          "f": 2
+          "f": 1
         },
         {
           "w": "died",
+          "f": 1
+        },
+        {
+          "w": "provinces.",
           "f": 1
         },
         {
@@ -36449,15 +28267,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "goods",
-          "f": 1
-        },
-        {
-          "w": "stated",
+          "w": "12",
           "f": 1
         },
         {
           "w": "longer",
+          "f": 1
+        },
+        {
+          "w": "stated,",
           "f": 1
         },
         {
@@ -36466,6 +28284,14 @@ var years =[
         },
         {
           "w": "region",
+          "f": 1
+        },
+        {
+          "w": "harvest.",
+          "f": 1
+        },
+        {
+          "w": "added.",
           "f": 1
         },
         {
@@ -36479,25 +28305,17 @@ var years =[
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6582857142857143,
-      "sub": 0.3417142857142857,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
+        {
+          "w": "procedure.",
+          "f": 1
+        },
+        {
+          "w": "no.",
+          "f": 1
+        },
         {
           "w": "code",
           "f": 1
@@ -36511,11 +28329,15 @@ var years =[
           "f": 2
         },
         {
+          "w": "county.the",
+          "f": 1
+        },
+        {
           "w": "proximity",
           "f": 1
         },
         {
-          "w": "arrests",
+          "w": "facilities",
           "f": 1
         },
         {
@@ -36531,15 +28353,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "world",
-          "f": 1
-        },
-        {
-          "w": "depart",
-          "f": 1
-        },
-        {
-          "w": "line",
+          "w": "trial.in",
           "f": 1
         },
         {
@@ -36548,6 +28362,10 @@ var years =[
         },
         {
           "w": "radios",
+          "f": 1
+        },
+        {
+          "w": "22",
           "f": 1
         },
         {
@@ -36564,7 +28382,7 @@ var years =[
         },
         {
           "w": "arrest",
-          "f": 3
+          "f": 1
         },
         {
           "w": "labour",
@@ -36575,12 +28393,20 @@ var years =[
           "f": 1
         },
         {
+          "w": "5",
+          "f": 1
+        },
+        {
           "w": "criminal",
           "f": 2
         },
         {
           "w": "warrant",
           "f": 1
+        },
+        {
+          "w": "2012",
+          "f": 4
         },
         {
           "w": "real",
@@ -36599,7 +28425,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "arrest.",
+          "f": 2
+        },
+        {
           "w": "detention",
+          "f": 2
+        },
+        {
+          "w": "number",
           "f": 2
         },
         {
@@ -36647,6 +28481,18 @@ var years =[
           "f": 1
         },
         {
+          "w": "help.",
+          "f": 1
+        },
+        {
+          "w": "54",
+          "f": 1
+        },
+        {
+          "w": "57",
+          "f": 1
+        },
+        {
           "w": "level",
           "f": 1
         },
@@ -36683,11 +28529,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "border.",
+          "f": 1
+        },
+        {
           "w": "people",
           "f": 1
         },
         {
-          "w": "phones",
+          "w": "underwent",
           "f": 1
         },
         {
@@ -36707,11 +28557,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "subject",
+          "w": "81",
           "f": 1
         },
         {
-          "w": "mid-2012",
+          "w": "subject",
           "f": 1
         },
         {
@@ -36729,6 +28579,10 @@ var years =[
         {
           "w": "hamgyong",
           "f": 2
+        },
+        {
+          "w": "study,",
+          "f": 1
         },
         {
           "w": "cameras",
@@ -36751,6 +28605,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "province).",
+          "f": 1
+        },
+        {
           "w": "sabotage",
           "f": 1
         },
@@ -36759,12 +28617,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "korea",
-          "f": 4
+          "w": "command.",
+          "f": 1
         },
         {
-          "w": "spring",
-          "f": 1
+          "w": "korea",
+          "f": 2
         },
         {
           "w": "met",
@@ -36775,16 +28633,24 @@ var years =[
           "f": 3
         },
         {
+          "w": "arrests.from",
+          "f": 1
+        },
+        {
           "w": "article",
           "f": 1
+        },
+        {
+          "w": "dprk.",
+          "f": 3
         },
         {
           "w": "received",
           "f": 1
         },
         {
-          "w": "training",
-          "f": 1
+          "w": "dprk,",
+          "f": 2
         },
         {
           "w": "carried",
@@ -36803,16 +28669,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "study",
-          "f": 1
-        },
-        {
           "w": "reason",
           "f": 1
         },
         {
           "w": "trial",
-          "f": 4
+          "f": 2
         },
         {
           "w": "conducted",
@@ -36827,11 +28689,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "510",
+          "f": 1
+        },
+        {
+          "w": "county,",
+          "f": 1
+        },
+        {
           "w": "south",
           "f": 1
         },
         {
-          "w": "facilities",
+          "w": "depart",
           "f": 1
         },
         {
@@ -36839,27 +28709,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "informed",
+          "f": 1
+        },
+        {
           "w": "manage",
           "f": 1
         },
         {
-          "w": "number",
-          "f": 2
+          "w": "330",
+          "f": 1
         },
         {
           "w": "framed",
           "f": 1
         },
         {
-          "w": "county",
-          "f": 2
-        },
-        {
           "w": "provinces",
-          "f": 1
-        },
-        {
-          "w": "attendance",
           "f": 1
         },
         {
@@ -36867,7 +28733,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "informed",
+          "w": "political",
           "f": 1
         },
         {
@@ -36875,11 +28741,15 @@ var years =[
           "f": 6
         },
         {
+          "w": "18.1",
+          "f": 1
+        },
+        {
           "w": "abovementioned",
           "f": 1
         },
         {
-          "w": "underwent",
+          "w": "spring",
           "f": 1
         },
         {
@@ -36891,11 +28761,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "defendant.",
+          "f": 1
+        },
+        {
           "w": "north",
           "f": 1
         },
         {
           "w": "statement",
+          "f": 1
+        },
+        {
+          "w": "phones,",
           "f": 1
         },
         {
@@ -36907,15 +28785,27 @@ var years =[
           "f": 1
         },
         {
+          "w": "training",
+          "f": 1
+        },
+        {
+          "w": "administered",
+          "f": 1
+        },
+        {
           "w": "courts",
           "f": 1
         },
         {
-          "w": "cases",
+          "w": "line",
           "f": 1
         },
         {
           "w": "true",
+          "f": 1
+        },
+        {
+          "w": "border,",
           "f": 1
         },
         {
@@ -36927,7 +28817,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "defendant",
+          "w": "19",
+          "f": 1
+        },
+        {
+          "w": "world.",
           "f": 1
         },
         {
@@ -36936,14 +28830,14 @@ var years =[
         },
         {
           "w": "province)",
-          "f": 2
+          "f": 1
         },
         {
           "w": "called",
           "f": 1
         },
         {
-          "w": "procedure",
+          "w": "province.",
           "f": 1
         },
         {
@@ -36967,8 +28861,8 @@ var years =[
           "f": 1
         },
         {
-          "w": "border",
-          "f": 2
+          "w": "attendance.",
+          "f": 1
         },
         {
           "w": "increased",
@@ -36977,6 +28871,14 @@ var years =[
         {
           "w": "information",
           "f": 2
+        },
+        {
+          "w": "camp,",
+          "f": 1
+        },
+        {
+          "w": "49",
+          "f": 1
         },
         {
           "w": "trials",
@@ -37023,11 +28925,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "province",
+          "w": "comprehensive",
           "f": 1
         },
         {
-          "w": "comprehensive",
+          "w": "2005",
           "f": 1
         },
         {
@@ -37047,6 +28949,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "mid-2012,",
+          "f": 1
+        },
+        {
           "w": "center",
           "f": 1
         },
@@ -37060,19 +28966,23 @@ var years =[
         },
         {
           "w": "camp",
-          "f": 3
+          "f": 2
         },
         {
           "w": "orally",
           "f": 1
         },
         {
-          "w": "command",
+          "w": "trial.",
           "f": 1
         },
         {
-          "w": "administered",
+          "w": "cases,",
           "f": 1
+        },
+        {
+          "w": "korea,",
+          "f": 2
         },
         {
           "w": "camps",
@@ -37085,22 +28995,22 @@ var years =[
       "obj": 1.0,
       "over": {
         "food": {
-          "perc": 3,
+          "perc": 2,
           "kw": [
+            "2012,",
             "military",
-            "dprk",
-            "time"
+            "dprk"
           ]
         },
         "pol": {
-          "perc": 4,
+          "perc": 3,
           "kw": [
             "major",
             "national",
-            "political",
+            "believed",
             "state",
             "time",
-            "believed",
+            "2012,",
             "military",
             "dprk"
           ]
@@ -37128,11 +29038,23 @@ var years =[
           "f": 2
         },
         {
-          "w": "executive",
+          "w": "unha-3,",
+          "f": 1
+        },
+        {
+          "w": "2011,",
           "f": 2
         },
         {
-          "w": "authority",
+          "w": "political,",
+          "f": 2
+        },
+        {
+          "w": "30",
+          "f": 2
+        },
+        {
+          "w": "executive",
           "f": 2
         },
         {
@@ -37141,14 +29063,22 @@ var years =[
         },
         {
           "w": "states",
-          "f": 2
+          "f": 1
         },
         {
           "w": "born",
           "f": 2
         },
         {
+          "w": "official",
+          "f": 2
+        },
+        {
           "w": "organs",
+          "f": 2
+        },
+        {
+          "w": "authority.",
           "f": 2
         },
         {
@@ -37168,10 +29098,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "failed",
-          "f": 1
-        },
-        {
           "w": "international",
           "f": 1
         },
@@ -37180,15 +29106,15 @@ var years =[
           "f": 2
         },
         {
-          "w": "leader",
-          "f": 2
-        },
-        {
           "w": "announced",
           "f": 1
         },
         {
           "w": "tests",
+          "f": 1
+        },
+        {
+          "w": "aid.",
           "f": 1
         },
         {
@@ -37204,7 +29130,11 @@ var years =[
           "f": 2
         },
         {
-          "w": "missile",
+          "w": "title",
+          "f": 2
+        },
+        {
+          "w": "failed.",
           "f": 1
         },
         {
@@ -37220,6 +29150,18 @@ var years =[
           "f": 6
         },
         {
+          "w": "8",
+          "f": 2
+        },
+        {
+          "w": "leader.",
+          "f": 2
+        },
+        {
+          "w": "1984.",
+          "f": 2
+        },
+        {
           "w": "highest",
           "f": 2
         },
@@ -37228,16 +29170,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "official",
+          "w": "1983",
           "f": 2
         },
         {
-          "w": "organizations",
+          "w": "organizations.",
           "f": 2
-        },
-        {
-          "w": "unha-3",
-          "f": 1
         },
         {
           "w": "succeeded",
@@ -37252,8 +29190,8 @@ var years =[
           "f": 2
         },
         {
-          "w": "title",
-          "f": 2
+          "w": "states.",
+          "f": 1
         },
         {
           "w": "jong-un",
@@ -37277,7 +29215,15 @@ var years =[
         },
         {
           "w": "aid",
-          "f": 2
+          "f": 1
+        },
+        {
+          "w": "however,",
+          "f": 1
+        },
+        {
+          "w": "missile,",
+          "f": 1
         },
         {
           "w": "launched",
@@ -37297,67 +29243,15 @@ var years =[
       "obj": 0.9285714285714286,
       "kw": [
         {
-          "w": "musan",
+          "w": "may,",
           "f": 1
         },
         {
-          "w": "major",
+          "w": "facilities",
           "f": 1
         },
         {
-          "w": "beaten",
-          "f": 1
-        },
-        {
-          "w": "ordered",
-          "f": 1
-        },
-        {
-          "w": "olympic",
-          "f": 1
-        },
-        {
-          "w": "stated",
-          "f": 1
-        },
-        {
-          "w": "year",
-          "f": 1
-        },
-        {
-          "w": "period",
-          "f": 1
-        },
-        {
-          "w": "gun",
-          "f": 1
-        },
-        {
-          "w": "effectively",
-          "f": 1
-        },
-        {
-          "w": "regiment",
-          "f": 1
-        },
-        {
-          "w": "hosting",
-          "f": 1
-        },
-        {
-          "w": "markets",
-          "f": 1
-        },
-        {
-          "w": "sharp",
-          "f": 1
-        },
-        {
-          "w": "witness",
-          "f": 1
-        },
-        {
-          "w": "size",
+          "w": "ironically,",
           "f": 1
         },
         {
@@ -37365,7 +29259,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "usd",
+          "w": "27",
           "f": 1
         },
         {
@@ -37373,43 +29267,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "winter",
-          "f": 2
-        },
-        {
-          "w": "night",
-          "f": 1
-        },
-        {
-          "w": "entire",
-          "f": 1
-        },
-        {
-          "w": "leading",
-          "f": 1
-        },
-        {
-          "w": "caught",
-          "f": 1
-        },
-        {
-          "w": "province",
-          "f": 1
-        },
-        {
-          "w": "forcefully",
-          "f": 1
-        },
-        {
-          "w": "construct",
-          "f": 1
-        },
-        {
-          "w": "rival",
-          "f": 1
-        },
-        {
-          "w": "increase",
+          "w": "musan,",
           "f": 1
         },
         {
@@ -37417,7 +29275,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "chongjin",
+          "w": "2018",
+          "f": 1
+        },
+        {
+          "w": "400",
           "f": 1
         },
         {
@@ -37425,35 +29287,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "issue",
-          "f": 1
-        },
-        {
-          "w": "enraged",
-          "f": 1
-        },
-        {
-          "w": "shows",
-          "f": 1
-        },
-        {
-          "w": "poor",
-          "f": 1
-        },
-        {
-          "w": "preparation",
-          "f": 1
-        },
-        {
-          "w": "ironically",
-          "f": 1
-        },
-        {
-          "w": "ration",
-          "f": 1
-        },
-        {
-          "w": "eating",
+          "w": "ski",
           "f": 1
         },
         {
@@ -37461,71 +29295,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "\"food",
-          "f": 1
-        },
-        {
-          "w": "june",
-          "f": 1
-        },
-        {
-          "w": "price",
-          "f": 2
-        },
-        {
           "w": "continues",
-          "f": 1
-        },
-        {
-          "w": "testified",
-          "f": 1
-        },
-        {
-          "w": "affordability",
-          "f": 1
-        },
-        {
-          "w": "built",
-          "f": 1
-        },
-        {
-          "w": "rations",
-          "f": 3
-        },
-        {
-          "w": "authorities",
-          "f": 1
-        },
-        {
-          "w": "provided",
-          "f": 1
-        },
-        {
-          "w": "july",
-          "f": 2
-        },
-        {
-          "w": "killed",
-          "f": 1
-        },
-        {
-          "w": "leftover",
-          "f": 1
-        },
-        {
-          "w": "grams",
-          "f": 3
-        },
-        {
-          "w": "worsened",
-          "f": 1
-        },
-        {
-          "w": "denounced",
-          "f": 1
-        },
-        {
-          "w": "graphic",
           "f": 1
         },
         {
@@ -37533,7 +29303,111 @@ var years =[
           "f": 1
         },
         {
-          "w": "facilities",
+          "w": "soldiers.",
+          "f": 2
+        },
+        {
+          "w": "markets,",
+          "f": 1
+        },
+        {
+          "w": "rations.",
+          "f": 1
+        },
+        {
+          "w": "killed",
+          "f": 1
+        },
+        {
+          "w": "entire",
+          "f": 1
+        },
+        {
+          "w": "denounced",
+          "f": 1
+        },
+        {
+          "w": "january",
+          "f": 3
+        },
+        {
+          "w": "gun",
+          "f": 1
+        },
+        {
+          "w": "large",
+          "f": 1
+        },
+        {
+          "w": "olympic",
+          "f": 1
+        },
+        {
+          "w": "390",
+          "f": 1
+        },
+        {
+          "w": "397",
+          "f": 1
+        },
+        {
+          "w": "year",
+          "f": 1
+        },
+        {
+          "w": "witness",
+          "f": 1
+        },
+        {
+          "w": "provided",
+          "f": 1
+        },
+        {
+          "w": "hamgyong",
+          "f": 1
+        },
+        {
+          "w": "hungry.",
+          "f": 1
+        },
+        {
+          "w": "beaten",
+          "f": 1
+        },
+        {
+          "w": "increase",
+          "f": 1
+        },
+        {
+          "w": "300",
+          "f": 1
+        },
+        {
+          "w": "chongjin",
+          "f": 1
+        },
+        {
+          "w": "issue",
+          "f": 1
+        },
+        {
+          "w": "shows",
+          "f": 1
+        },
+        {
+          "w": "eating",
+          "f": 1
+        },
+        {
+          "w": "capitalism,",
+          "f": 1
+        },
+        {
+          "w": "ration",
+          "f": 1
+        },
+        {
+          "w": "leftover",
           "f": 1
         },
         {
@@ -37545,19 +29419,269 @@ var years =[
           "f": 1
         },
         {
-          "w": "average",
+          "w": "quarrel",
+          "f": 1
+        },
+        {
+          "w": "enraged",
+          "f": 1
+        },
+        {
+          "w": "major",
+          "f": 1
+        },
+        {
+          "w": "jong-il.",
+          "f": 1
+        },
+        {
+          "w": "period",
+          "f": 1
+        },
+        {
+          "w": "regiment",
+          "f": 1
+        },
+        {
+          "w": "population.",
+          "f": 1
+        },
+        {
+          "w": "size",
+          "f": 1
+        },
+        {
+          "w": "usd",
+          "f": 1
+        },
+        {
+          "w": "leading",
+          "f": 1
+        },
+        {
+          "w": "caught",
+          "f": 1
+        },
+        {
+          "w": "march.",
+          "f": 1
+        },
+        {
+          "w": "forcefully",
+          "f": 1
+        },
+        {
+          "w": "construct",
+          "f": 1
+        },
+        {
+          "w": "games.",
+          "f": 1
+        },
+        {
+          "w": "\"food",
+          "f": 1
+        },
+        {
+          "w": "testified",
+          "f": 1
+        },
+        {
+          "w": "july",
+          "f": 1
+        },
+        {
+          "w": "graphic",
+          "f": 1
+        },
+        {
+          "w": "rival",
+          "f": 1
+        },
+        {
+          "w": "hosting",
+          "f": 1
+        },
+        {
+          "w": "preparation",
+          "f": 1
+        },
+        {
+          "w": "country",
+          "f": 1
+        },
+        {
+          "w": "situation",
           "f": 2
         },
         {
-          "w": "hungry",
+          "w": "treated",
           "f": 1
+        },
+        {
+          "w": "province.",
+          "f": 1
+        },
+        {
+          "w": "ordered",
+          "f": 1
+        },
+        {
+          "w": "stated",
+          "f": 1
+        },
+        {
+          "w": "effectively",
+          "f": 1
+        },
+        {
+          "w": "sharp",
+          "f": 1
+        },
+        {
+          "w": "winter",
+          "f": 2
+        },
+        {
+          "w": "july,",
+          "f": 1
+        },
+        {
+          "w": "poor",
+          "f": 1
+        },
+        {
+          "w": "reportedly",
+          "f": 1
+        },
+        {
+          "w": "price",
+          "f": 2
+        },
+        {
+          "w": "june",
+          "f": 1
+        },
+        {
+          "w": "affordability",
+          "f": 1
+        },
+        {
+          "w": "rations",
+          "f": 2
+        },
+        {
+          "w": "authorities",
+          "f": 1
+        },
+        {
+          "w": "worsened.",
+          "f": 1
+        },
+        {
+          "w": "built",
+          "f": 1
+        },
+        {
+          "w": "grams",
+          "f": 3
+        },
+        {
+          "w": "average",
+          "f": 2
         },
         {
           "w": "kilogram",
           "f": 2
         },
         {
-          "w": "capitalism",
+          "w": "portion",
+          "f": 1
+        },
+        {
+          "w": "night.",
+          "f": 1
+        }
+      ],
+      "sub": 0.07142857142857142
+    },
+    "pol": {
+      "obj": 0.8333333333333334,
+      "kw": [
+        {
+          "w": "executed",
+          "f": 4
+        },
+        {
+          "w": "allegations",
+          "f": 1
+        },
+        {
+          "w": "produced",
+          "f": 1
+        },
+        {
+          "w": "area",
+          "f": 1
+        },
+        {
+          "w": "committee",
+          "f": 1
+        },
+        {
+          "w": "children",
+          "f": 1
+        },
+        {
+          "w": "pornographic",
+          "f": 1
+        },
+        {
+          "w": "(for",
+          "f": 3
+        },
+        {
+          "w": "media,",
+          "f": 1
+        },
+        {
+          "w": "prison",
+          "f": 1
+        },
+        {
+          "w": "su-gil,",
+          "f": 1
+        },
+        {
+          "w": "scandal.in",
+          "f": 1
+        },
+        {
+          "w": "indicating",
+          "f": 1
+        },
+        {
+          "w": "guns.",
+          "f": 1
+        },
+        {
+          "w": "victims",
+          "f": 3
+        },
+        {
+          "w": "watch",
+          "f": 1
+        },
+        {
+          "w": "theft",
+          "f": 1
+        },
+        {
+          "w": "factory)",
+          "f": 1
+        },
+        {
+          "w": "country.",
           "f": 1
         },
         {
@@ -37565,73 +29689,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "portion",
+          "w": "woman.",
           "f": 1
         },
         {
-          "w": "hamgyong",
+          "w": "attend,",
           "f": 1
         },
-        {
-          "w": "games",
-          "f": 1
-        },
-        {
-          "w": "january",
-          "f": 3
-        },
-        {
-          "w": "situation",
-          "f": 2
-        },
-        {
-          "w": "ski",
-          "f": 1
-        },
-        {
-          "w": "treated",
-          "f": 1
-        },
-        {
-          "w": "quarrel",
-          "f": 1
-        }
-      ],
-      "sub": 0.07142857142857142
-    },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6180377035132819,
-      "sub": 0.3819622964867181,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
-    "pol": {
-      "obj": 0.8333333333333334,
-      "kw": [
         {
           "w": "human",
-          "f": 1
-        },
-        {
-          "w": "executed",
-          "f": 4
-        },
-        {
-          "w": "ordered",
-          "f": 1
-        },
-        {
-          "w": "adults",
           "f": 1
         },
         {
@@ -37639,28 +29705,96 @@ var years =[
           "f": 1
         },
         {
-          "w": "deputy",
-          "f": 2
-        },
-        {
-          "w": "amounts",
-          "f": 1
-        },
-        {
           "w": "series",
           "f": 1
         },
         {
-          "w": "official",
+          "w": "riong-ha,",
           "f": 1
         },
         {
-          "w": "allegations",
+          "w": "officials",
+          "f": 2
+        },
+        {
+          "w": "trafficking),",
           "f": 1
         },
         {
-          "w": "locations",
+          "w": "pornography-related",
           "f": 1
+        },
+        {
+          "w": "hamgyong",
+          "f": 1
+        },
+        {
+          "w": "beaten",
+          "f": 1
+        },
+        {
+          "w": "emerged",
+          "f": 1
+        },
+        {
+          "w": "chongjin",
+          "f": 1
+        },
+        {
+          "w": "ri",
+          "f": 2
+        },
+        {
+          "w": "arrested",
+          "f": 1
+        },
+        {
+          "w": "rumours",
+          "f": 1
+        },
+        {
+          "w": "sold",
+          "f": 1
+        },
+        {
+          "w": "mr",
+          "f": 2
+        },
+        {
+          "w": "murder).",
+          "f": 1
+        },
+        {
+          "w": "aftermath",
+          "f": 1
+        },
+        {
+          "w": "unconfirmed",
+          "f": 1
+        },
+        {
+          "w": "central",
+          "f": 1
+        },
+        {
+          "w": "pole.",
+          "f": 1
+        },
+        {
+          "w": "firing",
+          "f": 1
+        },
+        {
+          "w": "place",
+          "f": 1
+        },
+        {
+          "w": "published",
+          "f": 1
+        },
+        {
+          "w": "deputy",
+          "f": 2
         },
         {
           "w": "sol-ju",
@@ -37671,55 +29805,15 @@ var years =[
           "f": 3
         },
         {
-          "w": "produced",
+          "w": "jong-un,",
           "f": 1
         },
         {
-          "w": "children",
+          "w": "jong-un.",
           "f": 1
         },
         {
-          "w": "pole",
-          "f": 1
-        },
-        {
-          "w": "officials",
-          "f": 2
-        },
-        {
-          "w": "committee",
-          "f": 1
-        },
-        {
-          "w": "aftermath",
-          "f": 1
-        },
-        {
-          "w": "sought",
-          "f": 1
-        },
-        {
-          "w": "scandal",
-          "f": 1
-        },
-        {
-          "w": "factory)",
-          "f": 1
-        },
-        {
-          "w": "murder)",
-          "f": 1
-        },
-        {
-          "w": "su-gil",
-          "f": 1
-        },
-        {
-          "w": "pornography-related",
-          "f": 1
-        },
-        {
-          "w": "songpyeong",
+          "w": "department.the",
           "f": 1
         },
         {
@@ -37727,23 +29821,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "trafficking)",
+          "w": "august,",
           "f": 1
         },
         {
-          "w": "(for",
-          "f": 3
-        },
-        {
-          "w": "court",
-          "f": 1
-        },
-        {
-          "w": "attend",
-          "f": 1
-        },
-        {
-          "w": "pornographic",
+          "w": "exception.",
           "f": 1
         },
         {
@@ -37751,19 +29833,87 @@ var years =[
           "f": 1
         },
         {
-          "w": "inhabitants",
+          "w": "head",
           "f": 1
         },
         {
-          "w": "media",
+          "w": "occurred",
           "f": 1
         },
         {
-          "w": "beaten",
+          "w": "camps.",
           "f": 1
         },
         {
-          "w": "exception",
+          "w": "uncle",
+          "f": 1
+        },
+        {
+          "w": "uncle-in-marriage",
+          "f": 1
+        },
+        {
+          "w": "october",
+          "f": 1
+        },
+        {
+          "w": "official",
+          "f": 1
+        },
+        {
+          "w": "transferred",
+          "f": 1
+        },
+        {
+          "w": "movies",
+          "f": 1
+        },
+        {
+          "w": "marriage",
+          "f": 1
+        },
+        {
+          "w": "involved",
+          "f": 1
+        },
+        {
+          "w": "province)",
+          "f": 1
+        },
+        {
+          "w": "distribution",
+          "f": 1
+        },
+        {
+          "w": "ordered",
+          "f": 1
+        },
+        {
+          "w": "adults",
+          "f": 1
+        },
+        {
+          "w": "locations",
+          "f": 1
+        },
+        {
+          "w": "sought",
+          "f": 1
+        },
+        {
+          "w": "methamphetamine,",
+          "f": 1
+        },
+        {
+          "w": "court",
+          "f": 1
+        },
+        {
+          "w": "amounts",
+          "f": 1
+        },
+        {
+          "w": "material.",
           "f": 1
         },
         {
@@ -37775,83 +29925,27 @@ var years =[
           "f": 1
         },
         {
+          "w": "mr.",
+          "f": 1
+        },
+        {
           "w": "squad",
           "f": 1
         },
         {
-          "w": "methamphetamine",
-          "f": 1
-        },
-        {
-          "w": "emerged",
-          "f": 1
-        },
-        {
-          "w": "prison",
-          "f": 1
-        },
-        {
           "w": "department",
-          "f": 4
-        },
-        {
-          "w": "place",
-          "f": 1
-        },
-        {
-          "w": "man",
-          "f": 1
-        },
-        {
-          "w": "ri",
-          "f": 2
-        },
-        {
-          "w": "indicating",
-          "f": 1
-        },
-        {
-          "w": "head",
-          "f": 1
+          "f": 3
         },
         {
           "w": "extended",
           "f": 1
         },
         {
-          "w": "victims",
-          "f": 3
-        },
-        {
-          "w": "rumours",
-          "f": 1
-        },
-        {
-          "w": "firing",
-          "f": 1
-        },
-        {
-          "w": "sold",
-          "f": 1
-        },
-        {
-          "w": "material",
-          "f": 1
-        },
-        {
-          "w": "watch",
-          "f": 1
-        },
-        {
-          "w": "occurred",
-          "f": 1
+          "w": "reportedly",
+          "f": 2
         },
         {
           "w": "tied",
-          "f": 1
-        },
-        {
-          "w": "movies",
           "f": 1
         },
         {
@@ -37859,27 +29953,7 @@ var years =[
           "f": 2
         },
         {
-          "w": "chongjin",
-          "f": 1
-        },
-        {
-          "w": "link",
-          "f": 1
-        },
-        {
-          "w": "uncle-in-marriage",
-          "f": 1
-        },
-        {
-          "w": "theft",
-          "f": 1
-        },
-        {
           "w": "authorities",
-          "f": 1
-        },
-        {
-          "w": "shortly",
           "f": 1
         },
         {
@@ -37887,75 +29961,39 @@ var years =[
           "f": 1
         },
         {
-          "w": "unconfirmed",
+          "w": "2008",
           "f": 1
         },
         {
-          "w": "woman",
+          "w": "man",
           "f": 1
         },
         {
-          "w": "october",
+          "w": "shortly",
           "f": 1
         },
         {
-          "w": "central",
+          "w": "songpyeong",
           "f": 1
         },
         {
-          "w": "involved",
+          "w": "inhabitants",
           "f": 1
         },
         {
-          "w": "area",
+          "w": "2007",
           "f": 1
         },
         {
-          "w": "arrested",
+          "w": "link",
           "f": 1
         },
         {
-          "w": "transferred",
+          "w": "korea.",
           "f": 1
         },
         {
-          "w": "guns",
-          "f": 1
-        },
-        {
-          "w": "large",
-          "f": 1
-        },
-        {
-          "w": "riong-ha",
-          "f": 1
-        },
-        {
-          "w": "hamgyong",
-          "f": 1
-        },
-        {
-          "w": "marriage",
-          "f": 1
-        },
-        {
-          "w": "mr",
-          "f": 3
-        },
-        {
-          "w": "province)",
-          "f": 1
-        },
-        {
-          "w": "distribution",
-          "f": 1
-        },
-        {
-          "w": "camps",
-          "f": 1
-        },
-        {
-          "w": "published",
+          "w": "2009",
           "f": 1
         }
       ],
@@ -37965,42 +30003,39 @@ var years =[
       "obj": 0.6666666666666666,
       "over": {
         "food": {
-          "perc": 5,
+          "perc": 4,
           "kw": [
-            "received",
-            "rok",
-            "march",
-            "power",
-            "reportedly",
+            "dprk.",
+            "power.",
+            "reportedly,",
+            "north",
+            "2013.",
             "soldier",
             "food",
-            "country",
             "million",
             "day",
             "sports",
             "kpa",
             "appears",
-            "jong-il",
+            "rok",
             "kim",
-            "north",
-            "soldiers",
+            "received",
             "jong-un",
             "dprk",
-            "population"
+            "2012"
           ]
         },
         "pol": {
-          "perc": 9,
+          "perc": 7,
           "kw": [
             "supreme",
             "members",
             "family",
+            "2013,",
             "political",
             "song-thaek",
-            "foreign",
             "special",
             "leader",
-            "death",
             "administration",
             "commission",
             "state",
@@ -38009,23 +30044,21 @@ var years =[
             "international",
             "jang",
             "public",
-            "announced",
-            "korea",
+            "2013",
             "march",
-            "august",
-            "reportedly",
             "reported",
-            "uncle",
             "kim",
             "party",
+            "death,",
             "november",
             "execution",
             "received",
             "wife",
-            "country",
+            "song-thaek,",
             "reports",
-            "jong-un",
+            "foreign",
             "conducted",
+            "announced",
             "military",
             "security"
           ]
@@ -38038,6 +30071,10 @@ var years =[
         },
         {
           "w": "affairsthe",
+          "f": 1
+        },
+        {
+          "w": "army.",
           "f": 1
         },
         {
@@ -38069,7 +30106,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "years",
+          "w": "buttress,",
           "f": 1
         },
         {
@@ -38089,7 +30126,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "soldiers",
+          "f": 1
+        },
+        {
+          "w": "process.",
+          "f": 1
+        },
+        {
           "w": "impact",
+          "f": 1
+        },
+        {
+          "w": "25",
           "f": 1
         },
         {
@@ -38105,6 +30154,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "steadily",
+          "f": 1
+        },
+        {
           "w": "appeared",
           "f": 1
         },
@@ -38117,7 +30170,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "remarked",
+          "w": "dancing",
+          "f": 1
+        },
+        {
+          "w": "14",
           "f": 1
         },
         {
@@ -38137,6 +30194,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "blackmail",
+          "f": 1
+        },
+        {
           "w": "return",
           "f": 1
         },
@@ -38145,7 +30206,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "well-frequented",
+          "w": "structure.",
           "f": 1
         },
         {
@@ -38173,11 +30234,23 @@ var years =[
           "f": 3
         },
         {
+          "w": "arsenal.",
+          "f": 1
+        },
+        {
           "w": "historic",
           "f": 1
         },
         {
-          "w": "subscribers",
+          "w": "economy.",
+          "f": 1
+        },
+        {
+          "w": "commission,",
+          "f": 1
+        },
+        {
+          "w": "guide",
           "f": 1
         },
         {
@@ -38217,7 +30290,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "administer",
+          "w": "brought",
           "f": 1
         },
         {
@@ -38249,15 +30322,27 @@ var years =[
           "f": 1
         },
         {
+          "w": "assuming",
+          "f": 1
+        },
+        {
+          "w": "country,",
+          "f": 1
+        },
+        {
           "w": "standards",
           "f": 1
         },
         {
           "w": "capability",
-          "f": 2
+          "f": 1
         },
         {
           "w": "army]",
+          "f": 1
+        },
+        {
+          "w": "anti-imperialist,",
           "f": 1
         },
         {
@@ -38269,7 +30354,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "forces",
+          "w": "subscribers,",
           "f": 1
         },
         {
@@ -38278,6 +30363,10 @@ var years =[
         },
         {
           "w": "mouse",
+          "f": 1
+        },
+        {
+          "w": "time,",
           "f": 1
         },
         {
@@ -38301,27 +30390,19 @@ var years =[
           "f": 2
         },
         {
-          "w": "revolution",
-          "f": 5
+          "w": "streets.",
+          "f": 1
         },
         {
-          "w": "force",
-          "f": 1
+          "w": "revolution",
+          "f": 3
         },
         {
           "w": "significantly",
           "f": 1
         },
         {
-          "w": "mini-submarines",
-          "f": 1
-        },
-        {
           "w": "achieved",
-          "f": 1
-        },
-        {
-          "w": "succession",
           "f": 1
         },
         {
@@ -38341,8 +30422,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "idea",
-          "f": 2
+          "w": "principles",
+          "f": 1
+        },
+        {
+          "w": "statements.",
+          "f": 1
         },
         {
           "w": "zones",
@@ -38361,11 +30446,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "uncle,",
+          "f": 1
+        },
+        {
           "w": "assembly",
           "f": 1
         },
         {
-          "w": "grandfather",
+          "w": "korea),",
           "f": 1
         },
         {
@@ -38393,6 +30482,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "mickey",
+          "f": 1
+        },
+        {
           "w": "defence",
           "f": 2
         },
@@ -38402,6 +30495,10 @@ var years =[
         },
         {
           "w": "constitution",
+          "f": 1
+        },
+        {
+          "w": "reserves.",
           "f": 1
         },
         {
@@ -38418,7 +30515,11 @@ var years =[
         },
         {
           "w": "weapons",
-          "f": 3
+          "f": 1
+        },
+        {
+          "w": "include",
+          "f": 1
         },
         {
           "w": "remorse",
@@ -38429,7 +30530,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "assuming",
+          "w": "capability,",
           "f": 1
         },
         {
@@ -38437,7 +30538,7 @@ var years =[
           "f": 6
         },
         {
-          "w": "appearances",
+          "w": "insecure",
           "f": 1
         },
         {
@@ -38445,7 +30546,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "measures",
+          "w": "performance,",
+          "f": 1
+        },
+        {
+          "w": "korea",
           "f": 1
         },
         {
@@ -38453,15 +30558,19 @@ var years =[
           "f": 2
         },
         {
-          "w": "recruits",
+          "w": "august",
           "f": 1
+        },
+        {
+          "w": "power",
+          "f": 2
         },
         {
           "w": "opening",
           "f": 1
         },
         {
-          "w": "responded",
+          "w": "succession",
           "f": 1
         },
         {
@@ -38469,7 +30578,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "blackmail",
+          "w": "8.3",
+          "f": 1
+        },
+        {
+          "w": "revive",
           "f": 1
         },
         {
@@ -38493,11 +30606,19 @@ var years =[
           "f": 1
         },
         {
+          "w": "il-sung.",
+          "f": 1
+        },
+        {
           "w": "active",
           "f": 1
         },
         {
           "w": "consequences",
+          "f": 1
+        },
+        {
+          "w": "leader,",
           "f": 1
         },
         {
@@ -38509,12 +30630,12 @@ var years =[
           "f": 1
         },
         {
-          "w": "celebration",
-          "f": 1
-        },
-        {
           "w": "revolutionary",
           "f": 4
+        },
+        {
+          "w": "limits",
+          "f": 1
         },
         {
           "w": "great",
@@ -38525,7 +30646,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "limits",
+          "w": "announced.",
+          "f": 1
+        },
+        {
+          "w": "well-frequented.",
           "f": 1
         },
         {
@@ -38565,8 +30690,12 @@ var years =[
           "f": 2
         },
         {
-          "w": "steadily",
+          "w": "way,",
           "f": 1
+        },
+        {
+          "w": "spirit,",
+          "f": 2
         },
         {
           "w": "[kim",
@@ -38577,7 +30706,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "south",
+          "w": "grandfather,",
+          "f": 1
+        },
+        {
+          "w": "years.",
           "f": 1
         },
         {
@@ -38597,10 +30730,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "statements",
-          "f": 1
-        },
-        {
           "w": "elaborated",
           "f": 1
         },
@@ -38609,15 +30738,23 @@ var years =[
           "f": 1
         },
         {
+          "w": "noting",
+          "f": 1
+        },
+        {
+          "w": "families.",
+          "f": 1
+        },
+        {
           "w": "symbolic",
           "f": 1
         },
         {
           "w": "arsenal",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "community",
+          "w": "equipment,",
           "f": 1
         },
         {
@@ -38625,7 +30762,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "brought",
+          "w": "administer",
+          "f": 1
+        },
+        {
+          "w": "events.",
           "f": 1
         },
         {
@@ -38649,6 +30790,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "training,",
+          "f": 1
+        },
+        {
           "w": "songun-based",
           "f": 1
         },
@@ -38665,10 +30810,6 @@ var years =[
           "f": 1
         },
         {
-          "w": "computer",
-          "f": 1
-        },
-        {
           "w": "troops",
           "f": 1
         },
@@ -38678,14 +30819,10 @@ var years =[
         },
         {
           "w": "army",
-          "f": 3
+          "f": 2
         },
         {
           "w": "addition",
-          "f": 1
-        },
-        {
-          "w": "anti-imperialist",
           "f": 1
         },
         {
@@ -38705,7 +30842,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "process",
+          "w": "jong-il",
           "f": 1
         },
         {
@@ -38713,15 +30850,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "noting",
+          "w": "2",
           "f": 1
         },
         {
           "w": "time",
-          "f": 2
+          "f": 1
         },
         {
           "w": "borders",
+          "f": 1
+        },
+        {
+          "w": "forces,",
           "f": 1
         },
         {
@@ -38745,11 +30886,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "streets",
-          "f": 1
-        },
-        {
-          "w": "families",
+          "w": "access),",
           "f": 1
         },
         {
@@ -38758,10 +30895,10 @@ var years =[
         },
         {
           "w": "training",
-          "f": 2
+          "f": 1
         },
         {
-          "w": "principles",
+          "w": "idea",
           "f": 1
         },
         {
@@ -38802,7 +30939,19 @@ var years =[
         },
         {
           "w": "spirit",
-          "f": 6
+          "f": 4
+        },
+        {
+          "w": "celebration.",
+          "f": 1
+        },
+        {
+          "w": "population",
+          "f": 2
+        },
+        {
+          "w": "7.1",
+          "f": 1
         },
         {
           "w": "past",
@@ -38813,7 +30962,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "include",
+          "w": "structure,",
           "f": 1
         },
         {
@@ -38829,6 +30978,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "certainly,",
+          "f": 1
+        },
+        {
           "w": "invincible",
           "f": 1
         },
@@ -38841,6 +30994,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "measures",
+          "f": 1
+        },
+        {
           "w": "timethe",
           "f": 1
         },
@@ -38849,15 +31006,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "express",
+          "w": "computer.",
           "f": 1
         },
         {
           "w": "socialism",
-          "f": 1
-        },
-        {
-          "w": "era",
           "f": 1
         },
         {
@@ -38877,11 +31030,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "guide",
+          "w": "31",
           "f": 1
         },
         {
-          "w": "mickey",
+          "w": "recruits.",
           "f": 1
         },
         {
@@ -38889,7 +31042,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "buttress",
+          "w": "express",
+          "f": 1
+        },
+        {
+          "w": "1.2",
           "f": 1
         },
         {
@@ -38901,15 +31058,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "access)",
-          "f": 1
-        },
-        {
-          "w": "reserves",
+          "w": "sudden",
           "f": 1
         },
         {
           "w": "defending",
+          "f": 1
+        },
+        {
+          "w": "south.",
           "f": 1
         },
         {
@@ -38929,6 +31086,10 @@ var years =[
           "f": 2
         },
         {
+          "w": "appearances",
+          "f": 1
+        },
+        {
           "w": "affairs",
           "f": 2
         },
@@ -38941,7 +31102,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "dancing",
+          "w": "community.",
           "f": 1
         },
         {
@@ -38953,16 +31114,8 @@ var years =[
           "f": 2
         },
         {
-          "w": "sudden",
-          "f": 1
-        },
-        {
           "w": "chemical",
           "f": 2
-        },
-        {
-          "w": "equipment",
-          "f": 1
         },
         {
           "w": "ideal",
@@ -38989,24 +31142,28 @@ var years =[
           "f": 1
         },
         {
-          "w": "performance",
-          "f": 1
-        },
-        {
-          "w": "events",
-          "f": 1
-        },
-        {
           "w": "economy",
-          "f": 2
+          "f": 1
         },
         {
           "w": "status",
           "f": 1
         },
         {
+          "w": "weapons,",
+          "f": 1
+        },
+        {
+          "w": "remarked",
+          "f": 1
+        },
+        {
           "w": "experienced",
           "f": 1
+        },
+        {
+          "w": "dprk,",
+          "f": 2
         },
         {
           "w": "prosperity",
@@ -39017,7 +31174,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "insecure",
+          "w": "era,",
           "f": 1
         },
         {
@@ -39026,10 +31183,6 @@ var years =[
         },
         {
           "w": "allocation",
-          "f": 1
-        },
-        {
-          "w": "il-sung",
           "f": 1
         },
         {
@@ -39061,15 +31214,11 @@ var years =[
           "f": 1
         },
         {
-          "w": "structure",
-          "f": 2
-        },
-        {
           "w": "clampdown",
           "f": 1
         },
         {
-          "w": "revive",
+          "w": "mini-submarines.",
           "f": 1
         },
         {
@@ -39081,6 +31230,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "force,",
+          "f": 1
+        },
+        {
           "w": "vehicles",
           "f": 1
         },
@@ -39089,12 +31242,20 @@ var years =[
           "f": 1
         },
         {
-          "w": "korea)",
+          "w": "weapons.",
+          "f": 1
+        },
+        {
+          "w": "responded",
+          "f": 1
+        },
+        {
+          "w": "idea,",
           "f": 1
         },
         {
           "w": "construction",
-          "f": 2
+          "f": 1
         },
         {
           "w": "principle",
@@ -39113,7 +31274,15 @@ var years =[
           "f": 1
         },
         {
+          "w": "revolution,",
+          "f": 2
+        },
+        {
           "w": "order",
+          "f": 1
+        },
+        {
+          "w": "construction.",
           "f": 1
         },
         {
@@ -39162,6 +31331,10 @@ var years =[
           "f": 1
         },
         {
+          "w": "speech.",
+          "f": 1
+        },
+        {
           "w": "kim",
           "f": 1
         },
@@ -39174,7 +31347,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "speech",
+          "w": "however,",
           "f": 1
         },
         {
@@ -39196,22 +31369,6 @@ var years =[
       ],
       "sub": 0.0
     },
-    "news": {
-      "his": {
-        "kw": []
-      },
-      "obj": 0.6943136544730171,
-      "sub": 0.305686345526983,
-      "food": {
-        "kw": []
-      },
-      "pol": {
-        "kw": []
-      },
-      "no_over": {
-        "kw": []
-      }
-    },
     "pol": {
       "obj": 1.0,
       "kw": [
@@ -39220,11 +31377,7 @@ var years =[
           "f": 1
         },
         {
-          "w": "statement",
-          "f": 1
-        },
-        {
-          "w": "resolute",
+          "w": "kim",
           "f": 1
         },
         {
@@ -39232,11 +31385,15 @@ var years =[
           "f": 1
         },
         {
-          "w": "supreme",
+          "w": "resolute",
           "f": 1
         },
         {
-          "w": "jong-un",
+          "w": "measure",
+          "f": 1
+        },
+        {
+          "w": "supreme",
           "f": 1
         },
         {
@@ -39248,15 +31405,19 @@ var years =[
           "f": 1
         },
         {
-          "w": "kim",
-          "f": 1
-        },
-        {
-          "w": "measure",
+          "w": "statement",
           "f": 1
         },
         {
           "w": "party",
+          "f": 1
+        },
+        {
+          "w": "2014",
+          "f": 1
+        },
+        {
+          "w": "jong-un,",
           "f": 1
         },
         {

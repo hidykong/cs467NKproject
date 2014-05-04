@@ -21,13 +21,12 @@ LineGraph =
 				no:d.no,
 				value:d.his.over[name].perc
 			}
+		
+		data.splice 0,0,{no:@minYear,value:0}
 
 		#Setup SVG
 		lineGraph = d3.select ".lineGraph"
-		axisG = lineGraph
-			.append "g"
-			.attr "class", "x axis"
-			.attr "transform","translate(#{@X[name]},#{@axisYOffset})"
+		
 			
 		rootG = lineGraph
 			.append "g"			
@@ -59,9 +58,10 @@ LineGraph =
 			.scale x
 			.orient "top"
 			.tickSize -@graphHeight-@axisLengthOffset
+			.tickPadding 10
 			.tickFormat (d)->"#{d}%"
 
-		axisG.call xAxis
+		
 
 		line = d3.svg.line()
 			.x (d)->x(d.value)
@@ -70,5 +70,25 @@ LineGraph =
 
 		rootG.append "path"
 			.datum data
-			.attr "class","overlapLine"
+			.attr "class","overlapLine his"
 			.attr "d",line
+
+		axisG = lineGraph
+			.append "g"
+			.attr "class", "x axis"
+			.attr "transform","translate(#{@X[name]},#{@axisYOffset})"
+			.call xAxis
+
+
+
+
+
+
+
+
+
+
+
+
+
+

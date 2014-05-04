@@ -9,30 +9,26 @@
 	</header>
 <body>
 	<title>NK</title>
-	<table>
-		<tr>
-			<td>
-				<svg class="wordCloudSVG" id="polSVG"></svg>
-			</td>
-			<td>
-				<svg class="wordCloudSVG" id="hisSVG"></svg>
-			</td>
-			<td>
-				<svg class="wordCloudSVG" id="foodSVG"></svg>
-			</td>
-		</tr>
-	</table>
-	<svg id="mainSVG">
-		<g class="axisCanvas"></g>
-		<g class="mainGraph"></g>
-		<g class="lineGraph"></g>
-		<g class="pieGraph"></g>
-
-	</svg>
+	<div class=".globalContainer">
+		<table class="keywordTable">
+			<tr>
+				
+			</tr>
+		</table>
+		<svg id="mainSVG">
+			<g class="lineGraph"></g>
+			<g class="axisCanvas"></g>
+			<g class="mainGraph"></g>
+			
+			<g class="pieGraph"></g>
+			<g class="overlayCanvas"></g>
+		</svg>
+	</div>
 	<script src="global.js"></script>
 	<script src="pieGraph.js"></script>
 	<script src="wordcloud.js"></script>
 	<script src="lineGraph.js"></script>
+	<script src="wordTable.js"></script>
 	<script src="nk.js"></script>
 </body>
 </html>

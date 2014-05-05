@@ -35,9 +35,6 @@ drawBarChart = (group,array,className,align, maxWidth)->
 		.attr "width",(d)->x(d.value)
 		.attr "x",rectX
 
-	console.log(className)
-	console.log(array.map((d)-> d.keywords.length))
-
 drawKeywordsAmount = (name,keywordsAccessor,isOverLap)->
 	min_year = d3.min years,(d)->d.no
 	word_data = years.map (d)-> 
@@ -129,7 +126,7 @@ drawDocView = ->
 	drawTotalKeywords "pol"
 	drawTotalKeywords "food"
 
-	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}
+	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:-margin.top,food:0}
 
 	LineGraph.drawLineGraph("pol",Alignment.LEFT)
 	LineGraph.drawLineGraph("food",Alignment.RIGHT)
@@ -146,14 +143,24 @@ drawMediaView = ->
 	drawOverlapKeywords "his"
 	drawOverlapKeywords "food"
 
-	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}	
+	drawYearLines axisCanvas,overlayCanvas,{pol:-margin.top,his:0,food:-margin.top}	
 
 	WordTable.setColumns ['pol','his','food']
 
 	WordTable.displayKeywordFunc = WordTable.displayForMediaView
 
+clearAllButtons = ->
+	d3.selectAll ".viewButtonRow"
+		.attr "class","viewButtonRow"
+
 clearAllViews = ->
 	svg = d3.select "#mainSVG"
+	.attr "height",totalHeight
+	.attr "width",totalWidth
+
+	svg.select ".globalG"
+	.attr "transform","translate(#{margin.left},#{margin.top})"
+
 	svg.select ".globalG"
 		.attr "transform","translate(#{margin.left},#{margin.top})"
 	svg.select ".lineGraph"
@@ -174,28 +181,46 @@ clearAllViews = ->
 	svg.select ".subGraph"
 		.selectAll "*"
 		.remove()
+	
+	d3.select ".svgContainer"
+		.style "height","350px"
+
+	hideKeywordText();
+
+	clearAllButtons()
+
 	WordTable.clear()
 
 	LineGraph.init()
 	WordTable.init()
 	PieGraph.init()
-	SubGraph.init();
+	SubGraph.init()
 
 switchToDocView = ->
 	clearAllViews();
+	d3.select("#DocRow").attr("class","viewButtonRow active")
 	drawDocView();
 switchToMediaView = ->
 	clearAllViews();
+	d3.select("#MediaRow").attr("class","viewButtonRow active")
 	drawMediaView();
-switchToPieView = ->
-	clearAllViews();
-	PieGraph.draw();
 switchToSubView = ->
 	clearAllViews();
+	d3.select("#SubRow").attr("class","viewButtonRow active")
 	SubGraph.draw();
+switchToPieView = ->
+	clearAllViews();
+	d3.select("#PieRow").attr("class","viewButtonRow active")
+	PieGraph.draw();
 	
 mouseClickOnBar = (e)->
 	if WordTable.displayKeywordFunc? then WordTable.displayKeywordFunc(e.no)
+
+
+
+
+
+
 
 svg = d3.select "#mainSVG"
 	.attr "height",totalHeight
@@ -216,6 +241,8 @@ overlayCanvas = d3.select ".overlayCanvas"
 clearAllViews();
 
 switchToMediaView();
+
+# getPost('food', 1990, 'food');
 
 # drawTotalKeywords "pol"
 # # drawTotalKeywords "his"

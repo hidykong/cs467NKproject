@@ -26,6 +26,7 @@ SubGraph = {
       his: 0,
       food: 0
     });
+    d3.select(".svgContainer").style("height", "550px");
     this.drawLine("food");
     this.drawLine("his");
     this.drawLine("pol");

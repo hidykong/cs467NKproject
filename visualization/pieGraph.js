@@ -31,6 +31,8 @@ PieGraph = {
   },
   draw: function() {
     WordTable.clear();
+    d3.select("#mainSVG").attr("height", "550");
+    d3.select(".svgContainer").style("height", "550px");
     this.createCategory("his");
     this.createCategory("pol");
     return this.createCategory("food");
@@ -40,7 +42,7 @@ PieGraph = {
   },
   createCategory: function(name) {
     var data, endAngle, graph, sectionName, startAngle;
-    graph = d3.select(".pieGraph").append("g").attr("transform", "translate(" + this.PieX[name] + ",100)").attr("class", name + ' pie');
+    graph = d3.select(".pieGraph").append("g").attr("transform", "translate(" + this.PieX[name] + ",225)").attr("class", name + ' pie');
     data = overall[name];
     this.createSection(graph, "obj", data);
     sectionName = (function() {

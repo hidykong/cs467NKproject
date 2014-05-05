@@ -1,6 +1,6 @@
 totalWidth = 1000
-totalHeight = 1500
-margin = {top: 60, right:100, left:100, bottom:20}
+totalHeight = 1400
+margin = {top: 40, right:100, left:100, bottom:20}
 
 svgWidth = totalWidth - margin.left - margin.right;
 svgHeight = totalHeight - margin.top - margin.bottom;

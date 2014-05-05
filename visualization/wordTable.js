@@ -3,32 +3,41 @@ var WordTable;
 
 WordTable = {
   maxKeywordAount: 20,
-  threeColumnWidths: {
-    pol: 350,
-    his: 550,
-    food: 350
-  },
-  twoColumnWidths: {
-    pol: 550,
-    his: 0,
-    food: 550
-  },
+  threeColumnWidths: null,
+  twoColumnWidths: null,
+  tableHeight: 200,
   displayKeywordFunc: null,
   init: function() {
+    var tableWidth;
+    tableWidth = 1000;
+    this.threeColumnWidths = {
+      width: tableWidth,
+      pol: 282,
+      his: 381,
+      food: 277
+    };
+    this.twoColumnWidths = {
+      width: tableWidth,
+      pol: 483,
+      his: 0,
+      food: 477
+    };
     return d3.select(".keywordTable").style({
-      width: "1150px",
-      height: "300px"
+      height: "" + this.tableHeight + "px"
     });
   },
   setColumns: function(colNames) {
-    var colWidths, row;
+    var colWidths, divs, row;
     colWidths = colNames.length === 3 ? this.threeColumnWidths : this.twoColumnWidths;
+    d3.select(".keywordTable").style('width', "" + colWidths.width + "px");
     row = d3.select(".keywordTable tr");
     row.selectAll("td").remove();
-    return row.selectAll("td").data(colNames).enter().append("td").append("div").attr("id", function(d) {
+    return divs = row.selectAll("td").data(colNames).enter().append("td").append("div").attr("id", function(d) {
       return "" + d;
-    }).style("width", function(d) {
+    }).style('width', function(d) {
       return "" + colWidths[d] + "px";
+    }).style('height', function(d) {
+      return "" + WordTable.tableHeight + "px";
     }).append("p");
   },
   clear: function() {
@@ -47,13 +56,15 @@ WordTable = {
     var htmlText, res, row, targetP;
     row = d3.select(".keywordTable tr");
     targetP = row.select("#" + setName + " p");
-    targetP.selectAll(".keyword").data(keywords).enter().append("span").attr("class", function(d) {
-      return d["class"];
+    targetP.selectAll(".keyword").data(keywords).enter().append("span").attr("onclick", function(d) {
+      return "showKeywordText('" + d.name + "'," + d.year + ",'" + d.word + "')";
+    }).attr("class", function(d) {
+      return "" + d["class"] + " keyword";
     }).text(function(d) {
       return d.word;
     });
     htmlText = targetP.html();
-    res = htmlText.replace(/></g, "> <");
+    res = htmlText.replace(/></g, ">\n<");
     return targetP.html(res);
   },
   displayOverlapKeywords: function(name, set1, set2) {
@@ -70,7 +81,6 @@ WordTable = {
         }
       }
     });
-    console.log(keywordsToShow);
     keywordsToShow = keywordsToShow.slice(0, this.maxKeywordAount);
     return this.setKeywords(name, keywordsToShow);
   },
@@ -80,14 +90,18 @@ WordTable = {
       return {
         word: d.w,
         freq: d.f,
-        "class": name
+        "class": name,
+        year: yearData.no,
+        name: name
       };
     });
     mediaOverlapWords = yearData.news[name].kw.map(function(d) {
       return {
         word: d.w,
         freq: d.f,
-        "class": "" + name + " overlap"
+        "class": "" + name + " overlap",
+        year: yearData.no,
+        name: name
       };
     });
     return this.displayOverlapKeywords(name, docKeywords, mediaOverlapWords);
@@ -98,14 +112,18 @@ WordTable = {
       return {
         word: d.w,
         freq: d.f,
-        "class": name
+        "class": name,
+        year: yearData.no,
+        name: name
       };
     });
     historyOverlapWords = yearData.his.over[name].kw.map(function(d) {
       return {
         word: d,
         freq: 1,
-        "class": "his"
+        "class": "his",
+        year: yearData.no,
+        name: name
       };
     });
     return this.displayOverlapKeywords(name, docKeywords, historyOverlapWords);

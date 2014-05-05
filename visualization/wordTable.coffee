@@ -1,32 +1,36 @@
 WordTable=
 	maxKeywordAount:20;
-	threeColumnWidths:
-		pol:350
-		his:550
-		food:350
-	twoColumnWidths:
-		pol:550
-		his:0
-		food:550
+	threeColumnWidths:null
+	twoColumnWidths:null
+	tableHeight: 200
+
 	displayKeywordFunc:null
 
 	init:->
+		tableWidth = 1000;
+		@threeColumnWidths = {width: tableWidth, pol:282,his:381,food:277}
+		@twoColumnWidths = {width: tableWidth, pol:483,his:0,food:477}
 		d3.select ".keywordTable"
-			.style({width: "1150px",height: "300px";})
+			.style({height: "#{@tableHeight}px";})
 
 	setColumns:(colNames)->
 		colWidths = if colNames.length is 3 then @threeColumnWidths else @twoColumnWidths
 
+		d3.select ".keywordTable"
+			.style('width', "#{colWidths.width}px")
+
 		row = d3.select ".keywordTable tr"
 		row.selectAll "td"
 			.remove()
-		row.selectAll "td"
+		divs = row.selectAll "td"
 			.data colNames
 			.enter()
 			.append "td"
+			# .style 'width',(d)->"#{colWidths[d]}px"
 			.append "div"
 			.attr "id",(d)->"#{d}"
-			.style "width",(d)->"#{colWidths[d]}px"
+			.style 'width',(d)->"#{colWidths[d]}px"
+			.style 'height',(d)->"#{WordTable.tableHeight}px"
 			.append "p"
 			
 			# .attr "id",(d)->"#{d}"
@@ -50,13 +54,19 @@ WordTable=
 		.data keywords
 		.enter()
 		.append "span"
-		.attr "class",(d)->d.class
+		.attr "onclick",(d)->"showKeywordText('#{d.name}',#{d.year},'#{d.word}')"
+		.attr "class",(d)->"#{d.class} keyword"
 		.text (d)->d.word
 
 		htmlText =  targetP.html();
-		res = htmlText.replace(/></g,"> <")
-		targetP.html(res);
-	
+		res = htmlText.replace(/></g,">\n<")
+		targetP.html(res)					#after this the d3.on function won't work
+		# targetP.selectAll "span.keyword"
+		# .on "click",(d)->console.log(d3.select(this))
+		# $('span.keyword').click (d)->console.log(d)
+	# keywordMouseClicked:(e)->
+	# 	console.log e
+
 	displayOverlapKeywords:(name,set1,set2)->
 		keywordsToShow = set1.concat(set2)
 		keywordsToShow.sort (a,b)->
@@ -64,18 +74,17 @@ WordTable=
 				b.freq-a.freq
 			else 
 				if a.class is name then 1 else -1
-		console.log keywordsToShow
 		keywordsToShow = keywordsToShow.slice(0,@maxKeywordAount)
 		@setKeywords name,keywordsToShow
 
 	displayKeywordsWithMedia: (name,yearData)->		
-		docKeywords = yearData[name].kw.map (d)->{word:d.w,freq:d.f,class:name}
-		mediaOverlapWords = yearData.news[name].kw.map (d)->{word:d.w,freq:d.f,class:"#{name} overlap"}
+		docKeywords = yearData[name].kw.map (d)->{word:d.w,freq:d.f,class:name,year:yearData.no,name:name}
+		mediaOverlapWords = yearData.news[name].kw.map (d)->{word:d.w,freq:d.f,class:"#{name} overlap",year:yearData.no,name:name}
 		@displayOverlapKeywords(name,docKeywords,mediaOverlapWords)
 
 	displayKeywordsOnlyDocument: (name,yearData)->
-		docKeywords = yearData[name].kw.map (d)->{word:d.w,freq:d.f,class:name}
-		historyOverlapWords = yearData.his.over[name].kw.map (d)->{word:d,freq:1,class:"his"}
+		docKeywords = yearData[name].kw.map (d)->{word:d.w,freq:d.f,class:name,year:yearData.no,name:name}
+		historyOverlapWords = yearData.his.over[name].kw.map (d)->{word:d,freq:1,class:"his",year:yearData.no,name:name}
 		@displayOverlapKeywords(name,docKeywords,historyOverlapWords)
 
 	displayForMediaView:(yearno)->

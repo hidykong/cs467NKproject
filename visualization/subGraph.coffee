@@ -18,9 +18,14 @@ SubGraph =
 			.domain [@minYear,@maxYear]
 			.range [barWidth/2,barWidth/2 + barWidth * (@maxYear-@minYear)]
 
+		
+
 	draw:->
 		WordTable.clear()
 		drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}
+
+		d3.select ".svgContainer"
+		.style "height","550px"
 
 		@drawLine "food"
 		@drawLine "his"

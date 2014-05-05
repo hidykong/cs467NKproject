@@ -14,6 +14,15 @@ PieGraph =
 		
 	draw:->
 		WordTable.clear()
+		
+		d3.select "#mainSVG"
+		.attr "height","550"
+
+		d3.select ".svgContainer"
+		.style "height","550px"
+
+
+
 		@createCategory "his"
 		@createCategory "pol"
 		@createCategory "food"
@@ -25,7 +34,7 @@ PieGraph =
 	createCategory:(name)->	
 		graph = d3.select ".pieGraph"
 			.append "g"
-			.attr "transform","translate(#{@PieX[name]},100)"
+			.attr "transform","translate(#{@PieX[name]},225)"
 			.attr "class",name+' pie'
 
 		data = overall[name]

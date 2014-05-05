@@ -5,34 +5,74 @@
 		<script src="years.js"></script>
 		<script src="overall.js"></script>
 		<script src="d3.layout.cloud.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
 		<link rel="stylesheet" href="nk.css"/>
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	</header>
 <body>
 	<title>NK</title>	
 	<div class="globalContainer">
-		<div>
-			<button onclick="switchToDocView()">Doc</button>
-			<button onclick="switchToMediaView()">Media</button>
-			<button onclick="switchToPieView()">Pie</button>
-			<button onclick="switchToSubView()">Sub-obj</button>
+		<div class="buttonContainer">
+			<table>
+				<tr class="viewButtonRow" id="DocRow">
+					<td>&#9632</td>
+					<td>
+						<div class="viewButton" onclick="switchToDocView()">Topic Overlap</div>
+					</td>
+				</tr>
+				<tr class="viewButtonRow active" id="MediaRow">
+					<td>&#9632</td>
+					<td>
+						<div class="viewButton" onclick="switchToMediaView()">Media Coverage</div>	
+					</td>
+				</tr>
+				<tr class="viewButtonRow" id="SubRow">
+					<td>&#9632</td>
+					<td>
+						<div class="viewButton" onclick="switchToSubView()">Subjective/Objective</div>
+					</td>
+				</tr>
+				<tr class="viewButtonRow" id="PieRow">
+					<td>&#9632</td>
+					<td>
+						<div class="viewButton" onclick="switchToPieView()">Overview</div>
+					</td>
+				</tr>
+				<tr class="viewButtonRow" id="HelpRow">
+					<td>&#9632</td>
+					<td>
+						<div class="viewButton" onclick="">Help</div>
+					</td>
+				</tr>
+			</table>	
 		</div>
-		<table class="keywordTable">
-			<tr>
-				
-			</tr>
-		</table>
-		<svg id="mainSVG">
-			<g class="globalG">
-				<g class="lineGraph"></g>
-				<g class="axisCanvas"></g>
-				<g class="mainGraph"></g>
-				
-				<g class="pieGraph"></g>
-				<g class="overlayCanvas"></g>
-				<g class="subGraph"></g>
-			</g>
-		</svg>
+
+		<div class="visualContainer">
+			<table class="keywordTable">
+				<tr>
+					
+				</tr>
+			</table>
+			<div class="svgContainer">
+				<svg id="mainSVG">
+					<g class="globalG">
+						<g class="lineGraph"></g>
+						<g class="axisCanvas"></g>
+						<g class="mainGraph"></g>
+						
+						<g class="pieGraph"></g>
+						<g class="overlayCanvas"></g>
+						<g class="subGraph"></g>
+					</g>
+				</svg>
+			</div>
+		</div>
+		<div class="keywordTextContainer" onclick="hideKeywordText()">
+			<div class="overlayTextContainer">
+				<div id="kwSentences" class="keywordDIV" rows="15" cols="100">1990 - Testing</div>
+			</div>
+		</div>
 	</div>
 	<script src="global.js"></script>
 	<script src="pieGraph.js"></script>
@@ -40,6 +80,8 @@
 	<script src="lineGraph.js"></script>
 	<script src="wordTable.js"></script>
 	<script src="subGraph.js"></script>
+	<script src="keywords.js"></script>
 	<script src="nk.js"></script>
+	
 </body>
 </html>

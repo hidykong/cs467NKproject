@@ -3,10 +3,10 @@ var Alignment, ColumnAlignment, ColumnMargin, ColumnWidth, ColumnWidthCommon, Co
 
 totalWidth = 1000;
 
-totalHeight = 1500;
+totalHeight = 1400;
 
 margin = {
-  top: 60,
+  top: 40,
   right: 100,
   left: 100,
   bottom: 20

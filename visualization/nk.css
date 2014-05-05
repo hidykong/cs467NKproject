@@ -1,7 +1,161 @@
-html{
-	font-family: "Avenir Next";
-	background:#282C37;
+*{
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
 }
+
+body,html{
+	height:100%;
+	width: 100%;
+
+}
+
+.globalContainer {
+	font-family: "Open Sans";
+	background:#282C37;
+
+	position: relative;
+
+	height: 100%;
+	width: 100%;
+}
+
+.buttonContainer{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+}
+
+.viewButtonRow td:first-child{
+	opacity: 0;
+	color:white;
+
+	-webkit-transition: opacity 0.5s ease-in-out
+}
+
+.viewButtonRow:hover td:first-child{
+	opacity: 0.5;
+}
+
+.viewButtonRow.active td:first-child{
+	opacity: 1;
+}
+
+.viewButton{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 300;
+	background: transparent;
+	color:#eee;
+	
+	cursor: pointer;
+
+	margin: 10% 5%;
+}
+
+.visualContainer{
+	position: absolute;
+	right: 0%;
+	top:5%;
+
+	height: 95%;
+}
+
+.svgContainer{
+	background: none;
+
+	width: 1000px;
+	/*height: 350px;*/
+	overflow: scroll;
+	/*visibility: hidden;*/
+}
+
+.keywordTable{
+	background: none;
+}
+
+.keywordTable div{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+.keywordTable div#pol{
+	border-right: 1px dashed white;
+}
+
+.keywordTable div#his{
+	border-right: 1px dashed white;
+}
+
+.keywordTextContainer{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+
+	background: rgba(0,0,0,0.8);
+	width: 70%;
+	height: 100%;
+}
+
+.overlayTextContainer{
+	position: absolute;
+	bottom:5%;
+	right: 10%;
+	width: 80%;
+}
+
+.overlayTextContainer .keywordDIV {	
+	background: white;	
+	position: relative;
+	padding: 3em 1em 1em 1em;
+
+	color: #666;
+}
+
+.overlayTextContainer .textContainer{
+	height: 300px;
+	overflow: scroll;
+}
+
+.overlayTextContainer .keyword{
+	color: white;
+}
+
+.overlayTextContainer .headerContainer{
+	position: absolute;
+	top: -10%;
+	width:100%; 
+}
+
+.overlayTextContainer .headerContent{
+	width: 30%;
+	margin: 0 auto;
+	padding: 0.2em;
+
+	color:white;
+
+	font-family: "Oswald";
+	font-weight:400;
+	font-size:2em;
+
+	text-align:center;
+	text-transform: uppercase;
+
+}
+
+
+
+
+
+
+
+
+
+
+/******************************
+SVG Styles
+******************************/
 
 .pol {
 	fill:#90A449;
@@ -113,46 +267,25 @@ html{
 }
 
 
-.keywordTable{
-	width: 1150px;
-	height: 300px;
-}
-
-.keywordTable div{
-	padding: 1em
-}
-
-.keywordTable div#pol{
-	border-right: 1px dashed white;
-}
-
-.keywordTable div#food{
-	border-left: 1px dashed white;
-}
-
-.keywordTable p#pol{
-	
-}
-.keywordTable p#his{
-	
-}
-.keywordTable p#food{
-	/*border-left: 1px solid white;*/
-}
-
 .keywordTable p{
 	border-width:0px;
 	word-break:break-word;
 	text-align: justify;
-	line-height: 200%;
+	line-height: 150%;
 }
 
 .keywordTable span{
 	border-radius: 10px;
 	padding: 2px 10px;
-	font-size: 0.8em;
+	font-size: 0.6em;
+
+	opacity: 0.8;
+	cursor: pointer;
 }
 
+.keywordTable span:hover{
+	opacity: 1.0;
+}
 
 
 .subGraph path{

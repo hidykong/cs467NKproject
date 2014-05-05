@@ -46,7 +46,7 @@ function getPost(category, year, keyword) {
         var orginalKeyword = sentence.substr(keywordIndex,keyword.length);
         sentence = sentence.replace(orginalKeyword, "<span class=\"keyword "+category+"\"> " + orginalKeyword + "</span>")
         innerHTML = innerHTML + "<br/><br/>" + sentence;       
-        console.log(sentence);
+        // console.log(sentence);
       }
   });
   innerHTML = innerHTML + "</div>"
@@ -57,14 +57,24 @@ function getPost(category, year, keyword) {
   d3.select(".keywordTextContainer")
     .style("visibility","visible")
     .attr("opacity",1)
+
+  d3.select(".visualContainer")
+    .style("opacity",0.2)
+
   getPost(name,year,keyword)
 }
 
 hideKeywordText = function (){
+  d3.select(".visualContainer")
+    .style("opacity",1)
+
   d3.select(".keywordTextContainer")
     .style("visibility","hidden")
 }
 
+KeywordContentClicked = function(event){
+  event.stopPropagation();
+}
 
 function show(name){
   getPost(name, 1990, 'food');

@@ -149,6 +149,23 @@ drawMediaView = ->
 
 	WordTable.displayKeywordFunc = WordTable.displayForMediaView
 
+setLegends = (legendsData)->
+	legendTable = d3.select ".legendTable"
+	legendTable.selectAll ".legendRow"
+		.remove()
+
+	legendRows = legendTable.selectAll ".legendRow"
+		.data legendsData
+		.enter()
+		.append "div"
+		.attr "class","legendRow"
+
+	legendRows.append "div"
+		.attr "class",(d)->"legendDIV #{d.class}"
+	legendRows.append "span"
+		.attr "class",(d)->"legendText #{d.class}"
+		.text (d)->d.text
+
 clearAllButtons = ->
 	d3.selectAll ".viewButtonRow"
 		.attr "class","viewButtonRow"
@@ -157,6 +174,9 @@ clearAllViews = ->
 	svg = d3.select "#mainSVG"
 	.attr "height",totalHeight
 	.attr "width",totalWidth
+
+	d3.select ".visualContainer"
+	.style "opacity",1
 
 	svg.select ".globalG"
 	.attr "transform","translate(#{margin.left},#{margin.top})"
@@ -199,20 +219,28 @@ clearAllViews = ->
 switchToDocView = ->
 	clearAllViews();
 	d3.select("#DocRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Doc"]
 	drawDocView();
 switchToMediaView = ->
 	clearAllViews();
 	d3.select("#MediaRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Media"]
 	drawMediaView();
 switchToSubView = ->
 	clearAllViews();
 	d3.select("#SubRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Sub"]
 	SubGraph.draw();
 switchToPieView = ->
 	clearAllViews();
 	d3.select("#PieRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Pie"]
 	PieGraph.draw();
-	
+
+switchToHelpView = ->
+	clearAllViews();
+
+
 mouseClickOnBar = (e)->
 	if WordTable.displayKeywordFunc? then WordTable.displayKeywordFunc(e.no)
 
@@ -240,7 +268,10 @@ overlayCanvas = d3.select ".overlayCanvas"
 
 clearAllViews();
 
-switchToMediaView();
+
+
+switchToDocView();
+
 
 # getPost('food', 1990, 'food');
 

@@ -42,7 +42,7 @@
 				<tr class="viewButtonRow" id="HelpRow">
 					<td>&#9632</td>
 					<td>
-						<div class="viewButton" onclick="">Help</div>
+						<div class="viewButton" onclick="switchToHelpView()">Help</div>
 					</td>
 				</tr>
 			</table>	
@@ -68,9 +68,27 @@
 				</svg>
 			</div>
 		</div>
-		<div class="keywordTextContainer" onclick="hideKeywordText()">
+		<div class="keywordTextContainer">
 			<div class="overlayTextContainer">
+
 				<div id="kwSentences" class="keywordDIV" rows="15" cols="100">1990 - Testing</div>
+				<div class="closeButton" onclick="hideKeywordText()">&times</div>
+			</div>
+		</div>
+
+		<div class="legendContainer">
+			<div class="legendTable">
+				<!-- <div class="legendRow">
+						<div class="legendDIV pol"></div>
+						<span class="legendText pol">Politic</span>
+				</div>
+						<div class="legendDIV his"></div>
+						<span class="legendText his">History</span>
+				</div>
+				<div class="legendRow">
+						<div class="legendDIV food"></div>
+						<span class="legendText food">Food</span>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -81,6 +99,7 @@
 	<script src="wordTable.js"></script>
 	<script src="subGraph.js"></script>
 	<script src="keywords.js"></script>
+	<script src="legends.js"></script>
 	<script src="nk.js"></script>
 	
 </body>

@@ -6,21 +6,24 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>		
-		<script src="js/jquery.parse.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>	
 		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/d3.min.js"></script>
+		<script src="js/testimonial.js"></script>
+<!-- for visualization-->
 		<script src="js/years.js"></script>
-		<script src="js/testimonial.js"></script>		
+		<script src="js/overall.js"></script>
+		<script src="js/d3.layout.cloud.js"></script>
+		<link rel="stylesheet" href="css/nk.css"/>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 
-		<link rel="stylesheet" href="css/nk.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -79,20 +82,38 @@
 		</footer>
 		</section>
 		
-		<!-- Two -->
-		<section id="two" class="dark viz main"><!-- original class = main style2 left dark fullscree-->
-			<div class="viz content box style2">
-				<header>
-					<h2 class="viz">Visualization</h2>
-				</header>
-			<svg>
-				<g class="mainGraph"></g>
-				<g class="axisCanvas"></g>
-			</svg>
-
-			<script src="js/nk.js"></script>
+		<!-- Visualization -->
+		<section id="two" class="dark"><!-- original class = main style2 left dark fullscree-->
+			<div class="globalContainer">
+			<div style="padding-top: 50pt;">
+				<button onclick="switchToDocView()">Doc</button>
+				<button onclick="switchToMediaView()">Media</button>
+				<button onclick="switchToPieView()">Pie</button>
 			</div>
+			<table class="keywordTable">
+				<tr>
+				</tr>
+			</table>
+			<svg id="mainSVG">
+				<g class="lineGraph"></g>
+				<g class="axisCanvas"></g>
+				<g class="mainGraph"></g>
+				
+				<g class="pieGraph"></g>
+				<g class="overlayCanvas"></g>
+			</svg>
+		</div>
+
+
+		<script src="js/global.js"></script>
+		<script src="js/pieGraph.js"></script>
+		<script src="js/wordcloud.js"></script>
+		<script src="js/lineGraph.js"></script>
+		<script src="js/wordTable.js"></script>
+		<script src="js/nk.js"></script>
+		<footer style="text-align:center">
 			<a href="#work" class="button style2 down">Next</a>
+		</footer>
 		</section>
 			
 		<!-- Work -->

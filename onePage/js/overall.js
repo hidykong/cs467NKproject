@@ -1,4 +1,4 @@
-{
+var overall = {
 	"pol":
 	{
 		"sub": 57,
@@ -13,7 +13,7 @@
 		"pol": 7,
 		"media": 75.2,
 		"food": 10.5
-		},
+	},
 	"food":
 	{
 		"sub": 57,

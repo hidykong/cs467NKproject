@@ -27,7 +27,7 @@ function getTest() {
 	        dataType: "text",
 	        success: function(data) {
 	        	var test = processData(data);
-	        	index = getRandomInt(0, test.length); //get a random testimonial
+	        	index = getRandomInt(0, test.length -1); //get a random testimonial
 				document.getElementById('test').innerHTML = test[index][1];
 				document.getElementById('footnote').innerHTML = test[index][0];
 	        }

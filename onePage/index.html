@@ -6,12 +6,15 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>		
+		<script src="js/jquery.parse.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/d3.min.js"></script>
 		<script src="js/years.js"></script>
+		<script src="js/testimonial.js"></script>		
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -50,7 +53,8 @@
 					<header>
 						<h2>Human Rights Report OF<br/><span style="color:#f12b49">NORTH KOREA<span></h2>
 					</header>
-					<p>"Welcome to <strong>North Korea Visualization</strong> we will replace this with a testimonial."</p>
+					<p id="test">"Welcome to <strong>North Korea Visualization</strong> we will replace this with a testimonial."</p>
+					<p id="footnote">This is the footnote</p>
 
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
@@ -98,7 +102,7 @@
 					<h2>Future Work</h2>
 					<p>Automation of data extraction for all ten sections of the document<br/>
 					   Another way to visualize the testimonials<br/>
-					   Test the method on other governmental documents</p>
+					   Test the visualization method on other governmental documents</p>
 				</header>
 			</div>
 			<a href="#download" class="button style2 down">Next</a>

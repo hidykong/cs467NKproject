@@ -15,6 +15,7 @@
 			<button onclick="switchToDocView()">Doc</button>
 			<button onclick="switchToMediaView()">Media</button>
 			<button onclick="switchToPieView()">Pie</button>
+			<button onclick="switchToSubView()">Sub-obj</button>
 		</div>
 		<table class="keywordTable">
 			<tr>
@@ -22,12 +23,15 @@
 			</tr>
 		</table>
 		<svg id="mainSVG">
-			<g class="lineGraph"></g>
-			<g class="axisCanvas"></g>
-			<g class="mainGraph"></g>
-			
-			<g class="pieGraph"></g>
-			<g class="overlayCanvas"></g>
+			<g class="globalG">
+				<g class="lineGraph"></g>
+				<g class="axisCanvas"></g>
+				<g class="mainGraph"></g>
+				
+				<g class="pieGraph"></g>
+				<g class="overlayCanvas"></g>
+				<g class="subGraph"></g>
+			</g>
 		</svg>
 	</div>
 	<script src="global.js"></script>
@@ -35,6 +39,7 @@
 	<script src="wordcloud.js"></script>
 	<script src="lineGraph.js"></script>
 	<script src="wordTable.js"></script>
+	<script src="subGraph.js"></script>
 	<script src="nk.js"></script>
 </body>
 </html>

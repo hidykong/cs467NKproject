@@ -1,13 +1,21 @@
 WordTable=
 	maxKeywordAount:20;
-	threeColumnWidths:[pol:350,his:550,food:350]
-	twoColumnWidths:[pol:550,his:0,food:550]
+	threeColumnWidths:
+		pol:350
+		his:550
+		food:350
+	twoColumnWidths:
+		pol:550
+		his:0
+		food:550
 	displayKeywordFunc:null
 
 	init:->
+		d3.select ".keywordTable"
+			.style({width: "1150px",height: "300px";})
 
 	setColumns:(colNames)->
-		colWidths = if(colNames.length == 3) then @threeColumnWidths else @twoColumnWidths
+		colWidths = if colNames.length is 3 then @threeColumnWidths else @twoColumnWidths
 
 		row = d3.select ".keywordTable tr"
 		row.selectAll "td"
@@ -17,13 +25,18 @@ WordTable=
 			.enter()
 			.append "td"
 			.append "div"
-			.append "p"
-			.style "width",(d)->"#{colWidths[d]}px"
 			.attr "id",(d)->"#{d}"
+			.style "width",(d)->"#{colWidths[d]}px"
+			.append "p"
+			
+			# .attr "id",(d)->"#{d}"
 	clear:->
 		d3.select ".keywordTable tr"
 			.selectAll "td"
 			.remove()
+		d3.select ".keywordTable"
+			.style({width: "0px",height: "0px";})
+
 	clearKeywords:->
 		row = d3.select ".keywordTable tr"
 		row.selectAll "span"
@@ -32,7 +45,7 @@ WordTable=
 		
 
 		row = d3.select ".keywordTable tr"
-		targetP = row.select "##{setName}"
+		targetP = row.select "##{setName} p"
 		targetP.selectAll ".keyword"
 		.data keywords
 		.enter()

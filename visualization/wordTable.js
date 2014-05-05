@@ -3,35 +3,40 @@ var WordTable;
 
 WordTable = {
   maxKeywordAount: 20,
-  threeColumnWidths: [
-    {
-      pol: 350,
-      his: 550,
-      food: 350
-    }
-  ],
-  twoColumnWidths: [
-    {
-      pol: 550,
-      his: 0,
-      food: 550
-    }
-  ],
+  threeColumnWidths: {
+    pol: 350,
+    his: 550,
+    food: 350
+  },
+  twoColumnWidths: {
+    pol: 550,
+    his: 0,
+    food: 550
+  },
   displayKeywordFunc: null,
-  init: function() {},
+  init: function() {
+    return d3.select(".keywordTable").style({
+      width: "1150px",
+      height: "300px"
+    });
+  },
   setColumns: function(colNames) {
     var colWidths, row;
     colWidths = colNames.length === 3 ? this.threeColumnWidths : this.twoColumnWidths;
     row = d3.select(".keywordTable tr");
     row.selectAll("td").remove();
-    return row.selectAll("td").data(colNames).enter().append("td").append("div").append("p").style("width", function(d) {
-      return "" + colWidths[d] + "px";
-    }).attr("id", function(d) {
+    return row.selectAll("td").data(colNames).enter().append("td").append("div").attr("id", function(d) {
       return "" + d;
-    });
+    }).style("width", function(d) {
+      return "" + colWidths[d] + "px";
+    }).append("p");
   },
   clear: function() {
-    return d3.select(".keywordTable tr").selectAll("td").remove();
+    d3.select(".keywordTable tr").selectAll("td").remove();
+    return d3.select(".keywordTable").style({
+      width: "0px",
+      height: "0px"
+    });
   },
   clearKeywords: function() {
     var row;
@@ -41,7 +46,7 @@ WordTable = {
   setKeywords: function(setName, keywords) {
     var htmlText, res, row, targetP;
     row = d3.select(".keywordTable tr");
-    targetP = row.select("#" + setName);
+    targetP = row.select("#" + setName + " p");
     targetP.selectAll(".keyword").data(keywords).enter().append("span").attr("class", function(d) {
       return d["class"];
     }).text(function(d) {

@@ -1,6 +1,7 @@
 totalWidth = 1000
 totalHeight = 1500
 margin = {top: 60, right:100, left:100, bottom:20}
+
 svgWidth = totalWidth - margin.left - margin.right;
 svgHeight = totalHeight - margin.top - margin.bottom;
 
@@ -16,3 +17,5 @@ ColumnWidth = {pol: ColumnWidthCommon*0.7, his: ColumnWidthCommon*1.6, food: Col
 ColumnX = {pol: ColumnMargin.LEFT + ColumnWidth.pol , his: ColumnMargin.LEFT + ColumnWidth.pol+ColumnMargin.BETWEEN+ColumnWidth.his/2, food: ColumnMargin.LEFT + ColumnWidth.pol+ColumnWidth.his+2*ColumnMargin.BETWEEN  }
 ColumnAlignment = {pol: Alignment.RIGHT , his: Alignment.CENTER, food:Alignment.LEFT}
 
+
+max_keyword_amount = 272

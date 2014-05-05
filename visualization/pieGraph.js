@@ -30,6 +30,7 @@ PieGraph = {
     return this.hisR = this.polR = this.foodR = this.overlapR;
   },
   draw: function() {
+    WordTable.clear();
     this.createCategory("his");
     this.createCategory("pol");
     return this.createCategory("food");
@@ -79,6 +80,6 @@ PieGraph = {
     }
   },
   getAngle: function(value) {
-    return value / 100 * 2 * Math.PI;
+    return value * 2 * Math.PI;
   }
 };

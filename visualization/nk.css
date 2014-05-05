@@ -6,35 +6,46 @@ html{
 .pol {
 	fill:#90A449;
 	background:#90A449;
+	stroke:#90A449;
 }
 
 .his {
 	fill:#ECBF36;
 	background:#ECBF36;
+	stroke:#ECBF36;
 }
 
 .food {
 	fill:#C63146;
 	background:#C63146;
+	stroke:#C63146;
+}
+
+.news {
+	stroke:#E349A0;
+	fill:#E349A0;
 }
 
 .pol.overlap {
 	fill:#586827;
 	background:#586827;
+	stroke:#586827;
 }
 
 .his.overlap {
 	fill:#C69534;
 	background:#C69534;
+	stroke:#C69534;
 }
 
 .food.overlap {
 	fill:#853745;
 	background:#853745;
+	stroke:#853745;
 }
 
 .bar {
-	
+	stroke-width:0;
 }
 
 .colLine{
@@ -108,20 +119,29 @@ html{
 }
 
 .keywordTable div{
-	
+	padding: 1em
+}
+
+.keywordTable div#pol{
+	border-right: 1px dashed white;
+}
+
+.keywordTable div#food{
+	border-left: 1px dashed white;
 }
 
 .keywordTable p#pol{
-	width: 350px;
+	
 }
 .keywordTable p#his{
-	width: 550px;	
+	
 }
 .keywordTable p#food{
-	width: 350px;
+	/*border-left: 1px solid white;*/
 }
 
 .keywordTable p{
+	border-width:0px;
 	word-break:break-word;
 	text-align: justify;
 	line-height: 200%;
@@ -130,12 +150,15 @@ html{
 .keywordTable span{
 	border-radius: 10px;
 	padding: 2px 10px;
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 
 
-
+.subGraph path{
+	stroke-width:1;
+	fill:none;
+}
 
 
 

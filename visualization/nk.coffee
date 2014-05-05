@@ -1,8 +1,5 @@
-
-
-
 drawBarChart = (group,array,className,align, maxWidth)->
-	maxValue = d3.max array,(d)->d.value
+	maxValue = max_keyword_amount #d3.max array,(d)->d.value
 
 	x = d3.scale.linear()
 	.range [0,maxWidth]
@@ -37,6 +34,9 @@ drawBarChart = (group,array,className,align, maxWidth)->
 		.duration 1000
 		.attr "width",(d)->x(d.value)
 		.attr "x",rectX
+
+	console.log(className)
+	console.log(array.map((d)-> d.keywords.length))
 
 drawKeywordsAmount = (name,keywordsAccessor,isOverLap)->
 	min_year = d3.min years,(d)->d.no
@@ -154,6 +154,8 @@ drawMediaView = ->
 
 clearAllViews = ->
 	svg = d3.select "#mainSVG"
+	svg.select ".globalG"
+		.attr "transform","translate(#{margin.left},#{margin.top})"
 	svg.select ".lineGraph"
 		.selectAll "*"
 		.remove()
@@ -169,11 +171,15 @@ clearAllViews = ->
 	svg.select ".overlayCanvas"
 		.selectAll "*"
 		.remove()
+	svg.select ".subGraph"
+		.selectAll "*"
+		.remove()
 	WordTable.clear()
-	
+
 	LineGraph.init()
 	WordTable.init()
 	PieGraph.init()
+	SubGraph.init();
 
 switchToDocView = ->
 	clearAllViews();
@@ -184,6 +190,9 @@ switchToMediaView = ->
 switchToPieView = ->
 	clearAllViews();
 	PieGraph.draw();
+switchToSubView = ->
+	clearAllViews();
+	SubGraph.draw();
 	
 mouseClickOnBar = (e)->
 	if WordTable.displayKeywordFunc? then WordTable.displayKeywordFunc(e.no)
@@ -192,7 +201,7 @@ svg = d3.select "#mainSVG"
 	.attr "height",totalHeight
 	.attr "width",totalWidth
 
-svg.selectAll "g"
+svg.select ".globalG"
 	.attr "transform","translate(#{margin.left},#{margin.top})"
 
 svg = d3.select ".mainGraph"
@@ -200,11 +209,14 @@ axisCanvas = d3.select ".axisCanvas"
 
 overlayCanvas = d3.select ".overlayCanvas"
 
-subColor = d3.scale.ordinal()
-	.domain [0,1,2,3,4]
-	.range ["#4B4F98","#6A4583","#883A6E","#A73059","#C62644"]
+# subColor = d3.scale.ordinal()
+# 	.domain [0,1,2,3,4]
+# 	.range ["#4B4F98","#6A4583","#883A6E","#A73059","#C62644"]
 
 clearAllViews();
+
+switchToMediaView();
+
 # drawTotalKeywords "pol"
 # # drawTotalKeywords "his"
 # drawTotalKeywords "food"

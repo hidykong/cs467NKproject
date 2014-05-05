@@ -4,39 +4,69 @@ var PieGraph;
 PieGraph = {
   centerR: {
     "in": 0,
-    out: 90
+    out: 80
   },
-  objectiveR: {
-    "in": 90,
+  objR: {
+    "in": 80,
+    out: 85
+  },
+  overlapR: {
+    "in": 85,
     out: 100
   },
-  historyR: {
-    "in": 100,
-    out: 120
-  },
   mediaR: {
-    "in": 120,
-    out: 140
+    "in": 100,
+    out: 115
+  },
+  hisR: null,
+  polR: null,
+  foodR: null,
+  PieX: {
+    pol: ColumnX.pol - ColumnWidth.pol * 2 / 3,
+    his: ColumnX.his,
+    food: ColumnX.food + ColumnWidth.food * 2 / 3
   },
   init: function() {
-    var data, pieGraph;
-    pieGraph = d3.select(".pieGraph").append("g").attr("transform", "translate(500,1600)");
-    data = {
-      "subjective": 0.57,
-      "objective": 0.43,
-      "history": 0.7,
-      "media": 0.752
-    };
-    this.createSection(pieGraph, "objective", data);
-    this.createSection(pieGraph, "history", data);
-    this.createSection(pieGraph, "media", data);
-    return this.createSection(pieGraph, "center");
+    return this.hisR = this.polR = this.foodR = this.overlapR;
   },
-  createDatum: function(name, endAngle) {
+  draw: function() {
+    this.createCategory("his");
+    this.createCategory("pol");
+    return this.createCategory("food");
+  },
+  clear: function() {
+    return d3.select(".pieGraph").selectAll(".pie").remove();
+  },
+  createCategory: function(name) {
+    var data, endAngle, graph, sectionName, startAngle;
+    graph = d3.select(".pieGraph").append("g").attr("transform", "translate(" + this.PieX[name] + ",100)").attr("class", name + ' pie');
+    data = overall[name];
+    this.createSection(graph, "obj", data);
+    sectionName = (function() {
+      switch (name) {
+        case 'his':
+          return 'pol';
+        default:
+          return 'his';
+      }
+    })();
+    this.createSection(graph, sectionName, data);
+    if (name === 'his') {
+      startAngle = this.getAngle(data['pol']);
+      endAngle = this.getAngle(data['pol']);
+      graph.append("path").datum(this.createDatum('food', startAngle + endAngle, startAngle)).attr("d", d3.svg.arc()).attr("class", "food fore");
+    }
+    this.createSection(graph, "media", data);
+    return this.createSection(graph, "center");
+  },
+  createDatum: function(name, endAngle, startAngle) {
+    if (startAngle == null) {
+      startAngle = 0;
+    }
     return {
       innerRadius: PieGraph["" + name + "R"]["in"],
       outerRadius: PieGraph["" + name + "R"].out,
-      startAngle: 0,
+      startAngle: startAngle,
       endAngle: endAngle
     };
   },
@@ -45,7 +75,10 @@ PieGraph = {
     arc = d3.svg.arc();
     group.append("path").datum(this.createDatum(name, 2 * Math.PI)).attr("d", arc).attr("class", "" + name + " back");
     if (data != null) {
-      return group.append("path").datum(this.createDatum(name, data[name] * 2 * Math.PI)).attr("d", arc).attr("class", "" + name + " fore");
+      return group.append("path").datum(this.createDatum(name, this.getAngle(data[name]))).attr("d", arc).attr("class", "" + name + " fore");
     }
+  },
+  getAngle: function(value) {
+    return value / 100 * 2 * Math.PI;
   }
 };

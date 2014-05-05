@@ -3,13 +3,19 @@
 	<header>
 		<script src="d3.min.js"></script>
 		<script src="years.js"></script>
+		<script src="overall.js"></script>
 		<script src="d3.layout.cloud.js"></script>
 		<link rel="stylesheet" href="nk.css"/>
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	</header>
 <body>
-	<title>NK</title>
-	<div class=".globalContainer">
+	<title>NK</title>	
+	<div class="globalContainer">
+		<div>
+			<button onclick="switchToDocView()">Doc</button>
+			<button onclick="switchToMediaView()">Media</button>
+			<button onclick="switchToPieView()">Pie</button>
+		</div>
 		<table class="keywordTable">
 			<tr>
 				

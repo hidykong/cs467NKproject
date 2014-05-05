@@ -125,12 +125,68 @@ drawColLine = (group,x,y1,y2)->
 		.attr "y2",y2
 		.attr "class","colLine"
 
+drawDocView = ->
+	drawTotalKeywords "pol"
+	drawTotalKeywords "food"
+
+	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}
+
+	LineGraph.drawLineGraph("pol",Alignment.LEFT)
+	LineGraph.drawLineGraph("food",Alignment.RIGHT)
+
+	WordTable.setColumns ['pol','food']
+	WordTable.displayKeywordFunc = WordTable.displayForDocView
+
+drawMediaView = ->
+	drawTotalKeywords "pol"
+	drawTotalKeywords "his"
+	drawTotalKeywords "food"
+
+	drawOverlapKeywords "pol"
+	drawOverlapKeywords "his"
+	drawOverlapKeywords "food"
+
+	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}	
+
+	WordTable.setColumns ['pol','his','food']
+
+	WordTable.displayKeywordFunc = WordTable.displayForMediaView
+
+clearAllViews = ->
+	svg = d3.select "#mainSVG"
+	svg.select ".lineGraph"
+		.selectAll "*"
+		.remove()
+	svg.select ".axisCanvas"
+		.selectAll "*"
+		.remove()
+	svg.select ".mainGraph"
+		.selectAll "*"
+		.remove()
+	svg.select ".pieGraph"
+		.selectAll "*"
+		.remove()
+	svg.select ".overlayCanvas"
+		.selectAll "*"
+		.remove()
+	WordTable.clear()
+	
+	LineGraph.init()
+	WordTable.init()
+	PieGraph.init()
+
+switchToDocView = ->
+	clearAllViews();
+	drawDocView();
+switchToMediaView = ->
+	clearAllViews();
+	drawMediaView();
+switchToPieView = ->
+	clearAllViews();
+	PieGraph.draw();
 	
 mouseClickOnBar = (e)->
-	WordTable.clearKeywords()
-	WordTable.displayKeywordsWithMedia "pol",years[e.no]
-	WordTable.displayKeywordsWithMedia "his",years[e.no]
-	WordTable.displayKeywordsWithMedia "food",years[e.no]
+	if WordTable.displayKeywordFunc? then WordTable.displayKeywordFunc(e.no)
 
 svg = d3.select "#mainSVG"
 	.attr "height",totalHeight
@@ -148,24 +204,26 @@ subColor = d3.scale.ordinal()
 	.domain [0,1,2,3,4]
 	.range ["#4B4F98","#6A4583","#883A6E","#A73059","#C62644"]
 
-console.log years.map (d)->d["pol"].kw.length
-drawTotalKeywords "pol"
-drawTotalKeywords "his"
-drawTotalKeywords "food"
+clearAllViews();
+# drawTotalKeywords "pol"
+# # drawTotalKeywords "his"
+# drawTotalKeywords "food"
 
-drawOverlapKeywords "pol"
-drawOverlapKeywords "his"
-drawOverlapKeywords "food"
+# drawOverlapKeywords "pol"
+# drawOverlapKeywords "his"
+# drawOverlapKeywords "food"
 
-drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}
+# drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}
 
 # LineGraph.init()
-# LineGraph.drawLineGraph("pol",Alignment.LEFT)
-# LineGraph.drawLineGraph("food",Alignment.RIGHT)
+# # LineGraph.drawLineGraph("pol",Alignment.LEFT)
+# # LineGraph.drawLineGraph("food",Alignment.RIGHT)
 
-WordTable.init()
+# WordTable.init()
 
 # PieGraph.init()
+# PieGraph.draw()
+# PieGraph.clear()
 
 
 

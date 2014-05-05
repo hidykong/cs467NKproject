@@ -145,35 +145,55 @@ html{
 
 
 .pieGraph path{
-	stroke:#666;
+	stroke:#333;
 	stroke-width:1px;
 	stroke-dasharray:5,5;
 }
 
-.pieGraph .history.back{
-	fill: #5AC3E5;
+.pieGraph .pol .back{
+	fill: #8FA449;
 }
 
-.pieGraph .history.fore{
-	fill:#F9D456;
+.pieGraph .pol .fore.media{
+	fill:#586827;
 }
 
-.pieGraph .objective.back{
-	fill: #EB353E;
+.pieGraph .pol .fore.his{
+	fill:#ECBF36;
 }
 
-.pieGraph .objective.fore{
-	fill:#3C4891;
+.pieGraph .his .back{
+	fill:#ECBF36;
 }
 
-.pieGraph .media.back{
-	fill: #5AC3E5;
+.pieGraph .his .fore.media{
+	fill:#C79434;
 }
 
-.pieGraph .media.fore{
-	fill:#5FA2D5;
+.pieGraph .his .fore.food{
+	fill:#D9364D;
 }
 
-.pieGraph .center.back{
-	fill: #5AC3E5;
+.pieGraph .his .fore.pol{
+	fill:#8FA449;
+}
+
+.pieGraph .food .back{
+	fill:#D9364D;
+}
+
+.pieGraph .food .fore.media{
+	fill:#863845;
+}
+
+.pieGraph .food .fore.his{
+	fill:#ECBF36;
+}
+
+.pieGraph .obj.back{
+	fill: #E44AA1;
+}
+
+.pieGraph .obj.fore{
+	fill:#3B5B92;
 }

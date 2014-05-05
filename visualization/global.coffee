@@ -15,3 +15,4 @@ ColumnWidthCommon = (svgWidth - ColumnMargin.BETWEEN * 2- ColumnMargin.LEFT - Co
 ColumnWidth = {pol: ColumnWidthCommon*0.7, his: ColumnWidthCommon*1.6, food: ColumnWidthCommon*0.7}
 ColumnX = {pol: ColumnMargin.LEFT + ColumnWidth.pol , his: ColumnMargin.LEFT + ColumnWidth.pol+ColumnMargin.BETWEEN+ColumnWidth.his/2, food: ColumnMargin.LEFT + ColumnWidth.pol+ColumnWidth.his+2*ColumnMargin.BETWEEN  }
 ColumnAlignment = {pol: Alignment.RIGHT , his: Alignment.CENTER, food:Alignment.LEFT}
+

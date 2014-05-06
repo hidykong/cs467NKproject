@@ -1,3 +1,0 @@
-SOGraph = 
-	init:->
-		1

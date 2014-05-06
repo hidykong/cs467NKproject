@@ -48,7 +48,6 @@ drawKeywordsAmount = (name,keywordsAccessor,isOverLap)->
 		obj:d[name].obj, 
 		keywords:res_keywords, 
 		name:name}
-	console.log word_data
 	className = if isOverLap then name + " overlap" else name
 	word_g = svg.append("g").attr "transform","translate(#{ColumnX[name]},0)"
 	drawBarChart(word_g,word_data,className,ColumnAlignment[name], ColumnWidth[name])
@@ -258,18 +257,6 @@ switchToPieView = ->
 
 switchToHelpView = ->
 	clearAllViews();
-	d3.select ".overlayCanvas"
-		.append("text")
-		.attr "y",20
-		.text("There is no help in North Korea")
-		.attr "fill","white"
-		.attr "font-size","3em"
-		.style "font-family","Oswald"
-		.style "text-transform","uppercase"
-		.style "opacity",0
-		.transition()
-		.duration(2000)
-		.style("opacity",1)
 
 
 mouseClickOnBar = (e)->
@@ -298,6 +285,9 @@ overlayCanvas = d3.select ".overlayCanvas"
 # 	.range ["#4B4F98","#6A4583","#883A6E","#A73059","#C62644"]
 
 clearAllViews();
+
+
+
 switchToDocView();
 
 

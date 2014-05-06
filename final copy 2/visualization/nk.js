@@ -29,9 +29,9 @@ drawBarChart = function(group, array, className, align, maxWidth) {
         };
     }
   })();
-  return newRects.transition().duration(function(d) {
-    return d.no * 100 + 500;
-  }).delay(axisTranstionTime).attr("width", function(d) {
+  return newRects.transition().duration(500).delay(function(d) {
+    return d.no * 50 + axisTranstionTime;
+  }).attr("width", function(d) {
     return x(d.value);
   }).attr("x", rectX);
 };
@@ -61,7 +61,6 @@ drawKeywordsAmount = function(name, keywordsAccessor, isOverLap) {
       name: name
     };
   });
-  console.log(word_data);
   className = isOverLap ? name + " overlap" : name;
   word_g = svg.append("g").attr("transform", "translate(" + ColumnX[name] + ",0)");
   return drawBarChart(word_g, word_data, className, ColumnAlignment[name], ColumnWidth[name]);
@@ -230,8 +229,7 @@ switchToPieView = function() {
 };
 
 switchToHelpView = function() {
-  clearAllViews();
-  return d3.select(".overlayCanvas").append("text").attr("y", 20).text("There is no help in North Korea").attr("fill", "white").attr("font-size", "3em").style("font-family", "Oswald").style("text-transform", "uppercase").style("opacity", 0).transition().duration(2000).style("opacity", 1);
+  return clearAllViews();
 };
 
 mouseClickOnBar = function(e) {
@@ -251,5 +249,3 @@ axisCanvas = d3.select(".axisCanvas");
 overlayCanvas = d3.select(".overlayCanvas");
 
 clearAllViews();
-
-switchToDocView();

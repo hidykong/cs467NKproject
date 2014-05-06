@@ -1,0 +1,85 @@
+	[
+		{
+			year_no: 1990
+			politics:
+				{
+					keywords:
+						[
+							{
+								weight:10
+								words:"DPNK"
+							}
+						]
+					subjectives:
+					objectives:
+				}
+			history
+				{
+					keywords:[]
+					subjective: 10
+					objective: 90
+					overlap:
+						{
+							politics: 
+								{
+									percent:7%
+									keywords:[]
+								}
+							food: 8%
+								{
+									percent:7%
+									keywords:[]
+								}
+						}
+				}
+			politics
+				{//keywords object
+					keywords:[]
+					subjectives:
+					objectives:
+				}
+			news
+				politics
+					{//keywords object
+						keywords:[]
+						subjectives:
+						objectives:
+					}
+				
+				historic
+					{//keywords object
+						keywords:[]
+						subjectives:
+						objectives:
+					}
+				food
+					{//keywords object
+						keywords:[]
+						subjectives:
+						objectives:
+					}
+				no_overlap
+					{
+						keywords:[]
+						*subjectives:
+						*objectivs:
+					}
+		}
+	]
+overall
+	politics
+		subjective: 57%
+		objective: 43%
+		hisotry: 7%
+		media: 75.2%
+	events
+		subjective: 57%
+		objective: 43%
+		hisotry: 7%
+		media: 75.2%
+		food: 10.5%
+	events
+		subjective: 57%
+		objective: 43%
+		hisotry: 7%
+		media: 75.2%

@@ -1,0 +1,3 @@
+SOGraph = 
+	init:->
+		1

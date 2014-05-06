@@ -29,9 +29,9 @@ drawBarChart = function(group, array, className, align, maxWidth) {
         };
     }
   })();
-  return newRects.transition().duration(function(d) {
-    return d.no * 100 + 500;
-  }).delay(axisTranstionTime).attr("width", function(d) {
+  return newRects.transition().duration(500).delay(function(d) {
+    return d.no * 50 + axisTranstionTime;
+  }).attr("width", function(d) {
     return x(d.value);
   }).attr("x", rectX);
 };
@@ -249,5 +249,3 @@ axisCanvas = d3.select(".axisCanvas");
 overlayCanvas = d3.select(".overlayCanvas");
 
 clearAllViews();
-
-switchToDocView();

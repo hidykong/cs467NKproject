@@ -54,22 +54,39 @@ function getPost(category, year, keyword) {
 }
 
  showKeywordText = function(name,year,keyword){
+  d3.select(".visualContainer")
+    .transition()
+    .duration(500)  
+    .style("opacity",0.2)
+
   d3.select(".keywordTextContainer")
     .style("visibility","visible")
-    .attr("opacity",1)
+    .style("opacity",0)
+    .transition()
+    .duration(500)
+    .style("opacity",1)
 
-  d3.select(".visualContainer")
-    .style("opacity",0.2)
+  
 
   getPost(name,year,keyword)
 }
 
 hideKeywordText = function (){
   d3.select(".visualContainer")
+    .transition()
+    .duration(500)
     .style("opacity",1)
 
   d3.select(".keywordTextContainer")
-    .style("visibility","hidden")
+    .style("opacity",1)
+    .transition()
+    .duration(500)
+    .style("opacity",0)
+    .call(function(){
+      d3.select(".keywordTextContainer")    
+      .style("visibility","hidden")
+    })
+    
 }
 
 KeywordContentClicked = function(event){

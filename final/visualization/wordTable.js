@@ -38,7 +38,7 @@ WordTable = {
       return "" + colWidths[d] + "px";
     }).style('height', function(d) {
       return "" + WordTable.tableHeight + "px";
-    }).append("p");
+    }).append("p").text("Click on a bar for its keywords");
   },
   clear: function() {
     d3.select(".keywordTable tr").selectAll("td").remove();
@@ -53,10 +53,15 @@ WordTable = {
     return row.selectAll("span").remove();
   },
   setKeywords: function(setName, keywords) {
-    var htmlText, res, row, targetP;
+    var htmlText, keywordSpans, res, row, targetP;
     row = d3.select(".keywordTable tr");
     targetP = row.select("#" + setName + " p");
-    targetP.selectAll(".keyword").data(keywords).enter().append("span").attr("onclick", function(d) {
+    if (keywords.length === 0) {
+      targetP.text("No keywords");
+      return;
+    }
+    targetP.text("");
+    keywordSpans = targetP.selectAll(".keyword").data(keywords).enter().append("span").attr("onclick", function(d) {
       return "showKeywordText('" + d.name + "'," + d.year + ",'" + d.word + "')";
     }).attr("class", function(d) {
       return "" + d["class"] + " keyword";
@@ -65,7 +70,10 @@ WordTable = {
     });
     htmlText = targetP.html();
     res = htmlText.replace(/></g, ">\n<");
-    return targetP.html(res);
+    targetP.html(res);
+    return targetP.selectAll(".keyword").style("opacity", 0).transition().duration(500).delay(function(d) {
+      return 500 * Math.random();
+    }).style("opacity", 1);
   },
   displayOverlapKeywords: function(name, set1, set2) {
     var keywordsToShow;

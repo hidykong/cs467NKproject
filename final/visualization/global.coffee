@@ -19,3 +19,5 @@ ColumnAlignment = {pol: Alignment.RIGHT , his: Alignment.CENTER, food:Alignment.
 
 
 max_keyword_amount = 272
+
+axisTranstionTime = 1000

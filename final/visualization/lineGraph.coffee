@@ -79,6 +79,8 @@ LineGraph =
 			.attr "transform","translate(#{@X[name]},#{@axisYOffset})"
 			.call xAxis
 
+		showGroup(lineGraph,axisTranstionTime,axisTranstionTime*1.5)
+
 
 
 

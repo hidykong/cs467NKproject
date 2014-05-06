@@ -32,6 +32,7 @@ WordTable=
 			.style 'width',(d)->"#{colWidths[d]}px"
 			.style 'height',(d)->"#{WordTable.tableHeight}px"
 			.append "p"
+			.text("Click on a bar for its keywords")
 			
 			# .attr "id",(d)->"#{d}"
 	clear:->
@@ -50,13 +51,23 @@ WordTable=
 
 		row = d3.select ".keywordTable tr"
 		targetP = row.select "##{setName} p"
-		targetP.selectAll ".keyword"
+
+		if keywords.length == 0
+			targetP.text("No keywords")
+			return;
+		targetP
+			.text("")
+			
+
+		keywordSpans = targetP.selectAll ".keyword"
 		.data keywords
 		.enter()
 		.append "span"
 		.attr "onclick",(d)->"showKeywordText('#{d.name}',#{d.year},'#{d.word}')"
 		.attr "class",(d)->"#{d.class} keyword"
 		.text (d)->d.word
+
+
 
 		htmlText =  targetP.html();
 		res = htmlText.replace(/></g,">\n<")
@@ -66,6 +77,12 @@ WordTable=
 		# $('span.keyword').click (d)->console.log(d)
 	# keywordMouseClicked:(e)->
 	# 	console.log e
+		targetP.selectAll ".keyword"
+		.style "opacity",0
+		.transition()
+		.duration(500)
+		.delay (d)->500*Math.random()
+		.style "opacity",1
 
 	displayOverlapKeywords:(name,set1,set2)->
 		keywordsToShow = set1.concat(set2)

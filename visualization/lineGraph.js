@@ -56,6 +56,7 @@ LineGraph = {
       return y(d.no);
     });
     rootG.append("path").datum(data).attr("class", "overlapLine his").attr("d", line);
-    return axisG = lineGraph.append("g").attr("class", "x axis").attr("transform", "translate(" + this.X[name] + "," + this.axisYOffset + ")").call(xAxis);
+    axisG = lineGraph.append("g").attr("class", "x axis").attr("transform", "translate(" + this.X[name] + "," + this.axisYOffset + ")").call(xAxis);
+    return showGroup(lineGraph, axisTranstionTime, axisTranstionTime * 1.5);
   }
 };

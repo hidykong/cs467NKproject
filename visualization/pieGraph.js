@@ -18,6 +18,31 @@ PieGraph = {
     "in": 100,
     out: 115
   },
+  transitionTime: 1000,
+  delayTime: {
+    obj: 1300,
+    pol: 1600,
+    food: 1600,
+    his: 1600,
+    media: 1900,
+    center: 0,
+    title: 1000,
+    caption: 3000
+  },
+  captionLineLength: 50,
+  pointerLineLength: {
+    obj: 100,
+    pol: 30,
+    food: 30,
+    his: 50,
+    media: 50,
+    center: 0
+  },
+  categoryName: {
+    his: "History",
+    pol: "Politics Camp",
+    food: "Food"
+  },
   hisR: null,
   polR: null,
   foodR: null,
@@ -41,10 +66,13 @@ PieGraph = {
     return d3.select(".pieGraph").selectAll(".pie").remove();
   },
   createCategory: function(name) {
-    var data, endAngle, graph, sectionName, startAngle;
+    var captionGraph, data, endAngle, graph, sectionName, startAngle;
     graph = d3.select(".pieGraph").append("g").attr("transform", "translate(" + this.PieX[name] + ",225)").attr("class", name + ' pie');
+    captionGraph = d3.select(".pieGraph").append("g").attr("transform", "translate(" + this.PieX[name] + ",225)").attr("class", 'caption');
+    captionGraph.append("text").attr("class", "captionTitle").attr("x", 0).attr("y", "0.3em").text(this.categoryName[name]).attr("opacity", 0).transition().duration(this.transitionTime).delay(this.delayTime['title']).attr("opacity", 1);
     data = overall[name];
     this.createSection(graph, "obj", data);
+    this.createCaption(captionGraph, "obj", data);
     sectionName = (function() {
       switch (name) {
         case 'his':
@@ -54,12 +82,15 @@ PieGraph = {
       }
     })();
     this.createSection(graph, sectionName, data);
+    this.createCaption(captionGraph, sectionName, data);
     if (name === 'his') {
       startAngle = this.getAngle(data['pol']);
       endAngle = this.getAngle(data['pol']);
-      graph.append("path").datum(this.createDatum('food', startAngle + endAngle, startAngle)).attr("d", d3.svg.arc()).attr("class", "food fore");
+      graph.append("path").datum(this.createDatum('food', startAngle + endAngle, startAngle)).attr("class", "food fore").transition().duration(this.transitionTime).delay(this.delayTime['food']).attrTween("d", this.tweenFunc);
+      this.createCaption(captionGraph, "food", data, 0.9);
     }
     this.createSection(graph, "media", data);
+    this.createCaption(captionGraph, "media", data);
     return this.createSection(graph, "center");
   },
   createDatum: function(name, endAngle, startAngle) {
@@ -76,12 +107,66 @@ PieGraph = {
   createSection: function(group, name, data) {
     var arc;
     arc = d3.svg.arc();
-    group.append("path").datum(this.createDatum(name, 2 * Math.PI)).attr("d", arc).attr("class", "" + name + " back");
-    if (data != null) {
-      return group.append("path").datum(this.createDatum(name, this.getAngle(data[name]))).attr("d", arc).attr("class", "" + name + " fore");
+    if (name === 'center') {
+      group.append("path").datum(this.createDatum(name, 2 * Math.PI)).attr("class", "" + name + " back").attr("d", arc).attr("transform", "scale(0.1)").transition().ease('elastic').duration(this.transitionTime).attr("transform", "scale(1)");
+    } else {
+      group.append("path").datum(this.createDatum(name, 2 * Math.PI)).attr("class", "" + name + " back").transition().duration(this.transitionTime).delay(this.delayTime[name]).attrTween("d", this.tweenFunc);
     }
+    if (data != null) {
+      return group.append("path").datum(this.createDatum(name, this.getAngle(data[name]))).attr("class", "" + name + " fore").transition().duration(this.transitionTime).delay(this.delayTime[name]).attrTween("d", this.tweenFunc);
+    }
+  },
+  createCaption: function(group, name, data, angle) {
+    var datum, r, value, xy1, xy2, xy3;
+    value = data[name];
+    datum = this.createDatum(name, this.getAngle(data[name]));
+    r = (datum.innerRadius + datum.outerRadius) / 2;
+    if (angle == null) {
+      angle = (datum.startAngle + datum.endAngle) * 1 / 4;
+    } else {
+      angle = angle * Math.PI;
+    }
+    if ((Math.PI / 2 - 0.5 < angle && angle < Math.PI / 2 + 0.5)) {
+      angle = angle * 2;
+    }
+    if (angle > Math.PI) {
+      angle = angle;
+    }
+    xy1 = this.getXY(r, angle);
+    xy2 = this.getXY(r + this.pointerLineLength[name], angle);
+    xy3 = {
+      x: xy2.x + this.captionLineLength,
+      y: xy2.y
+    };
+    this.drawLine(group, xy1, xy2);
+    this.drawLine(group, xy2, xy3);
+    return group.append("text").attr("class", "captionNum").attr("x", xy2.x).attr("y", xy2.y - 3).text(d3.round(value * 100, 1) + "%").attr("opacity", 0).transition().duration(this.transitionTime).delay(this.delayTime['caption']).attr("opacity", 1);
+  },
+  drawLine: function(group, xy1, xy2) {
+    return group.append("line").attr("x1", xy1.x).attr("x2", xy2.x).attr("y1", xy1.y).attr("y2", xy2.y).attr("opacity", 0).transition().duration(this.transitionTime).delay(this.delayTime['caption']).attr("opacity", 1);
+  },
+  getXY: function(r, a) {
+    a = a - Math.PI / 2;
+    return {
+      x: Math.cos(a) * r,
+      y: Math.sin(a) * r
+    };
   },
   getAngle: function(value) {
     return value * 2 * Math.PI;
+  },
+  tweenFunc: function(d) {
+    var arc, interpolate, startData;
+    arc = d3.svg.arc();
+    startData = {
+      innerRadius: d.innerRadius,
+      outerRadius: d.outerRadius,
+      endAngle: 0,
+      startAngle: 0
+    };
+    interpolate = d3.interpolate(startData, d);
+    return function(t) {
+      return arc(interpolate(t));
+    };
   }
 };

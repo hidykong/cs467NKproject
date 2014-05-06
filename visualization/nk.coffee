@@ -31,7 +31,8 @@ drawBarChart = (group,array,className,align, maxWidth)->
 	
 	newRects
 		.transition()
-		.duration 1000
+		.duration (d)->d.no*100+500
+		.delay axisTranstionTime
 		.attr "width",(d)->x(d.value)
 		.attr "x",rectX
 
@@ -146,7 +147,6 @@ drawMediaView = ->
 	drawYearLines axisCanvas,overlayCanvas,{pol:-margin.top,his:0,food:-margin.top}	
 
 	WordTable.setColumns ['pol','his','food']
-
 	WordTable.displayKeywordFunc = WordTable.displayForMediaView
 
 setLegends = (legendsData)->
@@ -169,6 +169,20 @@ setLegends = (legendsData)->
 clearAllButtons = ->
 	d3.selectAll ".viewButtonRow"
 		.attr "class","viewButtonRow"
+
+showGroup = (group,durationT,delayT)->
+	group
+		.style "opacity",0
+		.transition()
+		.duration durationT
+		.delay delayT
+		.style "opacity",1
+
+showAllViews = ->
+	showGroup d3.select("#mainSVG"),axisTranstionTime,0
+	showGroup d3.select(".keywordTable"),axisTranstionTime,0
+	showGroup d3.select(".legendContainer"),axisTranstionTime,0
+
 
 clearAllViews = ->
 	svg = d3.select "#mainSVG"
@@ -221,21 +235,25 @@ switchToDocView = ->
 	d3.select("#DocRow").attr("class","viewButtonRow active")
 	setLegends legendsDataLib["Doc"]
 	drawDocView();
+	showAllViews()
 switchToMediaView = ->
 	clearAllViews();
 	d3.select("#MediaRow").attr("class","viewButtonRow active")
 	setLegends legendsDataLib["Media"]
 	drawMediaView();
+	showAllViews()
 switchToSubView = ->
 	clearAllViews();
 	d3.select("#SubRow").attr("class","viewButtonRow active")
 	setLegends legendsDataLib["Sub"]
 	SubGraph.draw();
+	showAllViews()
 switchToPieView = ->
 	clearAllViews();
 	d3.select("#PieRow").attr("class","viewButtonRow active")
 	setLegends legendsDataLib["Pie"]
 	PieGraph.draw();
+	showGroup d3.select(".legendContainer"),axisTranstionTime,0
 
 switchToHelpView = ->
 	clearAllViews();

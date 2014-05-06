@@ -26,14 +26,20 @@ SubGraph = {
       his: 0,
       food: 0
     });
-    d3.select(".svgContainer").style("height", "550px");
+    d3.select(".svgContainer").style("height", "600px");
+    this.addCaption(ColumnX.pol, "Subjective");
+    this.addCaption(ColumnX.his, "Netural");
+    this.addCaption(ColumnX.food, "Objective");
     this.drawLine("food");
     this.drawLine("his");
     this.drawLine("pol");
     return this.drawLine("news");
   },
+  addCaption: function(x, text) {
+    return this.rootG.append("text").attr("class", "subText").attr("x", x).attr("y", "-1em").text(text);
+  },
   drawLine: function(name, className, acc) {
-    var data, group, line;
+    var circles, data, group, line;
     if (className == null) {
       className = name;
     }
@@ -57,11 +63,14 @@ SubGraph = {
     }).y(function(d) {
       return SubGraph.y(d.no);
     });
-    group.append("path").datum(data).attr("d", line);
-    return group.selectAll(".dot").data(data).enter().append("circle").attr("r", SubGraph.radius).attr("cx", function(d) {
+    group.append("path").datum(data).attr("d", line).attr("opacity", 0).transition().duration(1000).delay(axisTranstionTime * 2).attr("opacity", 1);
+    circles = group.selectAll(".dot").data(data).enter().append("circle").attr("r", SubGraph.radius).attr("cx", function(d) {
       return SubGraph.x(d.value);
     }).attr("cy", function(d) {
       return SubGraph.y(d.no);
     });
+    return circles.attr("opacity", 0).transition().duration(1000).delay(function(d) {
+      return axisTranstionTime * 1.5;
+    }).attr("opacity", 1);
   }
 };

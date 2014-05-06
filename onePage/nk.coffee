@@ -1,8 +1,5 @@
-
-
-
 drawBarChart = (group,array,className,align, maxWidth)->
-	maxValue = d3.max array,(d)->d.value
+	maxValue = max_keyword_amount #d3.max array,(d)->d.value
 
 	x = d3.scale.linear()
 	.range [0,maxWidth]
@@ -129,7 +126,7 @@ drawDocView = ->
 	drawTotalKeywords "pol"
 	drawTotalKeywords "food"
 
-	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}
+	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:-margin.top,food:0}
 
 	LineGraph.drawLineGraph("pol",Alignment.LEFT)
 	LineGraph.drawLineGraph("food",Alignment.RIGHT)
@@ -146,14 +143,46 @@ drawMediaView = ->
 	drawOverlapKeywords "his"
 	drawOverlapKeywords "food"
 
-	drawYearLines axisCanvas,overlayCanvas,{pol:0,his:0,food:0}	
+	drawYearLines axisCanvas,overlayCanvas,{pol:-margin.top,his:0,food:-margin.top}	
 
 	WordTable.setColumns ['pol','his','food']
 
 	WordTable.displayKeywordFunc = WordTable.displayForMediaView
 
+setLegends = (legendsData)->
+	legendTable = d3.select ".legendTable"
+	legendTable.selectAll ".legendRow"
+		.remove()
+
+	legendRows = legendTable.selectAll ".legendRow"
+		.data legendsData
+		.enter()
+		.append "div"
+		.attr "class","legendRow"
+
+	legendRows.append "div"
+		.attr "class",(d)->"legendDIV #{d.class}"
+	legendRows.append "span"
+		.attr "class",(d)->"legendText #{d.class}"
+		.text (d)->d.text
+
+clearAllButtons = ->
+	d3.selectAll ".viewButtonRow"
+		.attr "class","viewButtonRow"
+
 clearAllViews = ->
 	svg = d3.select "#mainSVG"
+	.attr "height",totalHeight
+	.attr "width",totalWidth
+
+	d3.select ".visualContainer"
+	.style "opacity",1
+
+	svg.select ".globalG"
+	.attr "transform","translate(#{margin.left},#{margin.top})"
+
+	svg.select ".globalG"
+		.attr "transform","translate(#{margin.left},#{margin.top})"
 	svg.select ".lineGraph"
 		.selectAll "*"
 		.remove()
@@ -169,30 +198,63 @@ clearAllViews = ->
 	svg.select ".overlayCanvas"
 		.selectAll "*"
 		.remove()
-	WordTable.clear()
+	svg.select ".subGraph"
+		.selectAll "*"
+		.remove()
 	
+	d3.select ".svgContainer"
+		.style "height","350px"
+
+	hideKeywordText();
+
+	clearAllButtons()
+
+	WordTable.clear()
+
 	LineGraph.init()
 	WordTable.init()
 	PieGraph.init()
+	SubGraph.init()
 
 switchToDocView = ->
 	clearAllViews();
+	d3.select("#DocRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Doc"]
 	drawDocView();
 switchToMediaView = ->
 	clearAllViews();
+	d3.select("#MediaRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Media"]
 	drawMediaView();
+switchToSubView = ->
+	clearAllViews();
+	d3.select("#SubRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Sub"]
+	SubGraph.draw();
 switchToPieView = ->
 	clearAllViews();
+	d3.select("#PieRow").attr("class","viewButtonRow active")
+	setLegends legendsDataLib["Pie"]
 	PieGraph.draw();
-	
+
+switchToHelpView = ->
+	clearAllViews();
+
+
 mouseClickOnBar = (e)->
 	if WordTable.displayKeywordFunc? then WordTable.displayKeywordFunc(e.no)
+
+
+
+
+
+
 
 svg = d3.select "#mainSVG"
 	.attr "height",totalHeight
 	.attr "width",totalWidth
 
-svg.selectAll "g"
+svg.select ".globalG"
 	.attr "transform","translate(#{margin.left},#{margin.top})"
 
 svg = d3.select ".mainGraph"
@@ -200,11 +262,19 @@ axisCanvas = d3.select ".axisCanvas"
 
 overlayCanvas = d3.select ".overlayCanvas"
 
-subColor = d3.scale.ordinal()
-	.domain [0,1,2,3,4]
-	.range ["#4B4F98","#6A4583","#883A6E","#A73059","#C62644"]
+# subColor = d3.scale.ordinal()
+# 	.domain [0,1,2,3,4]
+# 	.range ["#4B4F98","#6A4583","#883A6E","#A73059","#C62644"]
 
 clearAllViews();
+
+
+
+switchToDocView();
+
+
+# getPost('food', 1990, 'food');
+
 # drawTotalKeywords "pol"
 # # drawTotalKeywords "his"
 # drawTotalKeywords "food"

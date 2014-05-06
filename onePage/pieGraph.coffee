@@ -10,8 +10,19 @@ PieGraph =
 	PieX:{pol:ColumnX.pol - ColumnWidth.pol * 2 / 3, his:ColumnX.his, food: ColumnX.food + ColumnWidth.food* 2 / 3}
 	init:->
 		@hisR = @polR = @foodR = @overlapR 
+
 		
 	draw:->
+		WordTable.clear()
+		
+		d3.select "#mainSVG"
+		.attr "height","550"
+
+		d3.select ".svgContainer"
+		.style "height","550px"
+
+
+
 		@createCategory "his"
 		@createCategory "pol"
 		@createCategory "food"
@@ -23,7 +34,7 @@ PieGraph =
 	createCategory:(name)->	
 		graph = d3.select ".pieGraph"
 			.append "g"
-			.attr "transform","translate(#{@PieX[name]},100)"
+			.attr "transform","translate(#{@PieX[name]},225)"
 			.attr "class",name+' pie'
 
 		data = overall[name]
@@ -67,4 +78,4 @@ PieGraph =
 				.datum @createDatum(name,@getAngle(data[name]))
 				.attr "d",arc		
 				.attr "class","#{name} fore"
-	getAngle:(value)->value/100*2 * Math.PI
+	getAngle:(value)->value*2 * Math.PI

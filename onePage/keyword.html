@@ -6,7 +6,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
     <style>
-    .shadow {
+    /*.shadow {
       -moz-box-shadow:    15px 15px 1px 1px #ccc;
       -webkit-box-shadow: 15px 15px 1px 1px #ccc;
       box-shadow:         15px 15px 1px 1px #ccc;
@@ -24,15 +24,16 @@
       width:100%; 
       text-align:center;
       font-weight: bold;
-    }
+    }*/
     </style>
   </head>
   <body>
     <h2>Keyword Extractor</h2>
-     <div id="kwSentences" class="shadow" rows="15" cols="100">
-1990 - Testing
-</textarea>
+     <div id="kwSentences" class="shadow" rows="15" cols="100" onclick="KeywordContentClicked(event)">1990 - Testing</div>
     <script src="keywords.js" type="text/javascript"></script>
+    <button onclick="show('his')">Show</button>
+    <button onclick="show('food')">Show</button>
+    <button onclick="show('pol')">Show</button>
   </body>
   </html>
 
